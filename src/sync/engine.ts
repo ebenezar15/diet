@@ -1,6 +1,6 @@
 import type { OutboxEntry, SyncEntity } from '@/types';
 import { db, getMeta, setMeta } from '@/db';
-import { mergeRecords, type SyncRecord } from './merge';
+import { mergeRecords, stripLocalOnly, type SyncRecord } from './merge';
 import type { SyncBackend } from './backend';
 import { SupabaseBackend } from './supabase';
 
@@ -98,7 +98,7 @@ export class SyncEngine {
         return { entity, record: mergeRecords(local, remoteById.get(local.id)) };
       });
       try {
-        await this.backend.push(rows);
+        await this.backend.push(rows.map((r) => ({ entity: r.entity, record: stripLocalOnly(r.record) })));
       } catch (err) {
         await db.outbox.bulkPut(list.map((e) => ({ ...e, status: 'error' as const, attempts: e.attempts + 1, error: String(err) })));
         throw err;

@@ -34,7 +34,7 @@ for (const ing of ingredients) {
 const recipeDir = join(root, 'recipes');
 const ids = new Set<string>();
 let count = 0;
-for (const file of readdirSync(recipeDir).filter((f) => f.endsWith('.json'))) {
+for (const file of readdirSync(recipeDir).filter((f: string) => f.endsWith('.json'))) {
   const parsed = recipeFileSchema.safeParse(JSON.parse(readFileSync(join(recipeDir, file), 'utf8')));
   if (!parsed.success) {
     errors.push(`${file}: ${parsed.error.issues.slice(0, 5).map((i) => i.path.join('.') + ' ' + i.message).join('; ')}`);

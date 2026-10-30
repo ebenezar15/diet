@@ -12,6 +12,17 @@ export type SyncRecord = Record<string, unknown> & {
 };
 
 const META = new Set(['id', 'fieldTs', 'updatedAt', 'deviceId']);
+/** Fields that stay on the device (never uploaded); merges keep whichever copy has them. */
+export const LOCAL_ONLY = ['photo'];
+
+export function stripLocalOnly<T extends SyncRecord>(r: T): T {
+  const out = { ...r, fieldTs: { ...(r.fieldTs ?? {}) } };
+  for (const k of LOCAL_ONLY) {
+    delete (out as Record<string, unknown>)[k];
+    delete out.fieldTs[k];
+  }
+  return out;
+}
 
 export function mergeRecords<T extends SyncRecord>(a: T | undefined, b: T | undefined): T {
   if (!a) return b as T;
@@ -20,6 +31,10 @@ export function mergeRecords<T extends SyncRecord>(a: T | undefined, b: T | unde
   const out: Record<string, unknown> = { id: a.id };
   const fieldTs: Record<string, number> = {};
   for (const k of keys) {
+    if (LOCAL_ONLY.includes(k)) {
+      out[k] = a[k] ?? b[k];
+      continue;
+    }
     const ta = a.fieldTs?.[k] ?? a.updatedAt;
     const tb = b.fieldTs?.[k] ?? b.updatedAt;
     const aWins = ta > tb || (ta === tb && a.deviceId >= b.deviceId);

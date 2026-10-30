@@ -38,7 +38,8 @@ describe('meal plan solver', () => {
     const b = generatePlan({ catalog, settings: settings(), ctx: ELIMINATION, ibs: true });
     expect(a.days.map((d) => d.map((m) => m.recipeId))).toEqual(b.days.map((d) => d.map((m) => m.recipeId)));
     const uses = new Map<string, number>();
-    a.days.flat().forEach((m) => uses.set(m.recipeId, (uses.get(m.recipeId) ?? 0) + 1));
+    // Fat add-ons (chutneys, nut handfuls) are condiments and may repeat up to 4× a week.
+    a.days.flat().filter((m) => m.slot !== 'side' || !m.recipeId.startsWith('ad-')).forEach((m) => uses.set(m.recipeId, (uses.get(m.recipeId) ?? 0) + 1));
     expect(Math.max(...uses.values())).toBeLessThanOrEqual(2);
     for (const day of a.days) {
       const proteins = new Map<string, number>();

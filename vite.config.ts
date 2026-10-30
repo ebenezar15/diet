@@ -44,6 +44,17 @@ export default defineConfig({
       }
     })
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          react: ['react', 'react-dom'],
+          motion: ['framer-motion'],
+          data: ['dexie', 'dexie-react-hooks', 'zustand']
+        }
+      }
+    }
+  },
   test: {
     environment: 'jsdom',
     globals: true,

@@ -7,7 +7,7 @@ export const SEED_VERSION = 1;
 
 const recipeModules = import.meta.glob<{ recipes: RecipeSeed[] }>('../data/seed/recipes/*.json', { eager: true, import: 'default' });
 
-export const bundledIngredients = (ingredientsFile as { ingredients: Ingredient[] }).ingredients;
+export const bundledIngredients = (ingredientsFile as unknown as { ingredients: Ingredient[] }).ingredients;
 export const bundledRecipes = (): RecipeSeed[] => Object.values(recipeModules).flatMap((m) => m.recipes);
 
 /**

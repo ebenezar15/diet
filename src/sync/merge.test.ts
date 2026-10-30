@@ -1,4 +1,4 @@
-import { mergeRecords } from './merge';
+import { mergeRecords, stripLocalOnly } from './merge';
 
 describe('per-field LWW merge', () => {
   const base = { id: '1', updatedAt: 100, deviceId: 'a', name: 'x', kg: 80, fieldTs: { name: 100, kg: 100 } };
@@ -23,5 +23,14 @@ describe('per-field LWW merge', () => {
     const a = { ...base, deletedAt: null as number | null, fieldTs: { ...base.fieldTs, deletedAt: 100 } };
     const b = { ...base, deviceId: 'b', deletedAt: 300 as number | null, updatedAt: 300, fieldTs: { ...base.fieldTs, deletedAt: 300 } };
     expect(mergeRecords(a, b).deletedAt).toBe(300);
+  });
+
+  it('never uploads local-only photos and keeps them on merge', () => {
+    const local = { ...base, photo: 'data:image/webp;base64,xx', fieldTs: { ...base.fieldTs, photo: 100 } };
+    const remote = { ...base, deviceId: 'b', updatedAt: 500, kg: 70, fieldTs: { name: 500, kg: 500 } };
+    expect(stripLocalOnly(local).photo).toBeUndefined();
+    const m = mergeRecords<Record<string, unknown> & typeof base>(local, remote);
+    expect(m.photo).toBe(local.photo);
+    expect(m.kg).toBe(70);
   });
 });

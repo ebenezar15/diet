@@ -1,4 +1,4 @@
-import { createClient, type SupabaseClient } from '@supabase/supabase-js';
+import type { SupabaseClient } from '@supabase/supabase-js';
 import type { SyncEntity } from '@/types';
 import type { RemoteRow, SyncBackend } from './backend';
 import type { SyncRecord } from './merge';
@@ -11,38 +11,46 @@ import type { SyncRecord } from './merge';
 export class SupabaseBackend implements SyncBackend {
   readonly name = 'Supabase';
   private client: SupabaseClient | null = null;
+  private loading: Promise<SupabaseClient> | null = null;
 
-  constructor(private url = import.meta.env.VITE_SUPABASE_URL as string | undefined, private key = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined) {
-    if (url && key) this.client = createClient(url, key, { auth: { persistSession: true } });
-  }
+  constructor(
+    private url = import.meta.env.VITE_SUPABASE_URL as string | undefined,
+    private key = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined
+  ) {}
 
   isConfigured() {
-    return !!this.client;
+    return !!(this.url && this.key);
   }
 
-  private c() {
-    if (!this.client) throw new Error('Supabase is not configured (set VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY).');
-    return this.client;
+  /** The Supabase SDK is loaded lazily so it never weighs down the offline app shell. */
+  private async c(): Promise<SupabaseClient> {
+    if (!this.isConfigured()) throw new Error('Supabase is not configured (set VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY).');
+    if (this.client) return this.client;
+    this.loading ??= import('@supabase/supabase-js').then(({ createClient }) => {
+      this.client = createClient(this.url!, this.key!, { auth: { persistSession: true } });
+      return this.client;
+    });
+    return this.loading;
   }
 
   async currentUserId() {
-    if (!this.client) return null;
-    const { data } = await this.client.auth.getSession();
+    if (!this.isConfigured()) return null;
+    const { data } = await (await this.c()).auth.getSession();
     return data.session?.user.id ?? null;
   }
 
   async signIn(email: string) {
-    const { error } = await this.c().auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin } });
+    const { error } = await (await this.c()).auth.signInWithOtp({ email, options: { emailRedirectTo: location.origin } });
     if (error) throw error;
   }
 
   async signOut() {
-    await this.c().auth.signOut();
+    await (await this.c()).auth.signOut();
   }
 
   async fetch(entity: SyncEntity, ids: string[]) {
     if (!ids.length) return [];
-    const { data, error } = await this.c().from('records').select('data').eq('entity', entity).in('id', ids);
+    const { data, error } = await (await this.c()).from('records').select('data').eq('entity', entity).in('id', ids);
     if (error) throw error;
     return (data ?? []).map((r) => r.data as SyncRecord);
   }
@@ -59,12 +67,12 @@ export class SupabaseBackend implements SyncBackend {
       device_id: record.deviceId,
       deleted_at: (record.deletedAt as number | null) ?? null
     }));
-    const { error } = await this.c().from('records').upsert(payload, { onConflict: 'user_id,entity,id' });
+    const { error } = await (await this.c()).from('records').upsert(payload, { onConflict: 'user_id,entity,id' });
     if (error) throw error;
   }
 
   async pull(cursor: string | null) {
-    let q = this.c().from('records').select('entity, data, server_seq').order('server_seq', { ascending: true }).limit(1000);
+    let q = (await this.c()).from('records').select('entity, data, server_seq').order('server_seq', { ascending: true }).limit(1000);
     if (cursor) q = q.gt('server_seq', Number(cursor));
     const { data, error } = await q;
     if (error) throw error;
