@@ -1,7 +1,12 @@
 import { expect, test } from '@playwright/test';
 
-test('onboarding → plan → shopping list → log meal offline → reload offline → data persists', async ({ page, context }) => {
-  await page.goto('/');
+test('onboarding → plan → shopping list → log meal offline → reload offline → data persists', async ({ page, context, baseURL }) => {
+  // The app must never need another server: no fonts CDN, no login, no API.
+  const external: string[] = [];
+  page.on('request', (r) => {
+    if (!r.url().startsWith(new URL(baseURL!).origin) && !r.url().startsWith('data:') && !r.url().startsWith('blob:')) external.push(r.url());
+  });
+  await page.goto('./');
   await expect(page.getByText('Welcome to ThaliFit')).toBeVisible();
   await page.getByRole('checkbox').check();
   await page.getByRole('button', { name: 'Continue' }).click();
@@ -43,7 +48,7 @@ test('onboarding → plan → shopping list → log meal offline → reload offl
   // Reload while offline — served by the service worker, data from IndexedDB
   await page.reload();
   await expect(page.getByText('Offline idli test')).toBeVisible({ timeout: 15_000 });
-  await page.goto('/#/recipes');
+  await page.goto('./#/recipes');
   await expect(page.getByText(/Indian recipes/)).toBeVisible();
 
   // The write is queued in the outbox for sync
@@ -59,6 +64,13 @@ test('onboarding → plan → shopping list → log meal offline → reload offl
       })
   );
   expect(pending).toBeGreaterThan(0);
+
+  // Every screen opens offline
+  for (const r of ['plan', 'shop', 'progress', 'gut', 'fit', 'settings', 'chart']) {
+    await page.goto(`./#/${r}`);
+    await expect(page.locator('main h1').first()).toBeVisible({ timeout: 10_000 });
+  }
+  expect(external).toEqual([]);
 
   await context.setOffline(false);
 });

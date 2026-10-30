@@ -45,6 +45,16 @@ npm run lint
 
 The Playwright config uses the Chromium at `/opt/pw-browsers/chromium` by default. Set `CHROMIUM_PATH` to point at another browser, or run `npx playwright install` and set `CI=1`.
 
+## Public offline link (GitHub Pages)
+
+**https://ebenezar15.github.io/diet/** opens with no login and keeps working with no internet after the first visit.
+
+- `.github/workflows/pages.yml` runs the tests, builds the PWA with `BASE_PATH=/diet/` and deploys it on every push.
+- One-time setup: in the repo, go to *Settings → Pages → Build and deployment → Source* and choose **GitHub Actions**. Then re-run the workflow.
+- On a phone, open the link once while online. Then add it to the home screen: Chrome menu → *Install app*, or Safari share → *Add to Home Screen*. From then on it starts offline like a native app.
+- Fonts, recipes and every screen are bundled and precached, and the app makes no requests to any other server.
+- Data stays on the phone in IndexedDB. The app asks the browser to keep it persistently. Use *Settings → Export JSON* for backups or to move to a new phone.
+
 ## Hosted link (claude.ai Artifact)
 
 `npm run build:artifact` builds a variant into `dist-artifact/` for hosting as a claude.ai Artifact. In that variant:

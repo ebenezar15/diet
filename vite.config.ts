@@ -7,7 +7,8 @@ import { fileURLToPath, URL } from 'node:url';
 const artifact = process.env.VITE_TARGET === 'artifact';
 
 export default defineConfig({
-  base: artifact ? './' : '/',
+  // BASE_PATH lets the PWA live under a sub-path, e.g. /diet/ on GitHub Pages.
+  base: artifact ? './' : process.env.BASE_PATH ?? '/',
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },
   plugins: [
     react(),
@@ -21,7 +22,8 @@ export default defineConfig({
         theme_color: '#E8A317',
         background_color: '#FFF8EC',
         display: 'standalone',
-        start_url: '/',
+        start_url: '.',
+        scope: '.',
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
@@ -31,18 +33,12 @@ export default defineConfig({
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,webp,woff2,json}'],
         maximumFileSizeToCacheInBytes: 6 * 1024 * 1024,
-        navigateFallback: '/index.html',
         runtimeCaching: [
           {
             urlPattern: ({ request }) => request.destination === 'image',
             handler: 'CacheFirst',
             options: { cacheName: 'images', expiration: { maxEntries: 300 } }
           },
-          {
-            urlPattern: /^https:\/\/fonts\.(googleapis|gstatic)\.com\/.*/,
-            handler: 'StaleWhileRevalidate',
-            options: { cacheName: 'fonts' }
-          }
         ]
       }
     })
