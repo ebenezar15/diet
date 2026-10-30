@@ -45,6 +45,14 @@ npm run lint
 
 The Playwright config uses the Chromium at `/opt/pw-browsers/chromium` by default. Set `CHROMIUM_PATH` to point at another browser, or run `npx playwright install` and set `CI=1`.
 
+## Hosted link (claude.ai Artifact)
+
+`npm run build:artifact` builds a variant into `dist-artifact/` for hosting as a claude.ai Artifact. In that variant:
+- routes are kept in memory
+- there is no service worker
+- exports go through the platform's download prompt
+- data is saved to the artifact's **private per-user store** (`data/users/<id>/…`), so it follows the person to any device where they open the link signed in to claude.ai, while IndexedDB keeps it working instantly on the device
+
 ## Optional: cross-device sync with Supabase
 
 1. Create a Supabase project and run [`supabase/schema.sql`](supabase/schema.sql) in the SQL editor. It creates one `records` table with Row Level Security and a server sequence used as the pull cursor.

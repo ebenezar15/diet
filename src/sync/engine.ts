@@ -19,7 +19,19 @@ export class SyncEngine {
   pending = 0;
   lastSyncedAt: number | null = null;
 
+  private pulledListeners = new Set<() => void>();
+
   constructor(public backend: SyncBackend) {}
+
+  setBackend(b: SyncBackend) {
+    this.backend = b;
+  }
+
+  /** Called after a pull brought in changes (e.g. to refresh in-memory profile/catalog). */
+  onPulled(fn: () => void) {
+    this.pulledListeners.add(fn);
+    return () => this.pulledListeners.delete(fn);
+  }
 
   subscribe(fn: Listener) {
     this.listeners.add(fn);
@@ -69,6 +81,7 @@ export class SyncEngine {
       await setMeta('lastSyncedAt', Date.now());
       this.failures = 0;
       if (pushed || pulled) await this.log('info', `Synced: ${pushed} up, ${pulled} down`);
+      if (pulled) this.pulledListeners.forEach((l) => l());
       await this.emit('synced');
     } catch (e) {
       this.failures++;

@@ -10,6 +10,7 @@ import { Chip, Empty, Page, Section, Sheet } from '@/components/ui';
 import { Icon } from '@/components/Icon';
 import { SECTION_LABEL, buildShoppingList, shoppingText } from '@/lib/shopping';
 import { celebrate } from '@/components/viz';
+import { IS_ARTIFACT } from '@/lib/host';
 
 /** Deduct cooked ingredients from pantry stock. Returns number of pantry rows touched. */
 export async function deductPantryForRecipe(items: RecipeIngredientSeed[], factor: number) {
@@ -81,6 +82,15 @@ function ShoppingList() {
     toast('Bought items added to pantry');
   };
 
+  const listText = () => shoppingText(lines, `ThaliFit list · ${plan.people} ${plan.people > 1 ? 'people' : 'person'}`);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(listText());
+      toast('List copied — paste it into WhatsApp');
+    } catch {
+      toast('Copy is blocked here; use the WhatsApp link', 'warn');
+    }
+  };
   const share = async () => {
     const text = shoppingText(lines, `ThaliFit list · ${plan.people} ${plan.people > 1 ? 'people' : 'person'}`);
     if (navigator.share) {
@@ -121,9 +131,20 @@ function ShoppingList() {
         💰 Food actually eaten this week ≈ <b>₹{eatenCost}</b> (₹{Math.round(eatenCost / 7 / plan.people)}/person/day). Of today's bill, <b>₹{staples}</b> is long-life staples (spices, oils, grains) that last for weeks.
       </p>
       <div className="mb-4 flex flex-wrap gap-2">
-        <button className="btn-primary" onClick={share}>
-          <Icon name="share" size={18} /> Share on WhatsApp
-        </button>
+        {IS_ARTIFACT ? (
+          <>
+            <a className="btn-primary" href={`https://wa.me/?text=${encodeURIComponent(listText())}`} target="_blank" rel="noreferrer">
+              <Icon name="share" size={18} /> Share on WhatsApp
+            </a>
+            <button className="btn-ghost" onClick={copy}>
+              <Icon name="copy" size={18} /> Copy list
+            </button>
+          </>
+        ) : (
+          <button className="btn-primary" onClick={share}>
+            <Icon name="share" size={18} /> Share on WhatsApp
+          </button>
+        )}
         <button className="btn-ghost" onClick={addAllToPantry} disabled={!checked.size}>
           Add bought to pantry
         </button>

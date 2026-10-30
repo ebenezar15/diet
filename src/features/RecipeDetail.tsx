@@ -47,7 +47,7 @@ export default function RecipeDetail({ id }: { id: string }) {
     <div className="pb-28 md:pb-10">
       <motion.div layoutId={`art-${r.id}`} className="relative">
         <RecipeArt recipe={r} className="h-56 w-full md:h-72" />
-        <button className="no-print absolute left-4 top-4 rounded-full bg-black/50 p-2.5 text-white" onClick={() => history.back()} aria-label="Back">
+        <button className="no-print absolute left-4 top-4 rounded-full bg-black/50 p-2.5 text-white" onClick={() => useApp.getState().back()} aria-label="Back">
           <Icon name="arrowLeft" />
         </button>
         <button className={`no-print absolute right-4 top-4 rounded-full p-2.5 ${fav ? 'bg-turmeric text-white' : 'bg-black/50 text-white'}`} onClick={toggleFav} aria-label={fav ? 'Remove favourite' : 'Add favourite'} aria-pressed={fav}>

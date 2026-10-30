@@ -6,6 +6,9 @@ import type { FodmapContext } from '@/lib/fodmap';
 import { db } from '@/db';
 import { alive } from '@/db/repo';
 import { ensureSeed } from '@/db/seed';
+import { IS_ARTIFACT } from '@/lib/host';
+import { engine } from '@/sync/engine';
+import { ArtifactDbBackend } from '@/sync/artifactDb';
 
 export type Theme = 'system' | 'light' | 'dark';
 
@@ -25,7 +28,11 @@ interface AppState {
   toasts: Toast[];
   logOpen: boolean;
   logSlot: string | null;
+  history: string[];
+  /** Where saved data lives, shown in Settings. */
+  storage: 'device' | 'account';
   setRoute: (r: string) => void;
+  back: () => void;
   setTheme: (t: Theme) => void;
   toast: (text: string, tone?: Toast['tone']) => void;
   openLog: (slot?: string | null) => void;
@@ -35,7 +42,8 @@ interface AppState {
   rebuildCatalog: () => Promise<void>;
 }
 
-const readHash = () => (typeof location !== 'undefined' ? location.hash.replace(/^#/, '') || '/today' : '/today');
+// Artifact links only carry a plain #name, so the hosted build keeps routes in memory.
+const readHash = () => (IS_ARTIFACT || typeof location === 'undefined' ? '/today' : location.hash.replace(/^#/, '') || '/today');
 const readTheme = (): Theme => {
   try {
     return (localStorage.getItem('theme') as Theme) || 'system';
@@ -54,6 +62,8 @@ let toastId = 0;
 export const useApp = create<AppState>((set, get) => ({
   ready: false,
   route: readHash(),
+  history: [],
+  storage: 'device',
   profile: null,
   catalog: null,
   ctx: { phase: 'elimination', tolerated: [], triggers: [], allowSmallLentils: true },
@@ -62,8 +72,18 @@ export const useApp = create<AppState>((set, get) => ({
   logOpen: false,
   logSlot: null,
   setRoute: (r) => {
+    if (IS_ARTIFACT) {
+      if (r !== get().route) set((s) => ({ history: [...s.history.slice(-30), s.route], route: r }));
+      window.scrollTo?.(0, 0);
+      return;
+    }
     if (location.hash !== '#' + r) location.hash = r;
     set({ route: r });
+  },
+  back: () => {
+    if (!IS_ARTIFACT) return history.back();
+    const h = get().history;
+    set({ route: h.at(-1) ?? '/today', history: h.slice(0, -1) });
   },
   setTheme: (t) => {
     try {
@@ -83,8 +103,18 @@ export const useApp = create<AppState>((set, get) => ({
   closeLog: () => set({ logOpen: false }),
   bootstrap: async () => {
     applyTheme(get().theme);
-    window.addEventListener('hashchange', () => set({ route: readHash() }));
+    if (!IS_ARTIFACT) window.addEventListener('hashchange', () => set({ route: readHash() }));
     await ensureSeed();
+    if (IS_ARTIFACT) {
+      // Restore this person's saved data from their claude.ai account before showing anything.
+      const backend = await ArtifactDbBackend.connect();
+      if (backend) {
+        engine.setBackend(backend);
+        set({ storage: 'account' });
+        engine.onPulled(() => void get().reloadProfile());
+        await Promise.race([engine.sync(), new Promise((r) => setTimeout(r, 8000))]);
+      }
+    }
     await get().reloadProfile();
     set({ ready: true });
   },

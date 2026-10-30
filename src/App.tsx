@@ -111,7 +111,7 @@ export default function App() {
       {!fullscreen && (
         <nav className="no-print sticky top-0 hidden h-screen w-60 shrink-0 flex-col gap-1 border-r border-line bg-surface p-4 md:flex" aria-label="Main">
           <div className="mb-4 flex items-center gap-2 px-2">
-            <img src="/icons/icon.svg" alt="" className="h-9 w-9" />
+            <img src={`${import.meta.env.BASE_URL}icons/icon.svg`} alt="" className="h-9 w-9" />
             <span className="font-display text-2xl font-extrabold">ThaliFit</span>
           </div>
           {[...TABS, ...EXTRA].map((tab) => (
@@ -134,7 +134,7 @@ export default function App() {
         {!fullscreen && (
           <div className="no-print sticky top-0 z-30 flex items-center justify-between border-b border-line/60 bg-bg/85 px-4 py-2 backdrop-blur md:hidden">
             <span className="flex items-center gap-2 font-display text-xl font-extrabold">
-              <img src="/icons/icon.svg" alt="" className="h-7 w-7" /> ThaliFit
+              <img src={`${import.meta.env.BASE_URL}icons/icon.svg`} alt="" className="h-7 w-7" /> ThaliFit
             </span>
             <div className="flex items-center gap-1">
               <SyncBadge compact />

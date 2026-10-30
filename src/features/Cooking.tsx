@@ -163,7 +163,7 @@ export default function Cooking({ id }: { id: string }) {
   return (
     <div className="flex min-h-screen flex-col bg-bg">
       <header className="flex items-center gap-2 border-b border-line p-3">
-        <button className="btn-ghost !px-3" onClick={() => history.back()} aria-label="Exit cooking mode">
+        <button className="btn-ghost !px-3" onClick={() => useApp.getState().back()} aria-label="Exit cooking mode">
           <Icon name="x" />
         </button>
         <div className="min-w-0 flex-1">

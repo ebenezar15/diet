@@ -4,7 +4,10 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 import { fileURLToPath, URL } from 'node:url';
 
+const artifact = process.env.VITE_TARGET === 'artifact';
+
 export default defineConfig({
+  base: artifact ? './' : '/',
   resolve: { alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) } },
   plugins: [
     react(),
@@ -45,6 +48,7 @@ export default defineConfig({
     })
   ],
   build: {
+    outDir: artifact ? 'dist-artifact' : 'dist',
     rollupOptions: {
       output: {
         manualChunks: {

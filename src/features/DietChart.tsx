@@ -7,6 +7,7 @@ import { translate } from '@/i18n';
 import { DIET_MODES, IF_PROTOCOLS } from '@/lib/targets';
 import { dayTotals } from '@/lib/planner';
 import type { MealType } from '@/types';
+import { IS_ARTIFACT, saveFile } from '@/lib/host';
 
 const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
 
@@ -45,10 +46,8 @@ export default function DietChart() {
     try {
       const { toPng } = await import('html-to-image');
       const url = await toPng(ref.current!, { pixelRatio: 2, backgroundColor: '#ffffff' });
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'thalifit-diet-chart.png';
-      a.click();
+      const blob = await (await fetch(url)).blob();
+      if (!(await saveFile('thalifit-diet-chart.png', blob))) toast('Download was cancelled or is unavailable here', 'warn');
     } catch (e) {
       toast(`Export failed: ${String(e)}`, 'warn');
     }
@@ -70,7 +69,7 @@ export default function DietChart() {
         pdf.addImage(url, 'PNG', 20, 20 - y, w, h);
         y += pageH;
       }
-      pdf.save('thalifit-diet-chart.pdf');
+      if (!(await saveFile('thalifit-diet-chart.pdf', pdf.output('blob')))) toast('Download was cancelled or is unavailable here', 'warn');
     } catch (e) {
       toast(`Export failed: ${String(e)}`, 'warn');
     }
@@ -99,9 +98,11 @@ export default function DietChart() {
           ))}
         </div>
         <div className="flex flex-wrap gap-2">
-          <button className="btn-primary" onClick={() => window.print()}>
-            <Icon name="print" size={18} /> Print
-          </button>
+          {!IS_ARTIFACT && (
+            <button className="btn-primary" onClick={() => window.print()}>
+              <Icon name="print" size={18} /> Print
+            </button>
+          )}
           <button className="btn-ghost" onClick={exportPdf} disabled={busy}>
             <Icon name="download" size={18} /> PDF
           </button>

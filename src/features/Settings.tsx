@@ -13,6 +13,7 @@ import { exportAll, importAll, resetAll } from '@/lib/backup';
 import { askNotificationPermission } from '@/lib/reminders';
 import { engine } from '@/sync/engine';
 import { DISCLAIMER_POINTS } from './Disclaimer';
+import { IS_ARTIFACT, saveFile } from '@/lib/host';
 
 export default function Settings() {
   const { profile, reloadProfile, theme, setTheme, toast } = useApp();
@@ -24,6 +25,7 @@ export default function Settings() {
     await reloadProfile();
   };
   const math = calorieMath(p);
+  const [confirmReset, setConfirmReset] = useState(false);
 
   return (
     <Page title="Settings">
@@ -121,11 +123,8 @@ export default function Settings() {
             <button
               className="btn-ghost"
               onClick={async () => {
-                const blob = new Blob([await exportAll()], { type: 'application/json' });
-                const a = document.createElement('a');
-                a.href = URL.createObjectURL(blob);
-                a.download = `thalifit-backup-${new Date().toISOString().slice(0, 10)}.json`;
-                a.click();
+                const ok = await saveFile(`thalifit-backup-${new Date().toISOString().slice(0, 10)}.json`, await exportAll());
+                if (!ok) toast('Download was cancelled or is unavailable here', 'warn');
               }}
             >
               <Icon name="download" size={18} /> Export JSON
@@ -149,16 +148,30 @@ export default function Settings() {
                 }}
               />
             </label>
-            <button
-              className="btn-ghost !text-chilli"
-              onClick={async () => {
-                if (!confirm('Delete all your logs, plans and profile from this device? Export a backup first if you want to keep them.')) return;
-                await resetAll();
-                await reloadProfile();
-              }}
-            >
-              Reset everything
-            </button>
+            {confirmReset ? (
+              <div className="w-full rounded-xl bg-chilli/10 p-3 text-sm">
+                <p className="mb-2">Delete all logs, plans and your profile from this device? Export a backup first if you want to keep them.</p>
+                <div className="flex gap-2">
+                  <button
+                    className="btn-ghost !bg-chilli !text-white"
+                    onClick={async () => {
+                      await resetAll();
+                      setConfirmReset(false);
+                      await reloadProfile();
+                    }}
+                  >
+                    Yes, delete
+                  </button>
+                  <button className="btn-ghost" onClick={() => setConfirmReset(false)}>
+                    Cancel
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <button className="btn-ghost !text-chilli" onClick={() => setConfirmReset(true)}>
+                Reset everything
+              </button>
+            )}
           </div>
         </Section>
         <Section title="Medical disclaimer & help">
@@ -214,7 +227,9 @@ function Reminders() {
           </button>
         ))}
       </div>
-      <p className="mt-2 text-xs text-muted">Reminders show while ThaliFit is open or running in the background.</p>
+      <p className="mt-2 text-xs text-muted">
+        {IS_ARTIFACT ? 'Notifications are not available inside a claude.ai link; install the app version for reminders.' : 'Reminders show while ThaliFit is open or running in the background.'}
+      </p>
     </Section>
   );
 }
@@ -226,15 +241,23 @@ function SyncPanel() {
   const [email, setEmail] = useState('');
   const [uid, setUid] = useState<string | null>(null);
   const configured = engine.backend.isConfigured();
+  const account = useApp((st) => st.storage) === 'account';
   void engine.backend.currentUserId().then(setUid);
   return (
-    <Section title="Sync & sync log">
+    <Section title={account ? 'Saved to your account' : 'Sync & sync log'}>
       <p className="mb-2 text-sm">
         Status: <b>{sync.state}</b>
         {sync.pending ? ` · ${sync.pending} pending` : ''}
         {sync.lastSyncedAt ? ` · last ${new Date(sync.lastSyncedAt).toLocaleString()}` : ''}
       </p>
-      {!configured ? (
+      {account ? (
+        <div className="space-y-2">
+          <p className="text-sm text-muted">Your data is saved to your claude.ai account and loads automatically on any phone or computer where you open this link while signed in. It is private to you.</p>
+          <button className="btn-primary" onClick={() => engine.sync()}>
+            <Icon name="refresh" size={18} /> Save now
+          </button>
+        </div>
+      ) : !configured ? (
         <p className="text-sm text-muted">Cross-device sync is optional. Everything is saved on this device. To enable sync, deploy with Supabase credentials (see README).</p>
       ) : uid ? (
         <div className="flex gap-2">
