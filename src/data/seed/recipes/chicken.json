@@ -1,0 +1,3484 @@
+{
+  "recipes": [
+    {
+      "id": "ch-chettinad-pepper-fry",
+      "name": "Chettinad Chicken Pepper Fry",
+      "localName": "Kozhi Milagu Varuval",
+      "cuisine": "Chettinad",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 30,
+      "difficulty": "medium",
+      "equipment": [
+        "air-fryer",
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_thigh",
+          "g": 500,
+          "note": "boneless, 1-inch pieces"
+        },
+        {
+          "i": "onion",
+          "g": 60,
+          "note": "finely sliced"
+        },
+        {
+          "i": "tomato",
+          "g": 60,
+          "note": "finely chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "crushed"
+        },
+        {
+          "i": "garlic",
+          "g": 10,
+          "note": "crushed"
+        },
+        {
+          "i": "black_pepper",
+          "g": 10,
+          "note": "freshly crushed, coarse"
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 4
+        },
+        {
+          "i": "cumin",
+          "g": 3
+        },
+        {
+          "i": "coriander_powder",
+          "g": 5
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 3,
+          "note": "2 chillies, broken"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5,
+          "note": "2 sprigs"
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 21
+        },
+        {
+          "i": "salt",
+          "g": 4
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10,
+          "note": "chopped"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Toss the chicken with turmeric, chilli powder, half the salt, half the crushed pepper, ginger, garlic and 1 tsp oil. Marinate.",
+          "timerMin": 20
+        },
+        {
+          "text": "Air-fry the chicken at 200°C for 12 minutes in a single layer, shaking/flipping the pieces at 6 minutes.",
+          "timerMin": 12
+        },
+        {
+          "text": "Meanwhile heat the remaining oil in a kadai; crackle fennel, dry red chilli and curry leaves, then sauté the onion until golden.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add tomato, coriander powder and remaining salt; cook until the tomato breaks down and oil separates.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add the air-fried chicken, cumin and the rest of the crushed pepper; roast on high, tossing, until the masala coats the pieces and turns dark.",
+          "timerMin": 5
+        },
+        {
+          "text": "Finish with lemon juice and coriander leaves. Serve hot."
+        }
+      ],
+      "tips": [
+        "Crush the pepper fresh just before cooking — it is the backbone of the dish.",
+        "For keto, serve with cucumber-onion salad instead of rice."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Air-fry and marinate-cook the chicken up to 2 days ahead; do the final pepper roast just before serving."
+    },
+    {
+      "id": "ch-chettinad-chicken-curry",
+      "name": "Chettinad Chicken Curry",
+      "localName": "Chettinad Kozhi Kuzhambu",
+      "cuisine": "Chettinad",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 4,
+      "prepMin": 20,
+      "cookMin": 30,
+      "difficulty": "medium",
+      "equipment": [
+        "pressure-cooker",
+        "kadai",
+        "blender"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_curry_cut",
+          "g": 700,
+          "note": "curry cut, skinless, medium pieces"
+        },
+        {
+          "i": "onion",
+          "g": 150,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 150,
+          "note": "chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 15
+        },
+        {
+          "i": "garlic",
+          "g": 15
+        },
+        {
+          "i": "coconut",
+          "g": 40,
+          "note": "freshly grated"
+        },
+        {
+          "i": "black_pepper",
+          "g": 6
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 5
+        },
+        {
+          "i": "cumin",
+          "g": 3
+        },
+        {
+          "i": "coriander_powder",
+          "g": 10,
+          "note": "or 1 tbsp whole coriander seeds"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 6,
+          "note": "4–5 chillies"
+        },
+        {
+          "i": "whole_spices",
+          "g": 4,
+          "note": "star anise, kalpasi, cinnamon, cloves"
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 5
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 36
+        },
+        {
+          "i": "salt",
+          "g": 6
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10,
+          "note": "chopped"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate the chicken with turmeric, chilli powder and 1 tsp salt.",
+          "timerMin": 15
+        },
+        {
+          "text": "Dry-roast dry red chilli, pepper, fennel, cumin and coriander until fragrant; add coconut and roast till light brown. Cool and grind to a fine paste with a little water.",
+          "timerMin": 6
+        },
+        {
+          "text": "Heat oil in the pressure cooker; add whole spices and curry leaves, then onion and cook until golden. Add ginger-garlic (crushed) and sauté for a minute.",
+          "timerMin": 8
+        },
+        {
+          "text": "Add tomato and cook till mushy, then add the chicken and sear on high for 3–4 minutes.",
+          "timerMin": 6
+        },
+        {
+          "text": "Stir in the ground masala, remaining salt and 300 ml water. Pressure cook for 2 whistles on medium, then let the pressure release naturally.",
+          "timerMin": 12
+        },
+        {
+          "text": "Simmer open for a few minutes to the consistency you like; finish with coriander leaves."
+        }
+      ],
+      "tips": [
+        "Kalpasi (stone flower) gives the signature Chettinad aroma — skip it only if you must."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Tastes better the next day; refrigerate up to 3 days or freeze in portions for a month."
+    },
+    {
+      "id": "ch-chettinad-chukka-air-fryer",
+      "name": "Air-Fryer Chettinad Chicken Chukka",
+      "localName": "Kozhi Chukka",
+      "cuisine": "Chettinad",
+      "mealTypes": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "protein": "chicken",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 20,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "pan"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_breast",
+          "g": 400,
+          "note": "boneless, 1-inch cubes"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 10
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 6
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "grated"
+        },
+        {
+          "i": "black_pepper",
+          "g": 6,
+          "note": "freshly crushed"
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 3,
+          "note": "crushed"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "tomato",
+          "g": 40,
+          "note": "finely chopped"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6,
+          "note": "2–3 sprigs"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 2
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 20,
+          "note": "green parts only, chopped"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix chicken with ginger, turmeric, chilli powder, coriander powder, half the pepper, half the salt and the garlic oil. Marinate.",
+          "timerMin": 15
+        },
+        {
+          "text": "Air-fry at 200°C for 10 minutes, flipping at 5 minutes, until the edges char lightly.",
+          "timerMin": 10
+        },
+        {
+          "text": "In a pan heat groundnut oil; crackle fennel, dry red chilli and curry leaves. Add tomato and cook down for 2 minutes.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add the air-fried chicken, remaining pepper and salt; toss on high heat until dry and coated.",
+          "timerMin": 4
+        },
+        {
+          "text": "Turn off the heat, add spring onion greens and lemon juice, toss and serve."
+        }
+      ],
+      "tips": [
+        "Naturally low-FODMAP and keto: garlic oil carries the garlic flavour without the fructans."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Keeps 3 days refrigerated; re-crisp in the air fryer at 180°C for 4 minutes."
+    },
+    {
+      "id": "ch-chicken-65-air-fryer",
+      "name": "Air-Fryer Chicken 65",
+      "localName": "Chicken 65 (Chennai style)",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "snack",
+        "lunch"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 18,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "pan"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_thigh",
+          "g": 450,
+          "note": "boneless, bite-size pieces"
+        },
+        {
+          "i": "lf_curd",
+          "g": 45,
+          "note": "thick"
+        },
+        {
+          "i": "rice_flour",
+          "g": 15
+        },
+        {
+          "i": "cornflour",
+          "g": 15
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "grated"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 15
+        },
+        {
+          "i": "chilli_powder",
+          "g": 8,
+          "note": "Kashmiri + regular mix"
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6,
+          "note": "2 sprigs"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix chicken with curd, ginger, chilli powder, turmeric, garam masala, pepper, lemon juice, salt and 10 g garlic oil. Marinate.",
+          "timerMin": 30
+        },
+        {
+          "text": "Sprinkle rice flour and cornflour over the chicken and toss until every piece is dry-coated."
+        },
+        {
+          "text": "Lightly brush the air-fryer basket with oil, arrange pieces in one layer and air-fry at 200°C for 14 minutes, flipping and spraying with a little oil at 7 minutes.",
+          "timerMin": 14
+        },
+        {
+          "text": "Heat remaining garlic oil in a pan, splutter curry leaves and green chillies, add the chicken and toss for a minute.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Do not crowd the basket — airflow is what makes the coating crisp."
+      ],
+      "batchFriendly": false
+    },
+    {
+      "id": "ch-kothu-muttai-keema",
+      "name": "Chicken Keema Egg Kothu",
+      "localName": "Kozhi Kheema Muttai Kothu",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "breakfast",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "tawa"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_mince",
+          "g": 250,
+          "note": "lean mince"
+        },
+        {
+          "i": "egg",
+          "g": 150,
+          "note": "3 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 60,
+          "note": "2 egg whites"
+        },
+        {
+          "i": "onion",
+          "g": 50,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 60,
+          "note": "finely chopped"
+        },
+        {
+          "i": "green_chilli",
+          "g": 5,
+          "note": "chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 5,
+          "note": "grated"
+        },
+        {
+          "i": "garlic",
+          "g": 5,
+          "note": "minced"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 3
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 3
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 3
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8,
+          "note": "chopped"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat oil on a tawa; add curry leaves, onion, green chilli, ginger and garlic and sauté until soft.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add tomato, turmeric, chilli powder and salt; cook until mushy.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add the chicken mince, break it up with the spatula and cook until no pink remains and it is dry.",
+          "timerMin": 6
+        },
+        {
+          "text": "Push to the side, pour in the beaten eggs and whites, let them set for 30 seconds, then chop and mix everything together with two flat spatulas, kothu style.",
+          "timerMin": 3
+        },
+        {
+          "text": "Finish with garam masala, pepper and coriander leaves."
+        }
+      ],
+      "tips": [
+        "Great with a single millet dosa or on its own for a keto breakfast."
+      ],
+      "makeAhead": "Cook the keema base the night before; add eggs fresh in the morning."
+    },
+    {
+      "id": "ch-kerala-chicken-stew",
+      "name": "Kerala Chicken Stew",
+      "localName": "Kozhi Ishtu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 25,
+      "difficulty": "easy",
+      "equipment": [
+        "pot"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "chicken_breast",
+          "g": 450,
+          "note": "boneless, 1.5-inch pieces"
+        },
+        {
+          "i": "coconut_milk",
+          "g": 150,
+          "note": "thick"
+        },
+        {
+          "i": "carrot",
+          "g": 80,
+          "note": "cubed"
+        },
+        {
+          "i": "green_beans",
+          "g": 80,
+          "note": "1-inch pieces"
+        },
+        {
+          "i": "ginger",
+          "g": 15,
+          "note": "julienned"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 30,
+          "note": "chopped (in place of shallots)"
+        },
+        {
+          "i": "whole_spices",
+          "g": 3,
+          "note": "cinnamon, cloves, cardamom"
+        },
+        {
+          "i": "black_pepper",
+          "g": 2,
+          "note": "crushed"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "coconut_oil",
+          "g": 18
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat coconut oil in a pot; add whole spices, then ginger, green chilli and curry leaves. Sauté for a minute.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add the chicken, salt and pepper; stir until the pieces turn white.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add carrot, beans and 250 ml water (or thin coconut milk). Cover and simmer until the chicken and vegetables are tender.",
+          "timerMin": 15
+        },
+        {
+          "text": "Lower the heat, stir in the thick coconut milk and warm through without boiling.",
+          "timerMin": 3
+        },
+        {
+          "text": "Top with spring onion greens and a few fresh curry leaves."
+        }
+      ],
+      "tips": [
+        "Never boil after adding thick coconut milk or it will split.",
+        "Naturally low-FODMAP and keto-friendly."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Keeps 2 days refrigerated; reheat gently on low."
+    },
+    {
+      "id": "ch-kerala-chicken-roast",
+      "name": "Kerala Chicken Roast",
+      "localName": "Kozhi Varattiyathu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 4,
+      "prepMin": 15,
+      "cookMin": 40,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_curry_cut",
+          "g": 700,
+          "note": "curry cut, skinless"
+        },
+        {
+          "i": "onion",
+          "g": 150,
+          "note": "thinly sliced"
+        },
+        {
+          "i": "tomato",
+          "g": 100,
+          "note": "chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 15,
+          "note": "crushed"
+        },
+        {
+          "i": "garlic",
+          "g": 15,
+          "note": "crushed"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6,
+          "note": "3 sprigs"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 10
+        },
+        {
+          "i": "chilli_powder",
+          "g": 8,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "garam_masala",
+          "g": 4
+        },
+        {
+          "i": "black_pepper",
+          "g": 4
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 3
+        },
+        {
+          "i": "coconut_oil",
+          "g": 36
+        },
+        {
+          "i": "salt",
+          "g": 6
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate chicken with turmeric, half the chilli powder, pepper and salt.",
+          "timerMin": 20
+        },
+        {
+          "text": "Heat coconut oil in a kadai; add fennel and curry leaves, then onions with a pinch of salt. Cook until deep brown.",
+          "timerMin": 12
+        },
+        {
+          "text": "Add ginger, garlic, green chilli; sauté, then add the powdered spices on low heat for 30 seconds.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add tomato and cook until oil separates. Add the chicken, cover and cook in its own juices on medium-low.",
+          "timerMin": 20
+        },
+        {
+          "text": "Uncover and roast on medium-high, stirring, until the masala is thick, dark and clings to the chicken.",
+          "timerMin": 6
+        }
+      ],
+      "tips": [
+        "Patience with the onions gives the roast its deep colour."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Refrigerate up to 3 days; freezes well."
+    },
+    {
+      "id": "ch-kerala-air-fried-chicken",
+      "name": "Kerala Air-Fried Chicken Strips",
+      "localName": "Kozhi Porichathu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "snack",
+        "lunch"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 16,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_thigh",
+          "g": 400,
+          "note": "boneless thigh, 2-inch strips"
+        },
+        {
+          "i": "rice_flour",
+          "g": 20
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 10
+        },
+        {
+          "i": "coconut_oil",
+          "g": 6
+        },
+        {
+          "i": "chilli_powder",
+          "g": 8,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 2,
+          "note": "powdered"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 8,
+          "note": "half chopped, half whole"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix chicken with ginger, garlic oil, spices, chopped curry leaves, lemon juice and salt. Marinate (overnight is best).",
+          "timerMin": 30
+        },
+        {
+          "text": "Dust with rice flour and toss well so the pieces are evenly coated."
+        },
+        {
+          "text": "Brush the basket with coconut oil, arrange strips in one layer and air-fry at 200°C for 14 minutes, flipping at 7 minutes and brushing with the remaining coconut oil.",
+          "timerMin": 14
+        },
+        {
+          "text": "Add the whole curry leaves to the basket for the last 2 minutes so they crisp up.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Low-FODMAP as written; serve with a lemon wedge and cucumber."
+      ],
+      "makeAhead": "Marinate up to 24 hours ahead in the fridge."
+    },
+    {
+      "id": "ch-kozhi-puttu",
+      "name": "Chicken Puttu",
+      "localName": "Kozhi Puttu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "breakfast"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 20,
+      "cookMin": 25,
+      "difficulty": "medium",
+      "equipment": [
+        "steamer",
+        "pan"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "rice_flour",
+          "g": 150,
+          "note": "roasted puttu podi"
+        },
+        {
+          "i": "coconut",
+          "g": 45,
+          "note": "freshly grated"
+        },
+        {
+          "i": "chicken_breast",
+          "g": 300,
+          "note": "boiled and finely shredded"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 30,
+          "note": "chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 50,
+          "note": "finely chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 8,
+          "note": "minced"
+        },
+        {
+          "i": "green_chilli",
+          "g": 5,
+          "note": "chopped"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "coconut_oil",
+          "g": 15
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil the chicken with a pinch of turmeric and salt until cooked, then shred finely.",
+          "timerMin": 15
+        },
+        {
+          "text": "Heat coconut oil in a pan; add curry leaves, ginger and green chilli, then tomato. Add the shredded chicken, pepper, garam masala and cook until dry.",
+          "timerMin": 6
+        },
+        {
+          "text": "Sprinkle salted water over the puttu podi and rub until it feels like moist breadcrumbs."
+        },
+        {
+          "text": "Layer the puttu maker: a little grated coconut, puttu podi, chicken masala, repeat, ending with coconut and spring onion greens."
+        },
+        {
+          "text": "Steam until steam escapes from the top, then push out the puttu.",
+          "timerMin": 8
+        }
+      ],
+      "tips": [
+        "No puttu maker? Layer in a steel tumbler and steam in an idli pot."
+      ],
+      "makeAhead": "Make the chicken masala the night before; steam fresh in the morning."
+    },
+    {
+      "id": "ch-andhra-kodi-vepudu",
+      "name": "Andhra Chicken Fry",
+      "localName": "Kodi Vepudu",
+      "cuisine": "Andhra",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 25,
+      "difficulty": "medium",
+      "equipment": [
+        "air-fryer",
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_curry_cut",
+          "g": 600,
+          "note": "small curry cut pieces, skinless"
+        },
+        {
+          "i": "onion",
+          "g": 40,
+          "note": "finely chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "garlic",
+          "g": 12
+        },
+        {
+          "i": "green_chilli",
+          "g": 8,
+          "note": "slit"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6,
+          "note": "3 sprigs"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 10,
+          "note": "Guntur chilli powder"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6
+        },
+        {
+          "i": "garam_masala",
+          "g": 3
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 24
+        },
+        {
+          "i": "salt",
+          "g": 4.5
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate chicken with ginger-garlic paste, turmeric, chilli powder, salt and lemon juice.",
+          "timerMin": 30
+        },
+        {
+          "text": "Air-fry at 200°C for 15 minutes, flipping at 8 minutes, until cooked and lightly charred.",
+          "timerMin": 15
+        },
+        {
+          "text": "Heat oil in a kadai; fry curry leaves and green chillies, then onion until golden.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add coriander powder, garam masala and the air-fried chicken with its juices; fry on high until dry and red.",
+          "timerMin": 5
+        },
+        {
+          "text": "Garnish with coriander leaves."
+        }
+      ],
+      "tips": [
+        "Fiery and keto-friendly; pair with raita (lactose-free for IBS)."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Refrigerate up to 3 days; re-crisp in the air fryer at 180°C for 5 minutes."
+    },
+    {
+      "id": "ch-andhra-kodi-kura",
+      "name": "Andhra Chicken Curry",
+      "localName": "Kodi Kura",
+      "cuisine": "Andhra",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 4,
+      "prepMin": 15,
+      "cookMin": 30,
+      "difficulty": "easy",
+      "equipment": [
+        "pressure-cooker"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_curry_cut",
+          "g": 700,
+          "note": "curry cut, skinless"
+        },
+        {
+          "i": "onion",
+          "g": 150,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 120,
+          "note": "chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 12
+        },
+        {
+          "i": "garlic",
+          "g": 12
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 10
+        },
+        {
+          "i": "coriander_powder",
+          "g": 8
+        },
+        {
+          "i": "garam_masala",
+          "g": 4
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 32
+        },
+        {
+          "i": "salt",
+          "g": 6
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate chicken with turmeric, half the chilli powder and salt.",
+          "timerMin": 15
+        },
+        {
+          "text": "Heat oil in the cooker; add curry leaves, green chilli and onion and cook until golden. Add ginger-garlic paste and sauté.",
+          "timerMin": 8
+        },
+        {
+          "text": "Add tomato, the remaining chilli powder and coriander powder; cook until oil separates.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add chicken, sear for 3 minutes, add 250 ml water and pressure cook for 2 whistles. Let pressure release naturally.",
+          "timerMin": 12
+        },
+        {
+          "text": "Stir in garam masala, simmer for 2 minutes and garnish with coriander."
+        }
+      ],
+      "tips": [
+        "Add a squeeze of lemon if your tomatoes are not tangy enough."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Refrigerate up to 3 days or freeze in portions."
+    },
+    {
+      "id": "ch-andhra-liver-fry",
+      "name": "Andhra Chicken Liver Fry",
+      "localName": "Kodi Liver Vepudu",
+      "cuisine": "Andhra",
+      "mealTypes": [
+        "snack",
+        "lunch"
+      ],
+      "protein": "chicken",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_liver",
+          "g": 300,
+          "note": "cleaned, sinew removed, halved"
+        },
+        {
+          "i": "onion",
+          "g": 40,
+          "note": "finely chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "garlic",
+          "g": 6
+        },
+        {
+          "i": "green_chilli",
+          "g": 4,
+          "note": "slit"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "chilli_powder",
+          "g": 5
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 6
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse the liver, drain well and toss with turmeric and salt.",
+          "timerMin": 5
+        },
+        {
+          "text": "Heat oil in a pan; add curry leaves, green chilli and onion and sauté until soft. Add ginger-garlic paste.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add the liver in one layer and sear on medium-high without stirring for 2 minutes, then turn.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add chilli powder, pepper and garam masala; cook, tossing, until just cooked through (no longer pink inside).",
+          "timerMin": 5
+        },
+        {
+          "text": "Garnish with coriander and serve immediately."
+        }
+      ],
+      "tips": [
+        "Do not overcook liver — it turns rubbery. A rich source of iron and B12."
+      ],
+      "batchFriendly": false
+    },
+    {
+      "id": "ch-hyderabadi-dum-ka-murgh",
+      "name": "Hyderabadi Dum Ka Murgh",
+      "localName": "Dum Ka Murgh",
+      "cuisine": "Hyderabadi",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 4,
+      "prepMin": 20,
+      "cookMin": 40,
+      "difficulty": "medium",
+      "equipment": [
+        "pot",
+        "blender"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_curry_cut",
+          "g": 700,
+          "note": "curry cut, skinless"
+        },
+        {
+          "i": "curd",
+          "g": 150,
+          "note": "whisked"
+        },
+        {
+          "i": "onion",
+          "g": 120,
+          "note": "thinly sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 12
+        },
+        {
+          "i": "garlic",
+          "g": 12
+        },
+        {
+          "i": "cashew",
+          "g": 15,
+          "note": "soaked and ground"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "mint_leaves",
+          "g": 10
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        },
+        {
+          "i": "garam_masala",
+          "g": 4
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "whole_spices",
+          "g": 4,
+          "note": "green cardamom, cloves, cinnamon, shahi jeera"
+        },
+        {
+          "i": "ghee",
+          "g": 15
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 20
+        },
+        {
+          "i": "salt",
+          "g": 6
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        }
+      ],
+      "steps": [
+        {
+          "text": "Brown the sliced onion in the oil until crisp-golden; remove half and crush it."
+        },
+        {
+          "text": "Marinate chicken with curd, ginger-garlic paste, cashew paste, crushed onion, spices, mint, coriander, green chilli, lemon and salt.",
+          "timerMin": 60
+        },
+        {
+          "text": "Heat ghee in a heavy pot, add whole spices, then the chicken with all the marinade. Cook uncovered on medium for 8 minutes.",
+          "timerMin": 8
+        },
+        {
+          "text": "Seal the lid with dough or foil and cook on the lowest flame (dum) until tender.",
+          "timerMin": 25
+        },
+        {
+          "text": "Rest 5 minutes, open and garnish with the remaining fried onion and mint."
+        }
+      ],
+      "tips": [
+        "Use a tawa under the pot during dum to avoid scorching."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Marinate overnight; the cooked dish keeps 3 days refrigerated."
+    },
+    {
+      "id": "ch-hyderabadi-pathar-kebab",
+      "name": "Hyderabadi Chicken Pathar Kebab",
+      "localName": "Murgh Pathar Ke Kebab",
+      "cuisine": "Hyderabadi",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_breast",
+          "g": 400,
+          "note": "boneless, flattened into thin 1/4-inch escalopes"
+        },
+        {
+          "i": "papaya",
+          "g": 30,
+          "note": "raw papaya paste (tenderiser)"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 10
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "garam_masala",
+          "g": 3
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "mint_leaves",
+          "g": 8,
+          "note": "finely chopped"
+        },
+        {
+          "i": "ghee",
+          "g": 6,
+          "note": "melted, for brushing"
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pound chicken escalopes thin. Rub with papaya paste, ginger, garlic oil, spices, mint, lemon and salt. Marinate.",
+          "timerMin": 45
+        },
+        {
+          "text": "Preheat the air fryer at 200°C for 3 minutes (in place of the traditional heated granite stone)."
+        },
+        {
+          "text": "Lay escalopes flat in one layer, brush with ghee and air-fry at 200°C for 8 minutes, flipping and brushing again at 4 minutes.",
+          "timerMin": 8
+        },
+        {
+          "text": "Serve with lemon wedges and sliced cucumber."
+        }
+      ],
+      "tips": [
+        "Do not marinate longer than 2 hours with papaya — it will turn mushy.",
+        "Low-FODMAP and keto as written."
+      ],
+      "batchFriendly": false
+    },
+    {
+      "id": "ch-mangalorean-ghee-roast",
+      "name": "Mangalorean Chicken Ghee Roast",
+      "localName": "Kori Ghee Roast",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 20,
+      "cookMin": 30,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai",
+        "blender"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_thigh",
+          "g": 500,
+          "note": "boneless, 1.5-inch pieces"
+        },
+        {
+          "i": "curd",
+          "g": 40
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 12,
+          "note": "8–10 Byadgi chillies, deseeded"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6,
+          "note": "or whole seeds, roasted"
+        },
+        {
+          "i": "cumin",
+          "g": 3
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "fenugreek_seeds",
+          "g": 1
+        },
+        {
+          "i": "garlic",
+          "g": 15
+        },
+        {
+          "i": "tamarind",
+          "g": 6,
+          "note": "small ball, soaked"
+        },
+        {
+          "i": "jaggery",
+          "g": 3
+        },
+        {
+          "i": "ghee",
+          "g": 30
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate chicken with curd, turmeric, lemon juice and half the salt.",
+          "timerMin": 30
+        },
+        {
+          "text": "Dry-roast red chillies, coriander, cumin, pepper and fenugreek on low heat. Grind with garlic, tamarind and a splash of water to a smooth red paste."
+        },
+        {
+          "text": "Heat 1 tbsp ghee in a kadai and sear the chicken until lightly browned; remove.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add the remaining ghee and the ground paste; roast on low, stirring, until the raw smell goes and ghee separates.",
+          "timerMin": 8
+        },
+        {
+          "text": "Return the chicken with jaggery and remaining salt; cook covered on low until done, then uncover and roast until the masala is thick and glossy.",
+          "timerMin": 12
+        },
+        {
+          "text": "Finish with curry leaves fried in a little ghee."
+        }
+      ],
+      "tips": [
+        "Byadgi chillies give deep colour with moderate heat."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "The ghee-roast masala paste keeps 1 week refrigerated."
+    },
+    {
+      "id": "ch-bangalore-chicken-kabab",
+      "name": "Bangalore Military-Style Chicken Kabab",
+      "localName": "Koli Kabab",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "snack",
+        "lunch"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 16,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "pan"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_breast",
+          "g": 450,
+          "note": "boneless, 1-inch strips"
+        },
+        {
+          "i": "curd",
+          "g": 45
+        },
+        {
+          "i": "cornflour",
+          "g": 15
+        },
+        {
+          "i": "rice_flour",
+          "g": 10
+        },
+        {
+          "i": "ginger",
+          "g": 8
+        },
+        {
+          "i": "garlic",
+          "g": 8
+        },
+        {
+          "i": "chilli_powder",
+          "g": 8
+        },
+        {
+          "i": "garam_masala",
+          "g": 3
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix chicken with curd, ginger-garlic paste, chilli powder, garam masala, turmeric, lemon and salt. Marinate.",
+          "timerMin": 30
+        },
+        {
+          "text": "Add cornflour and rice flour and mix until the marinade clings thickly."
+        },
+        {
+          "text": "Brush the basket with oil and air-fry at 200°C for 14 minutes, flipping and brushing with oil at 7 minutes.",
+          "timerMin": 14
+        },
+        {
+          "text": "Temper curry leaves and green chillies in the remaining oil and toss with the kababs.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Skip red food colour — Kashmiri chilli powder gives a good red."
+      ],
+      "makeAhead": "Marinate up to 24 hours ahead."
+    },
+    {
+      "id": "ch-goan-cafreal",
+      "name": "Goan Chicken Cafreal",
+      "localName": "Galinha Cafreal",
+      "cuisine": "Goan",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 18,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "blender"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_thigh",
+          "g": 500,
+          "note": "boneless thigh, slashed"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 50,
+          "note": "with tender stems"
+        },
+        {
+          "i": "mint_leaves",
+          "g": 10
+        },
+        {
+          "i": "green_chilli",
+          "g": 10
+        },
+        {
+          "i": "ginger",
+          "g": 12
+        },
+        {
+          "i": "garlic_oil",
+          "g": 12
+        },
+        {
+          "i": "whole_spices",
+          "g": 3,
+          "note": "cloves, cinnamon"
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "vinegar",
+          "g": 20,
+          "note": "coconut toddy vinegar if available"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "coconut_oil",
+          "g": 6
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grind coriander, mint, green chilli, ginger, whole spices, pepper, cumin, turmeric, vinegar and salt to a smooth green paste."
+        },
+        {
+          "text": "Rub the paste and garlic oil into the slashed chicken. Marinate.",
+          "timerMin": 60
+        },
+        {
+          "text": "Brush with coconut oil and air-fry at 190°C for 16 minutes, flipping at 8 minutes, until charred at the edges.",
+          "timerMin": 16
+        },
+        {
+          "text": "Squeeze over lemon and serve with a green salad."
+        }
+      ],
+      "tips": [
+        "Low-FODMAP and keto. Marinate overnight for the best flavour."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Cafreal paste freezes well in ice-cube trays for 1 month."
+    },
+    {
+      "id": "ch-goan-xacuti",
+      "name": "Goan Chicken Xacuti",
+      "localName": "Xacuti de Galinha",
+      "cuisine": "Goan",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 4,
+      "prepMin": 25,
+      "cookMin": 35,
+      "difficulty": "hard",
+      "equipment": [
+        "pot",
+        "blender"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "chicken_curry_cut",
+          "g": 700,
+          "note": "curry cut, skinless"
+        },
+        {
+          "i": "coconut",
+          "g": 60,
+          "note": "grated, dry-roasted till brown"
+        },
+        {
+          "i": "onion",
+          "g": 120,
+          "note": "sliced"
+        },
+        {
+          "i": "tomato",
+          "g": 80,
+          "note": "chopped"
+        },
+        {
+          "i": "garlic",
+          "g": 12
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 8,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "whole_spices",
+          "g": 4,
+          "note": "star anise, cloves, cinnamon, nutmeg"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 8,
+          "note": "or whole seeds"
+        },
+        {
+          "i": "cumin",
+          "g": 3
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "tamarind",
+          "g": 6
+        },
+        {
+          "i": "coconut_oil",
+          "g": 30
+        },
+        {
+          "i": "salt",
+          "g": 6
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate chicken with turmeric, salt and ginger-garlic paste.",
+          "timerMin": 20
+        },
+        {
+          "text": "Dry-roast red chillies and whole spices until fragrant; roast coconut separately until deep brown. Grind together with tamarind and water into a smooth paste."
+        },
+        {
+          "text": "Heat coconut oil in a pot and fry onion until golden; add tomato and cook down.",
+          "timerMin": 10
+        },
+        {
+          "text": "Add chicken and sear for 4 minutes, then add the xacuti paste and 300 ml water.",
+          "timerMin": 5
+        },
+        {
+          "text": "Cover and simmer until the chicken is tender and the gravy thick.",
+          "timerMin": 25
+        }
+      ],
+      "tips": [
+        "Roasting the coconut properly is the secret to xacuti — go slow."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Keeps 3 days refrigerated; freezes for a month."
+    },
+    {
+      "id": "ch-bengali-murgir-kosha",
+      "name": "Bengali Kosha Chicken",
+      "localName": "Murgir Kosha",
+      "cuisine": "Bengali",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 4,
+      "prepMin": 15,
+      "cookMin": 45,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_curry_cut",
+          "g": 700,
+          "note": "curry cut, skinless"
+        },
+        {
+          "i": "curd",
+          "g": 100,
+          "note": "whisked"
+        },
+        {
+          "i": "onion",
+          "g": 150,
+          "note": "half sliced, half grated"
+        },
+        {
+          "i": "ginger",
+          "g": 15
+        },
+        {
+          "i": "garlic",
+          "g": 15
+        },
+        {
+          "i": "tomato",
+          "g": 60,
+          "note": "chopped"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "cumin",
+          "g": 3,
+          "note": "powder"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6
+        },
+        {
+          "i": "garam_masala",
+          "g": 4,
+          "note": "Bengali garam masala"
+        },
+        {
+          "i": "whole_spices",
+          "g": 4,
+          "note": "bay leaf, cardamom, cloves, cinnamon"
+        },
+        {
+          "i": "jaggery",
+          "g": 4
+        },
+        {
+          "i": "mustard_oil",
+          "g": 36
+        },
+        {
+          "i": "salt",
+          "g": 6
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate chicken with curd, turmeric, chilli powder, ginger-garlic paste and salt.",
+          "timerMin": 60
+        },
+        {
+          "text": "Heat mustard oil to smoking, then lower heat; add whole spices and jaggery and let it caramelise lightly."
+        },
+        {
+          "text": "Add sliced onion and fry until golden-brown; add grated onion and tomato and cook down.",
+          "timerMin": 12
+        },
+        {
+          "text": "Add the chicken with its marinade; \"kosha\" (slow-roast) on medium-low, stirring often, until the masala turns dark and oil surfaces.",
+          "timerMin": 25
+        },
+        {
+          "text": "Add cumin, coriander, green chilli and a splash of water; cover and cook until tender. Finish with garam masala.",
+          "timerMin": 8
+        }
+      ],
+      "tips": [
+        "Heating mustard oil to smoking removes its raw pungency."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Refrigerate up to 3 days; flavours deepen overnight."
+    },
+    {
+      "id": "ch-bengali-lau-murgir-jhol",
+      "name": "Bengali Light Chicken Curry with Bottle Gourd",
+      "localName": "Lau Diye Murgir Jhol",
+      "cuisine": "Bengali",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 30,
+      "difficulty": "easy",
+      "equipment": [
+        "pressure-cooker"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_curry_cut",
+          "g": 500,
+          "note": "curry cut, skinless"
+        },
+        {
+          "i": "bottle_gourd",
+          "g": 250,
+          "note": "peeled, 1-inch cubes"
+        },
+        {
+          "i": "onion",
+          "g": 60,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 80,
+          "note": "chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 12
+        },
+        {
+          "i": "garlic",
+          "g": 8
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "cumin",
+          "g": 3,
+          "note": "powder"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4
+        },
+        {
+          "i": "coriander_powder",
+          "g": 4
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        },
+        {
+          "i": "whole_spices",
+          "g": 2,
+          "note": "bay leaf, cardamom"
+        },
+        {
+          "i": "mustard_oil",
+          "g": 18
+        },
+        {
+          "i": "salt",
+          "g": 4.5
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rub chicken with turmeric and salt.",
+          "timerMin": 10
+        },
+        {
+          "text": "Heat mustard oil in the cooker until smoking; lower heat, add bay leaf and cardamom, then onion and cook until light brown.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add ginger-garlic paste, tomato and the powdered spices with a splash of water; cook until oil separates.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add chicken and sear for 4 minutes, then the bottle gourd, green chilli and 400 ml water. Pressure cook for 2 whistles; release naturally.",
+          "timerMin": 12
+        },
+        {
+          "text": "Adjust salt, garnish with coriander. The jhol should be thin and soupy."
+        }
+      ],
+      "tips": [
+        "Light and gut-friendly; bottle gourd adds volume with very few calories."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Keeps 2 days refrigerated."
+    },
+    {
+      "id": "ch-tandoori-chicken-air-fryer",
+      "name": "Air-Fryer Tandoori Chicken",
+      "localName": "Tandoori Murgh",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 4,
+      "prepMin": 20,
+      "cookMin": 25,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_curry_cut",
+          "g": 800,
+          "note": "leg and thigh pieces, skinless, deep slashes"
+        },
+        {
+          "i": "curd",
+          "g": 120,
+          "note": "hung curd"
+        },
+        {
+          "i": "ginger",
+          "g": 15,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 15,
+          "note": "paste"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 10,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "garam_masala",
+          "g": 4
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 2,
+          "note": "crushed"
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "roasted powder"
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "lemon_juice",
+          "g": 20
+        },
+        {
+          "i": "mustard_oil",
+          "g": 20
+        },
+        {
+          "i": "salt",
+          "g": 6
+        }
+      ],
+      "steps": [
+        {
+          "text": "First marinade: rub chicken with lemon juice, salt and chilli powder, pushing into the slashes.",
+          "timerMin": 20
+        },
+        {
+          "text": "Second marinade: mix hung curd, ginger-garlic paste, garam masala, cumin, kasuri methi, turmeric and 15 g mustard oil; coat the chicken and refrigerate (overnight is best).",
+          "timerMin": 120
+        },
+        {
+          "text": "Air-fry at 200°C for 22 minutes, flipping at 11 minutes and basting with the remaining mustard oil.",
+          "timerMin": 22
+        },
+        {
+          "text": "For char, air-fry 3 more minutes at 200°C, then rest 3 minutes before serving with onion rings and lemon.",
+          "timerMin": 3
+        }
+      ],
+      "tips": [
+        "Thick hung curd keeps the marinade from dripping off and burning."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Marinate up to 24 hours; cooked chicken keeps 3 days and is great shredded into salads."
+    },
+    {
+      "id": "ch-amritsari-chicken-tikka",
+      "name": "Air-Fryer Chicken Tikka with Peppers",
+      "localName": "Murgh Tikka",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 20,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_breast",
+          "g": 500,
+          "note": "boneless, 1.5-inch cubes"
+        },
+        {
+          "i": "curd",
+          "g": 100,
+          "note": "hung curd"
+        },
+        {
+          "i": "capsicum",
+          "g": 100,
+          "note": "1-inch squares"
+        },
+        {
+          "i": "onion",
+          "g": 60,
+          "note": "separated into petals"
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "garlic",
+          "g": 10
+        },
+        {
+          "i": "besan",
+          "g": 10,
+          "note": "roasted"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 8,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "garam_masala",
+          "g": 3
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 2
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "mustard_oil",
+          "g": 15
+        },
+        {
+          "i": "salt",
+          "g": 4.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk hung curd with roasted besan, ginger-garlic paste, spices, kasuri methi, lemon, salt and 10 g mustard oil. Add chicken, capsicum and onion; marinate.",
+          "timerMin": 60
+        },
+        {
+          "text": "Thread alternately on short skewers that fit your basket (or lay directly in the basket)."
+        },
+        {
+          "text": "Air-fry at 200°C for 12 minutes, turning and brushing with the remaining oil at 6 minutes.",
+          "timerMin": 12
+        },
+        {
+          "text": "Air-fry 2–3 more minutes for charred edges; sprinkle chaat-style with lemon and cumin.",
+          "timerMin": 3
+        }
+      ],
+      "tips": [
+        "Roasting the besan removes its raw taste and helps the marinade cling."
+      ],
+      "makeAhead": "Marinate overnight for meal-prep; cook fresh."
+    },
+    {
+      "id": "ch-saag-murgh",
+      "name": "Punjabi Spinach Chicken",
+      "localName": "Saag Wala Murgh",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 30,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai",
+        "blender"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_thigh",
+          "g": 450,
+          "note": "boneless, 1.5-inch pieces"
+        },
+        {
+          "i": "spinach",
+          "g": 300,
+          "note": "blanched and pureed"
+        },
+        {
+          "i": "onion",
+          "g": 80,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 80,
+          "note": "pureed"
+        },
+        {
+          "i": "ginger",
+          "g": 12
+        },
+        {
+          "i": "garlic",
+          "g": 12
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "cumin",
+          "g": 3
+        },
+        {
+          "i": "garam_masala",
+          "g": 3
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 3
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "ghee",
+          "g": 8
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 16
+        },
+        {
+          "i": "salt",
+          "g": 4.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Blanch spinach with green chilli for 2 minutes, plunge in cold water, then blend to a coarse puree.",
+          "timerMin": 3
+        },
+        {
+          "text": "Heat oil in a kadai, crackle cumin, add onion and cook until golden; add ginger-garlic and sauté.",
+          "timerMin": 7
+        },
+        {
+          "text": "Add tomato puree, turmeric, chilli powder and salt; cook until oil separates. Add chicken and cook on medium for 8 minutes.",
+          "timerMin": 12
+        },
+        {
+          "text": "Stir in the spinach puree and a splash of water; simmer covered until the chicken is tender.",
+          "timerMin": 10
+        },
+        {
+          "text": "Finish with garam masala, crushed kasuri methi and the ghee."
+        }
+      ],
+      "tips": [
+        "Blanch briefly and cool fast to keep the saag bright green.",
+        "Keto-friendly and high in iron and folate."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Keeps 3 days refrigerated; freezes well."
+    },
+    {
+      "id": "ch-murgh-besan-cheela",
+      "name": "Chicken Besan Cheela",
+      "localName": "Murgh Cheela",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "breakfast"
+      ],
+      "protein": "chicken",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "tawa"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "besan",
+          "g": 70
+        },
+        {
+          "i": "chicken_breast",
+          "g": 200,
+          "note": "boiled and finely shredded"
+        },
+        {
+          "i": "egg_white",
+          "g": 60,
+          "note": "2 egg whites"
+        },
+        {
+          "i": "onion",
+          "g": 40,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 40,
+          "note": "finely chopped"
+        },
+        {
+          "i": "spinach",
+          "g": 40,
+          "note": "finely chopped"
+        },
+        {
+          "i": "green_chilli",
+          "g": 4,
+          "note": "chopped"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk besan, egg whites, spices, salt and about 120 ml water into a smooth pourable batter; rest.",
+          "timerMin": 10
+        },
+        {
+          "text": "Fold in the shredded chicken, onion, tomato, spinach, green chilli and coriander."
+        },
+        {
+          "text": "Heat a tawa, smear a little oil, pour a ladle of batter and spread to a thick pancake. Cook covered on medium until the base is golden.",
+          "timerMin": 3
+        },
+        {
+          "text": "Drizzle oil around the edges, flip and cook the other side. Repeat to make 4 cheelas.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Use leftover tandoori chicken for extra flavour."
+      ],
+      "makeAhead": "Boil and shred the chicken the night before."
+    },
+    {
+      "id": "ch-murgh-seekh-kebab",
+      "name": "Air-Fryer Chicken Seekh Kebab",
+      "localName": "Murgh Seekh Kebab",
+      "cuisine": "Mughlai",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 20,
+      "cookMin": 14,
+      "difficulty": "medium",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_mince",
+          "g": 500,
+          "note": "lean mince, minced twice"
+        },
+        {
+          "i": "onion",
+          "g": 50,
+          "note": "very finely chopped, squeezed dry"
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "green_chilli",
+          "g": 8,
+          "note": "finely chopped"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 15,
+          "note": "finely chopped"
+        },
+        {
+          "i": "mint_leaves",
+          "g": 8,
+          "note": "finely chopped"
+        },
+        {
+          "i": "garam_masala",
+          "g": 4
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "roasted powder"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 2
+        },
+        {
+          "i": "ghee",
+          "g": 10,
+          "note": "melted, for brushing"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 4.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Combine all ingredients except ghee and knead for 3–4 minutes until sticky. Chill to firm up.",
+          "timerMin": 30
+        },
+        {
+          "text": "With wet hands, shape into 9 long kebabs around skewers (or as flat logs without skewers)."
+        },
+        {
+          "text": "Brush with ghee and air-fry at 200°C for 12 minutes, turning and brushing again at 6 minutes.",
+          "timerMin": 12
+        },
+        {
+          "text": "Rest 2 minutes; serve with mint chutney and onion rings."
+        }
+      ],
+      "tips": [
+        "Squeezing water from the onion stops the kebabs from falling apart."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Shape and freeze raw kebabs on a tray; air-fry from frozen at 190°C for 16 minutes."
+    },
+    {
+      "id": "ch-murgh-malai-tikka",
+      "name": "Air-Fryer Murgh Malai Tikka",
+      "localName": "Murgh Malai Tikka",
+      "cuisine": "Mughlai",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "blender"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "chicken_breast",
+          "g": 500,
+          "note": "boneless, 1.5-inch cubes"
+        },
+        {
+          "i": "curd",
+          "g": 80,
+          "note": "hung curd"
+        },
+        {
+          "i": "cheese",
+          "g": 30,
+          "note": "processed cheese, grated"
+        },
+        {
+          "i": "cashew",
+          "g": 15,
+          "note": "soaked and ground"
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "paste"
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "whole_spices",
+          "g": 2,
+          "note": "green cardamom and nutmeg, powdered"
+        },
+        {
+          "i": "butter",
+          "g": 10,
+          "note": "melted, for basting"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 4.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rub chicken with ginger-garlic paste, lemon and salt; rest.",
+          "timerMin": 15
+        },
+        {
+          "text": "Blend hung curd, cheese, cashew paste, green chilli, pepper, cardamom and nutmeg until creamy. Coat the chicken and marinate.",
+          "timerMin": 60
+        },
+        {
+          "text": "Air-fry at 200°C for 12 minutes, flipping and basting with butter at 6 minutes.",
+          "timerMin": 12
+        },
+        {
+          "text": "Air-fry 2 more minutes for light golden spots; do not over-char — malai tikka should stay pale.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Use breast and pull it out the moment it is done to keep it juicy."
+      ],
+      "makeAhead": "Marinate overnight in the fridge."
+    },
+    {
+      "id": "ch-chilli-chicken-air-fryer",
+      "name": "Air-Fryer Chilli Chicken (Dry)",
+      "localName": "Kolkata Chilli Chicken",
+      "cuisine": "Indo-Chinese",
+      "mealTypes": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "protein": "chicken",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 20,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "chicken_breast",
+          "g": 450,
+          "note": "boneless, 1-inch cubes"
+        },
+        {
+          "i": "cornflour",
+          "g": 20
+        },
+        {
+          "i": "egg_white",
+          "g": 30,
+          "note": "1 egg white"
+        },
+        {
+          "i": "soy_sauce",
+          "g": 20
+        },
+        {
+          "i": "vinegar",
+          "g": 10
+        },
+        {
+          "i": "chilli_sauce",
+          "g": 15
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "finely chopped"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 15
+        },
+        {
+          "i": "capsicum",
+          "g": 120,
+          "note": "1-inch squares"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 40,
+          "note": "1-inch lengths"
+        },
+        {
+          "i": "green_chilli",
+          "g": 8,
+          "note": "slit"
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix chicken with egg white, 10 g soy sauce, pepper, salt and cornflour. Rest.",
+          "timerMin": 15
+        },
+        {
+          "text": "Spray or brush with 5 g garlic oil and air-fry at 200°C for 12 minutes, shaking/flipping at 6 minutes.",
+          "timerMin": 12
+        },
+        {
+          "text": "Heat remaining garlic oil in a kadai on high; stir-fry ginger and green chilli for 30 seconds, then capsicum for 2 minutes so it stays crunchy.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add remaining soy sauce, vinegar and chilli sauce, then the air-fried chicken; toss on high for 1 minute.",
+          "timerMin": 1
+        },
+        {
+          "text": "Toss in spring onion greens and serve immediately."
+        }
+      ],
+      "tips": [
+        "Low-FODMAP as written (garlic oil + spring onion greens). Keep the heat high for that wok flavour."
+      ],
+      "batchFriendly": false
+    },
+    {
+      "id": "ch-chinese-chicken-cabbage-salad",
+      "name": "Indo-Chinese Chicken Cabbage Salad",
+      "localName": "Tangra-Style Chicken Salad",
+      "cuisine": "Indo-Chinese",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 2,
+      "prepMin": 20,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "pot"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "chicken_breast",
+          "g": 300,
+          "note": "boneless, poached and shredded"
+        },
+        {
+          "i": "cabbage",
+          "g": 150,
+          "note": "finely shredded"
+        },
+        {
+          "i": "carrot",
+          "g": 80,
+          "note": "julienned"
+        },
+        {
+          "i": "capsicum",
+          "g": 80,
+          "note": "thin strips"
+        },
+        {
+          "i": "bean_sprouts",
+          "g": 50
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 30,
+          "note": "sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 8,
+          "note": "grated"
+        },
+        {
+          "i": "soy_sauce",
+          "g": 15
+        },
+        {
+          "i": "vinegar",
+          "g": 10
+        },
+        {
+          "i": "chilli_sauce",
+          "g": 10
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "sesame_oil",
+          "g": 10
+        },
+        {
+          "i": "sesame_seeds",
+          "g": 6,
+          "note": "toasted"
+        },
+        {
+          "i": "salt",
+          "g": 1.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Poach chicken in salted simmering water with a slice of ginger until cooked through; rest and shred.",
+          "timerMin": 15
+        },
+        {
+          "text": "Whisk soy sauce, vinegar, chilli sauce, lemon juice, sesame oil and grated ginger into a dressing."
+        },
+        {
+          "text": "Toss cabbage, carrot, capsicum, bean sprouts and spring onion greens with the shredded chicken."
+        },
+        {
+          "text": "Pour over the dressing, toss well and top with toasted sesame seeds."
+        }
+      ],
+      "tips": [
+        "Low-FODMAP; keep cabbage portion to around 75 g per serving for sensitive guts."
+      ],
+      "makeAhead": "Poach chicken and cut vegetables up to 2 days ahead; dress just before eating."
+    },
+    {
+      "id": "ch-chicken-poha",
+      "name": "Chicken Poha",
+      "localName": "Murgh Poha",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "breakfast"
+      ],
+      "protein": "chicken",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "poha",
+          "g": 80,
+          "note": "thick poha, rinsed and drained"
+        },
+        {
+          "i": "chicken_breast",
+          "g": 200,
+          "note": "boiled and shredded"
+        },
+        {
+          "i": "onion",
+          "g": 40,
+          "note": "finely chopped"
+        },
+        {
+          "i": "capsicum",
+          "g": 40,
+          "note": "diced"
+        },
+        {
+          "i": "tomato",
+          "g": 40,
+          "note": "diced"
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 3
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "green_chilli",
+          "g": 4,
+          "note": "chopped"
+        },
+        {
+          "i": "peanuts",
+          "g": 10
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse poha in a sieve, drain and leave to soften with a pinch of salt and turmeric.",
+          "timerMin": 5
+        },
+        {
+          "text": "Heat oil; roast peanuts, then crackle mustard seeds and curry leaves. Add onion and green chilli and sauté until soft.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add capsicum, tomato and the shredded chicken; cook for 3 minutes.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add the poha and remaining salt, toss gently, cover and steam on low.",
+          "timerMin": 3
+        },
+        {
+          "text": "Finish with lemon juice and coriander."
+        }
+      ],
+      "tips": [
+        "Use leftover tandoori or stew chicken for a 10-minute breakfast."
+      ]
+    },
+    {
+      "id": "ch-chicken-keema-omelette",
+      "name": "Chicken Keema Omelette",
+      "localName": "Murgh Keema Anda",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "breakfast"
+      ],
+      "protein": "chicken",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 200,
+          "note": "4 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 60,
+          "note": "2 egg whites"
+        },
+        {
+          "i": "chicken_mince",
+          "g": 150,
+          "note": "lean mince"
+        },
+        {
+          "i": "onion",
+          "g": 30,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 40,
+          "note": "finely chopped"
+        },
+        {
+          "i": "spinach",
+          "g": 30,
+          "note": "chopped"
+        },
+        {
+          "i": "green_chilli",
+          "g": 4,
+          "note": "chopped"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 6
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "garam_masala",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat half the oil, sauté onion and green chilli, add the mince with turmeric, garam masala and a pinch of salt; cook until dry and crumbly.",
+          "timerMin": 6
+        },
+        {
+          "text": "Stir in tomato and spinach for a minute until wilted; remove the filling."
+        },
+        {
+          "text": "Beat eggs and whites with pepper and salt. Heat the remaining oil, pour in half the egg and cook on medium until almost set.",
+          "timerMin": 2
+        },
+        {
+          "text": "Spoon half the keema over one side, fold and cook 1 more minute. Repeat for the second omelette.",
+          "timerMin": 1
+        }
+      ],
+      "tips": [
+        "Keto-friendly: about 3 g net carbs per serving."
+      ],
+      "makeAhead": "Cook the keema filling in bulk; it keeps 3 days refrigerated."
+    },
+    {
+      "id": "ch-air-fryer-chicken-kachumber-salad",
+      "name": "Air-Fryer Chicken Kachumber Salad",
+      "localName": "Murgh Kachumber",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "chicken",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 14,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "chicken_breast",
+          "g": 350,
+          "note": "boneless, butterflied"
+        },
+        {
+          "i": "lf_curd",
+          "g": 30
+        },
+        {
+          "i": "garlic_oil",
+          "g": 8
+        },
+        {
+          "i": "olive_oil",
+          "g": 6
+        },
+        {
+          "i": "chilli_powder",
+          "g": 3
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "roasted powder"
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "lemon_juice",
+          "g": 20
+        },
+        {
+          "i": "cucumber",
+          "g": 150,
+          "note": "diced"
+        },
+        {
+          "i": "tomato",
+          "g": 120,
+          "note": "diced"
+        },
+        {
+          "i": "lettuce",
+          "g": 80,
+          "note": "torn"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 20,
+          "note": "sliced"
+        },
+        {
+          "i": "mint_leaves",
+          "g": 6
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "pumpkin_seeds",
+          "g": 10,
+          "note": "toasted"
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Coat chicken with lactose-free curd, garlic oil, chilli powder, half the cumin, pepper and half the salt. Marinate.",
+          "timerMin": 20
+        },
+        {
+          "text": "Air-fry at 190°C for 14 minutes, flipping at 7 minutes; rest 5 minutes and slice.",
+          "timerMin": 14
+        },
+        {
+          "text": "Toss cucumber, tomato, lettuce, spring onion greens, mint and coriander with lemon juice, olive oil, remaining cumin and salt."
+        },
+        {
+          "text": "Top with sliced chicken and pumpkin seeds."
+        }
+      ],
+      "tips": [
+        "Low-FODMAP and keto. Pack the dressing separately for office lunches."
+      ],
+      "makeAhead": "Air-fry chicken for 3 days at once; assemble salads fresh."
+    },
+    {
+      "id": "ch-air-fryer-chicken-egg-muffins",
+      "name": "Air-Fryer Chicken Egg Muffins",
+      "localName": "Murgh Anda Bites",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "protein": "chicken",
+      "servings": 4,
+      "prepMin": 10,
+      "cookMin": 14,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 250,
+          "note": "5 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 100,
+          "note": "3 egg whites"
+        },
+        {
+          "i": "chicken_breast",
+          "g": 200,
+          "note": "cooked and finely chopped"
+        },
+        {
+          "i": "spinach",
+          "g": 40,
+          "note": "finely chopped"
+        },
+        {
+          "i": "capsicum",
+          "g": 40,
+          "note": "finely diced"
+        },
+        {
+          "i": "tomato",
+          "g": 40,
+          "note": "deseeded, diced"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 15,
+          "note": "chopped"
+        },
+        {
+          "i": "cheese",
+          "g": 20,
+          "note": "grated"
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 1
+        },
+        {
+          "i": "olive_oil",
+          "g": 4,
+          "note": "for greasing"
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk eggs and whites with turmeric, pepper, chilli powder and salt."
+        },
+        {
+          "text": "Grease 12 silicone muffin cups and divide the chicken and vegetables among them; pour over the egg and top with cheese."
+        },
+        {
+          "text": "Air-fry at 160°C for 12–14 minutes until puffed and set in the centre (no flipping needed).",
+          "timerMin": 13
+        },
+        {
+          "text": "Cool 2 minutes before unmoulding. 3 muffins per serving."
+        }
+      ],
+      "tips": [
+        "Low-FODMAP and keto. Lower temperature keeps them from browning before the centre sets."
+      ],
+      "batchFriendly": true,
+      "makeAhead": "Refrigerate up to 4 days; reheat at 160°C for 3 minutes."
+    }
+  ]
+}

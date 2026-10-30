@@ -1,0 +1,3367 @@
+{
+  "recipes": [
+    {
+      "id": "mt-chettinad-mutton-kuzhambu",
+      "name": "Chettinad Mutton Kuzhambu",
+      "localName": "Chettinad Kari Kuzhambu",
+      "cuisine": "Chettinad",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 4,
+      "prepMin": 20,
+      "cookMin": 45,
+      "difficulty": "medium",
+      "equipment": [
+        "pressure-cooker",
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "mutton_curry_cut",
+          "g": 600,
+          "note": "curry cut, bone-in, visible fat trimmed"
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 40
+        },
+        {
+          "i": "whole_spices",
+          "g": 3,
+          "note": "cinnamon, clove, star anise, kalpasi"
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 5
+        },
+        {
+          "i": "black_pepper",
+          "g": 5
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 4,
+          "note": "3–4 chillies"
+        },
+        {
+          "i": "coconut",
+          "g": 30,
+          "note": "fresh grated"
+        },
+        {
+          "i": "onion",
+          "g": 150,
+          "note": "finely sliced (or shallots)"
+        },
+        {
+          "i": "ginger",
+          "g": 15
+        },
+        {
+          "i": "garlic",
+          "g": 15
+        },
+        {
+          "i": "tomato",
+          "g": 200,
+          "note": "chopped"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6
+        },
+        {
+          "i": "coriander_powder",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 6
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dry-roast fennel, pepper, dry red chillies and coconut on low heat until fragrant, cool and grind to a smooth paste with a little water.",
+          "timerMin": 5
+        },
+        {
+          "text": "Heat oil in the pressure cooker, add whole spices and curry leaves, then sauté onion until golden with ginger and garlic."
+        },
+        {
+          "text": "Add tomato, turmeric, chilli and coriander powder and cook until the oil separates.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add mutton and salt, sear on high until the pieces turn opaque and coat in masala.",
+          "timerMin": 6
+        },
+        {
+          "text": "Stir in the ground Chettinad paste with 300 ml water, close and pressure cook for 5–6 whistles on medium.",
+          "timerMin": 25
+        },
+        {
+          "text": "Release pressure, simmer open until the kuzhambu thickens to a pouring consistency, finish with coriander leaves.",
+          "timerMin": 5
+        }
+      ],
+      "tips": [
+        "Ask the butcher for leg or shoulder pieces and skim off fat that rises after pressure cooking to cut ~40 kcal per serving."
+      ],
+      "makeAhead": "Tastes better the next day; refrigerate up to 3 days or freeze 1 month.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-kosha-mangsho",
+      "name": "Bengali Slow-Cooked Mutton",
+      "localName": "Kosha Mangsho",
+      "cuisine": "Bengali",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 4,
+      "prepMin": 15,
+      "cookMin": 75,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai",
+        "pressure-cooker"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mutton_curry_cut",
+          "g": 600,
+          "note": "curry cut, bone-in, from the shoulder"
+        },
+        {
+          "i": "curd",
+          "g": 100,
+          "note": "thick, whisked"
+        },
+        {
+          "i": "mustard_oil",
+          "g": 40
+        },
+        {
+          "i": "onion",
+          "g": 200,
+          "note": "thinly sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 20,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 20,
+          "note": "paste"
+        },
+        {
+          "i": "tomato",
+          "g": 100,
+          "note": "pureed"
+        },
+        {
+          "i": "whole_spices",
+          "g": 4,
+          "note": "bay leaf, cinnamon, cardamom, clove"
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6,
+          "note": "Kashmiri for colour"
+        },
+        {
+          "i": "cumin",
+          "g": 4,
+          "note": "roasted, ground"
+        },
+        {
+          "i": "garam_masala",
+          "g": 3
+        },
+        {
+          "i": "salt",
+          "g": 6
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate mutton with curd, ginger-garlic paste, turmeric, chilli and salt.",
+          "timerMin": 60
+        },
+        {
+          "text": "Heat mustard oil to smoking, cool slightly, temper the whole spices and fry onions until deep brown."
+        },
+        {
+          "text": "Add the marinated mutton and bhuna (kosha) on medium, stirring often, until the masala darkens and oil separates.",
+          "timerMin": 25
+        },
+        {
+          "text": "Add tomato and cumin, cook 5 minutes, then add 200 ml hot water and pressure cook for 4 whistles.",
+          "timerMin": 20
+        },
+        {
+          "text": "Open and reduce on high until the gravy is thick and clinging, sprinkle garam masala and rest covered.",
+          "timerMin": 8
+        }
+      ],
+      "tips": [
+        "The deep brown colour comes from patient bhuna, not extra oil — add a splash of water instead of oil if it sticks."
+      ],
+      "makeAhead": "Marinate overnight in the fridge; cooked curry keeps 3 days.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-hyderabadi-seekh-kebab",
+      "name": "Air-Fryer Mutton Seekh Kebab",
+      "localName": "Gosht Seekh Kebab",
+      "cuisine": "Hyderabadi",
+      "mealTypes": [
+        "dinner",
+        "snack"
+      ],
+      "protein": "mutton",
+      "servings": 3,
+      "prepMin": 25,
+      "cookMin": 14,
+      "difficulty": "medium",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mutton_mince",
+          "g": 450,
+          "note": "keema, lean, double-minced"
+        },
+        {
+          "i": "onion",
+          "g": 60,
+          "note": "very finely chopped, squeezed dry"
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "grated"
+        },
+        {
+          "i": "garlic",
+          "g": 10,
+          "note": "grated"
+        },
+        {
+          "i": "green_chilli",
+          "g": 8,
+          "note": "minced"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 15
+        },
+        {
+          "i": "mint_leaves",
+          "g": 10
+        },
+        {
+          "i": "garam_masala",
+          "g": 4
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4
+        },
+        {
+          "i": "cumin",
+          "g": 3,
+          "note": "roasted, ground"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "ghee",
+          "g": 12,
+          "note": "for brushing"
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Combine mince with onion, ginger, garlic, chilli, herbs, spices, lemon and salt; knead 3–4 minutes until sticky."
+        },
+        {
+          "text": "Chill the mixture so it holds on skewers.",
+          "timerMin": 20
+        },
+        {
+          "text": "Shape into 9 long kebabs around wet bamboo skewers (trimmed to fit the basket) and brush lightly with ghee."
+        },
+        {
+          "text": "Preheat the air fryer to 200°C and cook kebabs in one layer for 7 minutes.",
+          "timerMin": 7
+        },
+        {
+          "text": "Flip, brush with remaining ghee and air-fry at 200°C for 6–7 minutes until charred at the edges.",
+          "timerMin": 7
+        }
+      ],
+      "tips": [
+        "Squeeze onion juice out well, or the kebabs will slip off the skewers.",
+        "Serve with cucumber-mint raita and sliced cucumber for volume."
+      ],
+      "makeAhead": "Shape and freeze raw kebabs on a tray; air-fry from frozen at 190°C for 16 minutes.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-mughlai-shami-kebab",
+      "name": "Air-Fryer Shami Kebab",
+      "localName": "Shami Kebab",
+      "cuisine": "Mughlai",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 4,
+      "prepMin": 30,
+      "cookMin": 35,
+      "difficulty": "medium",
+      "equipment": [
+        "pressure-cooker",
+        "blender",
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mutton_mince",
+          "g": 400,
+          "note": "keema, lean"
+        },
+        {
+          "i": "moong_dal",
+          "g": 40,
+          "note": "soaked 1 hour (stands in for chana dal)"
+        },
+        {
+          "i": "onion",
+          "g": 50,
+          "note": "sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "garlic",
+          "g": 10
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "whole_spices",
+          "g": 4,
+          "note": "cardamom, clove, cinnamon, bay, peppercorns"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 2
+        },
+        {
+          "i": "egg",
+          "g": 50,
+          "note": "1 egg, binder"
+        },
+        {
+          "i": "mint_leaves",
+          "g": 10
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 16,
+          "note": "for brushing"
+        },
+        {
+          "i": "salt",
+          "g": 5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pressure cook mince, dal, onion, ginger, garlic, whole spices, dry chillies and salt with 150 ml water for 3 whistles.",
+          "timerMin": 15
+        },
+        {
+          "text": "Open and cook off every drop of moisture on high, stirring; the mix must be completely dry.",
+          "timerMin": 8
+        },
+        {
+          "text": "Cool, remove bay leaf and cinnamon, then grind to a coarse paste with egg, chilli, mint, coriander and garam masala."
+        },
+        {
+          "text": "Shape into 12 smooth flat patties with oiled hands and brush both sides lightly with oil."
+        },
+        {
+          "text": "Air-fry at 190°C for 6 minutes, flip carefully and air-fry another 5–6 minutes until crisp and browned.",
+          "timerMin": 12
+        }
+      ],
+      "tips": [
+        "Grind in short pulses — over-blending turns the kebab pasty instead of melt-in-mouth."
+      ],
+      "makeAhead": "Freeze shaped patties between parchment for up to 1 month; air-fry from frozen at 180°C for 14 minutes.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-punjabi-masala-chops",
+      "name": "Air-Fryer Masala Mutton Chops",
+      "localName": "Masala Chaanp",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 4,
+      "prepMin": 15,
+      "cookMin": 40,
+      "difficulty": "medium",
+      "equipment": [
+        "pressure-cooker",
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mutton_curry_cut",
+          "g": 600,
+          "note": "rib chops, frenched, fat cap trimmed"
+        },
+        {
+          "i": "curd",
+          "g": 100,
+          "note": "hung"
+        },
+        {
+          "i": "ginger",
+          "g": 15,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 15,
+          "note": "paste"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "garam_masala",
+          "g": 5
+        },
+        {
+          "i": "cumin",
+          "g": 3
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 3
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "mustard_oil",
+          "g": 24
+        },
+        {
+          "i": "salt",
+          "g": 5
+        },
+        {
+          "i": "onion",
+          "g": 60,
+          "note": "rings, to serve"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 5,
+          "note": "to serve"
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pressure cook chops with half the ginger-garlic, salt and 200 ml water for 4 whistles until just tender; drain well.",
+          "timerMin": 20
+        },
+        {
+          "text": "Mix curd, remaining ginger-garlic, spices, kasuri methi, lemon and half the oil; coat the chops and marinate.",
+          "timerMin": 30
+        },
+        {
+          "text": "Preheat air fryer to 200°C, brush the basket with oil and arrange chops in a single layer."
+        },
+        {
+          "text": "Air-fry at 200°C for 8 minutes, flip, brush with remaining oil and cook 6–7 more minutes until charred.",
+          "timerMin": 15
+        },
+        {
+          "text": "Serve with onion rings and a squeeze of lemon."
+        }
+      ],
+      "tips": [
+        "Par-cooking in the pressure cooker means the air fryer only has to char — chops stay juicy, not leathery."
+      ],
+      "makeAhead": "Par-cook and marinate up to 24 hours ahead; air-fry just before serving."
+    },
+    {
+      "id": "mt-kerala-mutton-pepper-fry",
+      "name": "Kerala Mutton Pepper Fry",
+      "localName": "Mutton Kurumulaku Varattiyathu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 4,
+      "prepMin": 15,
+      "cookMin": 50,
+      "difficulty": "medium",
+      "equipment": [
+        "pressure-cooker",
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "mutton_curry_cut",
+          "g": 600,
+          "note": "boneless or small bone-in pieces"
+        },
+        {
+          "i": "coconut_oil",
+          "g": 36
+        },
+        {
+          "i": "black_pepper",
+          "g": 10,
+          "note": "freshly crushed"
+        },
+        {
+          "i": "onion",
+          "g": 100,
+          "note": "shallots, sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 15
+        },
+        {
+          "i": "garlic",
+          "g": 15
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 8
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "coriander_powder",
+          "g": 8
+        },
+        {
+          "i": "garam_masala",
+          "g": 3
+        },
+        {
+          "i": "coconut",
+          "g": 15,
+          "note": "thin slivers (thengakothu), optional"
+        },
+        {
+          "i": "salt",
+          "g": 6
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pressure cook mutton with turmeric, half the pepper, salt and 150 ml water for 5 whistles.",
+          "timerMin": 22
+        },
+        {
+          "text": "Heat coconut oil in a kadai, fry coconut slivers until golden, then add shallots, ginger, garlic, green chilli and curry leaves."
+        },
+        {
+          "text": "Sauté until shallots are deep golden, add coriander powder and garam masala.",
+          "timerMin": 8
+        },
+        {
+          "text": "Add the cooked mutton with its stock and roast on high, stirring, until completely dry and dark.",
+          "timerMin": 15
+        },
+        {
+          "text": "Finish with the remaining crushed pepper and a few fresh curry leaves."
+        }
+      ],
+      "tips": [
+        "Crush pepper just before using — pre-ground pepper loses the sharp heat this dish is known for."
+      ],
+      "makeAhead": "Keeps 3 days refrigerated; re-roast in a hot pan to revive.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-andhra-mamsam-vepudu",
+      "name": "Andhra Mutton Fry",
+      "localName": "Mamsam Vepudu",
+      "cuisine": "Andhra",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 4,
+      "prepMin": 15,
+      "cookMin": 45,
+      "difficulty": "medium",
+      "equipment": [
+        "pressure-cooker",
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "mutton_curry_cut",
+          "g": 600,
+          "note": "curry cut, small pieces"
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 36
+        },
+        {
+          "i": "onion",
+          "g": 120,
+          "note": "chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 15
+        },
+        {
+          "i": "garlic",
+          "g": 15
+        },
+        {
+          "i": "green_chilli",
+          "g": 8
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 8,
+          "note": "Guntur"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 8
+        },
+        {
+          "i": "garam_masala",
+          "g": 4
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 3
+        },
+        {
+          "i": "salt",
+          "g": 6
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pressure cook mutton with turmeric, half the ginger-garlic, salt and 200 ml water for 5 whistles.",
+          "timerMin": 22
+        },
+        {
+          "text": "Heat oil, crackle fennel, add curry leaves, green chilli and onion; fry until golden with the remaining ginger-garlic."
+        },
+        {
+          "text": "Add chilli and coriander powder, cook 1 minute, then add mutton with stock.",
+          "timerMin": 3
+        },
+        {
+          "text": "Fry on high, scraping the pan, until the masala coats each piece and turns dark red.",
+          "timerMin": 15
+        },
+        {
+          "text": "Sprinkle garam masala and coriander leaves before serving."
+        }
+      ],
+      "tips": [
+        "Serve with a big cucumber-tomato salad to balance the Guntur chilli heat."
+      ],
+      "makeAhead": "Refrigerate up to 3 days.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-keema-shimla-mirch-lowfodmap",
+      "name": "Low-FODMAP Keema Capsicum",
+      "localName": "Keema Shimla Mirch",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 30,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mutton_mince",
+          "g": 450,
+          "note": "keema, lean"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 18
+        },
+        {
+          "i": "hing_gf",
+          "g": 1,
+          "note": "gluten-free asafoetida"
+        },
+        {
+          "i": "cumin",
+          "g": 3,
+          "note": "seeds"
+        },
+        {
+          "i": "ginger",
+          "g": 15,
+          "note": "grated"
+        },
+        {
+          "i": "tomato",
+          "g": 250,
+          "note": "chopped"
+        },
+        {
+          "i": "capsicum",
+          "g": 120,
+          "note": "diced"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 30,
+          "note": "green parts only"
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6
+        },
+        {
+          "i": "garam_masala",
+          "g": 3
+        },
+        {
+          "i": "salt",
+          "g": 4
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat garlic oil, add cumin and hing, then ginger and half the spring onion greens; sauté 1 minute."
+        },
+        {
+          "text": "Add mince and cook on high, breaking it up, until no pink remains and the moisture evaporates.",
+          "timerMin": 8
+        },
+        {
+          "text": "Add tomato, turmeric, chilli, coriander powder and salt; cover and cook until the tomato melts.",
+          "timerMin": 12
+        },
+        {
+          "text": "Stir in capsicum and cook uncovered until just tender and the keema is dry.",
+          "timerMin": 6
+        },
+        {
+          "text": "Finish with garam masala, remaining spring onion greens and coriander."
+        }
+      ],
+      "tips": [
+        "Garlic oil gives garlic flavour without fructans because they are not oil-soluble."
+      ],
+      "makeAhead": "Refrigerate up to 3 days or freeze 1 month; great for lettuce wraps.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-goan-mutton-xacuti",
+      "name": "Goan Mutton Xacuti",
+      "localName": "Xacuti de Carneiro",
+      "cuisine": "Goan",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 4,
+      "prepMin": 25,
+      "cookMin": 50,
+      "difficulty": "hard",
+      "equipment": [
+        "pressure-cooker",
+        "kadai",
+        "blender"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "mutton_curry_cut",
+          "g": 600,
+          "note": "curry cut, bone-in"
+        },
+        {
+          "i": "coconut",
+          "g": 60,
+          "note": "grated, roasted brown"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 6,
+          "note": "Kashmiri, 5–6"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 8,
+          "note": "or seeds, roasted"
+        },
+        {
+          "i": "whole_spices",
+          "g": 4,
+          "note": "star anise, cinnamon, cloves, peppercorns"
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 3
+        },
+        {
+          "i": "onion",
+          "g": 150,
+          "note": "sliced"
+        },
+        {
+          "i": "garlic",
+          "g": 15
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "tamarind",
+          "g": 8,
+          "note": "pulp"
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "coconut_oil",
+          "g": 36
+        },
+        {
+          "i": "salt",
+          "g": 6
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate mutton with turmeric, salt, ginger and garlic.",
+          "timerMin": 20
+        },
+        {
+          "text": "Roast coconut with half the onion in 1 tsp oil until deep brown; separately dry-roast dry chillies, coriander, whole spices and fennel.",
+          "timerMin": 10
+        },
+        {
+          "text": "Grind the roasted coconut and spices with tamarind and water to a fine paste."
+        },
+        {
+          "text": "Heat remaining oil, fry the rest of the onion golden, add mutton and sear on high.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add the xacuti paste and 250 ml water, pressure cook for 5 whistles.",
+          "timerMin": 22
+        },
+        {
+          "text": "Simmer open until the gravy is thick and glossy.",
+          "timerMin": 5
+        }
+      ],
+      "tips": [
+        "Roasting coconut until truly brown is what gives xacuti its nutty depth — take it slow on low heat."
+      ],
+      "makeAhead": "Freezes well for 1 month; the masala paste can be made 3 days ahead.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-karnataka-mamsa-saaru",
+      "name": "Karnataka Mutton Pepper Saaru",
+      "localName": "Mamsada Saaru",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 4,
+      "prepMin": 15,
+      "cookMin": 40,
+      "difficulty": "easy",
+      "equipment": [
+        "pressure-cooker"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mutton_curry_cut",
+          "g": 600,
+          "note": "curry cut, bone-in (bones give body)"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 20
+        },
+        {
+          "i": "hing_gf",
+          "g": 1
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 3
+        },
+        {
+          "i": "curry_leaves",
+          "g": 8
+        },
+        {
+          "i": "ginger",
+          "g": 20,
+          "note": "crushed"
+        },
+        {
+          "i": "tomato",
+          "g": 250,
+          "note": "chopped"
+        },
+        {
+          "i": "black_pepper",
+          "g": 6,
+          "note": "crushed"
+        },
+        {
+          "i": "cumin",
+          "g": 4
+        },
+        {
+          "i": "coriander_powder",
+          "g": 8
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 3
+        },
+        {
+          "i": "coconut",
+          "g": 20,
+          "note": "grated"
+        },
+        {
+          "i": "bottle_gourd",
+          "g": 250,
+          "note": "peeled, cubed"
+        },
+        {
+          "i": "salt",
+          "g": 6
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dry-roast pepper, cumin, coriander powder and dry chillies, then grind with coconut and a little water to a paste."
+        },
+        {
+          "text": "Heat garlic oil in the cooker, crackle mustard seeds, add hing, curry leaves and ginger."
+        },
+        {
+          "text": "Add mutton and tomato with turmeric and salt; cook on high until the tomato breaks down.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add the masala paste, bottle gourd and 600 ml water; pressure cook for 5 whistles.",
+          "timerMin": 22
+        },
+        {
+          "text": "Simmer open to a thin, peppery saaru and finish with coriander leaves.",
+          "timerMin": 4
+        }
+      ],
+      "tips": [
+        "Naturally low-FODMAP: garlic oil and hing replace onion-garlic, and lauki bulks up the bowl for very few calories."
+      ],
+      "makeAhead": "Refrigerate up to 3 days; reheat gently.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-hyderabadi-kaddu-gosht",
+      "name": "Hyderabadi Bottle Gourd Mutton",
+      "localName": "Kaddu Gosht",
+      "cuisine": "Hyderabadi",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 4,
+      "prepMin": 20,
+      "cookMin": 45,
+      "difficulty": "medium",
+      "equipment": [
+        "pressure-cooker"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mutton_curry_cut",
+          "g": 600,
+          "note": "curry cut, bone-in"
+        },
+        {
+          "i": "bottle_gourd",
+          "g": 400,
+          "note": "peeled, large cubes"
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 40
+        },
+        {
+          "i": "onion",
+          "g": 150,
+          "note": "sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 15,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 15,
+          "note": "paste"
+        },
+        {
+          "i": "tomato",
+          "g": 150
+        },
+        {
+          "i": "curd",
+          "g": 60,
+          "note": "whisked"
+        },
+        {
+          "i": "whole_spices",
+          "g": 3,
+          "note": "shahi jeera, cardamom, cinnamon"
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6
+        },
+        {
+          "i": "tamarind",
+          "g": 8,
+          "note": "pulp"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "mint_leaves",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 6
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat oil, temper whole spices, fry onions golden, then add ginger-garlic paste and sauté until raw smell goes."
+        },
+        {
+          "text": "Add mutton, turmeric, chilli, coriander powder and salt; bhuno on high until browned.",
+          "timerMin": 8
+        },
+        {
+          "text": "Add tomato and curd, cook until oil separates, then add 300 ml water and pressure cook for 4 whistles.",
+          "timerMin": 18
+        },
+        {
+          "text": "Open, add bottle gourd, green chilli and tamarind; pressure cook for 1 more whistle.",
+          "timerMin": 5
+        },
+        {
+          "text": "Rest until pressure drops, stir in mint and simmer briefly to adjust the gravy."
+        }
+      ],
+      "tips": [
+        "Lauki soaks up the mutton gravy, so you get a big filling bowl with half the meat calories."
+      ],
+      "makeAhead": "Keeps 2 days refrigerated.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-kola-urundai-airfryer",
+      "name": "Air-Fryer Mutton Kola Urundai",
+      "localName": "Kola Urundai",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 3,
+      "prepMin": 25,
+      "cookMin": 14,
+      "difficulty": "medium",
+      "equipment": [
+        "blender",
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mutton_mince",
+          "g": 450,
+          "note": "keema, lean, finely minced"
+        },
+        {
+          "i": "coconut",
+          "g": 20,
+          "note": "grated"
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 4
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 3
+        },
+        {
+          "i": "whole_spices",
+          "g": 2,
+          "note": "cinnamon, clove"
+        },
+        {
+          "i": "ginger",
+          "g": 12
+        },
+        {
+          "i": "hing_gf",
+          "g": 1
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5,
+          "note": "finely chopped"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 25,
+          "note": "finely chopped"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        },
+        {
+          "i": "egg",
+          "g": 50,
+          "note": "1 egg, binder"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 12,
+          "note": "for brushing"
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dry-roast fennel, pepper, dry chillies and whole spices, then grind with coconut and ginger to a coarse powder."
+        },
+        {
+          "text": "Mix mince with the spice powder, hing, curry leaves, spring onion greens, coriander, egg and salt; pulse briefly in the blender to bind."
+        },
+        {
+          "text": "Roll into 18 walnut-sized balls with wet hands and chill.",
+          "timerMin": 10
+        },
+        {
+          "text": "Brush with garlic oil and air-fry at 190°C for 7 minutes; shake the basket and cook 6–7 more minutes until browned.",
+          "timerMin": 14
+        }
+      ],
+      "tips": [
+        "Traditional kola urundai is deep-fried with roasted gram; this air-fried, low-FODMAP version keeps the Chettinad-style spice blend."
+      ],
+      "makeAhead": "Freeze raw balls on a tray; air-fry from frozen at 180°C for 16 minutes.",
+      "batchFriendly": true
+    },
+    {
+      "id": "mt-indo-chinese-chilli-mutton",
+      "name": "Air-Fryer Chilli Mutton",
+      "localName": "Chilli Mutton Dry",
+      "cuisine": "Indo-Chinese",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "mutton",
+      "servings": 3,
+      "prepMin": 20,
+      "cookMin": 40,
+      "difficulty": "medium",
+      "equipment": [
+        "pressure-cooker",
+        "air-fryer",
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mutton_curry_cut",
+          "g": 450,
+          "note": "boneless, cut into thin strips"
+        },
+        {
+          "i": "egg_white",
+          "g": 33,
+          "note": "1 white"
+        },
+        {
+          "i": "cornflour",
+          "g": 15
+        },
+        {
+          "i": "soy_sauce",
+          "g": 20,
+          "note": "gluten-free tamari if needed"
+        },
+        {
+          "i": "ginger",
+          "g": 12,
+          "note": "julienned"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 18
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        },
+        {
+          "i": "capsicum",
+          "g": 150,
+          "note": "squares"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 30,
+          "note": "green parts only"
+        },
+        {
+          "i": "vinegar",
+          "g": 10
+        },
+        {
+          "i": "chilli_sauce",
+          "g": 15
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pressure cook mutton strips with half the ginger, a pinch of salt and 150 ml water for 3 whistles; drain and pat dry.",
+          "timerMin": 15
+        },
+        {
+          "text": "Toss strips with egg white, cornflour, half the soy sauce, pepper and 1 tsp garlic oil."
+        },
+        {
+          "text": "Air-fry at 200°C for 6 minutes, shake the basket, then 5–6 minutes more until crisp at the edges.",
+          "timerMin": 12
+        },
+        {
+          "text": "Heat remaining garlic oil in a kadai, stir-fry ginger, green chilli and capsicum on high.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add remaining soy, vinegar and chilli sauce, toss in the crisp mutton and spring onion greens until glazed."
+        }
+      ],
+      "tips": [
+        "Low-FODMAP as written: garlic oil and spring onion greens give the classic Indo-Chinese flavour without onion or garlic."
+      ],
+      "makeAhead": "Pressure-cooked strips keep 2 days in the fridge; air-fry and toss fresh."
+    },
+    {
+      "id": "eg-anda-bhurji",
+      "name": "Punjabi Egg Bhurji",
+      "localName": "Anda Bhurji",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "breakfast",
+        "dinner"
+      ],
+      "protein": "egg",
+      "servings": 1,
+      "prepMin": 5,
+      "cookMin": 8,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 150,
+          "note": "3 eggs"
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 6
+        },
+        {
+          "i": "cumin",
+          "g": 1,
+          "note": "seeds"
+        },
+        {
+          "i": "onion",
+          "g": 30,
+          "note": "finely chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 3
+        },
+        {
+          "i": "green_chilli",
+          "g": 3
+        },
+        {
+          "i": "tomato",
+          "g": 60,
+          "note": "chopped"
+        },
+        {
+          "i": "capsicum",
+          "g": 30,
+          "note": "chopped"
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "chilli_powder",
+          "g": 1
+        },
+        {
+          "i": "garam_masala",
+          "g": 0.5
+        },
+        {
+          "i": "salt",
+          "g": 1.2
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat oil, crackle cumin, then sauté onion, ginger and green chilli until soft."
+        },
+        {
+          "text": "Add tomato, capsicum, turmeric, chilli and salt; cook until the tomato is mushy.",
+          "timerMin": 3
+        },
+        {
+          "text": "Pour in beaten eggs and stir gently on low heat until soft, moist curds form.",
+          "timerMin": 3
+        },
+        {
+          "text": "Sprinkle garam masala and coriander and serve hot."
+        }
+      ],
+      "tips": [
+        "Take it off the heat while still slightly wet — it keeps cooking in the pan."
+      ]
+    },
+    {
+      "id": "eg-masala-omelette",
+      "name": "Tamil Masala Omelette",
+      "localName": "Muttai Omelette",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "breakfast"
+      ],
+      "protein": "egg",
+      "servings": 1,
+      "prepMin": 5,
+      "cookMin": 5,
+      "difficulty": "easy",
+      "equipment": [
+        "tawa"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 100,
+          "note": "2 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 66,
+          "note": "2 whites"
+        },
+        {
+          "i": "onion",
+          "g": 25,
+          "note": "small shallots, chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 40,
+          "note": "deseeded, chopped"
+        },
+        {
+          "i": "green_chilli",
+          "g": 3
+        },
+        {
+          "i": "curry_leaves",
+          "g": 2,
+          "note": "chopped"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 5
+        },
+        {
+          "i": "black_pepper",
+          "g": 1,
+          "note": "crushed"
+        },
+        {
+          "i": "turmeric",
+          "g": 0.3
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 5
+        },
+        {
+          "i": "salt",
+          "g": 1
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk eggs and whites with onion, tomato, green chilli, curry leaves, coriander, turmeric, pepper and salt."
+        },
+        {
+          "text": "Heat a tawa with oil on medium and pour the mixture, spreading it to an even round."
+        },
+        {
+          "text": "Cook until the base is golden and the top almost set.",
+          "timerMin": 2
+        },
+        {
+          "text": "Flip and cook the other side, then fold and serve.",
+          "timerMin": 1
+        }
+      ],
+      "tips": [
+        "Add a fistful of chopped spinach for extra fibre without changing the taste."
+      ]
+    },
+    {
+      "id": "eg-egg-white-veggie-omelette",
+      "name": "Egg White Veggie Omelette",
+      "localName": "Safed Anda Omelette",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "breakfast"
+      ],
+      "protein": "egg",
+      "servings": 1,
+      "prepMin": 8,
+      "cookMin": 6,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "egg_white",
+          "g": 198,
+          "note": "6 whites"
+        },
+        {
+          "i": "egg",
+          "g": 50,
+          "note": "1 whole egg for colour and richness"
+        },
+        {
+          "i": "spinach",
+          "g": 40,
+          "note": "chopped"
+        },
+        {
+          "i": "capsicum",
+          "g": 40,
+          "note": "diced"
+        },
+        {
+          "i": "tomato",
+          "g": 40,
+          "note": "diced"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 10,
+          "note": "green parts only"
+        },
+        {
+          "i": "ginger",
+          "g": 3,
+          "note": "grated"
+        },
+        {
+          "i": "turmeric",
+          "g": 0.3
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "olive_oil",
+          "g": 5
+        },
+        {
+          "i": "salt",
+          "g": 1
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat half the oil and sauté spinach, capsicum and ginger until spinach wilts.",
+          "timerMin": 2
+        },
+        {
+          "text": "Whisk whites with the whole egg, turmeric, pepper and salt, then stir in tomato and spring onion greens."
+        },
+        {
+          "text": "Add remaining oil, pour in the eggs over the vegetables, cover and cook on low until set.",
+          "timerMin": 3
+        },
+        {
+          "text": "Fold in half and slide onto a plate."
+        }
+      ],
+      "tips": [
+        "Naturally low-FODMAP and keto; covering the pan sets the whites without flipping."
+      ]
+    },
+    {
+      "id": "eg-mutta-dosai",
+      "name": "Rice Flour Egg Dosa",
+      "localName": "Muttai Dosai",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "breakfast"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "tawa"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "rice_flour",
+          "g": 80
+        },
+        {
+          "i": "egg",
+          "g": 150,
+          "note": "3 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 132,
+          "note": "4 whites"
+        },
+        {
+          "i": "ginger",
+          "g": 5,
+          "note": "grated"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 3,
+          "note": "chopped"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 15,
+          "note": "green parts only"
+        },
+        {
+          "i": "black_pepper",
+          "g": 1.5
+        },
+        {
+          "i": "cumin",
+          "g": 1
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk rice flour with 160 ml water, cumin and a pinch of salt to a thin, lump-free batter; rest it.",
+          "timerMin": 10
+        },
+        {
+          "text": "Whisk eggs and whites separately with ginger, curry leaves, spring onion greens, pepper and remaining salt."
+        },
+        {
+          "text": "Heat the tawa, drizzle oil, pour a ladle of rice batter and swirl into a thin dosa."
+        },
+        {
+          "text": "When the edges lift, spread a quarter of the egg mixture on top and cook until set.",
+          "timerMin": 2
+        },
+        {
+          "text": "Drizzle oil, flip briefly to brown the egg side, then fold. Repeat to make 4 dosas.",
+          "timerMin": 1
+        }
+      ],
+      "tips": [
+        "Rice-flour batter needs no fermentation, so it is quick and gentle on IBS compared with urad dal batter."
+      ]
+    },
+    {
+      "id": "eg-boiled-egg-chaat",
+      "name": "Boiled Egg Chaat",
+      "localName": "Anda Chaat",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "protein": "egg",
+      "servings": 1,
+      "prepMin": 8,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "pot"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 150,
+          "note": "3 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 33,
+          "note": "1 extra egg, yolk discarded"
+        },
+        {
+          "i": "cucumber",
+          "g": 60,
+          "note": "diced"
+        },
+        {
+          "i": "tomato",
+          "g": 60,
+          "note": "diced"
+        },
+        {
+          "i": "onion",
+          "g": 20,
+          "note": "finely chopped"
+        },
+        {
+          "i": "green_chilli",
+          "g": 2
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 5
+        },
+        {
+          "i": "mint_leaves",
+          "g": 3
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "cumin",
+          "g": 1,
+          "note": "roasted, ground"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 0.5
+        },
+        {
+          "i": "black_pepper",
+          "g": 0.5
+        },
+        {
+          "i": "salt",
+          "g": 1
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil eggs from cold water; once boiling, cook for 10 minutes.",
+          "timerMin": 10
+        },
+        {
+          "text": "Cool in ice water, peel and cut into quarters.",
+          "timerMin": 2
+        },
+        {
+          "text": "Toss cucumber, tomato, onion, chilli, herbs with lemon, roasted cumin, chilli powder, pepper and salt."
+        },
+        {
+          "text": "Arrange the eggs on top and spoon the chaat mix over just before eating."
+        }
+      ],
+      "tips": [
+        "Boil a batch of eggs on Sunday for a 3-minute breakfast all week."
+      ],
+      "makeAhead": "Peeled boiled eggs keep 4 days refrigerated in a closed box."
+    },
+    {
+      "id": "eg-chettinad-muttai-kuzhambu",
+      "name": "Chettinad Egg Curry",
+      "localName": "Muttai Kuzhambu",
+      "cuisine": "Chettinad",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 25,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 300,
+          "note": "6 eggs, hard-boiled, peeled"
+        },
+        {
+          "i": "egg_white",
+          "g": 132,
+          "note": "4 extra eggs, hard-boiled, yolks discarded"
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 14
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 3
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 3
+        },
+        {
+          "i": "coconut",
+          "g": 15,
+          "note": "grated"
+        },
+        {
+          "i": "onion",
+          "g": 80,
+          "note": "shallots"
+        },
+        {
+          "i": "garlic",
+          "g": 6
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "tomato",
+          "g": 150
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 3
+        },
+        {
+          "i": "coriander_powder",
+          "g": 5
+        },
+        {
+          "i": "tamarind",
+          "g": 5,
+          "note": "pulp"
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dry-roast fennel, pepper, dry chillies and coconut, then grind with half the shallots to a paste.",
+          "timerMin": 5
+        },
+        {
+          "text": "Heat oil, add curry leaves and remaining shallots, garlic and ginger; sauté until soft."
+        },
+        {
+          "text": "Add tomato and powdered spices, cook until mushy.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add the ground paste, tamarind, salt and 250 ml water; simmer until the oil floats.",
+          "timerMin": 8
+        },
+        {
+          "text": "Slit the boiled eggs, add them with the chopped boiled whites and simmer to absorb the gravy.",
+          "timerMin": 5
+        }
+      ],
+      "tips": [
+        "Make small slits on the eggs so the peppery gravy seeps in."
+      ],
+      "makeAhead": "Gravy keeps 3 days; add freshly boiled eggs when reheating."
+    },
+    {
+      "id": "eg-kerala-mutta-roast",
+      "name": "Kerala Egg Roast",
+      "localName": "Mutta Roast",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "breakfast",
+        "lunch"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 25,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai",
+        "pot"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 300,
+          "note": "6 eggs, hard-boiled, peeled"
+        },
+        {
+          "i": "coconut_oil",
+          "g": 16
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "onion",
+          "g": 200,
+          "note": "thinly sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "garlic",
+          "g": 8
+        },
+        {
+          "i": "green_chilli",
+          "g": 4
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "tomato",
+          "g": 120
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 4
+        },
+        {
+          "i": "black_pepper",
+          "g": 1.5
+        },
+        {
+          "i": "garam_masala",
+          "g": 1.5
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 1
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil eggs for 10 minutes, cool and peel; make shallow slits.",
+          "timerMin": 10
+        },
+        {
+          "text": "Heat coconut oil, crackle mustard, then add curry leaves, ginger, garlic and green chilli."
+        },
+        {
+          "text": "Add onion with a pinch of salt and cook slowly until soft and light brown.",
+          "timerMin": 10
+        },
+        {
+          "text": "Add the powdered spices, then tomato; roast until thick and the oil separates.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add the eggs and a splash of water, coat well and roast on low.",
+          "timerMin": 4
+        }
+      ],
+      "tips": [
+        "Classic with appam; for fat loss pair with one appam and a side of sautéed cabbage thoran."
+      ],
+      "makeAhead": "Masala keeps 3 days refrigerated."
+    },
+    {
+      "id": "eg-airfryer-masala-egg-muffins",
+      "name": "Air-Fryer Masala Egg Muffins",
+      "localName": "Anda Muffin",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 14,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 200,
+          "note": "4 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 132,
+          "note": "4 whites"
+        },
+        {
+          "i": "spinach",
+          "g": 50,
+          "note": "finely chopped"
+        },
+        {
+          "i": "capsicum",
+          "g": 50,
+          "note": "finely diced"
+        },
+        {
+          "i": "tomato",
+          "g": 40,
+          "note": "deseeded, diced"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 15,
+          "note": "green parts only"
+        },
+        {
+          "i": "cheese",
+          "g": 20,
+          "note": "grated, aged cheddar"
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 0.5
+        },
+        {
+          "i": "olive_oil",
+          "g": 4,
+          "note": "to grease moulds"
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grease 6 silicone muffin cups with olive oil and divide the vegetables between them."
+        },
+        {
+          "text": "Whisk eggs, whites, spices and salt, then pour over the vegetables to three-quarters full and top with cheese."
+        },
+        {
+          "text": "Air-fry at 160°C for 12–14 minutes until puffed and a toothpick comes out clean; no flipping needed.",
+          "timerMin": 14
+        },
+        {
+          "text": "Rest in the cups before unmoulding.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Low heat (160°C) stops the tops from browning before the centres set."
+      ],
+      "makeAhead": "Refrigerate up to 4 days; reheat in the air fryer at 160°C for 3 minutes.",
+      "batchFriendly": true
+    },
+    {
+      "id": "eg-nargisi-keema-eggs-airfryer",
+      "name": "Air-Fryer Scotch-Style Keema Eggs",
+      "localName": "Nargisi Kofta",
+      "cuisine": "Mughlai",
+      "mealTypes": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 25,
+      "cookMin": 25,
+      "difficulty": "hard",
+      "equipment": [
+        "pot",
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 200,
+          "note": "4 eggs, hard-boiled, peeled"
+        },
+        {
+          "i": "mutton_mince",
+          "g": 200,
+          "note": "keema, lean, finely minced"
+        },
+        {
+          "i": "egg_white",
+          "g": 33,
+          "note": "1 white, binder"
+        },
+        {
+          "i": "onion",
+          "g": 20,
+          "note": "grated, squeezed dry"
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "garlic",
+          "g": 6
+        },
+        {
+          "i": "green_chilli",
+          "g": 3
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 1.5
+        },
+        {
+          "i": "mint_leaves",
+          "g": 5
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 5
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 8,
+          "note": "for brushing"
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil eggs for 10 minutes, cool in ice water and peel.",
+          "timerMin": 12
+        },
+        {
+          "text": "Mix mince with egg white, onion, ginger, garlic, chilli, spices, herbs and salt; knead until smooth and sticky."
+        },
+        {
+          "text": "Divide into 4, flatten each on wet palms and wrap evenly around an egg, sealing the seams."
+        },
+        {
+          "text": "Brush with oil and air-fry at 190°C for 6 minutes, turn over and cook another 6 minutes until browned.",
+          "timerMin": 12
+        },
+        {
+          "text": "Halve lengthwise to show the \"narcissus\" and serve with mint chutney."
+        }
+      ],
+      "tips": [
+        "Wet hands stop the keema sticking and help seal the coat so it does not crack."
+      ],
+      "makeAhead": "Wrapped raw koftas keep 1 day refrigerated."
+    },
+    {
+      "id": "eg-tamatar-anda-airfryer",
+      "name": "Indian Shakshuka (Tomato Eggs)",
+      "localName": "Tamatar ka Anda",
+      "cuisine": "Hyderabadi",
+      "mealTypes": [
+        "breakfast",
+        "dinner"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 20,
+      "difficulty": "easy",
+      "equipment": [
+        "pan",
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 200,
+          "note": "4 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 99,
+          "note": "3 whites"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 12
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "cumin",
+          "g": 1.5,
+          "note": "seeds"
+        },
+        {
+          "i": "ginger",
+          "g": 8
+        },
+        {
+          "i": "green_chilli",
+          "g": 3
+        },
+        {
+          "i": "tomato",
+          "g": 280,
+          "note": "ripe, chopped"
+        },
+        {
+          "i": "capsicum",
+          "g": 60,
+          "note": "diced"
+        },
+        {
+          "i": "spinach",
+          "g": 40,
+          "note": "chopped"
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "coriander_powder",
+          "g": 2
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 15
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat garlic oil in an oven-safe pan or tin, crackle cumin and hing, then add ginger, chilli and capsicum."
+        },
+        {
+          "text": "Add tomato, spices and salt; cook until it breaks into a thick sauce, then stir in spinach until wilted.",
+          "timerMin": 10
+        },
+        {
+          "text": "Stir the egg whites into the sauce, make 4 wells and crack an egg into each."
+        },
+        {
+          "text": "Place the tin in the air fryer and cook at 180°C for 6–8 minutes until whites are set and yolks still soft.",
+          "timerMin": 7
+        },
+        {
+          "text": "Scatter spring onion greens and serve straight from the tin."
+        }
+      ],
+      "tips": [
+        "No air fryer? Cover the pan and cook on low for 6–7 minutes instead."
+      ]
+    },
+    {
+      "id": "eg-cabbage-egg-fried-rice",
+      "name": "Keto Cabbage Egg Fried Rice",
+      "localName": "Egg Fried \"Rice\"",
+      "cuisine": "Indo-Chinese",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 12,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "cabbage",
+          "g": 300,
+          "note": "very finely shredded, rice-like"
+        },
+        {
+          "i": "carrot",
+          "g": 40,
+          "note": "finely diced"
+        },
+        {
+          "i": "capsicum",
+          "g": 50,
+          "note": "finely diced"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 30,
+          "note": "green parts only"
+        },
+        {
+          "i": "egg",
+          "g": 200,
+          "note": "4 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 132,
+          "note": "4 whites"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 12
+        },
+        {
+          "i": "ginger",
+          "g": 5,
+          "note": "minced"
+        },
+        {
+          "i": "soy_sauce",
+          "g": 15
+        },
+        {
+          "i": "vinegar",
+          "g": 5
+        },
+        {
+          "i": "black_pepper",
+          "g": 1.5
+        },
+        {
+          "i": "salt",
+          "g": 1.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat half the garlic oil in a kadai on high, scramble eggs and whites into small pieces and set aside.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add remaining oil, stir-fry ginger, carrot and capsicum on the highest heat.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add cabbage and toss constantly until it wilts but still has bite.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add soy sauce, vinegar, pepper and salt, fold in the eggs and spring onion greens, and toss through."
+        }
+      ],
+      "tips": [
+        "Shred cabbage as fine as rice grains and keep the flame high so it fries rather than steams."
+      ]
+    },
+    {
+      "id": "eg-egg-drop-soup",
+      "name": "Indo-Chinese Egg Drop Soup",
+      "localName": "Egg Drop Soup",
+      "cuisine": "Indo-Chinese",
+      "mealTypes": [
+        "snack",
+        "side"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 8,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "pot"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 100,
+          "note": "2 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 165,
+          "note": "5 whites"
+        },
+        {
+          "i": "cabbage",
+          "g": 40,
+          "note": "finely shredded"
+        },
+        {
+          "i": "carrot",
+          "g": 30,
+          "note": "julienned"
+        },
+        {
+          "i": "ginger",
+          "g": 5,
+          "note": "julienned"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 15,
+          "note": "green parts only"
+        },
+        {
+          "i": "cornflour",
+          "g": 8,
+          "note": "slurried in 30 ml water"
+        },
+        {
+          "i": "soy_sauce",
+          "g": 12
+        },
+        {
+          "i": "vinegar",
+          "g": 5
+        },
+        {
+          "i": "black_pepper",
+          "g": 1.5
+        },
+        {
+          "i": "sesame_oil",
+          "g": 4
+        },
+        {
+          "i": "salt",
+          "g": 1.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Bring 600 ml water to a boil with ginger, cabbage and carrot.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add soy sauce, vinegar, pepper and salt, then stir in the cornflour slurry until slightly thickened."
+        },
+        {
+          "text": "Stir the soup in a circle and slowly drizzle in the beaten eggs and whites to form ribbons; do not stir for 30 seconds.",
+          "timerMin": 1
+        },
+        {
+          "text": "Finish with sesame oil and spring onion greens."
+        }
+      ],
+      "tips": [
+        "A warm, light bowl that settles the gut — have it before a dinner to keep portions in check."
+      ]
+    },
+    {
+      "id": "eg-guddu-vepudu-airfryer",
+      "name": "Air-Fryer Andhra Egg Fry",
+      "localName": "Guddu Vepudu",
+      "cuisine": "Andhra",
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "protein": "egg",
+      "servings": 1,
+      "prepMin": 5,
+      "cookMin": 20,
+      "difficulty": "easy",
+      "equipment": [
+        "pot",
+        "air-fryer"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 150,
+          "note": "3 eggs, hard-boiled"
+        },
+        {
+          "i": "egg_white",
+          "g": 33,
+          "note": "1 extra egg, yolk discarded"
+        },
+        {
+          "i": "rice_flour",
+          "g": 5
+        },
+        {
+          "i": "chilli_powder",
+          "g": 3,
+          "note": "Guntur"
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "curry_leaves",
+          "g": 3
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 5
+        },
+        {
+          "i": "lemon_juice",
+          "g": 5
+        },
+        {
+          "i": "salt",
+          "g": 1
+        }
+      ],
+      "steps": [
+        {
+          "text": "Boil eggs for 10 minutes, cool and peel; halve them lengthwise (keep the extra white whole).",
+          "timerMin": 12
+        },
+        {
+          "text": "Mix rice flour, chilli powder, turmeric, pepper, salt, lemon and oil into a thick paste."
+        },
+        {
+          "text": "Coat the eggs and white in the paste and press curry leaves on top."
+        },
+        {
+          "text": "Air-fry at 190°C for 4 minutes, turn and cook 3–4 more minutes until the coating is crisp.",
+          "timerMin": 8
+        }
+      ],
+      "tips": [
+        "Naturally low-FODMAP and keto; a quick protein snack with filter coffee."
+      ]
+    },
+    {
+      "id": "eg-motte-paddu-airfryer",
+      "name": "Air-Fryer Egg Paddu Bites",
+      "localName": "Motte Paddu",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 200,
+          "note": "4 eggs"
+        },
+        {
+          "i": "egg_white",
+          "g": 99,
+          "note": "3 whites"
+        },
+        {
+          "i": "rice_flour",
+          "g": 20
+        },
+        {
+          "i": "carrot",
+          "g": 30,
+          "note": "grated"
+        },
+        {
+          "i": "spinach",
+          "g": 30,
+          "note": "finely chopped"
+        },
+        {
+          "i": "onion",
+          "g": 20,
+          "note": "finely chopped"
+        },
+        {
+          "i": "green_chilli",
+          "g": 3
+        },
+        {
+          "i": "ginger",
+          "g": 4
+        },
+        {
+          "i": "curry_leaves",
+          "g": 2,
+          "note": "chopped"
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 1
+        },
+        {
+          "i": "coconut_oil",
+          "g": 5
+        },
+        {
+          "i": "salt",
+          "g": 1.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat a little coconut oil, crackle mustard seeds and pour them over the chopped vegetables, chilli, ginger and curry leaves."
+        },
+        {
+          "text": "Whisk eggs, whites, rice flour and salt until smooth, then fold in the tempered vegetables."
+        },
+        {
+          "text": "Grease a silicone mini-muffin or paddu-style mould with the remaining oil and fill three-quarters."
+        },
+        {
+          "text": "Air-fry at 170°C for 10–12 minutes until puffed and golden; turn out halfway and flip for even colour.",
+          "timerMin": 12
+        }
+      ],
+      "tips": [
+        "Rice flour gives a light paddu-like bite; serve with a spoon of coconut chutney."
+      ],
+      "makeAhead": "Refrigerate up to 3 days; re-crisp at 170°C for 3 minutes.",
+      "batchFriendly": true
+    },
+    {
+      "id": "eg-dimer-kosha",
+      "name": "Bengali Egg Curry",
+      "localName": "Dimer Kosha",
+      "cuisine": "Bengali",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "egg",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 25,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai",
+        "pot"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "egg",
+          "g": 300,
+          "note": "6 eggs, hard-boiled, peeled"
+        },
+        {
+          "i": "egg_white",
+          "g": 66,
+          "note": "2 extra eggs, hard-boiled, yolks discarded"
+        },
+        {
+          "i": "mustard_oil",
+          "g": 14
+        },
+        {
+          "i": "whole_spices",
+          "g": 2,
+          "note": "bay leaf, cardamom, cinnamon"
+        },
+        {
+          "i": "onion",
+          "g": 150,
+          "note": "thinly sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "garlic",
+          "g": 8
+        },
+        {
+          "i": "tomato",
+          "g": 100
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 3,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "ground"
+        },
+        {
+          "i": "garam_masala",
+          "g": 1.5
+        },
+        {
+          "i": "bottle_gourd",
+          "g": 150,
+          "note": "cubed, optional bulk"
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rub boiled eggs with a pinch of turmeric and salt and sear in 1 tsp mustard oil until blistered.",
+          "timerMin": 3
+        },
+        {
+          "text": "Heat the remaining oil, temper whole spices and fry onion until deep golden; add ginger and garlic."
+        },
+        {
+          "text": "Add tomato, turmeric, chilli and cumin; kosha (roast) until oil separates.",
+          "timerMin": 7
+        },
+        {
+          "text": "Add bottle gourd and 150 ml water, cover and cook until tender.",
+          "timerMin": 8
+        },
+        {
+          "text": "Add the eggs and whites, simmer to a thick gravy and finish with garam masala.",
+          "timerMin": 4
+        }
+      ],
+      "tips": [
+        "Lauki stands in for the usual potato, adding volume for a fraction of the carbs."
+      ]
+    },
+    {
+      "id": "cr-chettinad-nandu-masala",
+      "name": "Chettinad Crab Masala",
+      "localName": "Nandu Masala",
+      "cuisine": "Chettinad",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "crab",
+      "servings": 2,
+      "prepMin": 25,
+      "cookMin": 25,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai",
+        "blender"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "crab",
+          "g": 400,
+          "note": "2 mud crabs (~800 g whole), cleaned and halved, claws cracked; weight ≈ edible portion"
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 16
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 4
+        },
+        {
+          "i": "black_pepper",
+          "g": 4
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 3
+        },
+        {
+          "i": "coconut",
+          "g": 20,
+          "note": "grated"
+        },
+        {
+          "i": "onion",
+          "g": 100,
+          "note": "shallots"
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "garlic",
+          "g": 10
+        },
+        {
+          "i": "tomato",
+          "g": 120
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 3
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6
+        },
+        {
+          "i": "salt",
+          "g": 3
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dry-roast fennel, pepper, dry chillies and coconut, then grind to a fine paste.",
+          "timerMin": 5
+        },
+        {
+          "text": "Heat oil, add curry leaves, shallots, ginger and garlic; sauté until golden."
+        },
+        {
+          "text": "Add tomato and powdered spices, cook until mushy.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add the ground paste with 200 ml water and bring to a boil, then add the crab pieces and salt.",
+          "timerMin": 2
+        },
+        {
+          "text": "Cover and cook on medium, turning the crabs, until the shells turn bright orange and the masala thickens.",
+          "timerMin": 12
+        },
+        {
+          "text": "Finish with coriander leaves; serve with a finger bowl."
+        }
+      ],
+      "tips": [
+        "Buy live or very fresh crabs; ask the fishmonger to clean, remove the gills and halve them."
+      ]
+    },
+    {
+      "id": "cr-kerala-njandu-roast",
+      "name": "Kerala Crab Roast",
+      "localName": "Njandu Roast",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "crab",
+      "servings": 2,
+      "prepMin": 20,
+      "cookMin": 25,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "crab",
+          "g": 400,
+          "note": "2 medium crabs, cleaned and halved, claws cracked; weight ≈ edible portion"
+        },
+        {
+          "i": "coconut_oil",
+          "g": 16
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "onion",
+          "g": 120,
+          "note": "shallots, sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "garlic",
+          "g": 10
+        },
+        {
+          "i": "green_chilli",
+          "g": 4
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6
+        },
+        {
+          "i": "tomato",
+          "g": 80
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 5
+        },
+        {
+          "i": "black_pepper",
+          "g": 3,
+          "note": "crushed"
+        },
+        {
+          "i": "garam_masala",
+          "g": 1.5
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rub crab with turmeric, half the chilli powder and salt.",
+          "timerMin": 15
+        },
+        {
+          "text": "Heat coconut oil, crackle mustard seeds, then add curry leaves, ginger, garlic, green chilli and shallots."
+        },
+        {
+          "text": "Roast the shallots until deep brown, add remaining powders and tomato and cook down.",
+          "timerMin": 10
+        },
+        {
+          "text": "Add the crab with 100 ml water, cover and cook, tossing occasionally.",
+          "timerMin": 10
+        },
+        {
+          "text": "Uncover and roast on high until the masala is dry and clings to the shells, then add crushed pepper.",
+          "timerMin": 4
+        }
+      ],
+      "tips": [
+        "Keto-friendly and very high protein; pair with cucumber salad or a small portion of matta rice."
+      ]
+    },
+    {
+      "id": "cr-kankrar-chop-airfryer",
+      "name": "Air-Fryer Bengali Crab Cakes",
+      "localName": "Kankrar Chop",
+      "cuisine": "Bengali",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "crab",
+      "servings": 2,
+      "prepMin": 25,
+      "cookMin": 14,
+      "difficulty": "medium",
+      "equipment": [
+        "steamer",
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "crab",
+          "g": 300,
+          "note": "picked crab meat (steam ~800 g whole crabs, remove shells)"
+        },
+        {
+          "i": "potato",
+          "g": 60,
+          "note": "boiled, mashed"
+        },
+        {
+          "i": "egg",
+          "g": 50,
+          "note": "1 egg, binder"
+        },
+        {
+          "i": "egg_white",
+          "g": 33,
+          "note": "1 white, for coating"
+        },
+        {
+          "i": "ginger",
+          "g": 8,
+          "note": "grated"
+        },
+        {
+          "i": "green_chilli",
+          "g": 4
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 15,
+          "note": "green parts only"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "roasted, ground"
+        },
+        {
+          "i": "garam_masala",
+          "g": 1.5
+        },
+        {
+          "i": "rice_flour",
+          "g": 15,
+          "note": "for coating"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 5
+        },
+        {
+          "i": "mustard_oil",
+          "g": 8,
+          "note": "for brushing"
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Steam whole cleaned crabs until orange, cool and pick out the meat, discarding shells and cartilage.",
+          "timerMin": 12
+        },
+        {
+          "text": "Mix crab meat with potato, egg, ginger, chilli, spring onion greens, coriander, spices, lemon and salt."
+        },
+        {
+          "text": "Shape into 6 flat cakes and chill to firm up.",
+          "timerMin": 15
+        },
+        {
+          "text": "Dip each cake in beaten egg white, dust with rice flour and brush both sides with mustard oil."
+        },
+        {
+          "text": "Air-fry at 190°C for 7 minutes, flip gently and cook 6–7 more minutes until golden and crisp.",
+          "timerMin": 14
+        }
+      ],
+      "tips": [
+        "Low-FODMAP as written; ready-picked crab meat cuts prep to 10 minutes."
+      ],
+      "makeAhead": "Shaped raw cakes keep 1 day refrigerated."
+    },
+    {
+      "id": "cr-andhra-peetha-iguru",
+      "name": "Andhra Crab Dry Curry",
+      "localName": "Peetha Iguru",
+      "cuisine": "Andhra",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "crab",
+      "servings": 2,
+      "prepMin": 20,
+      "cookMin": 25,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "crab",
+          "g": 400,
+          "note": "2 mud crabs, cleaned and halved, claws cracked; weight ≈ edible portion"
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 16
+        },
+        {
+          "i": "onion",
+          "g": 100,
+          "note": "chopped"
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "garlic",
+          "g": 10
+        },
+        {
+          "i": "green_chilli",
+          "g": 4
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "tomato",
+          "g": 100
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 5,
+          "note": "Guntur"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 5
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "tamarind",
+          "g": 6,
+          "note": "pulp"
+        },
+        {
+          "i": "salt",
+          "g": 3
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat oil, add curry leaves, green chilli and onion; fry until golden, then add ginger and garlic."
+        },
+        {
+          "text": "Add tomato, turmeric, chilli and coriander powder; cook until oil separates.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add crab, tamarind, salt and 100 ml water; cover and cook, turning the pieces.",
+          "timerMin": 12
+        },
+        {
+          "text": "Uncover and reduce on high until the iguru is thick and coats the crab.",
+          "timerMin": 5
+        },
+        {
+          "text": "Finish with garam masala and coriander leaves."
+        }
+      ],
+      "tips": [
+        "Crack claws before cooking so the fiery masala gets inside."
+      ]
+    }
+  ]
+}

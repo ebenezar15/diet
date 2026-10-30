@@ -1,0 +1,632 @@
+{
+ "recipes": [
+  {
+   "id": "ad-boiled-eggs",
+   "name": "Boiled eggs with pepper",
+   "localName": "Avicha Muttai",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "breakfast",
+    "snack"
+   ],
+   "protein": "egg",
+   "servings": 1,
+   "prepMin": 1,
+   "cookMin": 10,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "egg",
+     "g": 100
+    },
+    {
+     "i": "black_pepper",
+     "g": 0.5
+    },
+    {
+     "i": "salt",
+     "g": 0.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Lower eggs into boiling water and cook for 9 minutes for firm yolks.",
+     "timerMin": 9
+    },
+    {
+     "text": "Cool in cold water, peel, halve and sprinkle with pepper and salt."
+    }
+   ],
+   "tips": [
+    "Boil a dozen on Sunday — they keep 5 days in the fridge."
+   ],
+   "makeAhead": "Keeps 5 days refrigerated, unpeeled.",
+   "batchFriendly": true
+  },
+  {
+   "id": "ad-walnut-handful",
+   "name": "Walnut & pumpkin seed handful",
+   "localName": "Akhrot Mix",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 1,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "walnuts",
+     "g": 20
+    },
+    {
+     "i": "pumpkin_seeds",
+     "g": 10
+    }
+   ],
+   "steps": [
+    {
+     "text": "Dry-roast pumpkin seeds in a pan for 2 minutes until they pop.",
+     "timerMin": 2
+    },
+    {
+     "text": "Mix with walnuts and portion into a small box."
+    }
+   ],
+   "tips": [
+    "A low-FODMAP, keto-friendly fat and magnesium top-up."
+   ]
+  },
+  {
+   "id": "ad-peanut-handful",
+   "name": "Roasted peanuts",
+   "localName": "Varutha Verkadalai",
+   "cuisine": "Tamil Nadu",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 1,
+   "cookMin": 5,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "peanuts",
+     "g": 30
+    },
+    {
+     "i": "salt",
+     "g": 0.3
+    }
+   ],
+   "steps": [
+    {
+     "text": "Dry-roast peanuts on low heat, stirring, until fragrant.",
+     "timerMin": 5
+    },
+    {
+     "text": "Cool, rub off skins if you like and sprinkle a pinch of salt."
+    }
+   ]
+  },
+  {
+   "id": "ad-whey-shake",
+   "name": "Whey isolate shake",
+   "localName": "Protein Shake",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack",
+    "breakfast"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 2,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "blender"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "whey_isolate",
+     "g": 30
+    },
+    {
+     "i": "lf_milk",
+     "g": 200
+    }
+   ],
+   "steps": [
+    {
+     "text": "Add lactose-free milk then whey to a shaker or blender."
+    },
+    {
+     "text": "Shake or blend 20 seconds and drink within 30 minutes of training."
+    }
+   ],
+   "tips": [
+    "Use isolate, not concentrate — concentrate has more lactose."
+   ]
+  },
+  {
+   "id": "ad-egg-white-bites",
+   "name": "Air-fryer egg white bites",
+   "localName": "Egg White Kuttis",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack",
+    "breakfast"
+   ],
+   "protein": "egg",
+   "servings": 2,
+   "prepMin": 5,
+   "cookMin": 12,
+   "difficulty": "easy",
+   "equipment": [
+    "air-fryer"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "egg_white",
+     "g": 264
+    },
+    {
+     "i": "spinach",
+     "g": 40
+    },
+    {
+     "i": "capsicum",
+     "g": 40
+    },
+    {
+     "i": "spring_onion_greens",
+     "g": 10
+    },
+    {
+     "i": "black_pepper",
+     "g": 1
+    },
+    {
+     "i": "salt",
+     "g": 1.5
+    },
+    {
+     "i": "ghee",
+     "g": 4
+    }
+   ],
+   "steps": [
+    {
+     "text": "Finely chop spinach, capsicum and spring onion greens."
+    },
+    {
+     "text": "Whisk egg whites with salt and pepper, stir in the vegetables."
+    },
+    {
+     "text": "Brush silicone moulds with ghee and fill three-quarters."
+    },
+    {
+     "text": "Air-fry at 160°C until set and lightly puffed.",
+     "timerMin": 12
+    }
+   ],
+   "makeAhead": "Refrigerate up to 4 days; reheat 3 min at 160°C.",
+   "batchFriendly": true
+  },
+  {
+   "id": "ad-cucumber-cheese",
+   "name": "Cucumber & cheese plate",
+   "localName": "Kheera Cheese",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 3,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "cucumber",
+     "g": 150
+    },
+    {
+     "i": "cheese",
+     "g": 30
+    },
+    {
+     "i": "black_pepper",
+     "g": 0.5
+    },
+    {
+     "i": "lemon_juice",
+     "g": 5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Slice cucumber into sticks, squeeze lemon and sprinkle pepper."
+    },
+    {
+     "text": "Serve with cheese cubes."
+    }
+   ]
+  },
+  {
+   "id": "ad-hung-curd-bowl",
+   "name": "Lactose-free hung curd bowl with seeds",
+   "localName": "Chakka Dahi",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack",
+    "breakfast"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 5,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "lf_curd",
+     "g": 200
+    },
+    {
+     "i": "chia_seeds",
+     "g": 8
+    },
+    {
+     "i": "flax_seeds",
+     "g": 7
+    },
+    {
+     "i": "kiwi",
+     "g": 75
+    }
+   ],
+   "steps": [
+    {
+     "text": "Strain lactose-free curd in a muslin cloth for 30 minutes (or overnight in the fridge).",
+     "timerMin": 30
+    },
+    {
+     "text": "Top with chia, ground flax and diced kiwi."
+    }
+   ],
+   "tips": [
+    "Kiwi + flax is a gentle, evidence-backed combo for IBS-C."
+   ]
+  },
+  {
+   "id": "ad-guava-chaat",
+   "name": "Guava chaat",
+   "localName": "Amrood Chaat",
+   "cuisine": "Punjabi",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 4,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 2,
+   "ingredients": [
+    {
+     "i": "guava",
+     "g": 100
+    },
+    {
+     "i": "cumin",
+     "g": 0.5
+    },
+    {
+     "i": "chilli_powder",
+     "g": 0.3
+    },
+    {
+     "i": "salt",
+     "g": 0.3
+    },
+    {
+     "i": "lemon_juice",
+     "g": 5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Cube a ripe guava."
+    },
+    {
+     "text": "Toss with roasted cumin, chilli, salt and lemon juice."
+    }
+   ],
+   "tips": [
+    "Ripe guava only — unripe guava is high-FODMAP."
+   ]
+  },
+  {
+   "id": "ad-ghee-veg",
+   "name": "Ghee-tossed sautéed greens",
+   "localName": "Keerai Vadhakkal",
+   "cuisine": "Tamil Nadu",
+   "mealTypes": [
+    "side"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 5,
+   "cookMin": 6,
+   "difficulty": "easy",
+   "equipment": [
+    "kadai"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "spinach",
+     "g": 200
+    },
+    {
+     "i": "bottle_gourd",
+     "g": 150
+    },
+    {
+     "i": "ghee",
+     "g": 14
+    },
+    {
+     "i": "cumin",
+     "g": 1
+    },
+    {
+     "i": "salt",
+     "g": 1.5
+    },
+    {
+     "i": "black_pepper",
+     "g": 0.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Peel and dice bottle gourd small; chop spinach."
+    },
+    {
+     "text": "Heat ghee, splutter cumin, add bottle gourd and sauté until tender.",
+     "timerMin": 4
+    },
+    {
+     "text": "Add spinach, salt and pepper; toss until just wilted.",
+     "timerMin": 2
+    }
+   ],
+   "tips": [
+    "A keto-friendly way to add fat, fibre, iron and folate."
+   ]
+  },
+  {
+   "id": "ad-coconut-chutney",
+   "name": "Coconut chutney (no onion/garlic)",
+   "localName": "Thengai Chutney",
+   "cuisine": "Tamil Nadu",
+   "mealTypes": [
+    "side"
+   ],
+   "protein": "veg",
+   "servings": 4,
+   "prepMin": 8,
+   "cookMin": 2,
+   "difficulty": "easy",
+   "equipment": [
+    "blender",
+    "pan"
+   ],
+   "spice": 2,
+   "ingredients": [
+    {
+     "i": "coconut",
+     "g": 110
+    },
+    {
+     "i": "peanuts",
+     "g": 20
+    },
+    {
+     "i": "green_chilli",
+     "g": 5
+    },
+    {
+     "i": "ginger",
+     "g": 5
+    },
+    {
+     "i": "salt",
+     "g": 3
+    },
+    {
+     "i": "coconut_oil",
+     "g": 10
+    },
+    {
+     "i": "mustard_seeds",
+     "g": 2
+    },
+    {
+     "i": "curry_leaves",
+     "g": 2
+    },
+    {
+     "i": "hing_gf",
+     "g": 0.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Grind coconut, roasted peanuts, green chilli, ginger and salt with a little water to a coarse paste."
+    },
+    {
+     "text": "Heat coconut oil, splutter mustard seeds, add curry leaves and gluten-free hing.",
+     "timerMin": 1
+    },
+    {
+     "text": "Pour the tempering over the chutney and mix."
+    }
+   ],
+   "tips": [
+    "Keep coconut to ~30 g per serving to stay low-FODMAP."
+   ],
+   "makeAhead": "Refrigerate up to 2 days."
+  },
+  {
+   "id": "ad-peanut-chutney",
+   "name": "Peanut chutney",
+   "localName": "Palli Pachadi",
+   "cuisine": "Andhra",
+   "mealTypes": [
+    "side"
+   ],
+   "protein": "veg",
+   "servings": 4,
+   "prepMin": 5,
+   "cookMin": 5,
+   "difficulty": "easy",
+   "equipment": [
+    "blender",
+    "pan"
+   ],
+   "spice": 2,
+   "ingredients": [
+    {
+     "i": "peanuts",
+     "g": 110
+    },
+    {
+     "i": "dry_red_chilli",
+     "g": 3
+    },
+    {
+     "i": "tamarind",
+     "g": 8
+    },
+    {
+     "i": "salt",
+     "g": 3
+    },
+    {
+     "i": "sesame_oil",
+     "g": 10
+    },
+    {
+     "i": "mustard_seeds",
+     "g": 2
+    },
+    {
+     "i": "curry_leaves",
+     "g": 2
+    }
+   ],
+   "steps": [
+    {
+     "text": "Dry-roast peanuts and red chillies until fragrant, then cool.",
+     "timerMin": 5
+    },
+    {
+     "text": "Grind with tamarind, salt and water to a thick chutney."
+    },
+    {
+     "text": "Temper mustard seeds and curry leaves in gingelly oil and pour over."
+    }
+   ],
+   "tips": [
+    "~27 g peanuts per serving keeps it within the low-FODMAP serve."
+   ]
+  },
+  {
+   "id": "ad-butter-beans-stirfry",
+   "name": "Butter-pepper green beans",
+   "localName": "Beans Milagu Varuval",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "side"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 5,
+   "cookMin": 8,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "green_beans",
+     "g": 150
+    },
+    {
+     "i": "butter",
+     "g": 20
+    },
+    {
+     "i": "garlic_oil",
+     "g": 5
+    },
+    {
+     "i": "black_pepper",
+     "g": 1
+    },
+    {
+     "i": "salt",
+     "g": 1.5
+    },
+    {
+     "i": "cheese",
+     "g": 20
+    }
+   ],
+   "steps": [
+    {
+     "text": "Trim beans and blanch 2 minutes in salted boiling water.",
+     "timerMin": 2
+    },
+    {
+     "text": "Melt butter with garlic-infused oil, add beans and pepper; sauté until blistered.",
+     "timerMin": 5
+    },
+    {
+     "text": "Finish with grated cheese."
+    }
+   ]
+  }
+ ]
+}

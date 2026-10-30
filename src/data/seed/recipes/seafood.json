@@ -1,0 +1,3206 @@
+{
+  "recipes": [
+    {
+      "id": "fs-vanjaram-fry-air-fryer",
+      "name": "Air-Fryer Vanjaram Masala Fry",
+      "localName": "Vanjaram Meen Varuval",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 14,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "seer_fish",
+          "g": 320,
+          "note": "steaks, 1 cm thick, skin on"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 8
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 2,
+          "note": "freshly crushed"
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "finely grated"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "rice_flour",
+          "g": 8
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "garlic_oil",
+          "g": 6
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 6
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pat the steaks dry and make two shallow slits on each side."
+        },
+        {
+          "text": "Mix chilli powder, turmeric, pepper, grated ginger, lemon juice, rice flour, salt and garlic oil into a thick paste; coat the steaks on both sides and rest.",
+          "timerMin": 20
+        },
+        {
+          "text": "Preheat the air fryer to 200°C. Brush the basket with a few drops of groundnut oil and lay the steaks flat in one layer.",
+          "timerMin": 3
+        },
+        {
+          "text": "Air-fry at 200°C for 6 minutes, then flip carefully with a flat spatula.",
+          "timerMin": 6
+        },
+        {
+          "text": "Scatter curry leaves on top, brush with the remaining oil and air-fry another 5–6 minutes until the edges char like a tawa fry.",
+          "timerMin": 6
+        },
+        {
+          "text": "Rest 1 minute and serve with lemon wedges and sliced onion or cucumber."
+        }
+      ],
+      "tips": [
+        "Rice flour gives the tawa-style crust without semolina; keep the paste thick so it clings.",
+        "For an IBS flare day skip the onion on the side and serve with cucumber."
+      ],
+      "makeAhead": "Marinate up to 8 hours ahead and refrigerate; air-fry just before eating."
+    },
+    {
+      "id": "fs-chettinad-meen-kuzhambu",
+      "name": "Chettinad Seer Fish Curry",
+      "localName": "Chettinad Meen Kuzhambu",
+      "cuisine": "Chettinad",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 4,
+      "prepMin": 20,
+      "cookMin": 25,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "seer_fish",
+          "g": 640,
+          "note": "steaks, 2 cm thick"
+        },
+        {
+          "i": "tamarind",
+          "g": 30,
+          "note": "soaked in 300 ml warm water, pulp extracted"
+        },
+        {
+          "i": "onion",
+          "g": 100,
+          "note": "small shallots preferred, sliced"
+        },
+        {
+          "i": "garlic",
+          "g": 15,
+          "note": "peeled, crushed"
+        },
+        {
+          "i": "tomato",
+          "g": 160,
+          "note": "chopped"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 10
+        },
+        {
+          "i": "coriander_powder",
+          "g": 10
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "fenugreek_seeds",
+          "g": 2
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 3
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "sesame_oil",
+          "g": 32,
+          "note": "gingelly oil"
+        },
+        {
+          "i": "salt",
+          "g": 5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat gingelly oil in a kadai; splutter mustard, fenugreek and fennel seeds, then add curry leaves."
+        },
+        {
+          "text": "Add shallots and garlic and sauté until golden.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add tomato with chilli, coriander, turmeric and pepper; cook until the oil separates.",
+          "timerMin": 6
+        },
+        {
+          "text": "Pour in the tamarind water plus 200 ml water and salt; boil until it thickens slightly and loses the raw tamarind smell.",
+          "timerMin": 8
+        },
+        {
+          "text": "Slide in the fish steaks, shake the kadai (do not stir) and simmer on low until the fish is just cooked.",
+          "timerMin": 8
+        },
+        {
+          "text": "Rest off the heat for at least 10 minutes so the gravy soaks into the fish.",
+          "timerMin": 10
+        }
+      ],
+      "tips": [
+        "Kuzhambu tastes best the next day — tamarind keeps it safe to reheat."
+      ],
+      "makeAhead": "Make the gravy base (up to step 4) 2 days ahead; add fish on the day.",
+      "batchFriendly": true
+    },
+    {
+      "id": "fs-seer-fish-moilee",
+      "name": "Kerala Seer Fish Moilee",
+      "localName": "Meen Molee",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 20,
+      "difficulty": "medium",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "seer_fish",
+          "g": 480,
+          "note": "steaks, 2 cm thick"
+        },
+        {
+          "i": "coconut_milk",
+          "g": 240,
+          "note": "thin + thick, separated"
+        },
+        {
+          "i": "onion",
+          "g": 90,
+          "note": "thinly sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 15,
+          "note": "julienned"
+        },
+        {
+          "i": "garlic",
+          "g": 8,
+          "note": "sliced"
+        },
+        {
+          "i": "green_chilli",
+          "g": 10,
+          "note": "slit"
+        },
+        {
+          "i": "tomato",
+          "g": 100,
+          "note": "sliced into rounds"
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "whole_spices",
+          "g": 2,
+          "note": "cinnamon, cloves, cardamom"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "coconut_oil",
+          "g": 24
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rub the fish with turmeric, pepper, lemon juice and a pinch of salt.",
+          "timerMin": 10
+        },
+        {
+          "text": "Sear the steaks in half the coconut oil for 1 minute per side; remove.",
+          "timerMin": 3
+        },
+        {
+          "text": "In the remaining oil sauté whole spices, ginger, garlic, green chilli, onion and curry leaves until soft but not brown.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add the thin coconut milk and salt; bring to a gentle simmer.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add the fish and tomato rounds and simmer on low until the fish flakes.",
+          "timerMin": 6
+        },
+        {
+          "text": "Pour in the thick coconut milk, warm through without boiling and turn off the heat.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Never boil after adding thick coconut milk — it splits.",
+        "Serve with a small portion of red rice or appam."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "fs-seer-fish-tikka-air-fryer",
+      "name": "Air-Fryer Fish Tikka",
+      "localName": "Machhli Tikka",
+      "cuisine": "Mughlai",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "seer_fish",
+          "g": 450,
+          "note": "boneless, 4 cm cubes"
+        },
+        {
+          "i": "curd",
+          "g": 90,
+          "note": "hung, thick"
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 8,
+          "note": "paste"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "garam_masala",
+          "g": 3
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "roasted, ground"
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 2
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "capsicum",
+          "g": 120,
+          "note": "4 cm squares"
+        },
+        {
+          "i": "mustard_oil",
+          "g": 15
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rub the cubes with lemon juice and half the salt.",
+          "timerMin": 10
+        },
+        {
+          "text": "Whisk hung curd with ginger, garlic, chilli, garam masala, cumin, kasuri methi, mustard oil and the remaining salt; fold in fish and capsicum gently and marinate.",
+          "timerMin": 30
+        },
+        {
+          "text": "Thread onto short skewers or lay directly in the lined air-fryer basket, leaving gaps."
+        },
+        {
+          "text": "Air-fry at 200°C for 6 minutes, flip each piece, and air-fry 5–6 minutes more until charred at the edges.",
+          "timerMin": 12
+        },
+        {
+          "text": "Sprinkle chaat masala or lemon and serve with mint chutney."
+        }
+      ],
+      "tips": [
+        "Seer holds its shape best; avoid soft fish for tikka."
+      ],
+      "makeAhead": "Marinate up to 6 hours in the fridge."
+    },
+    {
+      "id": "fs-goan-fish-curry-seer",
+      "name": "Goan Fish Curry",
+      "localName": "Xitt Kodi (Ambot Kodi)",
+      "cuisine": "Goan",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 4,
+      "prepMin": 20,
+      "cookMin": 20,
+      "difficulty": "medium",
+      "equipment": [
+        "pot",
+        "blender"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "seer_fish",
+          "g": 640,
+          "note": "steaks or thick slices"
+        },
+        {
+          "i": "coconut",
+          "g": 70,
+          "note": "freshly grated"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 10,
+          "note": "Kashmiri, de-seeded"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6
+        },
+        {
+          "i": "cumin",
+          "g": 3
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "garlic",
+          "g": 10
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "tamarind",
+          "g": 15
+        },
+        {
+          "i": "kokum",
+          "g": 10,
+          "note": "4–5 petals"
+        },
+        {
+          "i": "onion",
+          "g": 70,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 100,
+          "note": "chopped"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6,
+          "note": "slit"
+        },
+        {
+          "i": "coconut_oil",
+          "g": 30
+        },
+        {
+          "i": "salt",
+          "g": 5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grind coconut, red chillies, coriander, cumin, turmeric, garlic, ginger and tamarind with water to a very smooth paste."
+        },
+        {
+          "text": "Heat oil in a pot, sauté onion until translucent, then add tomato and green chilli and cook soft.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add the masala paste, 300 ml water and salt; simmer until the raw smell goes.",
+          "timerMin": 7
+        },
+        {
+          "text": "Add kokum and the fish slices, shake the pot to coat and simmer gently without stirring.",
+          "timerMin": 8
+        },
+        {
+          "text": "Rest covered for 10 minutes before serving.",
+          "timerMin": 10
+        }
+      ],
+      "tips": [
+        "Keep coconut to the stated amount — the colour comes from Kashmiri chillies, not extra coconut."
+      ],
+      "makeAhead": "Masala paste keeps 3 days refrigerated.",
+      "batchFriendly": true
+    },
+    {
+      "id": "fs-pomfret-recheado-air-fryer",
+      "name": "Air-Fryer Pomfret Recheado",
+      "localName": "Paplet Recheado",
+      "cuisine": "Goan",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 16,
+      "difficulty": "medium",
+      "equipment": [
+        "air-fryer",
+        "blender"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "pomfret",
+          "g": 360,
+          "note": "2 whole (≈250 g each), cleaned, slit along the backbone for stuffing"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 10,
+          "note": "Kashmiri + Byadgi, soaked in vinegar"
+        },
+        {
+          "i": "vinegar",
+          "g": 25,
+          "note": "Goan toddy or cane vinegar"
+        },
+        {
+          "i": "garlic",
+          "g": 10
+        },
+        {
+          "i": "ginger",
+          "g": 8
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "whole_spices",
+          "g": 1,
+          "note": "2 cloves, small cinnamon"
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "jaggery",
+          "g": 3
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grind the vinegar-soaked chillies with garlic, ginger, cumin, pepper, spices, turmeric, jaggery and salt to a thick recheado paste (no water)."
+        },
+        {
+          "text": "Stuff the paste into the slits and rub over both sides of the pomfret; marinate.",
+          "timerMin": 20
+        },
+        {
+          "text": "Preheat the air fryer to 190°C, line with perforated parchment and brush with oil.",
+          "timerMin": 3
+        },
+        {
+          "text": "Air-fry the pomfret at 190°C for 8 minutes, brush with oil, flip carefully with a wide spatula.",
+          "timerMin": 8
+        },
+        {
+          "text": "Air-fry another 7–8 minutes until the masala is crisp and the flesh near the bone is opaque.",
+          "timerMin": 8
+        }
+      ],
+      "tips": [
+        "Recheado paste keeps 2 weeks refrigerated — make a jar and use for prawns too."
+      ],
+      "makeAhead": "Paste can be made a week ahead."
+    },
+    {
+      "id": "fs-tandoori-pomfret-air-fryer",
+      "name": "Air-Fryer Tandoori Pomfret",
+      "localName": "Tandoori Paplet",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 16,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "pomfret",
+          "g": 360,
+          "note": "2 whole, cleaned, 3 deep diagonal slashes per side"
+        },
+        {
+          "i": "curd",
+          "g": 80,
+          "note": "hung"
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 8,
+          "note": "paste"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "roasted, ground"
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 1
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "mustard_oil",
+          "g": 10
+        },
+        {
+          "i": "onion",
+          "g": 60,
+          "note": "rings, to serve"
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rub the fish with lemon juice, salt and half the ginger-garlic for the first marinade.",
+          "timerMin": 10
+        },
+        {
+          "text": "Mix hung curd, chilli, garam masala, cumin, kasuri methi, mustard oil and remaining ginger-garlic; coat the fish, pushing into the slashes.",
+          "timerMin": 30
+        },
+        {
+          "text": "Air-fry at 200°C on a greased rack for 8 minutes, then flip.",
+          "timerMin": 8
+        },
+        {
+          "text": "Baste with any remaining marinade and air-fry 6–8 minutes more until charred.",
+          "timerMin": 7
+        },
+        {
+          "text": "Serve with onion rings, lemon and mint chutney."
+        }
+      ],
+      "tips": [
+        "A double marinade (acid first, curd second) keeps the pomfret firm."
+      ]
+    },
+    {
+      "id": "fs-pomfret-pollichathu",
+      "name": "Kerala Pomfret Pollichathu",
+      "localName": "Avoli Pollichathu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 25,
+      "cookMin": 25,
+      "difficulty": "hard",
+      "equipment": [
+        "pan",
+        "tawa"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "pomfret",
+          "g": 360,
+          "note": "2 whole, cleaned, gashed both sides"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "onion",
+          "g": 80,
+          "note": "shallots, sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "chopped"
+        },
+        {
+          "i": "garlic",
+          "g": 8,
+          "note": "chopped"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "tomato",
+          "g": 100,
+          "note": "chopped"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "coconut_milk",
+          "g": 60,
+          "note": "thick"
+        },
+        {
+          "i": "coconut_oil",
+          "g": 16
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate the pomfret with chilli, turmeric, pepper, lemon and a little salt.",
+          "timerMin": 20
+        },
+        {
+          "text": "Shallow-fry the fish in half the coconut oil on a tawa for 2 minutes per side until half-cooked; set aside.",
+          "timerMin": 4
+        },
+        {
+          "text": "In the same oil sauté shallots, ginger, garlic, green chilli and curry leaves; add tomato and cook to a thick masala.",
+          "timerMin": 8
+        },
+        {
+          "text": "Stir in thick coconut milk and remaining salt; cook until it coats the spoon.",
+          "timerMin": 3
+        },
+        {
+          "text": "Spread masala on wilted banana leaf, place the fish, cover with more masala and fold into a parcel."
+        },
+        {
+          "text": "Cook parcels on a covered tawa on low heat, flipping once halfway.",
+          "timerMin": 10
+        }
+      ],
+      "tips": [
+        "Wilt banana leaves over a flame so they fold without tearing; foil works in a pinch."
+      ]
+    },
+    {
+      "id": "fs-pomfret-paturi-steamed",
+      "name": "Steamed Mustard Pomfret Parcels",
+      "localName": "Pomfret Paturi",
+      "cuisine": "Bengali",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 20,
+      "cookMin": 15,
+      "difficulty": "medium",
+      "equipment": [
+        "steamer",
+        "blender"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "pomfret",
+          "g": 340,
+          "note": "cleaned, cut into 4 thick pieces"
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 14,
+          "note": "yellow + black, soaked 15 min"
+        },
+        {
+          "i": "green_chilli",
+          "g": 8
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "coconut",
+          "g": 20,
+          "note": "grated"
+        },
+        {
+          "i": "mustard_oil",
+          "g": 12
+        },
+        {
+          "i": "lemon_juice",
+          "g": 5
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grind soaked mustard seeds with green chilli, coconut, salt and a splash of water to a smooth paste; rest so the bitterness mellows.",
+          "timerMin": 10
+        },
+        {
+          "text": "Stir turmeric, lemon juice and raw mustard oil into the paste and coat the fish pieces."
+        },
+        {
+          "text": "Wrap each piece in banana leaf (or parchment) with a slit green chilli on top; tie with thread."
+        },
+        {
+          "text": "Steam over rapidly boiling water until the fish is opaque.",
+          "timerMin": 15
+        },
+        {
+          "text": "Open at the table and drizzle a few drops of raw mustard oil."
+        }
+      ],
+      "tips": [
+        "Grind mustard with a pinch of salt and green chilli to avoid bitterness."
+      ]
+    },
+    {
+      "id": "fs-bangude-rava-fry-air-fryer",
+      "name": "Air-Fryer Mangalorean Mackerel Rava Fry",
+      "localName": "Bangude Rava Fry",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 14,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "mackerel",
+          "g": 320,
+          "note": "2 whole, cleaned, 2 slits per side"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 8,
+          "note": "Byadgi, ground with water"
+        },
+        {
+          "i": "garlic",
+          "g": 6
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "tamarind",
+          "g": 6
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "rice_rava",
+          "g": 20,
+          "note": "fine rice rava for coating"
+        },
+        {
+          "i": "coconut_oil",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grind Byadgi chillies, garlic, ginger, tamarind, turmeric and salt into a thick red masala."
+        },
+        {
+          "text": "Rub masala deep into the slits and inside the cavity; marinate.",
+          "timerMin": 20
+        },
+        {
+          "text": "Press each mackerel into rice rava on both sides and spray or brush generously with coconut oil."
+        },
+        {
+          "text": "Air-fry at 200°C for 7 minutes, flip and brush the other side with oil.",
+          "timerMin": 7
+        },
+        {
+          "text": "Air-fry 6–7 minutes more until the rava is golden and crunchy.",
+          "timerMin": 7
+        }
+      ],
+      "tips": [
+        "Rice rava stays crisper than semolina and is wheat-free."
+      ]
+    },
+    {
+      "id": "fs-bangude-pulimunchi",
+      "name": "Kundapur Tangy Mackerel Curry",
+      "localName": "Bangude Pulimunchi",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 20,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai",
+        "blender"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "mackerel",
+          "g": 480,
+          "note": "3 whole, cleaned, cut into thick pieces"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 12,
+          "note": "Byadgi"
+        },
+        {
+          "i": "tamarind",
+          "g": 30
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "coriander_powder",
+          "g": 4
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "garlic",
+          "g": 8
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "coconut_oil",
+          "g": 18
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grind red chillies, tamarind, turmeric, coriander, pepper and ginger with 100 ml water into a smooth sour-spicy paste."
+        },
+        {
+          "text": "Bring the paste to a boil in a clay pot or kadai with 200 ml water and salt.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add mackerel pieces and simmer uncovered, shaking the pan, until the gravy is thick and coats the fish.",
+          "timerMin": 10
+        },
+        {
+          "text": "Temper crushed garlic and curry leaves in hot coconut oil and pour over the curry.",
+          "timerMin": 2
+        },
+        {
+          "text": "Rest for 15 minutes before serving.",
+          "timerMin": 15
+        }
+      ],
+      "tips": [
+        "Pulimunchi means sour-hot — no coconut in the gravy, so it stays light."
+      ],
+      "makeAhead": "Keeps 2 days refrigerated; flavour deepens overnight.",
+      "batchFriendly": true
+    },
+    {
+      "id": "fs-mackerel-kachumber-bowl-air-fryer",
+      "name": "Air-Fried Lemon-Pepper Mackerel Bowl",
+      "localName": "Ayala Salad Bowl",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "mackerel",
+          "g": 300,
+          "note": "fillets, skin on, pin-boned"
+        },
+        {
+          "i": "black_pepper",
+          "g": 3,
+          "note": "coarsely crushed"
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "lemon_juice",
+          "g": 25
+        },
+        {
+          "i": "garlic_oil",
+          "g": 6
+        },
+        {
+          "i": "lettuce",
+          "g": 100,
+          "note": "torn"
+        },
+        {
+          "i": "cucumber",
+          "g": 150,
+          "note": "diced"
+        },
+        {
+          "i": "tomato",
+          "g": 120,
+          "note": "diced"
+        },
+        {
+          "i": "carrot",
+          "g": 60,
+          "note": "grated"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 10
+        },
+        {
+          "i": "cumin",
+          "g": 1,
+          "note": "roasted, ground"
+        },
+        {
+          "i": "olive_oil",
+          "g": 4
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rub the fillets with pepper, turmeric, half the lemon juice, garlic oil and a pinch of salt.",
+          "timerMin": 10
+        },
+        {
+          "text": "Air-fry skin side down at 200°C for 6 minutes, flip, then 4 minutes more until the skin crisps.",
+          "timerMin": 10
+        },
+        {
+          "text": "Toss lettuce, cucumber, tomato, carrot and coriander with olive oil, remaining lemon, roasted cumin and salt."
+        },
+        {
+          "text": "Flake the hot mackerel over the salad and serve immediately."
+        }
+      ],
+      "tips": [
+        "Mackerel is one of the richest omega-3 sources available at Indian fish markets."
+      ]
+    },
+    {
+      "id": "fs-bangda-xacuti",
+      "name": "Goan Mackerel Xacuti",
+      "localName": "Bangdyachi Xacuti",
+      "cuisine": "Goan",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 25,
+      "cookMin": 25,
+      "difficulty": "hard",
+      "equipment": [
+        "kadai",
+        "blender"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "mackerel",
+          "g": 480,
+          "note": "3 whole, cleaned, cut into 3 pieces each"
+        },
+        {
+          "i": "coconut",
+          "g": 50,
+          "note": "grated, dry-roasted to brown"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 8
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6
+        },
+        {
+          "i": "whole_spices",
+          "g": 3,
+          "note": "star anise, cloves, cinnamon, cardamom"
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 2
+        },
+        {
+          "i": "onion",
+          "g": 80,
+          "note": "sliced, roasted with coconut"
+        },
+        {
+          "i": "garlic",
+          "g": 8
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "tamarind",
+          "g": 10
+        },
+        {
+          "i": "coconut_oil",
+          "g": 20
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dry-roast red chillies, coriander, whole spices, pepper and fennel until aromatic.",
+          "timerMin": 3
+        },
+        {
+          "text": "In a little oil roast onion and grated coconut until deep brown; grind with the roasted spices, garlic, turmeric and tamarind to a fine paste.",
+          "timerMin": 8
+        },
+        {
+          "text": "Fry the paste in the remaining oil until it darkens and releases oil.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add 300 ml water and salt; simmer to a medium-thick gravy.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add mackerel and simmer gently until cooked through, shaking the kadai instead of stirring.",
+          "timerMin": 8
+        }
+      ],
+      "tips": [
+        "The deep roast of the coconut is what makes xacuti — brown, not black."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "fs-mathi-fry-air-fryer",
+      "name": "Air-Fryer Kerala Sardine Fry",
+      "localName": "Mathi Varuthathu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "sardine",
+          "g": 300,
+          "note": "8–10 whole, cleaned, heads off, 2 slits per side"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 8,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "garlic_oil",
+          "g": 4
+        },
+        {
+          "i": "coconut_oil",
+          "g": 6
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Make a thick paste of chilli, turmeric, pepper, ginger, lemon juice, garlic oil and salt."
+        },
+        {
+          "text": "Rub into the sardines, including the slits and cavity, and marinate.",
+          "timerMin": 20
+        },
+        {
+          "text": "Lay curry leaves on the oiled air-fryer tray and place sardines on top in a single layer."
+        },
+        {
+          "text": "Air-fry at 200°C for 6 minutes, brush with coconut oil, flip.",
+          "timerMin": 6
+        },
+        {
+          "text": "Air-fry 5–6 minutes more until crisp at the tail.",
+          "timerMin": 6
+        }
+      ],
+      "tips": [
+        "Eat the small bones — sardines are an excellent calcium source."
+      ]
+    },
+    {
+      "id": "fs-mathi-mulakittathu",
+      "name": "Kerala Sardine Red Curry",
+      "localName": "Mathi Mulakittathu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 20,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "sardine",
+          "g": 450,
+          "note": "12 whole, cleaned, heads off"
+        },
+        {
+          "i": "kokum",
+          "g": 15,
+          "note": "kudampuli substitute, soaked"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 10,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 4
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "fenugreek_seeds",
+          "g": 1
+        },
+        {
+          "i": "onion",
+          "g": 60,
+          "note": "shallots, sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 12,
+          "note": "crushed"
+        },
+        {
+          "i": "garlic",
+          "g": 8,
+          "note": "crushed"
+        },
+        {
+          "i": "tomato",
+          "g": 80,
+          "note": "chopped"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "coconut_oil",
+          "g": 24
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat coconut oil in a clay pot or kadai; add fenugreek, then shallots, ginger, garlic and curry leaves and sauté.",
+          "timerMin": 5
+        },
+        {
+          "text": "Lower the heat, add chilli, coriander and turmeric with a splash of water and cook without burning.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add tomato, kokum with its soaking water, 250 ml water and salt; boil.",
+          "timerMin": 5
+        },
+        {
+          "text": "Arrange the sardines in a single layer and simmer covered on low.",
+          "timerMin": 8
+        },
+        {
+          "text": "Swirl the pot, drizzle a little coconut oil and rest at least 30 minutes before eating.",
+          "timerMin": 30
+        }
+      ],
+      "tips": [
+        "Traditionally made a day ahead — it gets better in the fridge."
+      ],
+      "makeAhead": "Keeps 3 days refrigerated.",
+      "batchFriendly": true
+    },
+    {
+      "id": "fs-mathi-peera",
+      "name": "Sardine with Coconut & Kokum",
+      "localName": "Mathi Peera Pattichathu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "sardine",
+          "g": 450,
+          "note": "whole, cleaned, heads off"
+        },
+        {
+          "i": "coconut",
+          "g": 75,
+          "note": "grated, crushed with spices"
+        },
+        {
+          "i": "ginger",
+          "g": 15
+        },
+        {
+          "i": "green_chilli",
+          "g": 10
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "kokum",
+          "g": 12,
+          "note": "kudampuli substitute, soaked"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6
+        },
+        {
+          "i": "coconut_oil",
+          "g": 12
+        },
+        {
+          "i": "spinach",
+          "g": 100,
+          "note": "roughly chopped (optional greens)"
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Coarsely crush coconut, ginger, green chilli and turmeric without water."
+        },
+        {
+          "text": "Spread half the coconut mix in a kadai, layer sardines and spinach, then top with the rest, kokum, curry leaves and salt."
+        },
+        {
+          "text": "Add 120 ml water, cover tightly and cook on low until the water is almost absorbed.",
+          "timerMin": 10
+        },
+        {
+          "text": "Drizzle coconut oil, uncover and cook 3 minutes more to dry it out.",
+          "timerMin": 3
+        }
+      ],
+      "tips": [
+        "Coconut stays at 25 g per serving here, within the low-FODMAP limit."
+      ]
+    },
+    {
+      "id": "fs-rohu-macher-jhol",
+      "name": "Bengali Light Rohu Curry",
+      "localName": "Rui Macher Jhol",
+      "cuisine": "Bengali",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 25,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "rohu",
+          "g": 510,
+          "note": "steaks (peti + gada), 2 cm thick"
+        },
+        {
+          "i": "turmeric",
+          "g": 3
+        },
+        {
+          "i": "mustard_oil",
+          "g": 24
+        },
+        {
+          "i": "cumin",
+          "g": 3,
+          "note": "seeds + powder"
+        },
+        {
+          "i": "ginger",
+          "g": 15,
+          "note": "paste"
+        },
+        {
+          "i": "tomato",
+          "g": 120,
+          "note": "chopped"
+        },
+        {
+          "i": "potato",
+          "g": 120,
+          "note": "long wedges"
+        },
+        {
+          "i": "brinjal",
+          "g": 100,
+          "note": "long wedges"
+        },
+        {
+          "i": "green_chilli",
+          "g": 8,
+          "note": "slit"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 3
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 4.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rub the rohu with turmeric and salt.",
+          "timerMin": 10
+        },
+        {
+          "text": "Sear the fish in smoking mustard oil until lightly golden on both sides; remove.",
+          "timerMin": 6
+        },
+        {
+          "text": "In the same oil splutter cumin seeds, fry potato and brinjal wedges until edges colour.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add ginger, cumin powder, chilli and tomato; cook until soft.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add 400 ml hot water and green chilli; simmer until potatoes are tender.",
+          "timerMin": 8
+        },
+        {
+          "text": "Return the fish and simmer 4 minutes; finish with coriander.",
+          "timerMin": 4
+        }
+      ],
+      "tips": [
+        "A thin jhol is the everyday Bengali fish curry — no onion or garlic needed."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "fs-shorshe-rohu",
+      "name": "Rohu in Mustard Gravy",
+      "localName": "Shorshe Rui",
+      "cuisine": "Bengali",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 20,
+      "cookMin": 20,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai",
+        "blender"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "rohu",
+          "g": 510,
+          "note": "steaks, 2 cm thick"
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 24,
+          "note": "black + yellow, soaked"
+        },
+        {
+          "i": "green_chilli",
+          "g": 12
+        },
+        {
+          "i": "turmeric",
+          "g": 3
+        },
+        {
+          "i": "mustard_oil",
+          "g": 24
+        },
+        {
+          "i": "cumin",
+          "g": 1,
+          "note": "kalonji/nigella if available"
+        },
+        {
+          "i": "tomato",
+          "g": 60,
+          "note": "pureed"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 6
+        },
+        {
+          "i": "salt",
+          "g": 4.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grind soaked mustard seeds with 4 green chillies, a pinch of salt and a little water into a smooth paste.",
+          "timerMin": 5
+        },
+        {
+          "text": "Rub rohu with turmeric and salt and lightly fry in mustard oil until golden; set aside.",
+          "timerMin": 6
+        },
+        {
+          "text": "Temper the oil with nigella/cumin and slit green chillies, add tomato and cook briefly.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add mustard paste mixed with 250 ml water, bring to a gentle simmer (do not boil hard).",
+          "timerMin": 4
+        },
+        {
+          "text": "Add the fish, simmer covered until the gravy thickens, and drizzle raw mustard oil.",
+          "timerMin": 6
+        }
+      ],
+      "tips": [
+        "Boiling mustard paste hard makes it bitter — keep it at a gentle simmer."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "fs-chepala-pulusu",
+      "name": "Andhra Tamarind Fish Curry",
+      "localName": "Chepala Pulusu",
+      "cuisine": "Andhra",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 4,
+      "prepMin": 15,
+      "cookMin": 30,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "rohu",
+          "g": 680,
+          "note": "steaks, 2 cm thick"
+        },
+        {
+          "i": "tamarind",
+          "g": 35,
+          "note": "soaked, thick pulp"
+        },
+        {
+          "i": "onion",
+          "g": 120,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 120,
+          "note": "chopped"
+        },
+        {
+          "i": "green_chilli",
+          "g": 10,
+          "note": "slit"
+        },
+        {
+          "i": "garlic",
+          "g": 10
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "chilli_powder",
+          "g": 12,
+          "note": "Guntur"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 8
+        },
+        {
+          "i": "turmeric",
+          "g": 2
+        },
+        {
+          "i": "fenugreek_seeds",
+          "g": 2,
+          "note": "roasted, ground"
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 36
+        },
+        {
+          "i": "jaggery",
+          "g": 6
+        },
+        {
+          "i": "salt",
+          "g": 6
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate fish with a little chilli, turmeric and salt.",
+          "timerMin": 15
+        },
+        {
+          "text": "Heat oil, splutter mustard seeds and curry leaves, then sauté onion and green chilli until golden.",
+          "timerMin": 7
+        },
+        {
+          "text": "Add ginger-garlic, tomato, chilli powder, coriander and turmeric; cook to a thick masala.",
+          "timerMin": 6
+        },
+        {
+          "text": "Pour in tamarind pulp with 300 ml water, jaggery and salt; boil until the gravy turns glossy.",
+          "timerMin": 8
+        },
+        {
+          "text": "Slide in the fish, sprinkle ground fenugreek and simmer uncovered without stirring.",
+          "timerMin": 10
+        },
+        {
+          "text": "Turn off and rest — pulusu is best eaten a few hours later.",
+          "timerMin": 30
+        }
+      ],
+      "tips": [
+        "Andhra homes make pulusu in the morning for dinner; the fish soaks up the sour gravy."
+      ],
+      "makeAhead": "Keeps 3 days refrigerated.",
+      "batchFriendly": true
+    },
+    {
+      "id": "fs-amritsari-fish-air-fryer",
+      "name": "Air-Fryer Amritsari Fish",
+      "localName": "Amritsari Machhi",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "rohu",
+          "g": 510,
+          "note": "boneless fillets, 5 cm fingers"
+        },
+        {
+          "i": "besan",
+          "g": 30
+        },
+        {
+          "i": "rice_flour",
+          "g": 20
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 8,
+          "note": "paste"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "ajwain if available"
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "lemon_juice",
+          "g": 20
+        },
+        {
+          "i": "mustard_oil",
+          "g": 15
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Toss the fingers with lemon juice, salt and ginger-garlic.",
+          "timerMin": 15
+        },
+        {
+          "text": "Mix besan, rice flour, chilli, ajwain/cumin and garam masala with a few spoons of water and half the oil into a thick batter; coat the fish.",
+          "timerMin": 10
+        },
+        {
+          "text": "Arrange in the oiled air-fryer basket without touching and brush tops with oil."
+        },
+        {
+          "text": "Air-fry at 200°C for 6 minutes, flip and brush again.",
+          "timerMin": 6
+        },
+        {
+          "text": "Air-fry 5–6 minutes more until golden; dust with chaat masala.",
+          "timerMin": 6
+        }
+      ],
+      "tips": [
+        "A coating of mostly rice flour (with a little besan) keeps it crisp and gentler on IBS."
+      ]
+    },
+    {
+      "id": "fs-salmon-tikka-air-fryer",
+      "name": "Air-Fryer Salmon Tikka",
+      "localName": "Salmon Tikka",
+      "cuisine": "Mughlai",
+      "mealTypes": [
+        "snack",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "salmon",
+          "g": 450,
+          "note": "skinless fillet, 4 cm cubes"
+        },
+        {
+          "i": "lf_curd",
+          "g": 60,
+          "note": "hung, lactose-free"
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "paste"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 5,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 1
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "garlic_oil",
+          "g": 6
+        },
+        {
+          "i": "mustard_oil",
+          "g": 6
+        },
+        {
+          "i": "salt",
+          "g": 3.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix hung curd, ginger, spices, kasuri methi, lemon, garlic oil, mustard oil and salt."
+        },
+        {
+          "text": "Fold in the salmon cubes and marinate in the fridge.",
+          "timerMin": 20
+        },
+        {
+          "text": "Air-fry at 200°C for 5 minutes, flip each cube.",
+          "timerMin": 5
+        },
+        {
+          "text": "Air-fry 4–5 minutes more until just opaque inside and charred outside.",
+          "timerMin": 5
+        },
+        {
+          "text": "Serve with cucumber raita or lemon wedges."
+        }
+      ],
+      "tips": [
+        "Salmon is already fatty — no extra oil needed beyond the marinade."
+      ]
+    },
+    {
+      "id": "fs-garlic-pepper-salmon-air-fryer",
+      "name": "Air-Fryer Garlic-Pepper Salmon",
+      "localName": "Garlic Pepper Fish",
+      "cuisine": "Indo-Chinese",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 14,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "pan"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "salmon",
+          "g": 300,
+          "note": "fillet, 3 cm chunks, skin off"
+        },
+        {
+          "i": "soy_sauce",
+          "g": 15
+        },
+        {
+          "i": "black_pepper",
+          "g": 4,
+          "note": "coarsely crushed"
+        },
+        {
+          "i": "cornflour",
+          "g": 8
+        },
+        {
+          "i": "garlic_oil",
+          "g": 8
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "finely chopped"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 30,
+          "note": "sliced"
+        },
+        {
+          "i": "capsicum",
+          "g": 120,
+          "note": "diced"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "vinegar",
+          "g": 5
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Toss salmon with half the soy sauce, half the pepper and cornflour.",
+          "timerMin": 10
+        },
+        {
+          "text": "Air-fry at 200°C for 5 minutes, shake/flip, then 3–4 minutes more until crisp-edged.",
+          "timerMin": 9
+        },
+        {
+          "text": "Meanwhile heat garlic oil in a pan, stir-fry ginger, green chilli and capsicum on high heat.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add remaining soy, vinegar, pepper and a splash of water, toss in the salmon and spring onion greens.",
+          "timerMin": 1
+        },
+        {
+          "text": "Serve hot over lettuce or a small portion of rice."
+        }
+      ],
+      "tips": [
+        "Garlic-infused oil gives the garlic flavour without fructans."
+      ]
+    },
+    {
+      "id": "fs-salmon-egg-bhurji",
+      "name": "Salmon & Egg Bhurji",
+      "localName": "Machhli Anda Bhurji",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "breakfast",
+        "lunch"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "salmon",
+          "g": 200,
+          "note": "skinless, poached or leftover, flaked"
+        },
+        {
+          "i": "egg",
+          "g": 100,
+          "note": "2 large"
+        },
+        {
+          "i": "tomato",
+          "g": 80,
+          "note": "chopped"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 20
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "green_chilli",
+          "g": 4
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "spinach",
+          "g": 60,
+          "note": "chopped"
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 6
+        },
+        {
+          "i": "garlic_oil",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Heat garlic oil, sauté ginger, green chilli and spring onion greens.",
+          "timerMin": 1
+        },
+        {
+          "text": "Add tomato, turmeric and salt and cook until soft; stir in spinach until wilted.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add flaked salmon and stir gently to warm through.",
+          "timerMin": 2
+        },
+        {
+          "text": "Pour in beaten eggs and scramble on low heat until just set; finish with pepper and coriander.",
+          "timerMin": 3
+        }
+      ],
+      "tips": [
+        "Uses leftover fish from dinner — a fast high-protein breakfast."
+      ],
+      "makeAhead": "Poach salmon the night before."
+    },
+    {
+      "id": "fs-salmon-kachumber-bowl",
+      "name": "Grilled Salmon Kachumber Bowl",
+      "localName": "Salmon Kachumber",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "fish",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "grill",
+        "air-fryer"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "salmon",
+          "g": 280,
+          "note": "2 fillets, skin on"
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "roasted, ground"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "lemon_juice",
+          "g": 25
+        },
+        {
+          "i": "olive_oil",
+          "g": 8
+        },
+        {
+          "i": "cucumber",
+          "g": 150,
+          "note": "diced"
+        },
+        {
+          "i": "tomato",
+          "g": 120,
+          "note": "diced"
+        },
+        {
+          "i": "capsicum",
+          "g": 80,
+          "note": "diced"
+        },
+        {
+          "i": "lettuce",
+          "g": 80
+        },
+        {
+          "i": "mint_leaves",
+          "g": 6
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "basmati_rice",
+          "g": 60,
+          "note": "cooked from raw weight"
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice and spread it to cool.",
+          "timerMin": 15
+        },
+        {
+          "text": "Rub salmon with cumin, chilli, half the lemon juice, salt and 2 g oil.",
+          "timerMin": 10
+        },
+        {
+          "text": "Grill on a hot grill pan skin side down 4 minutes, flip, 3 minutes more (or air-fry at 200°C for 8 minutes without flipping).",
+          "timerMin": 7
+        },
+        {
+          "text": "Toss cucumber, tomato, capsicum, mint, coriander with remaining lemon, oil and salt."
+        },
+        {
+          "text": "Build bowls: lettuce, rice, kachumber, then the salmon on top."
+        }
+      ],
+      "tips": [
+        "Cooled rice has more resistant starch — easier on blood sugar."
+      ]
+    },
+    {
+      "id": "pr-kerala-chemmeen-roast",
+      "name": "Kerala Prawn Roast",
+      "localName": "Chemmeen Ularthiyathu",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "prawns",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 20,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "prawns",
+          "g": 510,
+          "note": "medium, peeled, deveined"
+        },
+        {
+          "i": "onion",
+          "g": 90,
+          "note": "shallots, sliced"
+        },
+        {
+          "i": "ginger",
+          "g": 12,
+          "note": "julienned"
+        },
+        {
+          "i": "garlic",
+          "g": 10,
+          "note": "sliced"
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "tomato",
+          "g": 80,
+          "note": "chopped"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 8,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 6
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 3
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "coconut",
+          "g": 20,
+          "note": "thin slivers (thenga kothu)"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6
+        },
+        {
+          "i": "coconut_oil",
+          "g": 24
+        },
+        {
+          "i": "salt",
+          "g": 4
+        }
+      ],
+      "steps": [
+        {
+          "text": "Marinate prawns with half the chilli, turmeric and salt.",
+          "timerMin": 15
+        },
+        {
+          "text": "Fry coconut slivers in coconut oil until golden; remove.",
+          "timerMin": 3
+        },
+        {
+          "text": "Sauté shallots, ginger, garlic, green chilli and curry leaves until deep golden.",
+          "timerMin": 8
+        },
+        {
+          "text": "Add tomato and remaining powders; cook until oil separates.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add prawns and roast on high heat, tossing, until the masala coats them dry.",
+          "timerMin": 6
+        },
+        {
+          "text": "Finish with pepper, garam masala and the fried coconut."
+        }
+      ],
+      "tips": [
+        "Do not overcook prawns — they turn rubbery after 6–7 minutes."
+      ]
+    },
+    {
+      "id": "pr-prawn-balchao",
+      "name": "Goan Prawn Balchão",
+      "localName": "Sungtache Balchão",
+      "cuisine": "Goan",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "prawns",
+      "servings": 4,
+      "prepMin": 20,
+      "cookMin": 20,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai",
+        "blender"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "prawns",
+          "g": 680,
+          "note": "small–medium, peeled, deveined"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 12,
+          "note": "Kashmiri, soaked in vinegar"
+        },
+        {
+          "i": "vinegar",
+          "g": 40
+        },
+        {
+          "i": "garlic",
+          "g": 15
+        },
+        {
+          "i": "ginger",
+          "g": 10
+        },
+        {
+          "i": "cumin",
+          "g": 3
+        },
+        {
+          "i": "whole_spices",
+          "g": 2,
+          "note": "cloves, cinnamon"
+        },
+        {
+          "i": "black_pepper",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "onion",
+          "g": 100,
+          "note": "finely chopped"
+        },
+        {
+          "i": "tomato",
+          "g": 120,
+          "note": "chopped"
+        },
+        {
+          "i": "jaggery",
+          "g": 8
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 32
+        },
+        {
+          "i": "salt",
+          "g": 5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grind vinegar-soaked chillies with garlic, ginger, cumin, spices, pepper and turmeric into a smooth balchão paste."
+        },
+        {
+          "text": "Toss prawns in salt and turmeric and sear in half the oil for 2 minutes; remove.",
+          "timerMin": 2
+        },
+        {
+          "text": "Fry onion in the remaining oil until golden, add tomato and cook down.",
+          "timerMin": 8
+        },
+        {
+          "text": "Add the paste and jaggery and fry until the oil rises.",
+          "timerMin": 5
+        },
+        {
+          "text": "Return the prawns and cook until the masala is thick and clinging.",
+          "timerMin": 4
+        },
+        {
+          "text": "Cool and rest — balchão tastes best after a day."
+        }
+      ],
+      "tips": [
+        "Vinegar preserves it; refrigerated it keeps up to a week."
+      ],
+      "makeAhead": "Make 1–2 days ahead; keeps 5–7 days refrigerated.",
+      "batchFriendly": true
+    },
+    {
+      "id": "pr-prawn-koliwada-air-fryer",
+      "name": "Air-Fryer Prawn Koliwada",
+      "localName": "Koliwada Kolambi",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "snack"
+      ],
+      "protein": "prawns",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "prawns",
+          "g": 450,
+          "note": "medium, peeled, deveined, tail on"
+        },
+        {
+          "i": "besan",
+          "g": 25
+        },
+        {
+          "i": "rice_flour",
+          "g": 20
+        },
+        {
+          "i": "ginger",
+          "g": 8,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 6,
+          "note": "paste"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 6,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "ajwain if available"
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 15
+        },
+        {
+          "i": "salt",
+          "g": 3.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Toss prawns with lemon, salt and ginger-garlic.",
+          "timerMin": 10
+        },
+        {
+          "text": "Add besan, rice flour, chilli, ajwain and 1 tbsp oil with a splash of water to make a clingy coating."
+        },
+        {
+          "text": "Air-fry at 200°C in one layer for 5 minutes, brush with oil, flip.",
+          "timerMin": 5
+        },
+        {
+          "text": "Air-fry 4–5 minutes until crisp and golden; serve with lemon and green chutney.",
+          "timerMin": 4
+        }
+      ],
+      "tips": [
+        "Tail-on prawns are easy to pick up as party bites."
+      ]
+    },
+    {
+      "id": "pr-chilli-prawns-air-fryer",
+      "name": "Air-Fryer Chilli Prawns",
+      "localName": "Chilli Prawns",
+      "cuisine": "Indo-Chinese",
+      "mealTypes": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "protein": "prawns",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "pan"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "prawns",
+          "g": 340,
+          "note": "large, peeled, deveined, tail on"
+        },
+        {
+          "i": "cornflour",
+          "g": 10
+        },
+        {
+          "i": "soy_sauce",
+          "g": 20
+        },
+        {
+          "i": "chilli_sauce",
+          "g": 15,
+          "note": "red chilli sauce"
+        },
+        {
+          "i": "vinegar",
+          "g": 8
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "ginger",
+          "g": 10,
+          "note": "finely chopped"
+        },
+        {
+          "i": "garlic_oil",
+          "g": 10
+        },
+        {
+          "i": "green_chilli",
+          "g": 8,
+          "note": "slit"
+        },
+        {
+          "i": "capsicum",
+          "g": 140,
+          "note": "2 cm squares"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 30
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Toss prawns with half the soy sauce, pepper and cornflour.",
+          "timerMin": 10
+        },
+        {
+          "text": "Air-fry at 200°C for 4 minutes, shake/flip, then 3 minutes more until crisp-edged.",
+          "timerMin": 7
+        },
+        {
+          "text": "Heat garlic oil in a pan or wok until hot; stir-fry ginger, green chilli and capsicum for 2 minutes.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add remaining soy, chilli sauce, vinegar and 2 tbsp water; bubble until glossy.",
+          "timerMin": 1
+        },
+        {
+          "text": "Toss in the prawns and spring onion greens and serve immediately."
+        }
+      ],
+      "tips": [
+        "Keep capsicum crunchy — high heat, quick toss."
+      ]
+    },
+    {
+      "id": "pr-eral-milagu-varuval-air-fryer",
+      "name": "Air-Fryer Chettinad Prawn Pepper Fry",
+      "localName": "Eral Milagu Varuval",
+      "cuisine": "Chettinad",
+      "mealTypes": [
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "protein": "prawns",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "pan"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "prawns",
+          "g": 340,
+          "note": "medium, peeled, deveined"
+        },
+        {
+          "i": "black_pepper",
+          "g": 6,
+          "note": "freshly ground"
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 3,
+          "note": "ground"
+        },
+        {
+          "i": "cumin",
+          "g": 2,
+          "note": "ground"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 3
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "ginger",
+          "g": 12,
+          "note": "paste"
+        },
+        {
+          "i": "curry_leaves",
+          "g": 6
+        },
+        {
+          "i": "garlic_oil",
+          "g": 8
+        },
+        {
+          "i": "sesame_oil",
+          "g": 4
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dry-roast pepper, fennel, cumin and red chilli for a minute and grind coarsely.",
+          "timerMin": 2
+        },
+        {
+          "text": "Coat prawns with the spice powder, turmeric, ginger, garlic oil, lemon and salt.",
+          "timerMin": 15
+        },
+        {
+          "text": "Air-fry at 200°C for 4 minutes, shake/flip, then 3–4 minutes more.",
+          "timerMin": 8
+        },
+        {
+          "text": "Heat sesame oil in a pan, crackle curry leaves, toss in the prawns for 1 minute to coat.",
+          "timerMin": 1
+        }
+      ],
+      "tips": [
+        "Naturally low-FODMAP and keto — no onion, no garlic cloves."
+      ]
+    },
+    {
+      "id": "pr-prawn-ghee-roast-air-fryer",
+      "name": "Air-Fryer Mangalorean Prawn Ghee Roast",
+      "localName": "Kundapura Prawn Ghee Roast",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "prawns",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 14,
+      "difficulty": "medium",
+      "equipment": [
+        "air-fryer",
+        "pan",
+        "blender"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "prawns",
+          "g": 340,
+          "note": "large, peeled, deveined, tail on"
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 10,
+          "note": "Byadgi, soaked"
+        },
+        {
+          "i": "coriander_powder",
+          "g": 4,
+          "note": "from roasted seeds"
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "fenugreek_seeds",
+          "g": 1
+        },
+        {
+          "i": "garlic",
+          "g": 8
+        },
+        {
+          "i": "tamarind",
+          "g": 8
+        },
+        {
+          "i": "jaggery",
+          "g": 4
+        },
+        {
+          "i": "curd",
+          "g": 30
+        },
+        {
+          "i": "ghee",
+          "g": 14
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Grind soaked chillies, roasted coriander, cumin, pepper, fenugreek, garlic, tamarind and jaggery into a fine paste."
+        },
+        {
+          "text": "Marinate prawns with curd, salt and 1 tbsp of the paste.",
+          "timerMin": 15
+        },
+        {
+          "text": "Air-fry at 200°C for 4 minutes, flip, then 3 minutes more.",
+          "timerMin": 7
+        },
+        {
+          "text": "Heat ghee in a pan, fry the remaining paste on low until deep red and fragrant.",
+          "timerMin": 5
+        },
+        {
+          "text": "Toss in the prawns and curry leaves for 1–2 minutes until glazed.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Air-frying first means the dish needs a third of the usual ghee."
+      ]
+    },
+    {
+      "id": "pr-prawn-masala-omelette",
+      "name": "Prawn Masala Omelette",
+      "localName": "Eral Omelette",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "breakfast"
+      ],
+      "protein": "prawns",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "prawns",
+          "g": 160,
+          "note": "small, peeled, deveined, chopped"
+        },
+        {
+          "i": "egg",
+          "g": 150,
+          "note": "3 large"
+        },
+        {
+          "i": "egg_white",
+          "g": 66,
+          "note": "2 whites"
+        },
+        {
+          "i": "tomato",
+          "g": 60,
+          "note": "finely chopped"
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 20
+        },
+        {
+          "i": "green_chilli",
+          "g": 4
+        },
+        {
+          "i": "ginger",
+          "g": 5
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 6
+        },
+        {
+          "i": "garlic_oil",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Sauté prawns in half the garlic oil with ginger, turmeric and a pinch of salt until pink.",
+          "timerMin": 3
+        },
+        {
+          "text": "Beat eggs and whites with tomato, spring onion greens, chilli, pepper, coriander and salt."
+        },
+        {
+          "text": "Heat remaining oil in a pan, pour in half the egg, scatter half the prawns and cook covered on low.",
+          "timerMin": 3
+        },
+        {
+          "text": "Fold or flip and cook 1 minute more; repeat for the second omelette.",
+          "timerMin": 1
+        }
+      ],
+      "tips": [
+        "Spring onion greens replace onion for a low-FODMAP breakfast."
+      ]
+    },
+    {
+      "id": "pr-tandoori-prawn-salad-bowl-air-fryer",
+      "name": "Air-Fryer Tandoori Prawn Salad Bowl",
+      "localName": "Tandoori Jhinga Salad",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "lunch",
+        "dinner"
+      ],
+      "protein": "prawns",
+      "servings": 2,
+      "prepMin": 15,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "prawns",
+          "g": 340,
+          "note": "large, peeled, deveined"
+        },
+        {
+          "i": "curd",
+          "g": 50,
+          "note": "hung"
+        },
+        {
+          "i": "ginger",
+          "g": 8,
+          "note": "paste"
+        },
+        {
+          "i": "garlic",
+          "g": 6,
+          "note": "paste"
+        },
+        {
+          "i": "chilli_powder",
+          "g": 4,
+          "note": "Kashmiri"
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "lemon_juice",
+          "g": 20
+        },
+        {
+          "i": "mustard_oil",
+          "g": 8
+        },
+        {
+          "i": "lettuce",
+          "g": 100
+        },
+        {
+          "i": "cucumber",
+          "g": 150,
+          "note": "sliced"
+        },
+        {
+          "i": "tomato",
+          "g": 120,
+          "note": "wedges"
+        },
+        {
+          "i": "onion",
+          "g": 40,
+          "note": "thin rings"
+        },
+        {
+          "i": "mint_leaves",
+          "g": 6
+        },
+        {
+          "i": "olive_oil",
+          "g": 4
+        },
+        {
+          "i": "salt",
+          "g": 2.5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix hung curd, ginger-garlic, chilli, garam masala, half the lemon, mustard oil and salt; coat prawns.",
+          "timerMin": 20
+        },
+        {
+          "text": "Air-fry at 200°C for 4 minutes, flip, then 3–4 minutes more until charred.",
+          "timerMin": 8
+        },
+        {
+          "text": "Toss lettuce, cucumber, tomato, onion and mint with olive oil, remaining lemon and a pinch of salt."
+        },
+        {
+          "text": "Top with the hot prawns and serve."
+        }
+      ],
+      "tips": [
+        "Use lactose-free curd and skip onion rings for the IBS-safe bowl."
+      ]
+    }
+  ]
+}

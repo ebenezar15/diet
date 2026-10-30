@@ -1,0 +1,2678 @@
+{
+  "recipes": [
+    {
+      "id": "sd-steamed-rice",
+      "name": "Plain Steamed Rice",
+      "localName": "Sadam",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "side",
+        "lunch",
+        "dinner"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 5,
+      "cookMin": 18,
+      "difficulty": "easy",
+      "equipment": [
+        "pot"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "basmati_rice",
+          "g": 165
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse the rice 3 times until the water runs clear, then soak for 15 minutes.",
+          "timerMin": 15
+        },
+        {
+          "text": "Bring 330 ml water to a boil in a pot, add the drained rice and a pinch of salt."
+        },
+        {
+          "text": "Cover and cook on the lowest flame until all the water is absorbed.",
+          "timerMin": 12
+        },
+        {
+          "text": "Switch off and rest covered, then fluff gently with a fork.",
+          "timerMin": 5
+        }
+      ],
+      "tips": [
+        "Measure cooked rice with a bowl (about 3/4 cup per serving) to keep portions consistent.",
+        "Cooled and reheated rice has more resistant starch, which is gentle on blood sugar."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "sd-matta-rice",
+      "name": "Kerala Red Matta Rice",
+      "localName": "Kuthari Choru",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "side",
+        "lunch",
+        "dinner"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 5,
+      "cookMin": 35,
+      "difficulty": "easy",
+      "equipment": [
+        "pressure-cooker"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "brown_rice",
+          "g": 165
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse the red rice well and soak for at least 30 minutes.",
+          "timerMin": 30
+        },
+        {
+          "text": "Pressure cook with 4 cups water and salt for 5 whistles, then let pressure release naturally.",
+          "timerMin": 25
+        },
+        {
+          "text": "Drain excess starchy water through a colander and fluff the grains."
+        }
+      ],
+      "tips": [
+        "Matta rice keeps you fuller than white rice thanks to its bran layer.",
+        "Cook a big batch; it keeps 3 days refrigerated."
+      ],
+      "makeAhead": "Soak overnight to cut cooking time by a third.",
+      "batchFriendly": true
+    },
+    {
+      "id": "sd-jowar-roti",
+      "name": "Jowar Roti",
+      "localName": "Jolada Rotti",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "side",
+        "lunch",
+        "dinner"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 15,
+      "difficulty": "medium",
+      "equipment": [
+        "tawa"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "jowar_flour",
+          "g": 150
+        },
+        {
+          "i": "salt",
+          "g": 3
+        },
+        {
+          "i": "ghee",
+          "g": 9
+        }
+      ],
+      "steps": [
+        {
+          "text": "Bring 150 ml water with salt to a boil, take off heat and stir in the jowar flour; cover and rest.",
+          "timerMin": 5
+        },
+        {
+          "text": "Knead the warm dough with wet hands until smooth and crack-free, then divide into 6 balls."
+        },
+        {
+          "text": "Pat each ball into a thin round on a floured board, rotating as you press."
+        },
+        {
+          "text": "Cook on a hot tawa, brushing the top with water; flip and cook the second side until spotted.",
+          "timerMin": 2
+        },
+        {
+          "text": "Puff briefly over direct flame and brush lightly with ghee before serving."
+        }
+      ],
+      "tips": [
+        "Hot-water kneading makes gluten-free jowar dough much easier to roll.",
+        "2 rotis per serving pair well with chicken or mutton curry."
+      ],
+      "makeAhead": "Cooked rotis keep 1 day wrapped in a cloth; reheat on tawa."
+    },
+    {
+      "id": "sd-ragi-dosa",
+      "name": "Instant Ragi Dosa",
+      "localName": "Ragi Dosai",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "side",
+        "breakfast",
+        "dinner"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "tawa"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "ragi_flour",
+          "g": 90
+        },
+        {
+          "i": "rice_flour",
+          "g": 60
+        },
+        {
+          "i": "lf_curd",
+          "g": 60
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "green_chilli",
+          "g": 5
+        },
+        {
+          "i": "curry_leaves",
+          "g": 3
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 15
+        },
+        {
+          "i": "salt",
+          "g": 3
+        },
+        {
+          "i": "sesame_oil",
+          "g": 12
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk ragi flour, rice flour, lactose-free curd and about 350 ml water into a thin, lump-free batter."
+        },
+        {
+          "text": "Stir in cumin, chopped chilli, curry leaves, spring onion greens and salt; rest the batter.",
+          "timerMin": 10
+        },
+        {
+          "text": "Heat a tawa until very hot, then pour batter from the edges inward like a rava dosa, leaving lacy holes."
+        },
+        {
+          "text": "Drizzle a few drops of oil around the edges and cook until crisp and releasing from the pan.",
+          "timerMin": 3
+        },
+        {
+          "text": "Fold without flipping and serve immediately."
+        }
+      ],
+      "tips": [
+        "Ragi is rich in calcium and fibre; keep it to about 30 g per serving for comfortable digestion.",
+        "Stir the batter before every dosa as the flour settles."
+      ]
+    },
+    {
+      "id": "sd-whole-wheat-phulka",
+      "name": "Small Whole-Wheat Phulka",
+      "localName": "Phulka",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "side",
+        "lunch",
+        "dinner"
+      ],
+      "protein": "veg",
+      "servings": 4,
+      "prepMin": 10,
+      "cookMin": 12,
+      "difficulty": "medium",
+      "equipment": [
+        "tawa"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "atta",
+          "g": 100
+        },
+        {
+          "i": "salt",
+          "g": 4
+        },
+        {
+          "i": "ghee",
+          "g": 12
+        }
+      ],
+      "steps": [
+        {
+          "text": "Mix atta and salt with about 65 ml warm water into a soft dough; cover and rest.",
+          "timerMin": 20
+        },
+        {
+          "text": "Divide into 8 small balls and roll each into a thin 13 cm circle."
+        },
+        {
+          "text": "Cook on a hot tawa until bubbles appear, flip and cook briefly.",
+          "timerMin": 1
+        },
+        {
+          "text": "Puff over direct flame with tongs and brush very lightly with ghee."
+        }
+      ],
+      "tips": [
+        "Each serving is 2 small phulkas (25 g atta) to stay within the wheat fructan limit for IBS.",
+        "Try sourdough-style long resting (overnight in fridge) to make wheat easier to tolerate."
+      ],
+      "makeAhead": "Knead dough the night before and refrigerate in a closed box."
+    },
+    {
+      "id": "sd-quinoa-pulao",
+      "name": "Quinoa Vegetable Pulao",
+      "localName": "Quinoa Pulao",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "side",
+        "lunch",
+        "dinner"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 20,
+      "difficulty": "easy",
+      "equipment": [
+        "pot"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "quinoa",
+          "g": 150
+        },
+        {
+          "i": "carrot",
+          "g": 60
+        },
+        {
+          "i": "green_beans",
+          "g": 60
+        },
+        {
+          "i": "capsicum",
+          "g": 50
+        },
+        {
+          "i": "ginger",
+          "g": 5
+        },
+        {
+          "i": "whole_spices",
+          "g": 3
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "garlic_oil",
+          "g": 5
+        },
+        {
+          "i": "ghee",
+          "g": 7
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse quinoa thoroughly in a fine sieve to remove bitterness."
+        },
+        {
+          "text": "Heat ghee and garlic oil, crackle cumin and whole spices, add hing and grated ginger.",
+          "timerMin": 1
+        },
+        {
+          "text": "Add diced carrot, beans and capsicum and sauté until slightly tender.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add quinoa, salt and 300 ml water; bring to a boil, cover and simmer on low.",
+          "timerMin": 15
+        },
+        {
+          "text": "Rest covered, fluff and finish with chopped coriander.",
+          "timerMin": 5
+        }
+      ],
+      "tips": [
+        "Quinoa adds complete protein, making this a great base for lighter fish meals."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "sd-lemon-rice",
+      "name": "Lemon Rice",
+      "localName": "Elumichai Sadam",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "side",
+        "lunch"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "basmati_rice",
+          "g": 150
+        },
+        {
+          "i": "lemon_juice",
+          "g": 30
+        },
+        {
+          "i": "peanuts",
+          "g": 18
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "ginger",
+          "g": 5
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 2
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cook the rice so grains stay separate, spread on a plate and cool.",
+          "timerMin": 20
+        },
+        {
+          "text": "Heat oil, fry peanuts until golden, then add mustard seeds, red chilli, curry leaves, slit green chilli and ginger.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add hing and turmeric, switch off the flame and pour in the lemon juice."
+        },
+        {
+          "text": "Fold the cooled rice and salt into the tempering gently without breaking grains."
+        }
+      ],
+      "tips": [
+        "Add lemon juice off the heat to keep it fresh and avoid bitterness.",
+        "Travels well in a lunch box."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "sd-neer-dosa",
+      "name": "Neer Dosa",
+      "localName": "Neer Dose",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "side",
+        "breakfast",
+        "dinner"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 15,
+      "difficulty": "medium",
+      "equipment": [
+        "tawa"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "rice_flour",
+          "g": 130
+        },
+        {
+          "i": "coconut",
+          "g": 30
+        },
+        {
+          "i": "salt",
+          "g": 3
+        },
+        {
+          "i": "coconut_oil",
+          "g": 9
+        }
+      ],
+      "steps": [
+        {
+          "text": "Blend rice flour, grated coconut, salt and 400 ml water into a very thin, watery batter."
+        },
+        {
+          "text": "Heat a non-stick tawa and grease lightly with coconut oil."
+        },
+        {
+          "text": "Pour a ladle of batter from the edge, swirling the pan so it spreads thin, then cover.",
+          "timerMin": 1
+        },
+        {
+          "text": "Cook without flipping until the edges lift and the dosa looks set; fold into quarters.",
+          "timerMin": 1
+        }
+      ],
+      "tips": [
+        "Stir the batter every time – the flour sinks quickly.",
+        "Classic pairing with Mangalorean chicken or fish curry."
+      ]
+    },
+    {
+      "id": "sd-kanda-poha",
+      "name": "Light Poha",
+      "localName": "Avalakki Upkari",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "side",
+        "breakfast"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "poha",
+          "g": 140
+        },
+        {
+          "i": "carrot",
+          "g": 50
+        },
+        {
+          "i": "green_peas",
+          "g": 30
+        },
+        {
+          "i": "peanuts",
+          "g": 15
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 4
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Rinse poha in a colander for a few seconds, drain and rest so it softens.",
+          "timerMin": 5
+        },
+        {
+          "text": "Heat oil, fry peanuts, then add mustard seeds, curry leaves, green chilli, hing and turmeric.",
+          "timerMin": 2
+        },
+        {
+          "text": "Add grated carrot and peas and cook covered until tender.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add poha and salt, toss gently and steam covered on low.",
+          "timerMin": 2
+        },
+        {
+          "text": "Finish with lemon juice and coriander."
+        }
+      ],
+      "tips": [
+        "Spring onion greens replace onion here to keep it low-FODMAP."
+      ]
+    },
+    {
+      "id": "sd-beans-poriyal",
+      "name": "Beans Poriyal with Coconut",
+      "localName": "Beans Poriyal",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "side"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "green_beans",
+          "g": 220
+        },
+        {
+          "i": "carrot",
+          "g": 60
+        },
+        {
+          "i": "coconut",
+          "g": 30
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 3
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 2
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "coconut_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Finely chop the beans and carrot."
+        },
+        {
+          "text": "Heat coconut oil, splutter mustard seeds, add red chilli, curry leaves, hing and turmeric.",
+          "timerMin": 1
+        },
+        {
+          "text": "Add vegetables, salt and a splash of water; cover and cook until just tender.",
+          "timerMin": 8
+        },
+        {
+          "text": "Stir in grated coconut and cook uncovered for a minute.",
+          "timerMin": 1
+        }
+      ],
+      "tips": [
+        "Do not overcook – beans should stay bright green with a slight bite."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "sd-cabbage-thoran",
+      "name": "Cabbage Carrot Thoran",
+      "localName": "Cabbage Thoran",
+      "cuisine": "Kerala",
+      "mealTypes": [
+        "side"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "cabbage",
+          "g": 220
+        },
+        {
+          "i": "carrot",
+          "g": 80
+        },
+        {
+          "i": "coconut",
+          "g": 30
+        },
+        {
+          "i": "green_chilli",
+          "g": 5
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 3
+        },
+        {
+          "i": "coconut_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Shred cabbage and grate carrot finely."
+        },
+        {
+          "text": "Crush coconut, green chilli and turmeric together coarsely."
+        },
+        {
+          "text": "Temper mustard seeds and curry leaves in coconut oil, add vegetables and salt; cook covered.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add the coconut mix, toss and cook uncovered until dry.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Keep cabbage to about 75 g per serving for IBS comfort; carrot bulks it up."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "sd-palak-stir-fry",
+      "name": "Spinach Stir Fry",
+      "localName": "Palakura Vepudu",
+      "cuisine": "Andhra",
+      "mealTypes": [
+        "side"
+      ],
+      "protein": "veg",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 8,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "spinach",
+          "g": 300
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "garlic_oil",
+          "g": 6
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 2
+        },
+        {
+          "i": "coconut",
+          "g": 15
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash spinach thoroughly and chop roughly."
+        },
+        {
+          "text": "Heat garlic oil, add cumin and broken red chilli.",
+          "timerMin": 1
+        },
+        {
+          "text": "Add spinach and salt, stir fry on high until wilted.",
+          "timerMin": 4
+        },
+        {
+          "text": "Sprinkle coconut and serve."
+        }
+      ],
+      "tips": [
+        "Spinach is a great iron and folate source – pair with a squeeze of lemon for better absorption."
+      ]
+    },
+    {
+      "id": "sd-sorakkai-kootu",
+      "name": "Bottle Gourd Kootu",
+      "localName": "Suraikkai Kootu",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "side",
+        "lunch"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 20,
+      "difficulty": "easy",
+      "equipment": [
+        "pressure-cooker",
+        "kadai"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "bottle_gourd",
+          "g": 350
+        },
+        {
+          "i": "moong_dal",
+          "g": 50
+        },
+        {
+          "i": "coconut",
+          "g": 30
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "green_chilli",
+          "g": 5
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 3
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "coconut_oil",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Pressure cook moong dal with turmeric and water for 2 whistles.",
+          "timerMin": 8
+        },
+        {
+          "text": "Cook diced bottle gourd with salt and a little water until soft.",
+          "timerMin": 8
+        },
+        {
+          "text": "Grind coconut, cumin and green chilli into a paste; add with the dal to the gourd and simmer.",
+          "timerMin": 4
+        },
+        {
+          "text": "Temper mustard seeds, curry leaves and hing in oil and pour over.",
+          "timerMin": 1
+        }
+      ],
+      "tips": [
+        "Moong dal is kept under 20 g per serving to stay low-FODMAP."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "sd-peerkangai-curry",
+      "name": "Ridge Gourd Curry",
+      "localName": "Peerkangai Kootu",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "side"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "ridge_gourd",
+          "g": 350
+        },
+        {
+          "i": "tomato",
+          "g": 100
+        },
+        {
+          "i": "ginger",
+          "g": 5
+        },
+        {
+          "i": "mustard_seeds",
+          "g": 2
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "curry_leaves",
+          "g": 3
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "coriander_powder",
+          "g": 3
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 12
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 6
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel ridges of the gourd and dice; chop tomato."
+        },
+        {
+          "text": "Temper mustard, cumin and curry leaves in oil; add ginger and hing.",
+          "timerMin": 1
+        },
+        {
+          "text": "Add tomato and spice powders; cook until soft.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add ridge gourd and salt, cover and cook in its own juices until tender.",
+          "timerMin": 8
+        },
+        {
+          "text": "Garnish with coriander."
+        }
+      ],
+      "tips": [
+        "Ridge gourd releases plenty of water – no need to add any."
+      ]
+    },
+    {
+      "id": "sd-bhindi-kurkure",
+      "name": "Air-Fryer Bhindi Kurkure",
+      "localName": "Kurkuri Bhindi",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "side",
+        "snack"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 14,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "okra",
+          "g": 225
+        },
+        {
+          "i": "rice_flour",
+          "g": 15
+        },
+        {
+          "i": "cornflour",
+          "g": 8
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "cumin",
+          "g": 1
+        },
+        {
+          "i": "lemon_juice",
+          "g": 8
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Wash and fully dry the okra, then slice lengthwise into thin strips."
+        },
+        {
+          "text": "Toss with spices, salt, lemon juice and oil, then dust with rice flour and cornflour."
+        },
+        {
+          "text": "Air fry at 180°C in a single layer, shaking the basket halfway.",
+          "timerMin": 12
+        },
+        {
+          "text": "Finish 2 minutes at 200°C for extra crunch and serve immediately.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Dry okra completely before slicing to avoid sliminess."
+      ]
+    },
+    {
+      "id": "sd-baingan-bharta",
+      "name": "Air-Fryer Baingan Bharta",
+      "localName": "Baingan Bharta",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "side"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 25,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer",
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "brinjal",
+          "g": 220
+        },
+        {
+          "i": "tomato",
+          "g": 150
+        },
+        {
+          "i": "green_chilli",
+          "g": 5
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "garam_masala",
+          "g": 1
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 20
+        },
+        {
+          "i": "garlic_oil",
+          "g": 6
+        },
+        {
+          "i": "mustard_oil",
+          "g": 6
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Prick the brinjal all over, rub with a few drops of oil and air fry at 200°C, turning halfway, until skin is charred and flesh collapses.",
+          "timerMin": 20
+        },
+        {
+          "text": "Cool slightly, peel and mash the flesh."
+        },
+        {
+          "text": "Heat oils, add cumin, ginger and green chilli, then tomatoes and spice powders; cook until soft.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add mashed brinjal and salt, cook 3 minutes, finish with spring onion greens and coriander.",
+          "timerMin": 3
+        }
+      ],
+      "tips": [
+        "A tiny drop of mustard oil gives the smoky Punjabi flavour."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "sd-shimla-mirch-tamatar",
+      "name": "Capsicum Tomato Sabzi",
+      "localName": "Shimla Mirch Tamatar",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "side"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "capsicum",
+          "g": 220
+        },
+        {
+          "i": "tomato",
+          "g": 180
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "coriander_powder",
+          "g": 3
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 1
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cube the capsicum and chop tomatoes."
+        },
+        {
+          "text": "Heat oil, add cumin and hing, then capsicum; stir fry on high until blistered.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add tomatoes, spice powders and salt; cook until tomatoes break down.",
+          "timerMin": 6
+        },
+        {
+          "text": "Crush kasuri methi over and mix."
+        }
+      ],
+      "tips": [
+        "Use mixed red and green capsicum for more vitamin C and colour."
+      ]
+    },
+    {
+      "id": "sd-kachumber",
+      "name": "Cucumber Tomato Kachumber",
+      "localName": "Kachumber Salad",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "side",
+        "snack"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 0,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "cucumber",
+          "g": 250
+        },
+        {
+          "i": "tomato",
+          "g": 180
+        },
+        {
+          "i": "carrot",
+          "g": 60
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 15
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "lemon_juice",
+          "g": 15
+        },
+        {
+          "i": "cumin",
+          "g": 1
+        },
+        {
+          "i": "green_chilli",
+          "g": 3
+        },
+        {
+          "i": "olive_oil",
+          "g": 9
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dice cucumber, tomato and carrot finely."
+        },
+        {
+          "text": "Toss with chopped spring onion greens, coriander, chilli and toasted cumin powder."
+        },
+        {
+          "text": "Dress with lemon juice, olive oil and salt just before serving."
+        }
+      ],
+      "tips": [
+        "Salt right before serving so it stays crunchy."
+      ]
+    },
+    {
+      "id": "sd-cucumber-raita",
+      "name": "Cucumber Raita",
+      "localName": "Kheera Raita",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "side"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 8,
+      "cookMin": 0,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "lf_curd",
+          "g": 300
+        },
+        {
+          "i": "cucumber",
+          "g": 150
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "mint_leaves",
+          "g": 5
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 5
+        },
+        {
+          "i": "black_pepper",
+          "g": 0.5
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk lactose-free curd until smooth."
+        },
+        {
+          "text": "Grate cucumber, squeeze lightly, and add to the curd."
+        },
+        {
+          "text": "Season with roasted cumin powder, pepper, salt and chopped mint and coriander; chill.",
+          "timerMin": 10
+        }
+      ],
+      "tips": [
+        "Lactose-free curd keeps this raita IBS-friendly while adding protein."
+      ]
+    },
+    {
+      "id": "sd-kaddu-sabzi",
+      "name": "Bengali Pumpkin Sabzi",
+      "localName": "Kumror Chhokka",
+      "cuisine": "Bengali",
+      "mealTypes": [
+        "side"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 15,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "pumpkin",
+          "g": 225
+        },
+        {
+          "i": "tomato",
+          "g": 80
+        },
+        {
+          "i": "fenugreek_seeds",
+          "g": 1
+        },
+        {
+          "i": "fennel_seeds",
+          "g": 3
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "ginger",
+          "g": 5
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "coriander_powder",
+          "g": 3
+        },
+        {
+          "i": "jaggery",
+          "g": 6
+        },
+        {
+          "i": "lemon_juice",
+          "g": 8
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "mustard_oil",
+          "g": 12
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel and dice pumpkin into small cubes."
+        },
+        {
+          "text": "Heat oil, add fenugreek, fennel, cumin and hing (a quick panch phoron), then ginger.",
+          "timerMin": 1
+        },
+        {
+          "text": "Add pumpkin, tomato, spice powders and salt; cover and cook on low, stirring occasionally.",
+          "timerMin": 12
+        },
+        {
+          "text": "Mash lightly, add jaggery and lemon juice and cook 2 minutes.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Pumpkin is rich in beta-carotene; leave some cubes whole for texture."
+      ],
+      "batchFriendly": true
+    },
+    {
+      "id": "sd-broccoli-carrot-stir-fry",
+      "name": "Broccoli Carrot Stir Fry",
+      "localName": "Broccoli Gajar Stir Fry",
+      "cuisine": "Indo-Chinese",
+      "mealTypes": [
+        "side"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 8,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "broccoli",
+          "g": 220
+        },
+        {
+          "i": "carrot",
+          "g": 120
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "soy_sauce",
+          "g": 12
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 15
+        },
+        {
+          "i": "sesame_seeds",
+          "g": 4
+        },
+        {
+          "i": "garlic_oil",
+          "g": 6
+        },
+        {
+          "i": "sesame_oil",
+          "g": 4
+        },
+        {
+          "i": "salt",
+          "g": 1
+        }
+      ],
+      "steps": [
+        {
+          "text": "Cut broccoli into small florets and carrot into thin batons."
+        },
+        {
+          "text": "Blanch broccoli in boiling water, then drain.",
+          "timerMin": 1
+        },
+        {
+          "text": "Heat oils in a pan, add ginger, then carrot and broccoli; toss on high heat.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add soy sauce, pepper and salt, finish with spring onion greens and sesame seeds."
+        }
+      ],
+      "tips": [
+        "Keep broccoli to florets – the stalks are higher in FODMAPs."
+      ]
+    },
+    {
+      "id": "pn-paneer-tikka",
+      "name": "Air-Fryer Paneer Tikka",
+      "localName": "Paneer Tikka",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "side",
+        "snack",
+        "dinner"
+      ],
+      "protein": "paneer",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "paneer",
+          "g": 225
+        },
+        {
+          "i": "lf_curd",
+          "g": 90
+        },
+        {
+          "i": "capsicum",
+          "g": 100
+        },
+        {
+          "i": "tomato",
+          "g": 80
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "chilli_powder",
+          "g": 3
+        },
+        {
+          "i": "garam_masala",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 1
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "mustard_oil",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk lactose-free curd with ginger, spices, lemon juice, half the oil and salt."
+        },
+        {
+          "text": "Coat paneer cubes, capsicum and tomato chunks; marinate.",
+          "timerMin": 30
+        },
+        {
+          "text": "Arrange in the air fryer basket without overlapping and brush with remaining oil."
+        },
+        {
+          "text": "Air fry at 200°C, flipping halfway, until charred at the edges.",
+          "timerMin": 10
+        },
+        {
+          "text": "Squeeze over a little extra lemon juice and serve hot."
+        }
+      ],
+      "tips": [
+        "Pat paneer dry before marinating so the coating sticks."
+      ]
+    },
+    {
+      "id": "pn-paneer-bhurji",
+      "name": "Paneer Bhurji",
+      "localName": "Paneer Bhurji",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "side",
+        "breakfast",
+        "dinner"
+      ],
+      "protein": "paneer",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "paneer",
+          "g": 225
+        },
+        {
+          "i": "tomato",
+          "g": 150
+        },
+        {
+          "i": "capsicum",
+          "g": 80
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 25
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "green_chilli",
+          "g": 5
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "garam_masala",
+          "g": 1
+        },
+        {
+          "i": "ghee",
+          "g": 10
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Crumble paneer coarsely."
+        },
+        {
+          "text": "Heat ghee, add cumin, ginger and chilli, then capsicum and tomato; cook until soft.",
+          "timerMin": 5
+        },
+        {
+          "text": "Add spice powders and salt, then the paneer; toss gently.",
+          "timerMin": 3
+        },
+        {
+          "text": "Finish with spring onion greens and coriander."
+        }
+      ],
+      "tips": [
+        "Add paneer last and cook briefly so it stays soft."
+      ]
+    },
+    {
+      "id": "pn-palak-paneer",
+      "name": "Light Palak Paneer",
+      "localName": "Palak Paneer",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "side",
+        "lunch",
+        "dinner"
+      ],
+      "protein": "paneer",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 20,
+      "difficulty": "medium",
+      "equipment": [
+        "pot",
+        "blender",
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "spinach",
+          "g": 350
+        },
+        {
+          "i": "paneer",
+          "g": 200
+        },
+        {
+          "i": "lf_milk",
+          "g": 60
+        },
+        {
+          "i": "lf_curd",
+          "g": 40
+        },
+        {
+          "i": "tomato",
+          "g": 80
+        },
+        {
+          "i": "ginger",
+          "g": 8
+        },
+        {
+          "i": "green_chilli",
+          "g": 5
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "garam_masala",
+          "g": 1
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 1
+        },
+        {
+          "i": "garlic_oil",
+          "g": 6
+        },
+        {
+          "i": "ghee",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Blanch spinach, then plunge into iced water.",
+          "timerMin": 2
+        },
+        {
+          "text": "Blend spinach with green chilli and ginger into a smooth puree."
+        },
+        {
+          "text": "Heat ghee and garlic oil, add cumin, tomato and garam masala; cook until soft.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add puree, salt and lactose-free milk; simmer gently.",
+          "timerMin": 5
+        },
+        {
+          "text": "Whisk in curd off the heat, add paneer cubes and kasuri methi; warm through.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Ice-water shocking keeps the gravy vivid green."
+      ]
+    },
+    {
+      "id": "pn-tofu-bhurji",
+      "name": "Tofu Bhurji",
+      "localName": "Tofu Bhurji",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "side",
+        "breakfast",
+        "dinner"
+      ],
+      "protein": "veg",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "tofu",
+          "g": 300
+        },
+        {
+          "i": "tomato",
+          "g": 120
+        },
+        {
+          "i": "capsicum",
+          "g": 80
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 20
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "green_chilli",
+          "g": 5
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 0.5
+        },
+        {
+          "i": "garam_masala",
+          "g": 1
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 12
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Press tofu to remove water and crumble.",
+          "timerMin": 10
+        },
+        {
+          "text": "Heat oil, add cumin, ginger and chilli, then capsicum and tomato.",
+          "timerMin": 4
+        },
+        {
+          "text": "Add tofu, turmeric, garam masala, pepper and salt; stir fry until dry.",
+          "timerMin": 5
+        },
+        {
+          "text": "Finish with spring onion greens and coriander."
+        }
+      ],
+      "tips": [
+        "Use firm tofu – it is naturally low-FODMAP, unlike silken."
+      ]
+    },
+    {
+      "id": "pn-chilli-paneer",
+      "name": "Air-Fryer Chilli Paneer",
+      "localName": "Chilli Paneer",
+      "cuisine": "Indo-Chinese",
+      "mealTypes": [
+        "side",
+        "dinner"
+      ],
+      "protein": "paneer",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 15,
+      "difficulty": "medium",
+      "equipment": [
+        "air-fryer",
+        "pan"
+      ],
+      "spice": 3,
+      "ingredients": [
+        {
+          "i": "paneer",
+          "g": 225
+        },
+        {
+          "i": "cornflour",
+          "g": 15
+        },
+        {
+          "i": "capsicum",
+          "g": 150
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 30
+        },
+        {
+          "i": "ginger",
+          "g": 8
+        },
+        {
+          "i": "green_chilli",
+          "g": 6
+        },
+        {
+          "i": "soy_sauce",
+          "g": 20
+        },
+        {
+          "i": "chilli_sauce",
+          "g": 20
+        },
+        {
+          "i": "vinegar",
+          "g": 8
+        },
+        {
+          "i": "garlic_oil",
+          "g": 8
+        },
+        {
+          "i": "sesame_oil",
+          "g": 4
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "salt",
+          "g": 1
+        }
+      ],
+      "steps": [
+        {
+          "text": "Toss paneer cubes with half the cornflour, pepper and salt; spray lightly with oil."
+        },
+        {
+          "text": "Air fry at 200°C, shaking halfway, until golden.",
+          "timerMin": 10
+        },
+        {
+          "text": "Heat garlic and sesame oil, stir fry ginger, chilli and capsicum on high.",
+          "timerMin": 3
+        },
+        {
+          "text": "Add sauces, vinegar and remaining cornflour mixed with 60 ml water; simmer until glossy.",
+          "timerMin": 1
+        },
+        {
+          "text": "Toss in paneer and spring onion greens and serve."
+        }
+      ],
+      "tips": [
+        "Swap paneer with 300 g firm tofu for a lighter vegan version."
+      ]
+    },
+    {
+      "id": "pn-paneer-shashlik",
+      "name": "Paneer Capsicum Skewers",
+      "localName": "Paneer Shashlik",
+      "cuisine": "Mughlai",
+      "mealTypes": [
+        "side",
+        "snack"
+      ],
+      "protein": "paneer",
+      "servings": 3,
+      "prepMin": 15,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "paneer",
+          "g": 210
+        },
+        {
+          "i": "capsicum",
+          "g": 150
+        },
+        {
+          "i": "tomato",
+          "g": 100
+        },
+        {
+          "i": "lf_curd",
+          "g": 60
+        },
+        {
+          "i": "ginger",
+          "g": 6
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "cumin",
+          "g": 1
+        },
+        {
+          "i": "garam_masala",
+          "g": 1
+        },
+        {
+          "i": "black_pepper",
+          "g": 1
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "olive_oil",
+          "g": 10
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Soak wooden skewers in water.",
+          "timerMin": 15
+        },
+        {
+          "text": "Mix curd, ginger, spices, lemon juice, oil and salt; coat paneer, capsicum and tomato.",
+          "timerMin": 15
+        },
+        {
+          "text": "Thread alternately onto skewers."
+        },
+        {
+          "text": "Air fry at 190°C, turning the skewers halfway, until charred.",
+          "timerMin": 10
+        }
+      ],
+      "tips": [
+        "Cut vegetables to the same size as the paneer for even cooking."
+      ]
+    },
+    {
+      "id": "pn-kadai-paneer",
+      "name": "Kadai Paneer",
+      "localName": "Kadai Paneer",
+      "cuisine": "Punjabi",
+      "mealTypes": [
+        "side",
+        "lunch",
+        "dinner"
+      ],
+      "protein": "paneer",
+      "servings": 3,
+      "prepMin": 10,
+      "cookMin": 15,
+      "difficulty": "medium",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "paneer",
+          "g": 225
+        },
+        {
+          "i": "capsicum",
+          "g": 150
+        },
+        {
+          "i": "tomato",
+          "g": 200
+        },
+        {
+          "i": "ginger",
+          "g": 8
+        },
+        {
+          "i": "dry_red_chilli",
+          "g": 3
+        },
+        {
+          "i": "coriander_powder",
+          "g": 4
+        },
+        {
+          "i": "cumin",
+          "g": 2
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "garam_masala",
+          "g": 1
+        },
+        {
+          "i": "kasuri_methi",
+          "g": 1
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 20
+        },
+        {
+          "i": "garlic_oil",
+          "g": 6
+        },
+        {
+          "i": "ghee",
+          "g": 8
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dry roast red chillies, cumin and coriander, then coarsely grind into kadai masala.",
+          "timerMin": 2
+        },
+        {
+          "text": "Heat ghee and garlic oil, add ginger and pureed tomato; cook until oil separates.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add capsicum chunks and kadai masala; cook on high so capsicum stays crisp.",
+          "timerMin": 3
+        },
+        {
+          "text": "Fold in paneer, kasuri methi and spring onion greens; simmer briefly.",
+          "timerMin": 2
+        }
+      ],
+      "tips": [
+        "Freshly ground kadai masala is the secret – no onion needed."
+      ]
+    },
+    {
+      "id": "sn-overnight-oats-kiwi",
+      "name": "Overnight Oats with Chia and Kiwi",
+      "localName": "Overnight Oats",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "protein": "veg",
+      "servings": 1,
+      "prepMin": 5,
+      "cookMin": 0,
+      "difficulty": "easy",
+      "equipment": [
+        "pot"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "oats",
+          "g": 40
+        },
+        {
+          "i": "lf_milk",
+          "g": 150
+        },
+        {
+          "i": "chia_seeds",
+          "g": 10
+        },
+        {
+          "i": "lf_curd",
+          "g": 40
+        },
+        {
+          "i": "kiwi",
+          "g": 80
+        },
+        {
+          "i": "papaya",
+          "g": 60
+        },
+        {
+          "i": "jaggery",
+          "g": 5
+        }
+      ],
+      "steps": [
+        {
+          "text": "Combine oats, chia seeds, lactose-free milk, curd and grated jaggery in a jar."
+        },
+        {
+          "text": "Stir well, close and refrigerate overnight.",
+          "timerMin": 480
+        },
+        {
+          "text": "In the morning, stir and top with diced kiwi and papaya."
+        }
+      ],
+      "tips": [
+        "Kiwi helps with regularity in IBS-C."
+      ],
+      "makeAhead": "Prepare up to 2 days ahead; add fruit fresh."
+    },
+    {
+      "id": "sn-whey-banana-smoothie",
+      "name": "Whey Banana Protein Smoothie",
+      "localName": "Protein Smoothie",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "protein": "veg",
+      "servings": 1,
+      "prepMin": 5,
+      "cookMin": 0,
+      "difficulty": "easy",
+      "equipment": [
+        "blender"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "whey_isolate",
+          "g": 30
+        },
+        {
+          "i": "banana_firm",
+          "g": 90
+        },
+        {
+          "i": "lf_milk",
+          "g": 200
+        },
+        {
+          "i": "peanuts",
+          "g": 8
+        },
+        {
+          "i": "oats",
+          "g": 10
+        }
+      ],
+      "steps": [
+        {
+          "text": "Add lactose-free milk, sliced firm banana, oats and peanuts to the blender."
+        },
+        {
+          "text": "Blend until smooth, then add whey and pulse just to combine.",
+          "timerMin": 1
+        },
+        {
+          "text": "Serve chilled."
+        }
+      ],
+      "tips": [
+        "Use a firm, just-yellow banana – ripe bananas are high in fructans."
+      ]
+    },
+    {
+      "id": "sn-peanut-chaat",
+      "name": "Roasted Peanut Chaat",
+      "localName": "Kadalai Sundal Chaat",
+      "cuisine": "Tamil Nadu",
+      "mealTypes": [
+        "snack"
+      ],
+      "protein": "veg",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 5,
+      "difficulty": "easy",
+      "equipment": [
+        "kadai"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "peanuts",
+          "g": 60
+        },
+        {
+          "i": "cucumber",
+          "g": 100
+        },
+        {
+          "i": "tomato",
+          "g": 80
+        },
+        {
+          "i": "carrot",
+          "g": 40
+        },
+        {
+          "i": "spring_onion_greens",
+          "g": 10
+        },
+        {
+          "i": "coriander_leaves",
+          "g": 6
+        },
+        {
+          "i": "lemon_juice",
+          "g": 10
+        },
+        {
+          "i": "green_chilli",
+          "g": 3
+        },
+        {
+          "i": "cumin",
+          "g": 1
+        },
+        {
+          "i": "chilli_powder",
+          "g": 1
+        },
+        {
+          "i": "salt",
+          "g": 2
+        }
+      ],
+      "steps": [
+        {
+          "text": "Dry roast peanuts until fragrant and lightly cool.",
+          "timerMin": 5
+        },
+        {
+          "text": "Chop cucumber, tomato and grate carrot."
+        },
+        {
+          "text": "Toss everything with lemon juice, spices, chilli and salt and serve immediately."
+        }
+      ],
+      "tips": [
+        "Keep peanuts to about 30 g per serving – a palmful."
+      ]
+    },
+    {
+      "id": "sn-fruit-bowl",
+      "name": "Low-FODMAP Fruit Bowl",
+      "localName": "Phal Chaat",
+      "cuisine": "Pan-Indian",
+      "mealTypes": [
+        "snack",
+        "breakfast"
+      ],
+      "protein": "veg",
+      "servings": 2,
+      "prepMin": 10,
+      "cookMin": 0,
+      "difficulty": "easy",
+      "equipment": [
+        "pan"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "papaya",
+          "g": 160
+        },
+        {
+          "i": "orange",
+          "g": 120
+        },
+        {
+          "i": "guava",
+          "g": 80
+        },
+        {
+          "i": "pineapple",
+          "g": 100
+        },
+        {
+          "i": "kiwi",
+          "g": 100
+        },
+        {
+          "i": "lemon_juice",
+          "g": 8
+        },
+        {
+          "i": "mint_leaves",
+          "g": 3
+        },
+        {
+          "i": "black_pepper",
+          "g": 0.5
+        },
+        {
+          "i": "salt",
+          "g": 1
+        }
+      ],
+      "steps": [
+        {
+          "text": "Peel and dice all fruits into bite-sized pieces."
+        },
+        {
+          "text": "Toss with lemon juice, chopped mint, pepper and a pinch of salt."
+        },
+        {
+          "text": "Chill briefly before serving.",
+          "timerMin": 10
+        }
+      ],
+      "tips": [
+        "Avoid apple and mango (high FODMAP) – these fruits are within safe portions."
+      ]
+    },
+    {
+      "id": "sn-masala-seed-mix",
+      "name": "Air-Fryer Masala Peanut and Pumpkin Seed Mix",
+      "localName": "Masala Kadalai",
+      "cuisine": "Andhra",
+      "mealTypes": [
+        "snack"
+      ],
+      "protein": "veg",
+      "servings": 4,
+      "prepMin": 5,
+      "cookMin": 12,
+      "difficulty": "easy",
+      "equipment": [
+        "air-fryer"
+      ],
+      "spice": 2,
+      "ingredients": [
+        {
+          "i": "peanuts",
+          "g": 80
+        },
+        {
+          "i": "pumpkin_seeds",
+          "g": 60
+        },
+        {
+          "i": "curry_leaves",
+          "g": 5
+        },
+        {
+          "i": "chilli_powder",
+          "g": 2
+        },
+        {
+          "i": "turmeric",
+          "g": 0.5
+        },
+        {
+          "i": "hing_gf",
+          "g": 0.5
+        },
+        {
+          "i": "lemon_juice",
+          "g": 5
+        },
+        {
+          "i": "groundnut_oil",
+          "g": 4
+        },
+        {
+          "i": "salt",
+          "g": 3
+        }
+      ],
+      "steps": [
+        {
+          "text": "Toss peanuts and pumpkin seeds with oil, lemon juice, spices and salt."
+        },
+        {
+          "text": "Air fry at 160°C, shaking every 3 minutes, until crunchy.",
+          "timerMin": 9
+        },
+        {
+          "text": "Add curry leaves and air fry until crisp.",
+          "timerMin": 2
+        },
+        {
+          "text": "Cool fully before storing in an airtight jar."
+        }
+      ],
+      "tips": [
+        "Pre-portion into 35 g bags so snacking stays controlled."
+      ],
+      "makeAhead": "Keeps 2 weeks in an airtight jar.",
+      "batchFriendly": true
+    },
+    {
+      "id": "sn-ragi-kanji",
+      "name": "Ragi Porridge",
+      "localName": "Ragi Kanji",
+      "cuisine": "Karnataka",
+      "mealTypes": [
+        "breakfast",
+        "snack"
+      ],
+      "protein": "veg",
+      "servings": 2,
+      "prepMin": 5,
+      "cookMin": 10,
+      "difficulty": "easy",
+      "equipment": [
+        "pot"
+      ],
+      "spice": 1,
+      "ingredients": [
+        {
+          "i": "ragi_flour",
+          "g": 60
+        },
+        {
+          "i": "lf_milk",
+          "g": 300
+        },
+        {
+          "i": "jaggery",
+          "g": 10
+        },
+        {
+          "i": "whole_spices",
+          "g": 0.5
+        },
+        {
+          "i": "walnuts",
+          "g": 15
+        },
+        {
+          "i": "salt",
+          "g": 1
+        }
+      ],
+      "steps": [
+        {
+          "text": "Whisk ragi flour into 200 ml cold water until lump-free."
+        },
+        {
+          "text": "Cook on medium, stirring constantly, until thick and glossy.",
+          "timerMin": 6
+        },
+        {
+          "text": "Add lactose-free milk, jaggery and a pinch of cardamom; simmer.",
+          "timerMin": 3
+        },
+        {
+          "text": "Top with chopped walnuts."
+        }
+      ],
+      "tips": [
+        "For a savoury version skip jaggery and add buttermilk made from lactose-free curd."
+      ]
+    }
+  ]
+}
