@@ -185,7 +185,8 @@ export function generatePlan({ catalog, settings, ctx, ibs, previous }: Generate
       if (settings.airFryerBias && c.recipe.equipment.includes('air-fryer')) s += 0.45;
       if (settings.budgetPerDay > 0) {
         const share = settings.budgetPerDay * (SLOT_SHARE[slot] || 0.1);
-        if (c.cost > share) s -= Math.min(1.5, (c.cost - share) / Math.max(1, share));
+        if (c.cost > share) s -= Math.min(3, (2 * (c.cost - share)) / Math.max(1, share));
+        else s += 0.2;
       }
       if (settings.batchCook && c.recipe.batchFriendly) s += 0.3;
       if (settings.leftovers && d > 0 && days[d - 1].some((x) => x.c.recipe.id === c.recipe.id && x.slot === 'dinner') && slot === 'lunch') s += 0.8;

@@ -32,7 +32,8 @@ export class SyncEngine {
     this.lastSyncedAt = await getMeta<number | null>('lastSyncedAt', null);
     if (state) this.state = state;
     else if (typeof navigator !== 'undefined' && !navigator.onLine) this.state = 'offline';
-    else if (!(await this.canSync())) this.state = this.pending ? 'pending' : 'local';
+    // Not signed in / no backend: everything is safely local; the outbox is pushed after sign-in.
+    else if (!(await this.canSync())) this.state = 'local';
     else this.state = this.pending ? 'pending' : 'synced';
     this.listeners.forEach((l) => l({ state: this.state, pending: this.pending, lastSyncedAt: this.lastSyncedAt }));
   }

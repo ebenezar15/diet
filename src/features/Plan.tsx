@@ -199,7 +199,7 @@ const strip = (p: MealPlan) => {
 function DayColumn({ d, day, isToday, ev, keto, onLock, onRemove }: { d: number; day: PlannedMeal[]; isToday: boolean; ev?: ReturnType<typeof evaluateDay>; keto: boolean; onLock: (d: number, k: string) => void; onRemove: (d: number, k: string) => void }) {
   const { setNodeRef, isOver } = useDroppable({ id: `day-${d}` });
   return (
-    <div ref={setNodeRef}>
+    <div ref={setNodeRef} className="min-w-0">
       <Section
         className={`transition ${isOver ? 'ring-2 ring-turmeric' : ''} ${isToday ? 'border-turmeric' : ''}`}
         title={`${DAY[d]}${isToday ? ' · Today' : ''}`}

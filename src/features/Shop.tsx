@@ -94,6 +94,8 @@ function ShoppingList() {
   };
 
   const total = lines.reduce((a, l) => a + l.cost, 0);
+  const staples = lines.filter((l) => l.staple).reduce((a, l) => a + l.cost, 0);
+  const eatenCost = Math.round(plan.days.flat().reduce((a, m) => a + (catalog?.recipes.get(m.recipeId)?.costPerServing ?? 0) * m.servings * plan.people, 0));
   const remaining = lines.filter((l) => !checked.has(l.ingredientId)).reduce((a, l) => a + l.cost, 0);
 
   return (
@@ -114,6 +116,9 @@ function ShoppingList() {
           <div className="font-display text-2xl font-bold">₹{remaining}</div>
         </div>
       </div>
+      <p className="mb-4 rounded-xl bg-surface2 p-3 text-sm">
+        💰 Food actually eaten this week ≈ <b>₹{eatenCost}</b> (₹{Math.round(eatenCost / 7 / plan.people)}/person/day). Of today's bill, <b>₹{staples}</b> is long-life staples (spices, oils, grains) that last for weeks.
+      </p>
       <div className="mb-4 flex flex-wrap gap-2">
         <button className="btn-primary" onClick={share}>
           <Icon name="share" size={18} /> Share on WhatsApp
@@ -153,6 +158,7 @@ function ShoppingList() {
                                 Perishable: buy {l.split.early} now, {l.split.late} mid-week
                               </span>
                             )}
+                            {l.staple && <span className="block text-xs text-muted">Staple — lasts several weeks</span>}
                             {l.pantryG > 0 && <span className="block text-xs text-muted">{l.pantryG} g already in pantry</span>}
                           </span>
                           <span className="text-right">

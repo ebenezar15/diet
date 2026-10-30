@@ -12,6 +12,8 @@ export interface ShoppingLine {
   display: string;
   cost: number;
   perishable: boolean;
+  /** Long-life pantry staple (spices, oils, grains) — bought once, lasts weeks. */
+  staple: boolean;
   /** For perishables: grams needed in days 1–3 vs 4–7. */
   split?: { early: string; late: string };
   butcherNotes: string[];
@@ -113,6 +115,7 @@ export function buildShoppingList({ days, catalog, people, ibs, pantry }: Shoppi
       display,
       cost: Math.round((buyG / 1000) * unitPrice),
       perishable,
+      staple: ing.section === 'grocery' && ing.shelfDays >= 90,
       butcherNotes: ing.section === 'meat-fish' ? [...e.notes] : []
     };
     if (perishable && e.late > 0 && e.early > 0) {
@@ -139,6 +142,6 @@ export function shoppingText(lines: ShoppingLine[], title = 'ThaliFit shopping l
       out.push(`• ${l.name} — ${l.display}${notes}${split}`);
     }
   }
-  out.push('', `Estimated total: ₹${total}`);
+  out.push('', `Estimated total: ₹${total}`, '_Spices, oils & grains last several weeks._');
   return out.join('\n');
 }
