@@ -149,6 +149,8 @@ export interface RecipeSeed {
   tips?: string[];
   makeAhead?: string;
   batchFriendly?: boolean;
+  /** Light courses — drinks are never auto-planned; desserts can fill snack slots. */
+  course?: 'drink' | 'dessert';
 }
 
 export type DietTag = 'keto' | 'hplc' | 'balanced';

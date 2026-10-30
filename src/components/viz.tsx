@@ -105,7 +105,7 @@ const CUISINE_HUE: Record<string, number> = {
 };
 
 /** Procedural, food-forward artwork for a recipe — zero bytes of images to cache. */
-export function RecipeArt({ recipe, className = '' }: { recipe: Pick<Recipe, 'id' | 'protein' | 'cuisine' | 'equipment'>; className?: string }) {
+export function RecipeArt({ recipe, className = '' }: { recipe: Pick<Recipe, 'id' | 'protein' | 'cuisine' | 'equipment' | 'course'>; className?: string }) {
   const hue = CUISINE_HUE[recipe.cuisine] ?? 30;
   let h = 0;
   for (const ch of recipe.id) h = (h * 31 + ch.charCodeAt(0)) % 997;
@@ -119,7 +119,7 @@ export function RecipeArt({ recipe, className = '' }: { recipe: Pick<Recipe, 'id
       </svg>
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="flex aspect-square w-[58%] max-w-[120px] items-center justify-center rounded-full bg-white/85 shadow-soft">
-          <span className="text-[min(10vw,52px)] leading-none">{PROTEIN_EMOJI[recipe.protein] ?? '🍛'}</span>
+          <span className="text-[min(10vw,52px)] leading-none">{recipe.course === 'drink' ? '🥤' : recipe.course === 'dessert' ? '🍮' : PROTEIN_EMOJI[recipe.protein] ?? '🍛'}</span>
         </div>
       </div>
       {recipe.equipment.includes('air-fryer') && <span className="absolute left-2 top-2 rounded-full bg-black/55 px-2 py-0.5 text-[11px] font-bold text-white">Air fryer</span>}

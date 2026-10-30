@@ -63,7 +63,8 @@ export const recipeSeedSchema = z.object({
   steps: z.array(z.object({ text: z.string().min(5), timerMin: z.number().positive().optional() })).min(2),
   tips: z.array(z.string()).optional(),
   makeAhead: z.string().optional(),
-  batchFriendly: z.boolean().optional()
+  batchFriendly: z.boolean().optional(),
+  course: z.enum(['drink', 'dessert']).optional()
 });
 
 export const recipeFileSchema = z.object({ recipes: z.array(recipeSeedSchema) });

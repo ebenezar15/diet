@@ -50,7 +50,8 @@ function ShoppingList() {
   const { catalog, setRoute, toast } = useApp();
   const ibs = useIbs();
   const plan = useCurrentPlan();
-  const pantryRows = useLiveQuery(async () => alive(await db.pantry.toArray()), []) ?? [];
+  const pantryRaw = useLiveQuery(async () => alive(await db.pantry.toArray()), []);
+  const pantryRows = useMemo(() => pantryRaw ?? [], [pantryRaw]);
   const checks = useLiveQuery(async () => (plan ? alive(await db.shoppingChecks.where('planId').equals(plan.id).toArray()) : []), [plan?.id]) ?? [];
   const pantry = useMemo(() => pantryMap(pantryRows), [pantryRows]);
   const lines = useMemo(() => (plan && catalog ? buildShoppingList({ days: plan.days, catalog, people: plan.people, ibs, pantry }) : []), [plan, catalog, ibs, pantry]);

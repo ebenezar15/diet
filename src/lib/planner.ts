@@ -68,6 +68,7 @@ export function candidates(catalog: Catalog, s: PlanSettings, ctx: FodmapContext
     if (dislikes.some((d) => r.protein === d || ings.some((it) => it.i === d) || r.name.toLowerCase().includes(d))) continue;
     if (r.prepMin + r.cookMin > s.maxMinutes * 1.5 && !r.batchFriendly) continue;
     const n = ibs ? r.ibsVariant.perServing : r.perServing;
+    if (r.course === 'drink' || n.kcal < 30) continue; // drinks & near-zero items are logged, not planned
     if (s.dietMode === 'keto' && n.netCarbs > 9) continue;
     if (s.dietMode === 'hplc' && n.netCarbs > 45) continue;
     const cost = r.costPerServing;

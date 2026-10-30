@@ -58,3 +58,19 @@ describe('meal plan solver', () => {
     expect(again.days[2].some((m) => m.recipeId === first.days[2][0].recipeId && m.locked)).toBe(true);
   });
 });
+
+describe('light bites', () => {
+  it('ships IBS-safe zero/low-calorie drinks, desserts and snacks', () => {
+    const drinks = catalog.list.filter((r) => r.course === 'drink');
+    const desserts = catalog.list.filter((r) => r.course === 'dessert');
+    expect(drinks.length).toBeGreaterThanOrEqual(10);
+    expect(desserts.length).toBeGreaterThanOrEqual(8);
+    expect(drinks.filter((r) => r.perServing.kcal <= 20).length).toBeGreaterThanOrEqual(5);
+    for (const r of [...drinks, ...desserts]) expect(r.ibsVariant.fodmapStatus).toBe('low');
+  });
+
+  it('never auto-plans drinks', () => {
+    const res = generatePlan({ catalog, settings: settings({ dietMode: 'balanced', targets: { kcal: 1800, protein: 135, carbs: 180, fat: 60, fibre: 25 } }), ctx: ELIMINATION, ibs: true });
+    for (const m of res.days.flat()) expect(catalog.recipes.get(m.recipeId)!.course).not.toBe('drink');
+  });
+});

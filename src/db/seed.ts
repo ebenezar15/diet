@@ -3,7 +3,7 @@ import { db, getMeta, setMeta } from './index';
 import ingredientsFile from '@/data/seed/ingredients.json';
 
 /** Bump when bundled seed data changes; the loader merges it in on next start. */
-export const SEED_VERSION = 1;
+export const SEED_VERSION = 2;
 
 const recipeModules = import.meta.glob<{ recipes: RecipeSeed[] }>('../data/seed/recipes/*.json', { eager: true, import: 'default' });
 

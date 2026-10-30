@@ -1,138 +1,5301 @@
 {
-  "version": 1,
-  "nutrientOrder": ["kcal", "protein", "carbs", "fat", "fibre", "sodium", "potassium", "calcium", "iron", "magnesium", "zinc", "vitC", "vitA", "folate", "b12"],
-  "ingredients": [
-    { "id": "chicken_breast", "name": "Chicken breast, boneless skinless", "nameTa": "கோழி நெஞ்சுக்கறி", "nameHi": "चिकन ब्रेस्ट", "category": "meat", "n": [120, 22.5, 0, 2.6, 0, 45, 370, 5, 0.4, 28, 0.7, 0, 9, 4, 0.2], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 2, "pricePerKg": 320, "source": "IFCT2017" },
-    { "id": "chicken_curry_cut", "name": "Chicken, curry cut (skinless, bone-in)", "nameTa": "கோழிக்கறி", "nameHi": "चिकन करी कट", "category": "meat", "n": [150, 19, 0, 8, 0, 70, 230, 11, 0.9, 21, 1.6, 0, 20, 6, 0.3], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 60, "pieceName": "piece" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 2, "pricePerKg": 240, "source": "IFCT2017" },
-    { "id": "chicken_thigh", "name": "Chicken thigh, boneless", "nameTa": "கோழி தொடைக்கறி", "nameHi": "चिकन थाई", "category": "meat", "n": [145, 19.7, 0, 7.3, 0, 85, 240, 8, 0.9, 23, 1.6, 0, 15, 8, 0.4], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 2, "pricePerKg": 300, "source": "USDA" },
-    { "id": "chicken_mince", "name": "Chicken mince (keema)", "nameTa": "கோழி கீமா", "nameHi": "चिकन कीमा", "category": "meat", "n": [143, 17.4, 0, 8.1, 0, 60, 520, 6, 0.8, 21, 1.5, 0, 11, 6, 0.4], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 2, "pricePerKg": 340, "source": "USDA" },
-    { "id": "chicken_liver", "name": "Chicken liver", "nameTa": "கோழி ஈரல்", "nameHi": "चिकन कलेजी", "category": "meat", "n": [119, 16.9, 0.7, 4.8, 0, 71, 230, 8, 9, 19, 2.7, 18, 3300, 588, 16.6], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 1, "pricePerKg": 200, "source": "USDA" },
-    { "id": "mutton_curry_cut", "name": "Mutton (goat), curry cut", "nameTa": "ஆட்டுக்கறி", "nameHi": "मटन करी कट", "category": "meat", "n": [160, 20, 0, 9, 0, 80, 385, 13, 2.8, 23, 4, 0, 0, 5, 1.1], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 50, "pieceName": "piece" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 2, "pricePerKg": 800, "source": "IFCT2017" },
-    { "id": "mutton_mince", "name": "Mutton keema", "nameTa": "ஆட்டுக்கறி கீமா", "nameHi": "मटन कीमा", "category": "meat", "n": [200, 18, 0, 14, 0, 75, 300, 15, 2.2, 21, 3.8, 0, 0, 5, 2.2], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 2, "pricePerKg": 850, "source": "IFCT2017" },
-    { "id": "seer_fish", "name": "Seer fish (vanjaram), steaks", "nameTa": "வஞ்சிரம்", "nameHi": "सुरमई", "category": "fish", "n": [105, 20.3, 0, 2, 0, 158, 435, 30, 1.8, 32, 0.5, 0, 25, 9, 15], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 100, "pieceName": "steak" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 1, "pricePerKg": 900, "source": "IFCT2017" },
-    { "id": "pomfret", "name": "Pomfret, whole cleaned", "nameTa": "வாவல்", "nameHi": "पापलेट", "category": "fish", "n": [110, 19, 0, 3.5, 0, 65, 380, 25, 0.4, 30, 0.5, 0, 30, 6, 1.3], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 250, "pieceName": "fish" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 1, "pricePerKg": 700, "source": "IFCT2017" },
-    { "id": "mackerel", "name": "Indian mackerel (bangda / ayala)", "nameTa": "அயிலை மீன்", "nameHi": "बांगड़ा", "category": "fish", "n": [140, 19, 0, 7, 0, 90, 314, 30, 1.6, 60, 0.6, 0, 50, 1, 8.7], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 120, "pieceName": "fish" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 1, "pricePerKg": 250, "source": "IFCT2017" },
-    { "id": "sardine", "name": "Sardine (mathi / chaala)", "nameTa": "மத்தி மீன்", "nameHi": "सार्डिन", "category": "fish", "n": [150, 20, 0, 7.5, 0, 100, 400, 380, 2.5, 39, 1.3, 0, 30, 10, 8.9], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 40, "pieceName": "fish" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 1, "pricePerKg": 180, "source": "IFCT2017" },
-    { "id": "rohu", "name": "Rohu, steaks", "nameTa": "ரோகு மீன்", "nameHi": "रोहू", "category": "fish", "n": [97, 17, 0, 3, 0, 50, 290, 100, 1, 30, 1, 0, 30, 10, 2], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 80, "pieceName": "piece" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 1, "pricePerKg": 220, "source": "IFCT2017" },
-    { "id": "salmon", "name": "Indian salmon (rawas), fillet", "nameTa": "காலா மீன்", "nameHi": "रावस", "category": "fish", "n": [120, 20, 0, 4.5, 0, 60, 380, 20, 0.5, 30, 0.5, 0, 15, 10, 3], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 120, "pieceName": "fillet" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 1, "pricePerKg": 900, "source": "IFCT2017" },
-    { "id": "prawns", "name": "Prawns, peeled & deveined", "nameTa": "இறால்", "nameHi": "झींगा", "category": "fish", "n": [85, 20.1, 0, 0.5, 0, 119, 264, 64, 0.2, 35, 1.3, 0, 0, 19, 1.1], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 1, "pricePerKg": 550, "source": "USDA" },
-    { "id": "crab", "name": "Crab, cleaned", "nameTa": "நண்டு", "nameHi": "केकड़ा", "category": "fish", "n": [87, 18, 0, 1.1, 0, 293, 329, 89, 0.7, 49, 3.5, 0, 2, 44, 9], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "meat-fish", "shelfDays": 1, "pricePerKg": 400, "source": "USDA" },
-    { "id": "egg", "name": "Egg, whole", "nameTa": "முட்டை", "nameHi": "अंडा", "category": "egg", "n": [143, 12.6, 0.7, 9.5, 0, 142, 138, 56, 1.75, 12, 1.3, 0, 160, 47, 0.9], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 50, "pieceName": "egg" }, "purchase": { "unit": "dozen", "packG": 50 }, "section": "dairy-eggs", "shelfDays": 14, "pricePerKg": 140, "source": "IFCT2017" },
-    { "id": "egg_white", "name": "Egg white", "nameTa": "முட்டை வெள்ளை", "nameHi": "अंडे की सफेदी", "category": "egg", "n": [52, 10.9, 0.7, 0.2, 0, 166, 163, 7, 0.1, 11, 0, 0, 0, 4, 0.1], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 33, "pieceName": "white" }, "purchase": { "unit": "dozen", "packG": 33, "label": "Eggs (whites only)" }, "section": "dairy-eggs", "shelfDays": 14, "pricePerKg": 212, "source": "USDA" },
-
-    { "id": "paneer", "name": "Paneer", "nameTa": "பனீர்", "nameHi": "पनीर", "category": "dairy", "n": [265, 18.3, 3.6, 20.8, 0, 30, 100, 480, 0.2, 25, 2.5, 0, 180, 10, 0.6], "fodmap": { "level": "low", "groups": ["lactose"], "safeG": 80, "note": "Low lactose; keep to ~80 g per meal in elimination." }, "purchase": { "unit": "packet", "packG": 200 }, "section": "dairy-eggs", "shelfDays": 5, "pricePerKg": 440, "source": "IFCT2017" },
-    { "id": "curd", "name": "Curd (regular dahi)", "nameTa": "தயிர்", "nameHi": "दही", "category": "dairy", "n": [61, 3.5, 4.7, 3.3, 0, 46, 155, 121, 0.1, 12, 0.6, 0.5, 27, 7, 0.4], "fodmap": { "level": "high", "groups": ["lactose"], "safeG": 40 }, "swap": { "to": "lf_curd", "ratio": 1, "note": "Lactose-free curd (or set curd from lactose-free milk)" }, "units": { "cup": 245 }, "purchase": { "unit": "packet", "packG": 400 }, "section": "dairy-eggs", "shelfDays": 4, "pricePerKg": 80, "source": "IFCT2017" },
-    { "id": "lf_curd", "name": "Lactose-free curd", "nameTa": "லாக்டோஸ் இல்லா தயிர்", "nameHi": "लैक्टोज़-फ्री दही", "category": "dairy", "n": [61, 3.5, 4.7, 3.3, 0, 46, 155, 121, 0.1, 12, 0.6, 0.5, 27, 7, 0.4], "fodmap": { "level": "low", "groups": [] }, "units": { "cup": 245 }, "purchase": { "unit": "packet", "packG": 400 }, "section": "dairy-eggs", "shelfDays": 7, "pricePerKg": 200, "source": "Label" },
-    { "id": "milk", "name": "Toned milk", "nameTa": "பால்", "nameHi": "दूध", "category": "dairy", "n": [58, 3.1, 4.7, 3, 0, 45, 150, 120, 0.1, 11, 0.4, 1, 50, 5, 0.4], "fodmap": { "level": "high", "groups": ["lactose"], "safeG": 30 }, "swap": { "to": "lf_milk", "ratio": 1, "note": "Lactose-free milk" }, "units": { "cup": 240 }, "purchase": { "unit": "litre", "roundG": 500 }, "section": "dairy-eggs", "shelfDays": 2, "pricePerKg": 56, "source": "IFCT2017" },
-    { "id": "lf_milk", "name": "Lactose-free milk", "nameTa": "லாக்டோஸ் இல்லா பால்", "nameHi": "लैक्टोज़-फ्री दूध", "category": "dairy", "n": [58, 3.1, 4.7, 3, 0, 45, 150, 120, 0.1, 11, 0.4, 1, 50, 5, 0.4], "fodmap": { "level": "low", "groups": [] }, "units": { "cup": 240 }, "purchase": { "unit": "litre", "roundG": 1000 }, "section": "dairy-eggs", "shelfDays": 60, "pricePerKg": 120, "source": "Label" },
-    { "id": "ghee", "name": "Ghee", "nameTa": "நெய்", "nameHi": "घी", "category": "oil", "n": [900, 0, 0, 99.8, 0, 2, 5, 4, 0, 0, 0, 0, 700, 0, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 650, "source": "IFCT2017" },
-    { "id": "butter", "name": "Butter (unsalted)", "nameTa": "வெண்ணெய்", "nameHi": "मक्खन", "category": "dairy", "n": [717, 0.9, 0.1, 81, 0, 11, 24, 24, 0, 2, 0.1, 0, 684, 3, 0.2], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "packet", "packG": 100 }, "section": "dairy-eggs", "shelfDays": 30, "pricePerKg": 520, "source": "USDA" },
-    { "id": "cheese", "name": "Cheddar / processed cheese", "nameTa": "சீஸ்", "nameHi": "चीज़", "category": "dairy", "n": [400, 25, 1.3, 33, 0, 650, 76, 720, 0.2, 27, 3.6, 0, 265, 27, 1.1], "fodmap": { "level": "low", "groups": [], "safeG": 40 }, "units": { "piece": 20, "pieceName": "slice" }, "purchase": { "unit": "packet", "packG": 200 }, "section": "dairy-eggs", "shelfDays": 30, "pricePerKg": 600, "source": "USDA" },
-    { "id": "coconut_milk", "name": "Coconut milk", "nameTa": "தேங்காய் பால்", "nameHi": "नारियल दूध", "category": "dairy", "n": [197, 2, 5.5, 20, 2.2, 15, 260, 16, 1.6, 37, 0.7, 2.8, 0, 16, 0], "fodmap": { "level": "low", "groups": ["polyols"], "safeG": 120 }, "units": { "cup": 240 }, "purchase": { "unit": "packet", "packG": 200 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 300, "source": "USDA" },
-    { "id": "coconut", "name": "Fresh coconut, grated", "nameTa": "தேங்காய் துருவல்", "nameHi": "कसा नारियल", "category": "nut", "n": [354, 3.3, 15.2, 33.5, 9, 20, 356, 14, 2.4, 32, 1.1, 3.3, 0, 26, 0], "fodmap": { "level": "low", "groups": ["polyols"], "safeG": 30 }, "units": { "tbsp": 6, "cup": 80 }, "purchase": { "unit": "piece", "packG": 250, "label": "Coconut" }, "section": "vegetables", "shelfDays": 7, "pricePerKg": 200, "source": "IFCT2017" },
-
-    { "id": "basmati_rice", "name": "Rice (basmati / sona masoori), raw", "nameTa": "அரிசி", "nameHi": "चावल", "category": "grain", "n": [350, 7.1, 78, 0.6, 1.3, 2, 115, 9, 0.8, 25, 1.1, 0, 0, 8, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "cup": 190 }, "purchase": { "unit": "kg", "roundG": 1000 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 110, "source": "IFCT2017" },
-    { "id": "brown_rice", "name": "Brown / red (matta) rice, raw", "nameTa": "சிவப்பு அரிசி", "nameHi": "ब्राउन राइस", "category": "grain", "n": [355, 7.5, 76, 2.4, 3.5, 4, 250, 9, 1.5, 143, 2, 0, 0, 20, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "cup": 190 }, "purchase": { "unit": "kg", "roundG": 1000 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 120, "source": "IFCT2017" },
-    { "id": "poha", "name": "Rice flakes (poha / aval)", "nameTa": "அவல்", "nameHi": "पोहा", "category": "grain", "n": [346, 6.6, 77, 1.2, 1.5, 6, 120, 20, 4.5, 30, 1, 0, 0, 10, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "cup": 90 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 80, "source": "IFCT2017" },
-    { "id": "rice_flour", "name": "Rice flour", "nameTa": "அரிசி மாவு", "nameHi": "चावल का आटा", "category": "grain", "n": [366, 6, 80, 1.4, 2.4, 0, 76, 10, 0.4, 35, 0.8, 0, 0, 4, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tbsp": 8, "cup": 125 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 60, "source": "USDA" },
-    { "id": "rice_rava", "name": "Rice rava (idli rava)", "nameTa": "இட்லி ரவை", "nameHi": "चावल रवा", "category": "grain", "n": [350, 7, 79, 0.5, 1, 2, 100, 8, 0.7, 25, 1, 0, 0, 6, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "cup": 170 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 70, "source": "IFCT2017" },
-    { "id": "atta", "name": "Whole-wheat atta", "nameTa": "கோதுமை மாவு", "nameHi": "गेहूं का आटा", "category": "grain", "n": [340, 12, 72, 1.7, 11, 2, 360, 34, 3.6, 137, 2.6, 0, 0, 44, 0], "fodmap": { "level": "high", "groups": ["fructans"], "safeG": 25, "note": "About one small roti per meal is usually tolerated." }, "swap": { "to": "jowar_flour", "ratio": 1, "note": "Jowar (sorghum) roti" }, "units": { "tbsp": 8, "cup": 120 }, "purchase": { "unit": "kg", "roundG": 1000 }, "section": "grocery", "shelfDays": 90, "pricePerKg": 50, "source": "IFCT2017" },
-    { "id": "jowar_flour", "name": "Jowar (sorghum) flour", "nameTa": "சோள மாவு", "nameHi": "ज्वार का आटा", "category": "grain", "n": [349, 10.4, 72, 1.9, 9.7, 7, 350, 27, 4, 133, 1.9, 0, 0, 39, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tbsp": 8, "cup": 120 }, "purchase": { "unit": "kg", "roundG": 500 }, "section": "grocery", "shelfDays": 90, "pricePerKg": 70, "source": "IFCT2017" },
-    { "id": "ragi_flour", "name": "Ragi (finger millet) flour", "nameTa": "கேழ்வரகு மாவு", "nameHi": "रागी आटा", "category": "grain", "n": [328, 7.3, 72, 1.3, 11.2, 11, 408, 344, 3.9, 137, 2.3, 0, 0, 34, 0], "fodmap": { "level": "low", "groups": [], "safeG": 60, "note": "Millets are generally low-FODMAP; ragi has limited lab data." }, "units": { "tbsp": 8, "cup": 120 }, "purchase": { "unit": "kg", "roundG": 500 }, "section": "grocery", "shelfDays": 90, "pricePerKg": 70, "source": "IFCT2017" },
-    { "id": "oats", "name": "Rolled oats", "nameTa": "ஓட்ஸ்", "nameHi": "ओट्स", "category": "grain", "n": [379, 13.2, 67.7, 6.5, 10.1, 6, 360, 52, 4.3, 138, 3.6, 0, 0, 32, 0], "fodmap": { "level": "low", "groups": ["fructans"], "safeG": 52 }, "units": { "cup": 80 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 180, "source": "USDA" },
-    { "id": "quinoa", "name": "Quinoa", "nameTa": "குயினோவா", "nameHi": "क्विनोआ", "category": "grain", "n": [368, 14.1, 64.2, 6.1, 7, 5, 563, 47, 4.6, 197, 3.1, 0, 1, 184, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "cup": 170 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 500, "source": "USDA" },
-    { "id": "semolina", "name": "Semolina (sooji / rava)", "nameTa": "ரவை", "nameHi": "सूजी", "category": "grain", "n": [360, 12.7, 72.8, 1.1, 3.9, 1, 186, 17, 1.2, 47, 1, 0, 0, 72, 0], "fodmap": { "level": "high", "groups": ["fructans"], "safeG": 20 }, "swap": { "to": "rice_rava", "ratio": 1, "note": "Rice rava" }, "units": { "cup": 170 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 50, "source": "USDA" },
-    { "id": "besan", "name": "Besan (gram flour)", "nameTa": "கடலை மாவு", "nameHi": "बेसन", "category": "pulse", "n": [387, 22, 58, 6.7, 10.8, 64, 846, 45, 4.9, 166, 2.8, 0, 2, 437, 0], "fodmap": { "level": "moderate", "groups": ["GOS"], "safeG": 15 }, "swap": { "to": "rice_flour", "ratio": 1, "note": "Rice flour coating" }, "units": { "tbsp": 8, "cup": 92 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 110, "source": "USDA" },
-    { "id": "cornflour", "name": "Cornflour (corn starch)", "nameTa": "சோள மாவு (கார்ன்ஃப்ளார்)", "nameHi": "कॉर्नफ्लोर", "category": "grain", "n": [381, 0.3, 91, 0.1, 0.9, 9, 3, 2, 0.5, 3, 0.1, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tbsp": 8 }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 100, "source": "USDA" },
-
-    { "id": "moong_dal", "name": "Moong dal (split, yellow)", "nameTa": "பாசிப்பருப்பு", "nameHi": "मूंग दाल", "category": "pulse", "n": [348, 24.5, 59.9, 1.2, 8.2, 15, 1150, 75, 3.9, 140, 2.7, 0, 5, 140, 0], "fodmap": { "level": "moderate", "groups": ["GOS"], "safeG": 20 }, "swap": { "to": "canned_lentils", "ratio": 2.4, "note": "Small portion of canned, rinsed lentils" }, "units": { "cup": 200 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 130, "source": "IFCT2017" },
-    { "id": "masoor_dal", "name": "Masoor dal (red lentils)", "nameTa": "மசூர் பருப்பு", "nameHi": "मसूर दाल", "category": "pulse", "n": [343, 24.6, 59, 1.1, 10.8, 6, 677, 35, 7.5, 47, 3.3, 1.5, 2, 204, 0], "fodmap": { "level": "moderate", "groups": ["GOS"], "safeG": 20 }, "swap": { "to": "canned_lentils", "ratio": 2.4, "note": "Small portion of canned, rinsed lentils" }, "units": { "cup": 200 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 110, "source": "IFCT2017" },
-    { "id": "toor_dal", "name": "Toor dal (arhar)", "nameTa": "துவரம் பருப்பு", "nameHi": "अरहर दाल", "category": "pulse", "n": [343, 22.3, 62.8, 1.7, 15, 17, 1392, 73, 3.9, 124, 2.8, 0, 1, 456, 0], "fodmap": { "level": "high", "groups": ["GOS"], "safeG": 15 }, "swap": { "to": "canned_lentils", "ratio": 2.4, "note": "Small portion of canned, rinsed lentils" }, "units": { "cup": 200 }, "purchase": { "unit": "kg", "roundG": 500 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 160, "source": "IFCT2017" },
-    { "id": "rajma", "name": "Rajma (kidney beans), dry", "nameTa": "ராஜ்மா", "nameHi": "राजमा", "category": "pulse", "n": [333, 23.6, 60, 0.8, 15, 24, 1406, 143, 8.2, 140, 2.8, 4.5, 0, 394, 0], "fodmap": { "level": "high", "groups": ["GOS"], "safeG": 0 }, "swap": { "to": "canned_lentils", "ratio": 2.4, "note": "Rajma is high-GOS — small canned lentil portion instead" }, "units": { "cup": 185 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 150, "source": "IFCT2017" },
-    { "id": "canned_lentils", "name": "Canned lentils, rinsed", "nameTa": "டின் பருப்பு", "nameHi": "डिब्बाबंद मसूर", "category": "pulse", "n": [100, 7.5, 16, 0.4, 4.5, 30, 270, 20, 2.2, 30, 1, 1, 0, 100, 0], "fodmap": { "level": "low", "groups": ["GOS"], "safeG": 46, "note": "Canning leaches GOS into the brine — always rinse." }, "units": { "cup": 200 }, "purchase": { "unit": "packet", "packG": 400, "label": "Canned lentils (tin)" }, "section": "grocery", "shelfDays": 365, "pricePerKg": 400, "source": "USDA" },
-    { "id": "canned_chickpeas", "name": "Canned chickpeas, rinsed", "nameTa": "டின் கொண்டைக்கடலை", "nameHi": "डिब्बाबंद छोले", "category": "pulse", "n": [139, 7, 22, 2.6, 6.4, 24, 172, 43, 1.3, 30, 0.9, 0.1, 1, 63, 0], "fodmap": { "level": "low", "groups": ["GOS"], "safeG": 42 }, "units": { "cup": 160 }, "purchase": { "unit": "packet", "packG": 400, "label": "Canned chickpeas (tin)" }, "section": "grocery", "shelfDays": 365, "pricePerKg": 400, "source": "USDA" },
-    { "id": "tofu", "name": "Tofu, firm", "nameTa": "டோஃபு", "nameHi": "टोफू", "category": "protein", "n": [144, 17.3, 2.8, 8.7, 2.3, 14, 237, 350, 2.7, 58, 1.6, 0, 9, 29, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "packet", "packG": 200 }, "section": "dairy-eggs", "shelfDays": 7, "pricePerKg": 450, "source": "USDA" },
-    { "id": "whey_isolate", "name": "Whey protein isolate (unflavoured)", "nameTa": "வே புரதம்", "nameHi": "व्हे प्रोटीन", "category": "protein", "n": [360, 85, 3, 1, 0, 200, 500, 450, 0.5, 60, 1, 0, 0, 0, 1], "fodmap": { "level": "low", "groups": ["lactose"], "safeG": 35, "note": "Isolate is very low in lactose; concentrate is not." }, "units": { "tbsp": 10 }, "purchase": { "unit": "packet", "packG": 1000 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 2800, "source": "Label" },
-
-    { "id": "peanuts", "name": "Peanuts", "nameTa": "வேர்க்கடலை", "nameHi": "मूंगफली", "category": "nut", "n": [567, 25.8, 16.1, 49.2, 8.5, 18, 705, 92, 4.6, 168, 3.3, 0, 0, 240, 0], "fodmap": { "level": "low", "groups": [], "safeG": 32 }, "units": { "tbsp": 9, "cup": 145 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 160, "source": "IFCT2017" },
-    { "id": "cashew", "name": "Cashew nuts", "nameTa": "முந்திரி", "nameHi": "काजू", "category": "nut", "n": [553, 18.2, 30.2, 43.9, 3.3, 12, 660, 37, 6.7, 292, 5.8, 0.5, 0, 25, 0], "fodmap": { "level": "high", "groups": ["GOS", "fructans"], "safeG": 0 }, "swap": { "to": "peanuts", "ratio": 1, "note": "Peanuts (or a few macadamias)" }, "units": { "tbsp": 9 }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 900, "source": "IFCT2017" },
-    { "id": "almonds", "name": "Almonds", "nameTa": "பாதாம்", "nameHi": "बादाम", "category": "nut", "n": [579, 21.2, 21.6, 49.9, 12.5, 1, 733, 269, 3.7, 270, 3.1, 0, 0, 44, 0], "fodmap": { "level": "moderate", "groups": ["GOS"], "safeG": 12, "note": "About 10 almonds per sitting." }, "swap": { "to": "walnuts", "ratio": 1 }, "units": { "piece": 1.2, "pieceName": "almond" }, "purchase": { "unit": "packet", "packG": 250 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 800, "source": "USDA" },
-    { "id": "walnuts", "name": "Walnuts", "nameTa": "வால்நட்", "nameHi": "अखरोट", "category": "nut", "n": [654, 15.2, 13.7, 65.2, 6.7, 2, 441, 98, 2.9, 158, 3.1, 1.3, 1, 98, 0], "fodmap": { "level": "low", "groups": [], "safeG": 30 }, "purchase": { "unit": "packet", "packG": 250 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 1000, "source": "USDA" },
-    { "id": "flax_seeds", "name": "Flax seeds (alsi)", "nameTa": "ஆளி விதை", "nameHi": "अलसी", "category": "nut", "n": [534, 18.3, 28.9, 42.2, 27.3, 30, 813, 255, 5.7, 392, 4.3, 0.6, 0, 87, 0], "fodmap": { "level": "low", "groups": [], "safeG": 15, "note": "Ground flax helps IBS-C; start with 1 tsp." }, "units": { "tsp": 3.5, "tbsp": 10 }, "purchase": { "unit": "packet", "packG": 200 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 200, "source": "USDA" },
-    { "id": "chia_seeds", "name": "Chia seeds", "nameTa": "சியா விதை", "nameHi": "चिया सीड्स", "category": "nut", "n": [486, 16.5, 42.1, 30.7, 34.4, 16, 407, 631, 7.7, 335, 4.6, 1.6, 0, 49, 0], "fodmap": { "level": "low", "groups": [], "safeG": 24 }, "units": { "tsp": 4, "tbsp": 12 }, "purchase": { "unit": "packet", "packG": 200 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 600, "source": "USDA" },
-    { "id": "pumpkin_seeds", "name": "Pumpkin seeds", "nameTa": "பூசணி விதை", "nameHi": "कद्दू के बीज", "category": "nut", "n": [559, 30.2, 10.7, 49, 6, 7, 809, 46, 8.8, 592, 7.8, 1.9, 1, 58, 0], "fodmap": { "level": "low", "groups": [], "safeG": 23 }, "units": { "tbsp": 9 }, "purchase": { "unit": "packet", "packG": 200 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 800, "source": "USDA" },
-    { "id": "sesame_seeds", "name": "Sesame seeds (til)", "nameTa": "எள்", "nameHi": "तिल", "category": "nut", "n": [573, 17.7, 23.4, 49.7, 11.8, 11, 468, 975, 14.6, 351, 7.8, 0, 0, 97, 0], "fodmap": { "level": "low", "groups": [], "safeG": 11 }, "units": { "tsp": 3, "tbsp": 9 }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 180, "pricePerKg": 250, "source": "IFCT2017" },
-
-    { "id": "onion", "name": "Onion", "nameTa": "வெங்காயம்", "nameHi": "प्याज़", "category": "veg", "n": [40, 1.1, 9.3, 0.1, 1.7, 4, 146, 23, 0.2, 10, 0.2, 7.4, 0, 19, 0], "fodmap": { "level": "high", "groups": ["fructans"], "safeG": 0, "note": "Fructans in onion are among the most common IBS triggers." }, "swap": { "to": "spring_onion_greens", "ratio": 0.35, "note": "Green tops of spring onion only" }, "units": { "piece": 110, "pieceName": "medium onion" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 21, "pricePerKg": 40, "source": "IFCT2017" },
-    { "id": "garlic", "name": "Garlic", "nameTa": "பூண்டு", "nameHi": "लहसुन", "category": "veg", "n": [149, 6.4, 33, 0.5, 2.1, 17, 401, 181, 1.7, 25, 1.2, 31, 0, 3, 0], "fodmap": { "level": "high", "groups": ["fructans"], "safeG": 0 }, "swap": { "to": "garlic_oil", "ratio": 0.5, "note": "Garlic-infused oil (fructans don't dissolve into oil)" }, "units": { "piece": 4, "pieceName": "clove", "tsp": 5 }, "purchase": { "unit": "packet", "packG": 250 }, "section": "vegetables", "shelfDays": 30, "pricePerKg": 200, "source": "IFCT2017" },
-    { "id": "ginger", "name": "Ginger", "nameTa": "இஞ்சி", "nameHi": "अदरक", "category": "veg", "n": [80, 1.8, 17.8, 0.8, 2, 13, 415, 16, 0.6, 43, 0.3, 5, 0, 11, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tsp": 5, "tbsp": 15, "piece": 10, "pieceName": "inch" }, "purchase": { "unit": "packet", "packG": 100 }, "section": "vegetables", "shelfDays": 21, "pricePerKg": 160, "source": "IFCT2017" },
-    { "id": "spring_onion_greens", "name": "Spring onion, green tops only", "nameTa": "வெங்காயத்தாள் (பச்சை)", "nameHi": "हरे प्याज़ की पत्ती", "category": "herb", "n": [32, 1.8, 7.3, 0.2, 2.6, 16, 276, 72, 1.5, 20, 0.4, 18.8, 50, 64, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tbsp": 6 }, "purchase": { "unit": "bunch", "packG": 100 }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 150, "source": "USDA" },
-    { "id": "tomato", "name": "Tomato", "nameTa": "தக்காளி", "nameHi": "टमाटर", "category": "veg", "n": [18, 0.9, 3.9, 0.2, 1.2, 5, 237, 10, 0.3, 11, 0.2, 14, 42, 15, 0], "fodmap": { "level": "low", "groups": ["fructose"], "safeG": 150 }, "units": { "piece": 100, "pieceName": "medium tomato" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 6, "pricePerKg": 40, "source": "IFCT2017" },
-    { "id": "spinach", "name": "Spinach (palak)", "nameTa": "பசலைக்கீரை", "nameHi": "पालक", "category": "veg", "n": [23, 2.9, 3.6, 0.4, 2.2, 79, 558, 99, 2.7, 79, 0.5, 28, 469, 194, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "cup": 30 }, "purchase": { "unit": "bunch", "packG": 250 }, "section": "vegetables", "shelfDays": 3, "pricePerKg": 80, "source": "IFCT2017" },
-    { "id": "bottle_gourd", "name": "Bottle gourd (lauki / sorakkai)", "nameTa": "சுரைக்காய்", "nameHi": "लौकी", "category": "veg", "n": [15, 0.6, 3.4, 0, 0.5, 2, 150, 26, 0.2, 11, 0.7, 10, 1, 6, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "piece", "packG": 800, "label": "Bottle gourd" }, "section": "vegetables", "shelfDays": 7, "pricePerKg": 40, "source": "IFCT2017" },
-    { "id": "ridge_gourd", "name": "Ridge gourd (turai / peerkangai)", "nameTa": "பீர்க்கங்காய்", "nameHi": "तुरई", "category": "veg", "n": [20, 1.2, 4.4, 0.2, 1.1, 3, 139, 18, 0.4, 15, 0.1, 5, 15, 7, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 60, "source": "IFCT2017" },
-    { "id": "zucchini", "name": "Zucchini", "nameTa": "சுக்கினி", "nameHi": "ज़ुकीनी", "category": "veg", "n": [17, 1.2, 3.1, 0.3, 1, 8, 261, 16, 0.4, 18, 0.3, 17.9, 10, 24, 0], "fodmap": { "level": "moderate", "groups": ["fructans"], "safeG": 65 }, "swap": { "to": "bottle_gourd", "ratio": 1 }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 6, "pricePerKg": 120, "source": "USDA" },
-    { "id": "capsicum", "name": "Capsicum (green / red)", "nameTa": "குடைமிளகாய்", "nameHi": "शिमला मिर्च", "category": "veg", "n": [20, 0.9, 4.6, 0.2, 1.7, 3, 175, 10, 0.3, 10, 0.1, 80, 18, 10, 0], "fodmap": { "level": "low", "groups": ["fructose"], "safeG": 75 }, "units": { "piece": 150, "pieceName": "capsicum" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 7, "pricePerKg": 80, "source": "IFCT2017" },
-    { "id": "carrot", "name": "Carrot", "nameTa": "கேரட்", "nameHi": "गाजर", "category": "veg", "n": [41, 0.9, 9.6, 0.2, 2.8, 69, 320, 33, 0.3, 12, 0.2, 5.9, 835, 19, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 70, "pieceName": "carrot" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 14, "pricePerKg": 60, "source": "IFCT2017" },
-    { "id": "cucumber", "name": "Cucumber", "nameTa": "வெள்ளரிக்காய்", "nameHi": "खीरा", "category": "veg", "n": [15, 0.7, 3.6, 0.1, 0.5, 2, 147, 16, 0.3, 13, 0.2, 2.8, 5, 7, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 200, "pieceName": "cucumber" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 6, "pricePerKg": 40, "source": "IFCT2017" },
-    { "id": "cabbage", "name": "Cabbage", "nameTa": "முட்டைக்கோஸ்", "nameHi": "पत्ता गोभी", "category": "veg", "n": [25, 1.3, 5.8, 0.1, 2.5, 18, 170, 40, 0.5, 12, 0.2, 36.6, 5, 43, 0], "fodmap": { "level": "low", "groups": ["polyols"], "safeG": 75 }, "units": { "cup": 70 }, "purchase": { "unit": "piece", "packG": 700, "label": "Cabbage" }, "section": "vegetables", "shelfDays": 10, "pricePerKg": 35, "source": "IFCT2017" },
-    { "id": "green_beans", "name": "Green beans", "nameTa": "பீன்ஸ்", "nameHi": "फलियाँ", "category": "veg", "n": [31, 1.8, 7, 0.2, 2.7, 6, 211, 37, 1, 25, 0.2, 12.2, 35, 33, 0], "fodmap": { "level": "low", "groups": ["polyols"], "safeG": 75 }, "units": { "cup": 100 }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 6, "pricePerKg": 80, "source": "IFCT2017" },
-    { "id": "brinjal", "name": "Brinjal (eggplant)", "nameTa": "கத்தரிக்காய்", "nameHi": "बैंगन", "category": "veg", "n": [25, 1, 5.9, 0.2, 3, 2, 229, 9, 0.2, 14, 0.2, 2.2, 1, 22, 0], "fodmap": { "level": "low", "groups": ["polyols"], "safeG": 75 }, "units": { "piece": 80, "pieceName": "small brinjal" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 6, "pricePerKg": 50, "source": "IFCT2017" },
-    { "id": "okra", "name": "Okra (bhindi / vendakkai)", "nameTa": "வெண்டைக்காய்", "nameHi": "भिंडी", "category": "veg", "n": [33, 1.9, 7.5, 0.2, 3.2, 7, 299, 82, 0.6, 57, 0.6, 23, 36, 60, 0], "fodmap": { "level": "low", "groups": ["fructans"], "safeG": 75 }, "units": { "cup": 100 }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 4, "pricePerKg": 60, "source": "IFCT2017" },
-    { "id": "pumpkin", "name": "Pumpkin (red / kaddu)", "nameTa": "பரங்கிக்காய்", "nameHi": "कद्दू", "category": "veg", "n": [26, 1, 6.5, 0.1, 0.5, 1, 340, 21, 0.8, 12, 0.3, 9, 426, 16, 0], "fodmap": { "level": "low", "groups": ["polyols"], "safeG": 75 }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 14, "pricePerKg": 40, "source": "IFCT2017" },
-    { "id": "broccoli", "name": "Broccoli (heads)", "nameTa": "ப்ரோக்கோலி", "nameHi": "ब्रोकली", "category": "veg", "n": [34, 2.8, 6.6, 0.4, 2.6, 33, 316, 47, 0.7, 21, 0.4, 89, 31, 63, 0], "fodmap": { "level": "low", "groups": ["fructose"], "safeG": 75, "note": "Heads are lower than stalks." }, "units": { "cup": 90 }, "purchase": { "unit": "piece", "packG": 300, "label": "Broccoli" }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 180, "source": "USDA" },
-    { "id": "cauliflower", "name": "Cauliflower", "nameTa": "காலிஃபிளவர்", "nameHi": "फूलगोभी", "category": "veg", "n": [25, 1.9, 5, 0.3, 2, 30, 299, 22, 0.4, 15, 0.3, 48, 0, 57, 0], "fodmap": { "level": "high", "groups": ["polyols"], "safeG": 0 }, "swap": { "to": "broccoli", "ratio": 1, "note": "Broccoli florets (heads)" }, "units": { "cup": 100 }, "purchase": { "unit": "piece", "packG": 600, "label": "Cauliflower" }, "section": "vegetables", "shelfDays": 6, "pricePerKg": 50, "source": "IFCT2017" },
-    { "id": "mushroom", "name": "Button mushroom", "nameTa": "காளான்", "nameHi": "मशरूम", "category": "veg", "n": [22, 3.1, 3.3, 0.3, 1, 5, 318, 3, 0.5, 9, 0.5, 2.1, 0, 17, 0], "fodmap": { "level": "high", "groups": ["polyols"], "safeG": 0 }, "swap": { "to": "zucchini", "ratio": 1, "note": "Zucchini (or canned champignons, rinsed)" }, "purchase": { "unit": "packet", "packG": 200 }, "section": "vegetables", "shelfDays": 4, "pricePerKg": 250, "source": "USDA" },
-    { "id": "sweet_potato", "name": "Sweet potato", "nameTa": "சக்கரைவள்ளிக்கிழங்கு", "nameHi": "शकरकंद", "category": "veg", "n": [86, 1.6, 20.1, 0.1, 3, 55, 337, 30, 0.6, 25, 0.3, 2.4, 709, 11, 0], "fodmap": { "level": "moderate", "groups": ["polyols"], "safeG": 75 }, "swap": { "to": "potato", "ratio": 1 }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 14, "pricePerKg": 60, "source": "IFCT2017" },
-    { "id": "potato", "name": "Potato", "nameTa": "உருளைக்கிழங்கு", "nameHi": "आलू", "category": "veg", "n": [77, 2, 17, 0.1, 2.2, 6, 421, 12, 0.8, 23, 0.3, 19.7, 0, 15, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 150, "pieceName": "potato" }, "purchase": { "unit": "kg", "roundG": 500 }, "section": "vegetables", "shelfDays": 21, "pricePerKg": 35, "source": "IFCT2017" },
-    { "id": "beetroot", "name": "Beetroot", "nameTa": "பீட்ரூட்", "nameHi": "चुकंदर", "category": "veg", "n": [43, 1.6, 9.6, 0.2, 2.8, 78, 325, 16, 0.8, 23, 0.4, 4.9, 2, 109, 0], "fodmap": { "level": "moderate", "groups": ["fructans", "GOS"], "safeG": 20 }, "swap": { "to": "carrot", "ratio": 1 }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 14, "pricePerKg": 50, "source": "IFCT2017" },
-    { "id": "green_peas", "name": "Green peas", "nameTa": "பச்சைப் பட்டாணி", "nameHi": "हरी मटर", "category": "veg", "n": [81, 5.4, 14.5, 0.4, 5.1, 5, 244, 25, 1.5, 33, 1.2, 40, 38, 65, 0], "fodmap": { "level": "moderate", "groups": ["GOS", "fructans"], "safeG": 30 }, "swap": { "to": "green_beans", "ratio": 1 }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 4, "pricePerKg": 100, "source": "IFCT2017" },
-    { "id": "sweet_corn", "name": "Sweet corn kernels", "nameTa": "இனிப்பு சோளம்", "nameHi": "स्वीट कॉर्न", "category": "veg", "n": [86, 3.3, 19, 1.4, 2.7, 15, 270, 2, 0.5, 37, 0.5, 6.8, 9, 42, 0], "fodmap": { "level": "moderate", "groups": ["polyols"], "safeG": 38 }, "swap": { "to": "capsicum", "ratio": 1 }, "purchase": { "unit": "packet", "packG": 200 }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 150, "source": "USDA" },
-    { "id": "bean_sprouts", "name": "Moong bean sprouts", "nameTa": "முளைகட்டிய பயறு", "nameHi": "अंकुरित मूंग", "category": "veg", "n": [30, 3, 5.9, 0.2, 1.8, 6, 149, 13, 0.9, 21, 0.4, 13.2, 1, 61, 0], "fodmap": { "level": "low", "groups": [], "safeG": 75 }, "units": { "cup": 105 }, "purchase": { "unit": "packet", "packG": 200 }, "section": "vegetables", "shelfDays": 3, "pricePerKg": 120, "source": "USDA" },
-    { "id": "lettuce", "name": "Lettuce", "nameTa": "லெட்யூஸ்", "nameHi": "सलाद पत्ता", "category": "veg", "n": [15, 1.4, 2.9, 0.2, 1.3, 28, 194, 36, 0.9, 13, 0.2, 9.2, 370, 38, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "piece", "packG": 200, "label": "Lettuce" }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 200, "source": "USDA" },
-    { "id": "curry_leaves", "name": "Curry leaves", "nameTa": "கறிவேப்பிலை", "nameHi": "कड़ी पत्ता", "category": "herb", "n": [108, 6.1, 18.7, 1, 6.4, 0, 0, 830, 0.9, 44, 0.2, 4, 2500, 93, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 0.5, "pieceName": "sprig (≈10 leaves)" }, "purchase": { "unit": "bunch", "packG": 30 }, "section": "vegetables", "shelfDays": 7, "pricePerKg": 300, "source": "IFCT2017" },
-    { "id": "coriander_leaves", "name": "Coriander leaves", "nameTa": "கொத்தமல்லி", "nameHi": "हरा धनिया", "category": "herb", "n": [23, 2.1, 3.7, 0.5, 2.8, 46, 521, 67, 1.8, 26, 0.5, 27, 337, 62, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tbsp": 2 }, "purchase": { "unit": "bunch", "packG": 100 }, "section": "vegetables", "shelfDays": 4, "pricePerKg": 100, "source": "IFCT2017" },
-    { "id": "mint_leaves", "name": "Mint leaves", "nameTa": "புதினா", "nameHi": "पुदीना", "category": "herb", "n": [70, 3.8, 15, 0.9, 8, 31, 569, 243, 5.1, 80, 1.1, 31.8, 212, 114, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tbsp": 2 }, "purchase": { "unit": "bunch", "packG": 50 }, "section": "vegetables", "shelfDays": 4, "pricePerKg": 200, "source": "IFCT2017" },
-    { "id": "green_chilli", "name": "Green chilli", "nameTa": "பச்சை மிளகாய்", "nameHi": "हरी मिर्च", "category": "veg", "n": [40, 2, 9.5, 0.2, 1.5, 7, 340, 18, 1, 23, 0.3, 144, 59, 23, 0], "fodmap": { "level": "low", "groups": [], "note": "Low-FODMAP but capsaicin can aggravate IBS-D — adjust to taste." }, "units": { "piece": 5, "pieceName": "chilli" }, "purchase": { "unit": "packet", "packG": 100 }, "section": "vegetables", "shelfDays": 7, "pricePerKg": 80, "source": "IFCT2017" },
-    { "id": "lemon_juice", "name": "Lemon juice", "nameTa": "எலுமிச்சை சாறு", "nameHi": "नींबू का रस", "category": "fruit", "n": [22, 0.4, 5.2, 0.2, 0.3, 1, 103, 6, 0.1, 6, 0.1, 38.7, 1, 20, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tsp": 5, "tbsp": 15, "piece": 30, "pieceName": "lemon" }, "purchase": { "unit": "piece", "packG": 30, "label": "Lemons" }, "section": "vegetables", "shelfDays": 14, "pricePerKg": 200, "source": "USDA" },
-
-    { "id": "banana_firm", "name": "Banana, firm (just ripe)", "nameTa": "வாழைப்பழம்", "nameHi": "केला", "category": "fruit", "n": [89, 1.1, 22.8, 0.3, 2.6, 1, 358, 5, 0.3, 27, 0.2, 8.7, 3, 20, 0], "fodmap": { "level": "low", "groups": ["fructans"], "safeG": 100, "note": "Firm bananas are low; very ripe ones are high in fructans." }, "units": { "piece": 100, "pieceName": "banana" }, "purchase": { "unit": "dozen", "packG": 100, "label": "Bananas" }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 60, "source": "IFCT2017" },
-    { "id": "papaya", "name": "Papaya", "nameTa": "பப்பாளி", "nameHi": "पपीता", "category": "fruit", "n": [43, 0.5, 10.8, 0.3, 1.7, 8, 182, 20, 0.3, 21, 0.1, 60.9, 47, 37, 0], "fodmap": { "level": "low", "groups": [], "safeG": 140 }, "units": { "cup": 140 }, "purchase": { "unit": "piece", "packG": 1000, "label": "Papaya" }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 50, "source": "IFCT2017" },
-    { "id": "orange", "name": "Orange", "nameTa": "ஆரஞ்சு", "nameHi": "संतरा", "category": "fruit", "n": [47, 0.9, 11.8, 0.1, 2.4, 0, 181, 40, 0.1, 10, 0.1, 53.2, 11, 30, 0], "fodmap": { "level": "low", "groups": [], "safeG": 130 }, "units": { "piece": 130, "pieceName": "orange" }, "purchase": { "unit": "kg", "roundG": 500 }, "section": "vegetables", "shelfDays": 10, "pricePerKg": 100, "source": "USDA" },
-    { "id": "guava", "name": "Guava (ripe)", "nameTa": "கொய்யா", "nameHi": "अमरूद", "category": "fruit", "n": [68, 2.6, 14.3, 1, 5.4, 2, 417, 18, 0.3, 22, 0.2, 228, 31, 49, 0], "fodmap": { "level": "low", "groups": [], "safeG": 100, "note": "Ripe guava is low-FODMAP; unripe is high." }, "units": { "piece": 100, "pieceName": "guava" }, "purchase": { "unit": "kg", "roundG": 250 }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 80, "source": "IFCT2017" },
-    { "id": "pineapple", "name": "Pineapple", "nameTa": "அன்னாசி", "nameHi": "अनानास", "category": "fruit", "n": [50, 0.5, 13.1, 0.1, 1.4, 1, 109, 13, 0.3, 12, 0.1, 47.8, 3, 18, 0], "fodmap": { "level": "low", "groups": [], "safeG": 140 }, "units": { "cup": 165 }, "purchase": { "unit": "piece", "packG": 900, "label": "Pineapple" }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 70, "source": "USDA" },
-    { "id": "kiwi", "name": "Kiwi", "nameTa": "கிவி", "nameHi": "कीवी", "category": "fruit", "n": [61, 1.1, 14.7, 0.5, 3, 3, 312, 34, 0.3, 17, 0.1, 92.7, 4, 25, 0], "fodmap": { "level": "low", "groups": [], "safeG": 150, "note": "2 green kiwis a day can help IBS-C." }, "units": { "piece": 75, "pieceName": "kiwi" }, "purchase": { "unit": "piece", "packG": 75, "label": "Kiwis" }, "section": "vegetables", "shelfDays": 10, "pricePerKg": 400, "source": "USDA" },
-    { "id": "apple", "name": "Apple", "nameTa": "ஆப்பிள்", "nameHi": "सेब", "category": "fruit", "n": [52, 0.3, 13.8, 0.2, 2.4, 1, 107, 6, 0.1, 5, 0, 4.6, 3, 3, 0], "fodmap": { "level": "high", "groups": ["fructose", "polyols"], "safeG": 0 }, "swap": { "to": "orange", "ratio": 1, "note": "Orange or kiwi" }, "units": { "piece": 180, "pieceName": "apple" }, "purchase": { "unit": "kg", "roundG": 500 }, "section": "vegetables", "shelfDays": 21, "pricePerKg": 180, "source": "USDA" },
-    { "id": "mango", "name": "Mango", "nameTa": "மாம்பழம்", "nameHi": "आम", "category": "fruit", "n": [60, 0.8, 15, 0.4, 1.6, 1, 168, 11, 0.2, 10, 0.1, 36.4, 54, 43, 0], "fodmap": { "level": "moderate", "groups": ["fructose"], "safeG": 40 }, "swap": { "to": "papaya", "ratio": 1 }, "units": { "cup": 165 }, "purchase": { "unit": "kg", "roundG": 500 }, "section": "vegetables", "shelfDays": 5, "pricePerKg": 120, "source": "IFCT2017" },
-    { "id": "honey", "name": "Honey", "nameTa": "தேன்", "nameHi": "शहद", "category": "condiment", "n": [304, 0.3, 82.4, 0, 0.2, 4, 52, 6, 0.4, 2, 0.2, 0.5, 0, 2, 0], "fodmap": { "level": "moderate", "groups": ["fructose"], "safeG": 7, "note": "1 tsp is usually fine; more is high in excess fructose." }, "units": { "tsp": 7, "tbsp": 21 }, "purchase": { "unit": "packet", "packG": 250 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 500, "source": "USDA" },
-    { "id": "jaggery", "name": "Jaggery", "nameTa": "வெல்லம்", "nameHi": "गुड़", "category": "condiment", "n": [383, 0.4, 98, 0.1, 0, 30, 1050, 80, 2.6, 70, 0.2, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [], "safeG": 10 }, "units": { "tsp": 5, "tbsp": 15 }, "purchase": { "unit": "packet", "packG": 500 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 80, "source": "IFCT2017" },
-
-    { "id": "turmeric", "name": "Turmeric powder", "nameTa": "மஞ்சள் தூள்", "nameHi": "हल्दी", "category": "spice", "n": [354, 7.8, 64.9, 9.9, 21, 38, 2525, 183, 41, 193, 4.4, 0.7, 0, 39, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 300, "source": "IFCT2017" },
-    { "id": "chilli_powder", "name": "Red chilli powder (Kashmiri / regular)", "nameTa": "மிளகாய் தூள்", "nameHi": "लाल मिर्च पाउडर", "category": "spice", "n": [282, 13.5, 49.7, 14.3, 34.8, 1640, 1950, 330, 17.3, 149, 4.3, 0.7, 1483, 28, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 400, "source": "IFCT2017" },
-    { "id": "coriander_powder", "name": "Coriander powder", "nameTa": "மல்லித் தூள்", "nameHi": "धनिया पाउडर", "category": "spice", "n": [298, 12.4, 55, 17.8, 41.9, 35, 1267, 709, 16.3, 330, 4.7, 21, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 250, "source": "IFCT2017" },
-    { "id": "cumin", "name": "Cumin seeds / powder", "nameTa": "சீரகம்", "nameHi": "जीरा", "category": "spice", "n": [375, 17.8, 44.2, 22.3, 10.5, 168, 1788, 931, 66.4, 366, 4.8, 7.7, 64, 10, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 500, "source": "IFCT2017" },
-    { "id": "mustard_seeds", "name": "Mustard seeds", "nameTa": "கடுகு", "nameHi": "राई", "category": "spice", "n": [508, 26, 28, 36, 12, 13, 738, 266, 9.2, 370, 6.1, 7.1, 2, 162, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 150, "source": "IFCT2017" },
-    { "id": "garam_masala", "name": "Garam masala (no onion/garlic)", "nameTa": "கரம் மசாலா", "nameHi": "गरम मसाला", "category": "spice", "n": [380, 14, 50, 15, 28, 90, 1300, 600, 25, 250, 3.5, 10, 30, 60, 0], "fodmap": { "level": "low", "groups": [], "note": "Check the label — some blends contain garlic or onion powder." }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 900, "source": "USDA" },
-    { "id": "black_pepper", "name": "Black pepper", "nameTa": "மிளகு", "nameHi": "काली मिर्च", "category": "spice", "n": [251, 10.4, 64, 3.3, 25.3, 20, 1329, 443, 9.7, 171, 1.2, 0, 27, 17, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "packet", "packG": 50 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 1200, "source": "IFCT2017" },
-    { "id": "fennel_seeds", "name": "Fennel seeds (saunf)", "nameTa": "சோம்பு", "nameHi": "सौंफ", "category": "spice", "n": [345, 15.8, 52, 14.9, 39.8, 88, 1694, 1196, 18.5, 385, 4, 21, 7, 0, 0], "fodmap": { "level": "low", "groups": [], "safeG": 5 }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 400, "source": "IFCT2017" },
-    { "id": "fenugreek_seeds", "name": "Fenugreek seeds (methi)", "nameTa": "வெந்தயம்", "nameHi": "मेथी दाना", "category": "spice", "n": [323, 23, 58, 6.4, 24.6, 67, 770, 176, 33.5, 191, 2.5, 3, 3, 57, 0], "fodmap": { "level": "moderate", "groups": ["GOS"], "safeG": 3 }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 200, "source": "IFCT2017" },
-    { "id": "kasuri_methi", "name": "Kasuri methi (dried fenugreek leaves)", "nameTa": "காய்ந்த வெந்தயக்கீரை", "nameHi": "कसूरी मेथी", "category": "herb", "n": [280, 20, 50, 5, 25, 150, 2000, 1000, 20, 300, 3, 5, 400, 100, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tsp": 1, "tbsp": 3 }, "purchase": { "unit": "packet", "packG": 50 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 600, "source": "IFCT2017" },
-    { "id": "whole_spices", "name": "Whole spices (bay leaf, cinnamon, cardamom, cloves)", "nameTa": "முழு மசாலா", "nameHi": "खड़े मसाले", "category": "spice", "n": [300, 6, 70, 8, 40, 30, 800, 700, 10, 150, 2, 5, 10, 10, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tsp": 2 }, "purchase": { "unit": "packet", "packG": 50 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 1500, "source": "USDA" },
-    { "id": "dry_red_chilli", "name": "Dry red chillies", "nameTa": "காய்ந்த மிளகாய்", "nameHi": "सूखी लाल मिर्च", "category": "spice", "n": [324, 12, 57, 6, 28, 30, 1870, 160, 9, 130, 2.5, 30, 1000, 50, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 1, "pieceName": "chilli" }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 350, "source": "IFCT2017" },
-    { "id": "hing_gf", "name": "Asafoetida (hing), gluten-free", "nameTa": "பெருங்காயம் (கோதுமை இல்லா)", "nameHi": "हींग (ग्लूटेन-फ्री)", "category": "spice", "n": [297, 4, 68, 1, 4, 30, 50, 100, 30, 50, 1, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [], "note": "Only gluten-free (rice-flour based) hing is low-FODMAP." }, "units": { "tsp": 2 }, "purchase": { "unit": "packet", "packG": 50 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 2000, "source": "Label" },
-    { "id": "hing", "name": "Asafoetida (regular compounded hing)", "nameTa": "பெருங்காயம்", "nameHi": "हींग", "category": "spice", "n": [297, 4, 68, 1, 4, 30, 50, 100, 30, 50, 1, 0, 0, 0, 0], "fodmap": { "level": "high", "groups": ["fructans"], "safeG": 0, "note": "Most Indian hing is blended with wheat flour — use a gluten-free brand." }, "swap": { "to": "hing_gf", "ratio": 1, "note": "Gluten-free hing (check label for rice flour base)" }, "units": { "tsp": 2 }, "purchase": { "unit": "packet", "packG": 50 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 1200, "source": "Label" },
-    { "id": "salt", "name": "Salt (iodised)", "nameTa": "உப்பு", "nameHi": "नमक", "category": "condiment", "n": [0, 0, 0, 0, 0, 38758, 8, 24, 0.3, 1, 0.1, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tsp": 6 }, "purchase": { "unit": "packet", "packG": 1000 }, "section": "grocery", "shelfDays": 3650, "pricePerKg": 28, "source": "USDA" },
-    { "id": "tamarind", "name": "Tamarind pulp", "nameTa": "புளி", "nameHi": "इमली", "category": "condiment", "n": [239, 2.8, 62.5, 0.6, 5.1, 28, 628, 74, 2.8, 92, 0.1, 3.5, 2, 14, 0], "fodmap": { "level": "low", "groups": ["fructans"], "safeG": 20 }, "units": { "tsp": 6, "tbsp": 18 }, "purchase": { "unit": "packet", "packG": 250 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 200, "source": "IFCT2017" },
-    { "id": "kokum", "name": "Kokum / kudampuli", "nameTa": "குடம்புளி", "nameHi": "कोकम", "category": "condiment", "n": [60, 1, 14, 1, 6, 10, 200, 20, 1, 20, 0.2, 2, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "piece": 3, "pieceName": "piece" }, "purchase": { "unit": "packet", "packG": 100 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 400, "source": "IFCT2017" },
-    { "id": "soy_sauce", "name": "Soy sauce", "nameTa": "சோயா சாஸ்", "nameHi": "सोया सॉस", "category": "condiment", "n": [53, 8.1, 4.9, 0.6, 0.8, 5493, 435, 33, 2.4, 74, 0.4, 0, 0, 18, 0], "fodmap": { "level": "low", "groups": [], "safeG": 42 }, "units": { "tsp": 6, "tbsp": 16 }, "purchase": { "unit": "packet", "packG": 200, "label": "Soy sauce (bottle)" }, "section": "grocery", "shelfDays": 365, "pricePerKg": 300, "source": "USDA" },
-    { "id": "vinegar", "name": "Vinegar", "nameTa": "வினிகர்", "nameHi": "सिरका", "category": "condiment", "n": [18, 0, 0.04, 0, 0, 2, 2, 6, 0, 1, 0, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "units": { "tsp": 5, "tbsp": 15 }, "purchase": { "unit": "packet", "packG": 500, "label": "Vinegar (bottle)" }, "section": "grocery", "shelfDays": 3650, "pricePerKg": 100, "source": "USDA" },
-    { "id": "chilli_sauce", "name": "Red chilli sauce (no garlic)", "nameTa": "சில்லி சாஸ்", "nameHi": "चिली सॉस", "category": "condiment", "n": [93, 1.9, 19, 0.3, 2, 2124, 144, 18, 0.7, 15, 0.2, 9, 30, 8, 0], "fodmap": { "level": "low", "groups": [], "safeG": 15, "note": "Check label for garlic/onion." }, "units": { "tsp": 6, "tbsp": 17 }, "purchase": { "unit": "packet", "packG": 200, "label": "Chilli sauce (bottle)" }, "section": "grocery", "shelfDays": 365, "pricePerKg": 250, "source": "USDA" },
-
-    { "id": "groundnut_oil", "name": "Groundnut / sunflower oil", "nameTa": "கடலை எண்ணெய்", "nameHi": "मूंगफली तेल", "category": "oil", "n": [884, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "litre", "roundG": 1000 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 190, "source": "IFCT2017" },
-    { "id": "mustard_oil", "name": "Mustard oil", "nameTa": "கடுகு எண்ணெய்", "nameHi": "सरसों का तेल", "category": "oil", "n": [884, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "litre", "roundG": 1000 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 180, "source": "IFCT2017" },
-    { "id": "coconut_oil", "name": "Coconut oil", "nameTa": "தேங்காய் எண்ணெய்", "nameHi": "नारियल तेल", "category": "oil", "n": [892, 0, 0, 99.1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "litre", "roundG": 500 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 280, "source": "IFCT2017" },
-    { "id": "sesame_oil", "name": "Gingelly (sesame) oil", "nameTa": "நல்லெண்ணெய்", "nameHi": "तिल का तेल", "category": "oil", "n": [884, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "litre", "roundG": 500 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 350, "source": "IFCT2017" },
-    { "id": "olive_oil", "name": "Olive oil", "nameTa": "ஆலிவ் எண்ணெய்", "nameHi": "जैतून का तेल", "category": "oil", "n": [884, 0, 0, 100, 0, 2, 1, 1, 0.6, 0, 0, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [] }, "purchase": { "unit": "litre", "roundG": 500 }, "section": "grocery", "shelfDays": 365, "pricePerKg": 900, "source": "USDA" },
-    { "id": "garlic_oil", "name": "Garlic-infused oil", "nameTa": "பூண்டு மணம் எண்ணெய்", "nameHi": "लहसुन-सुगंधित तेल", "category": "oil", "n": [884, 0, 0, 100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "fodmap": { "level": "low", "groups": [], "note": "Store-bought, or warm sliced garlic in oil, strain out all solids, refrigerate and use within 3 days." }, "purchase": { "unit": "packet", "packG": 250, "label": "Garlic-infused oil (bottle)" }, "section": "grocery", "shelfDays": 90, "pricePerKg": 1000, "source": "USDA" }
-  ]
+ "version": 1,
+ "nutrientOrder": [
+  "kcal",
+  "protein",
+  "carbs",
+  "fat",
+  "fibre",
+  "sodium",
+  "potassium",
+  "calcium",
+  "iron",
+  "magnesium",
+  "zinc",
+  "vitC",
+  "vitA",
+  "folate",
+  "b12"
+ ],
+ "ingredients": [
+  {
+   "id": "chicken_breast",
+   "name": "Chicken breast, boneless skinless",
+   "nameTa": "கோழி நெஞ்சுக்கறி",
+   "nameHi": "चिकन ब्रेस्ट",
+   "category": "meat",
+   "n": [
+    120,
+    22.5,
+    0,
+    2.6,
+    0,
+    45,
+    370,
+    5,
+    0.4,
+    28,
+    0.7,
+    0,
+    9,
+    4,
+    0.2
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 2,
+   "pricePerKg": 320,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "chicken_curry_cut",
+   "name": "Chicken, curry cut (skinless, bone-in)",
+   "nameTa": "கோழிக்கறி",
+   "nameHi": "चिकन करी कट",
+   "category": "meat",
+   "n": [
+    150,
+    19,
+    0,
+    8,
+    0,
+    70,
+    230,
+    11,
+    0.9,
+    21,
+    1.6,
+    0,
+    20,
+    6,
+    0.3
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 60,
+    "pieceName": "piece"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 2,
+   "pricePerKg": 240,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "chicken_thigh",
+   "name": "Chicken thigh, boneless",
+   "nameTa": "கோழி தொடைக்கறி",
+   "nameHi": "चिकन थाई",
+   "category": "meat",
+   "n": [
+    145,
+    19.7,
+    0,
+    7.3,
+    0,
+    85,
+    240,
+    8,
+    0.9,
+    23,
+    1.6,
+    0,
+    15,
+    8,
+    0.4
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 2,
+   "pricePerKg": 300,
+   "source": "USDA"
+  },
+  {
+   "id": "chicken_mince",
+   "name": "Chicken mince (keema)",
+   "nameTa": "கோழி கீமா",
+   "nameHi": "चिकन कीमा",
+   "category": "meat",
+   "n": [
+    143,
+    17.4,
+    0,
+    8.1,
+    0,
+    60,
+    520,
+    6,
+    0.8,
+    21,
+    1.5,
+    0,
+    11,
+    6,
+    0.4
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 2,
+   "pricePerKg": 340,
+   "source": "USDA"
+  },
+  {
+   "id": "chicken_liver",
+   "name": "Chicken liver",
+   "nameTa": "கோழி ஈரல்",
+   "nameHi": "चिकन कलेजी",
+   "category": "meat",
+   "n": [
+    119,
+    16.9,
+    0.7,
+    4.8,
+    0,
+    71,
+    230,
+    8,
+    9,
+    19,
+    2.7,
+    18,
+    3300,
+    588,
+    16.6
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 1,
+   "pricePerKg": 200,
+   "source": "USDA"
+  },
+  {
+   "id": "mutton_curry_cut",
+   "name": "Mutton (goat), curry cut",
+   "nameTa": "ஆட்டுக்கறி",
+   "nameHi": "मटन करी कट",
+   "category": "meat",
+   "n": [
+    160,
+    20,
+    0,
+    9,
+    0,
+    80,
+    385,
+    13,
+    2.8,
+    23,
+    4,
+    0,
+    0,
+    5,
+    1.1
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 50,
+    "pieceName": "piece"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 2,
+   "pricePerKg": 800,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "mutton_mince",
+   "name": "Mutton keema",
+   "nameTa": "ஆட்டுக்கறி கீமா",
+   "nameHi": "मटन कीमा",
+   "category": "meat",
+   "n": [
+    200,
+    18,
+    0,
+    14,
+    0,
+    75,
+    300,
+    15,
+    2.2,
+    21,
+    3.8,
+    0,
+    0,
+    5,
+    2.2
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 2,
+   "pricePerKg": 850,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "seer_fish",
+   "name": "Seer fish (vanjaram), steaks",
+   "nameTa": "வஞ்சிரம்",
+   "nameHi": "सुरमई",
+   "category": "fish",
+   "n": [
+    105,
+    20.3,
+    0,
+    2,
+    0,
+    158,
+    435,
+    30,
+    1.8,
+    32,
+    0.5,
+    0,
+    25,
+    9,
+    15
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 100,
+    "pieceName": "steak"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 1,
+   "pricePerKg": 900,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "pomfret",
+   "name": "Pomfret, whole cleaned",
+   "nameTa": "வாவல்",
+   "nameHi": "पापलेट",
+   "category": "fish",
+   "n": [
+    110,
+    19,
+    0,
+    3.5,
+    0,
+    65,
+    380,
+    25,
+    0.4,
+    30,
+    0.5,
+    0,
+    30,
+    6,
+    1.3
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 250,
+    "pieceName": "fish"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 1,
+   "pricePerKg": 700,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "mackerel",
+   "name": "Indian mackerel (bangda / ayala)",
+   "nameTa": "அயிலை மீன்",
+   "nameHi": "बांगड़ा",
+   "category": "fish",
+   "n": [
+    140,
+    19,
+    0,
+    7,
+    0,
+    90,
+    314,
+    30,
+    1.6,
+    60,
+    0.6,
+    0,
+    50,
+    1,
+    8.7
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 120,
+    "pieceName": "fish"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 1,
+   "pricePerKg": 250,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "sardine",
+   "name": "Sardine (mathi / chaala)",
+   "nameTa": "மத்தி மீன்",
+   "nameHi": "सार्डिन",
+   "category": "fish",
+   "n": [
+    150,
+    20,
+    0,
+    7.5,
+    0,
+    100,
+    400,
+    380,
+    2.5,
+    39,
+    1.3,
+    0,
+    30,
+    10,
+    8.9
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 40,
+    "pieceName": "fish"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 1,
+   "pricePerKg": 180,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "rohu",
+   "name": "Rohu, steaks",
+   "nameTa": "ரோகு மீன்",
+   "nameHi": "रोहू",
+   "category": "fish",
+   "n": [
+    97,
+    17,
+    0,
+    3,
+    0,
+    50,
+    290,
+    100,
+    1,
+    30,
+    1,
+    0,
+    30,
+    10,
+    2
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 80,
+    "pieceName": "piece"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 1,
+   "pricePerKg": 220,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "salmon",
+   "name": "Indian salmon (rawas), fillet",
+   "nameTa": "காலா மீன்",
+   "nameHi": "रावस",
+   "category": "fish",
+   "n": [
+    120,
+    20,
+    0,
+    4.5,
+    0,
+    60,
+    380,
+    20,
+    0.5,
+    30,
+    0.5,
+    0,
+    15,
+    10,
+    3
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 120,
+    "pieceName": "fillet"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 1,
+   "pricePerKg": 900,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "prawns",
+   "name": "Prawns, peeled & deveined",
+   "nameTa": "இறால்",
+   "nameHi": "झींगा",
+   "category": "fish",
+   "n": [
+    85,
+    20.1,
+    0,
+    0.5,
+    0,
+    119,
+    264,
+    64,
+    0.2,
+    35,
+    1.3,
+    0,
+    0,
+    19,
+    1.1
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 1,
+   "pricePerKg": 550,
+   "source": "USDA"
+  },
+  {
+   "id": "crab",
+   "name": "Crab, cleaned",
+   "nameTa": "நண்டு",
+   "nameHi": "केकड़ा",
+   "category": "fish",
+   "n": [
+    87,
+    18,
+    0,
+    1.1,
+    0,
+    293,
+    329,
+    89,
+    0.7,
+    49,
+    3.5,
+    0,
+    2,
+    44,
+    9
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "meat-fish",
+   "shelfDays": 1,
+   "pricePerKg": 400,
+   "source": "USDA"
+  },
+  {
+   "id": "egg",
+   "name": "Egg, whole",
+   "nameTa": "முட்டை",
+   "nameHi": "अंडा",
+   "category": "egg",
+   "n": [
+    143,
+    12.6,
+    0.7,
+    9.5,
+    0,
+    142,
+    138,
+    56,
+    1.75,
+    12,
+    1.3,
+    0,
+    160,
+    47,
+    0.9
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 50,
+    "pieceName": "egg"
+   },
+   "purchase": {
+    "unit": "dozen",
+    "packG": 50
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 14,
+   "pricePerKg": 140,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "egg_white",
+   "name": "Egg white",
+   "nameTa": "முட்டை வெள்ளை",
+   "nameHi": "अंडे की सफेदी",
+   "category": "egg",
+   "n": [
+    52,
+    10.9,
+    0.7,
+    0.2,
+    0,
+    166,
+    163,
+    7,
+    0.1,
+    11,
+    0,
+    0,
+    0,
+    4,
+    0.1
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 33,
+    "pieceName": "white"
+   },
+   "purchase": {
+    "unit": "dozen",
+    "packG": 33,
+    "label": "Eggs (whites only)"
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 14,
+   "pricePerKg": 212,
+   "source": "USDA"
+  },
+  {
+   "id": "paneer",
+   "name": "Paneer",
+   "nameTa": "பனீர்",
+   "nameHi": "पनीर",
+   "category": "dairy",
+   "n": [
+    265,
+    18.3,
+    3.6,
+    20.8,
+    0,
+    30,
+    100,
+    480,
+    0.2,
+    25,
+    2.5,
+    0,
+    180,
+    10,
+    0.6
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "lactose"
+    ],
+    "safeG": 80,
+    "note": "Low lactose; keep to ~80 g per meal in elimination."
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 5,
+   "pricePerKg": 440,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "curd",
+   "name": "Curd (regular dahi)",
+   "nameTa": "தயிர்",
+   "nameHi": "दही",
+   "category": "dairy",
+   "n": [
+    61,
+    3.5,
+    4.7,
+    3.3,
+    0,
+    46,
+    155,
+    121,
+    0.1,
+    12,
+    0.6,
+    0.5,
+    27,
+    7,
+    0.4
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "lactose"
+    ],
+    "safeG": 40
+   },
+   "swap": {
+    "to": "lf_curd",
+    "ratio": 1,
+    "note": "Lactose-free curd (or set curd from lactose-free milk)"
+   },
+   "units": {
+    "cup": 245
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 400
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 4,
+   "pricePerKg": 80,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "lf_curd",
+   "name": "Lactose-free curd",
+   "nameTa": "லாக்டோஸ் இல்லா தயிர்",
+   "nameHi": "लैक्टोज़-फ्री दही",
+   "category": "dairy",
+   "n": [
+    61,
+    3.5,
+    4.7,
+    3.3,
+    0,
+    46,
+    155,
+    121,
+    0.1,
+    12,
+    0.6,
+    0.5,
+    27,
+    7,
+    0.4
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "cup": 245
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 400
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 7,
+   "pricePerKg": 200,
+   "source": "Label"
+  },
+  {
+   "id": "milk",
+   "name": "Toned milk",
+   "nameTa": "பால்",
+   "nameHi": "दूध",
+   "category": "dairy",
+   "n": [
+    58,
+    3.1,
+    4.7,
+    3,
+    0,
+    45,
+    150,
+    120,
+    0.1,
+    11,
+    0.4,
+    1,
+    50,
+    5,
+    0.4
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "lactose"
+    ],
+    "safeG": 30
+   },
+   "swap": {
+    "to": "lf_milk",
+    "ratio": 1,
+    "note": "Lactose-free milk"
+   },
+   "units": {
+    "cup": 240
+   },
+   "purchase": {
+    "unit": "litre",
+    "roundG": 500
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 2,
+   "pricePerKg": 56,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "lf_milk",
+   "name": "Lactose-free milk",
+   "nameTa": "லாக்டோஸ் இல்லா பால்",
+   "nameHi": "लैक्टोज़-फ्री दूध",
+   "category": "dairy",
+   "n": [
+    58,
+    3.1,
+    4.7,
+    3,
+    0,
+    45,
+    150,
+    120,
+    0.1,
+    11,
+    0.4,
+    1,
+    50,
+    5,
+    0.4
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "cup": 240
+   },
+   "purchase": {
+    "unit": "litre",
+    "roundG": 1000
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 60,
+   "pricePerKg": 120,
+   "source": "Label"
+  },
+  {
+   "id": "ghee",
+   "name": "Ghee",
+   "nameTa": "நெய்",
+   "nameHi": "घी",
+   "category": "oil",
+   "n": [
+    900,
+    0,
+    0,
+    99.8,
+    0,
+    2,
+    5,
+    4,
+    0,
+    0,
+    0,
+    0,
+    700,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 650,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "butter",
+   "name": "Butter (unsalted)",
+   "nameTa": "வெண்ணெய்",
+   "nameHi": "मक्खन",
+   "category": "dairy",
+   "n": [
+    717,
+    0.9,
+    0.1,
+    81,
+    0,
+    11,
+    24,
+    24,
+    0,
+    2,
+    0.1,
+    0,
+    684,
+    3,
+    0.2
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 30,
+   "pricePerKg": 520,
+   "source": "USDA"
+  },
+  {
+   "id": "cheese",
+   "name": "Cheddar / processed cheese",
+   "nameTa": "சீஸ்",
+   "nameHi": "चीज़",
+   "category": "dairy",
+   "n": [
+    400,
+    25,
+    1.3,
+    33,
+    0,
+    650,
+    76,
+    720,
+    0.2,
+    27,
+    3.6,
+    0,
+    265,
+    27,
+    1.1
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 40
+   },
+   "units": {
+    "piece": 20,
+    "pieceName": "slice"
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 30,
+   "pricePerKg": 600,
+   "source": "USDA"
+  },
+  {
+   "id": "coconut_milk",
+   "name": "Coconut milk",
+   "nameTa": "தேங்காய் பால்",
+   "nameHi": "नारियल दूध",
+   "category": "dairy",
+   "n": [
+    197,
+    2,
+    5.5,
+    20,
+    2.2,
+    15,
+    260,
+    16,
+    1.6,
+    37,
+    0.7,
+    2.8,
+    0,
+    16,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 120
+   },
+   "units": {
+    "cup": 240
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 300,
+   "source": "USDA"
+  },
+  {
+   "id": "coconut",
+   "name": "Fresh coconut, grated",
+   "nameTa": "தேங்காய் துருவல்",
+   "nameHi": "कसा नारियल",
+   "category": "nut",
+   "n": [
+    354,
+    3.3,
+    15.2,
+    33.5,
+    9,
+    20,
+    356,
+    14,
+    2.4,
+    32,
+    1.1,
+    3.3,
+    0,
+    26,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 30
+   },
+   "units": {
+    "tbsp": 6,
+    "cup": 80
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 250,
+    "label": "Coconut"
+   },
+   "section": "vegetables",
+   "shelfDays": 7,
+   "pricePerKg": 200,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "basmati_rice",
+   "name": "Rice (basmati / sona masoori), raw",
+   "nameTa": "அரிசி",
+   "nameHi": "चावल",
+   "category": "grain",
+   "n": [
+    350,
+    7.1,
+    78,
+    0.6,
+    1.3,
+    2,
+    115,
+    9,
+    0.8,
+    25,
+    1.1,
+    0,
+    0,
+    8,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "cup": 190
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 1000
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 110,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "brown_rice",
+   "name": "Brown / red (matta) rice, raw",
+   "nameTa": "சிவப்பு அரிசி",
+   "nameHi": "ब्राउन राइस",
+   "category": "grain",
+   "n": [
+    355,
+    7.5,
+    76,
+    2.4,
+    3.5,
+    4,
+    250,
+    9,
+    1.5,
+    143,
+    2,
+    0,
+    0,
+    20,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "cup": 190
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 1000
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 120,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "poha",
+   "name": "Rice flakes (poha / aval)",
+   "nameTa": "அவல்",
+   "nameHi": "पोहा",
+   "category": "grain",
+   "n": [
+    346,
+    6.6,
+    77,
+    1.2,
+    1.5,
+    6,
+    120,
+    20,
+    4.5,
+    30,
+    1,
+    0,
+    0,
+    10,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "cup": 90
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 80,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "rice_flour",
+   "name": "Rice flour",
+   "nameTa": "அரிசி மாவு",
+   "nameHi": "चावल का आटा",
+   "category": "grain",
+   "n": [
+    366,
+    6,
+    80,
+    1.4,
+    2.4,
+    0,
+    76,
+    10,
+    0.4,
+    35,
+    0.8,
+    0,
+    0,
+    4,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tbsp": 8,
+    "cup": 125
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 60,
+   "source": "USDA"
+  },
+  {
+   "id": "rice_rava",
+   "name": "Rice rava (idli rava)",
+   "nameTa": "இட்லி ரவை",
+   "nameHi": "चावल रवा",
+   "category": "grain",
+   "n": [
+    350,
+    7,
+    79,
+    0.5,
+    1,
+    2,
+    100,
+    8,
+    0.7,
+    25,
+    1,
+    0,
+    0,
+    6,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "cup": 170
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 70,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "atta",
+   "name": "Whole-wheat atta",
+   "nameTa": "கோதுமை மாவு",
+   "nameHi": "गेहूं का आटा",
+   "category": "grain",
+   "n": [
+    340,
+    12,
+    72,
+    1.7,
+    11,
+    2,
+    360,
+    34,
+    3.6,
+    137,
+    2.6,
+    0,
+    0,
+    44,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 25,
+    "note": "About one small roti per meal is usually tolerated."
+   },
+   "swap": {
+    "to": "jowar_flour",
+    "ratio": 1,
+    "note": "Jowar (sorghum) roti"
+   },
+   "units": {
+    "tbsp": 8,
+    "cup": 120
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 1000
+   },
+   "section": "grocery",
+   "shelfDays": 90,
+   "pricePerKg": 50,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "jowar_flour",
+   "name": "Jowar (sorghum) flour",
+   "nameTa": "சோள மாவு",
+   "nameHi": "ज्वार का आटा",
+   "category": "grain",
+   "n": [
+    349,
+    10.4,
+    72,
+    1.9,
+    9.7,
+    7,
+    350,
+    27,
+    4,
+    133,
+    1.9,
+    0,
+    0,
+    39,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tbsp": 8,
+    "cup": 120
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 90,
+   "pricePerKg": 70,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "ragi_flour",
+   "name": "Ragi (finger millet) flour",
+   "nameTa": "கேழ்வரகு மாவு",
+   "nameHi": "रागी आटा",
+   "category": "grain",
+   "n": [
+    328,
+    7.3,
+    72,
+    1.3,
+    11.2,
+    11,
+    408,
+    344,
+    3.9,
+    137,
+    2.3,
+    0,
+    0,
+    34,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 60,
+    "note": "Millets are generally low-FODMAP; ragi has limited lab data."
+   },
+   "units": {
+    "tbsp": 8,
+    "cup": 120
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 90,
+   "pricePerKg": 70,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "oats",
+   "name": "Rolled oats",
+   "nameTa": "ஓட்ஸ்",
+   "nameHi": "ओट्स",
+   "category": "grain",
+   "n": [
+    379,
+    13.2,
+    67.7,
+    6.5,
+    10.1,
+    6,
+    360,
+    52,
+    4.3,
+    138,
+    3.6,
+    0,
+    0,
+    32,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 52
+   },
+   "units": {
+    "cup": 80
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 180,
+   "source": "USDA"
+  },
+  {
+   "id": "quinoa",
+   "name": "Quinoa",
+   "nameTa": "குயினோவா",
+   "nameHi": "क्विनोआ",
+   "category": "grain",
+   "n": [
+    368,
+    14.1,
+    64.2,
+    6.1,
+    7,
+    5,
+    563,
+    47,
+    4.6,
+    197,
+    3.1,
+    0,
+    1,
+    184,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "cup": 170
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 500,
+   "source": "USDA"
+  },
+  {
+   "id": "semolina",
+   "name": "Semolina (sooji / rava)",
+   "nameTa": "ரவை",
+   "nameHi": "सूजी",
+   "category": "grain",
+   "n": [
+    360,
+    12.7,
+    72.8,
+    1.1,
+    3.9,
+    1,
+    186,
+    17,
+    1.2,
+    47,
+    1,
+    0,
+    0,
+    72,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 20
+   },
+   "swap": {
+    "to": "rice_rava",
+    "ratio": 1,
+    "note": "Rice rava"
+   },
+   "units": {
+    "cup": 170
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 50,
+   "source": "USDA"
+  },
+  {
+   "id": "besan",
+   "name": "Besan (gram flour)",
+   "nameTa": "கடலை மாவு",
+   "nameHi": "बेसन",
+   "category": "pulse",
+   "n": [
+    387,
+    22,
+    58,
+    6.7,
+    10.8,
+    64,
+    846,
+    45,
+    4.9,
+    166,
+    2.8,
+    0,
+    2,
+    437,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "GOS"
+    ],
+    "safeG": 15
+   },
+   "swap": {
+    "to": "rice_flour",
+    "ratio": 1,
+    "note": "Rice flour coating"
+   },
+   "units": {
+    "tbsp": 8,
+    "cup": 92
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 110,
+   "source": "USDA"
+  },
+  {
+   "id": "cornflour",
+   "name": "Cornflour (corn starch)",
+   "nameTa": "சோள மாவு (கார்ன்ஃப்ளார்)",
+   "nameHi": "कॉर्नफ्लोर",
+   "category": "grain",
+   "n": [
+    381,
+    0.3,
+    91,
+    0.1,
+    0.9,
+    9,
+    3,
+    2,
+    0.5,
+    3,
+    0.1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tbsp": 8
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 100,
+   "source": "USDA"
+  },
+  {
+   "id": "moong_dal",
+   "name": "Moong dal (split, yellow)",
+   "nameTa": "பாசிப்பருப்பு",
+   "nameHi": "मूंग दाल",
+   "category": "pulse",
+   "n": [
+    348,
+    24.5,
+    59.9,
+    1.2,
+    8.2,
+    15,
+    1150,
+    75,
+    3.9,
+    140,
+    2.7,
+    0,
+    5,
+    140,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "GOS"
+    ],
+    "safeG": 20
+   },
+   "swap": {
+    "to": "canned_lentils",
+    "ratio": 2.4,
+    "note": "Small portion of canned, rinsed lentils"
+   },
+   "units": {
+    "cup": 200
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 130,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "masoor_dal",
+   "name": "Masoor dal (red lentils)",
+   "nameTa": "மசூர் பருப்பு",
+   "nameHi": "मसूर दाल",
+   "category": "pulse",
+   "n": [
+    343,
+    24.6,
+    59,
+    1.1,
+    10.8,
+    6,
+    677,
+    35,
+    7.5,
+    47,
+    3.3,
+    1.5,
+    2,
+    204,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "GOS"
+    ],
+    "safeG": 20
+   },
+   "swap": {
+    "to": "canned_lentils",
+    "ratio": 2.4,
+    "note": "Small portion of canned, rinsed lentils"
+   },
+   "units": {
+    "cup": 200
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 110,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "toor_dal",
+   "name": "Toor dal (arhar)",
+   "nameTa": "துவரம் பருப்பு",
+   "nameHi": "अरहर दाल",
+   "category": "pulse",
+   "n": [
+    343,
+    22.3,
+    62.8,
+    1.7,
+    15,
+    17,
+    1392,
+    73,
+    3.9,
+    124,
+    2.8,
+    0,
+    1,
+    456,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "GOS"
+    ],
+    "safeG": 15
+   },
+   "swap": {
+    "to": "canned_lentils",
+    "ratio": 2.4,
+    "note": "Small portion of canned, rinsed lentils"
+   },
+   "units": {
+    "cup": 200
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 160,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "rajma",
+   "name": "Rajma (kidney beans), dry",
+   "nameTa": "ராஜ்மா",
+   "nameHi": "राजमा",
+   "category": "pulse",
+   "n": [
+    333,
+    23.6,
+    60,
+    0.8,
+    15,
+    24,
+    1406,
+    143,
+    8.2,
+    140,
+    2.8,
+    4.5,
+    0,
+    394,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "GOS"
+    ],
+    "safeG": 0
+   },
+   "swap": {
+    "to": "canned_lentils",
+    "ratio": 2.4,
+    "note": "Rajma is high-GOS — small canned lentil portion instead"
+   },
+   "units": {
+    "cup": 185
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 150,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "canned_lentils",
+   "name": "Canned lentils, rinsed",
+   "nameTa": "டின் பருப்பு",
+   "nameHi": "डिब्बाबंद मसूर",
+   "category": "pulse",
+   "n": [
+    100,
+    7.5,
+    16,
+    0.4,
+    4.5,
+    30,
+    270,
+    20,
+    2.2,
+    30,
+    1,
+    1,
+    0,
+    100,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "GOS"
+    ],
+    "safeG": 46,
+    "note": "Canning leaches GOS into the brine — always rinse."
+   },
+   "units": {
+    "cup": 200
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 400,
+    "label": "Canned lentils (tin)"
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 400,
+   "source": "USDA"
+  },
+  {
+   "id": "canned_chickpeas",
+   "name": "Canned chickpeas, rinsed",
+   "nameTa": "டின் கொண்டைக்கடலை",
+   "nameHi": "डिब्बाबंद छोले",
+   "category": "pulse",
+   "n": [
+    139,
+    7,
+    22,
+    2.6,
+    6.4,
+    24,
+    172,
+    43,
+    1.3,
+    30,
+    0.9,
+    0.1,
+    1,
+    63,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "GOS"
+    ],
+    "safeG": 42
+   },
+   "units": {
+    "cup": 160
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 400,
+    "label": "Canned chickpeas (tin)"
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 400,
+   "source": "USDA"
+  },
+  {
+   "id": "tofu",
+   "name": "Tofu, firm",
+   "nameTa": "டோஃபு",
+   "nameHi": "टोफू",
+   "category": "protein",
+   "n": [
+    144,
+    17.3,
+    2.8,
+    8.7,
+    2.3,
+    14,
+    237,
+    350,
+    2.7,
+    58,
+    1.6,
+    0,
+    9,
+    29,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "dairy-eggs",
+   "shelfDays": 7,
+   "pricePerKg": 450,
+   "source": "USDA"
+  },
+  {
+   "id": "whey_isolate",
+   "name": "Whey protein isolate (unflavoured)",
+   "nameTa": "வே புரதம்",
+   "nameHi": "व्हे प्रोटीन",
+   "category": "protein",
+   "n": [
+    360,
+    85,
+    3,
+    1,
+    0,
+    200,
+    500,
+    450,
+    0.5,
+    60,
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "lactose"
+    ],
+    "safeG": 35,
+    "note": "Isolate is very low in lactose; concentrate is not."
+   },
+   "units": {
+    "tbsp": 10
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 1000
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 2800,
+   "source": "Label"
+  },
+  {
+   "id": "peanuts",
+   "name": "Peanuts",
+   "nameTa": "வேர்க்கடலை",
+   "nameHi": "मूंगफली",
+   "category": "nut",
+   "n": [
+    567,
+    25.8,
+    16.1,
+    49.2,
+    8.5,
+    18,
+    705,
+    92,
+    4.6,
+    168,
+    3.3,
+    0,
+    0,
+    240,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 32
+   },
+   "units": {
+    "tbsp": 9,
+    "cup": 145
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 160,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "cashew",
+   "name": "Cashew nuts",
+   "nameTa": "முந்திரி",
+   "nameHi": "काजू",
+   "category": "nut",
+   "n": [
+    553,
+    18.2,
+    30.2,
+    43.9,
+    3.3,
+    12,
+    660,
+    37,
+    6.7,
+    292,
+    5.8,
+    0.5,
+    0,
+    25,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "GOS",
+     "fructans"
+    ],
+    "safeG": 0
+   },
+   "swap": {
+    "to": "peanuts",
+    "ratio": 1,
+    "note": "Peanuts (or a few macadamias)"
+   },
+   "units": {
+    "tbsp": 9
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 900,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "almonds",
+   "name": "Almonds",
+   "nameTa": "பாதாம்",
+   "nameHi": "बादाम",
+   "category": "nut",
+   "n": [
+    579,
+    21.2,
+    21.6,
+    49.9,
+    12.5,
+    1,
+    733,
+    269,
+    3.7,
+    270,
+    3.1,
+    0,
+    0,
+    44,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "GOS"
+    ],
+    "safeG": 12,
+    "note": "About 10 almonds per sitting."
+   },
+   "swap": {
+    "to": "walnuts",
+    "ratio": 1
+   },
+   "units": {
+    "piece": 1.2,
+    "pieceName": "almond"
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 250
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 800,
+   "source": "USDA"
+  },
+  {
+   "id": "walnuts",
+   "name": "Walnuts",
+   "nameTa": "வால்நட்",
+   "nameHi": "अखरोट",
+   "category": "nut",
+   "n": [
+    654,
+    15.2,
+    13.7,
+    65.2,
+    6.7,
+    2,
+    441,
+    98,
+    2.9,
+    158,
+    3.1,
+    1.3,
+    1,
+    98,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 30
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 250
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 1000,
+   "source": "USDA"
+  },
+  {
+   "id": "flax_seeds",
+   "name": "Flax seeds (alsi)",
+   "nameTa": "ஆளி விதை",
+   "nameHi": "अलसी",
+   "category": "nut",
+   "n": [
+    534,
+    18.3,
+    28.9,
+    42.2,
+    27.3,
+    30,
+    813,
+    255,
+    5.7,
+    392,
+    4.3,
+    0.6,
+    0,
+    87,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 15,
+    "note": "Ground flax helps IBS-C; start with 1 tsp."
+   },
+   "units": {
+    "tsp": 3.5,
+    "tbsp": 10
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 200,
+   "source": "USDA"
+  },
+  {
+   "id": "chia_seeds",
+   "name": "Chia seeds",
+   "nameTa": "சியா விதை",
+   "nameHi": "चिया सीड्स",
+   "category": "nut",
+   "n": [
+    486,
+    16.5,
+    42.1,
+    30.7,
+    34.4,
+    16,
+    407,
+    631,
+    7.7,
+    335,
+    4.6,
+    1.6,
+    0,
+    49,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 24
+   },
+   "units": {
+    "tsp": 4,
+    "tbsp": 12
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 600,
+   "source": "USDA"
+  },
+  {
+   "id": "pumpkin_seeds",
+   "name": "Pumpkin seeds",
+   "nameTa": "பூசணி விதை",
+   "nameHi": "कद्दू के बीज",
+   "category": "nut",
+   "n": [
+    559,
+    30.2,
+    10.7,
+    49,
+    6,
+    7,
+    809,
+    46,
+    8.8,
+    592,
+    7.8,
+    1.9,
+    1,
+    58,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 23
+   },
+   "units": {
+    "tbsp": 9
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 800,
+   "source": "USDA"
+  },
+  {
+   "id": "sesame_seeds",
+   "name": "Sesame seeds (til)",
+   "nameTa": "எள்",
+   "nameHi": "तिल",
+   "category": "nut",
+   "n": [
+    573,
+    17.7,
+    23.4,
+    49.7,
+    11.8,
+    11,
+    468,
+    975,
+    14.6,
+    351,
+    7.8,
+    0,
+    0,
+    97,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 11
+   },
+   "units": {
+    "tsp": 3,
+    "tbsp": 9
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 250,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "onion",
+   "name": "Onion",
+   "nameTa": "வெங்காயம்",
+   "nameHi": "प्याज़",
+   "category": "veg",
+   "n": [
+    40,
+    1.1,
+    9.3,
+    0.1,
+    1.7,
+    4,
+    146,
+    23,
+    0.2,
+    10,
+    0.2,
+    7.4,
+    0,
+    19,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 0,
+    "note": "Fructans in onion are among the most common IBS triggers."
+   },
+   "swap": {
+    "to": "spring_onion_greens",
+    "ratio": 0.35,
+    "note": "Green tops of spring onion only"
+   },
+   "units": {
+    "piece": 110,
+    "pieceName": "medium onion"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 21,
+   "pricePerKg": 40,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "garlic",
+   "name": "Garlic",
+   "nameTa": "பூண்டு",
+   "nameHi": "लहसुन",
+   "category": "veg",
+   "n": [
+    149,
+    6.4,
+    33,
+    0.5,
+    2.1,
+    17,
+    401,
+    181,
+    1.7,
+    25,
+    1.2,
+    31,
+    0,
+    3,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 0
+   },
+   "swap": {
+    "to": "garlic_oil",
+    "ratio": 0.5,
+    "note": "Garlic-infused oil (fructans don't dissolve into oil)"
+   },
+   "units": {
+    "piece": 4,
+    "pieceName": "clove",
+    "tsp": 5
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 30,
+   "pricePerKg": 200,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "ginger",
+   "name": "Ginger",
+   "nameTa": "இஞ்சி",
+   "nameHi": "अदरक",
+   "category": "veg",
+   "n": [
+    80,
+    1.8,
+    17.8,
+    0.8,
+    2,
+    13,
+    415,
+    16,
+    0.6,
+    43,
+    0.3,
+    5,
+    0,
+    11,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tsp": 5,
+    "tbsp": 15,
+    "piece": 10,
+    "pieceName": "inch"
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "vegetables",
+   "shelfDays": 21,
+   "pricePerKg": 160,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "spring_onion_greens",
+   "name": "Spring onion, green tops only",
+   "nameTa": "வெங்காயத்தாள் (பச்சை)",
+   "nameHi": "हरे प्याज़ की पत्ती",
+   "category": "herb",
+   "n": [
+    32,
+    1.8,
+    7.3,
+    0.2,
+    2.6,
+    16,
+    276,
+    72,
+    1.5,
+    20,
+    0.4,
+    18.8,
+    50,
+    64,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tbsp": 6
+   },
+   "purchase": {
+    "unit": "bunch",
+    "packG": 100
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 150,
+   "source": "USDA"
+  },
+  {
+   "id": "tomato",
+   "name": "Tomato",
+   "nameTa": "தக்காளி",
+   "nameHi": "टमाटर",
+   "category": "veg",
+   "n": [
+    18,
+    0.9,
+    3.9,
+    0.2,
+    1.2,
+    5,
+    237,
+    10,
+    0.3,
+    11,
+    0.2,
+    14,
+    42,
+    15,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "fructose"
+    ],
+    "safeG": 150
+   },
+   "units": {
+    "piece": 100,
+    "pieceName": "medium tomato"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 6,
+   "pricePerKg": 40,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "spinach",
+   "name": "Spinach (palak)",
+   "nameTa": "பசலைக்கீரை",
+   "nameHi": "पालक",
+   "category": "veg",
+   "n": [
+    23,
+    2.9,
+    3.6,
+    0.4,
+    2.2,
+    79,
+    558,
+    99,
+    2.7,
+    79,
+    0.5,
+    28,
+    469,
+    194,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "cup": 30
+   },
+   "purchase": {
+    "unit": "bunch",
+    "packG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 3,
+   "pricePerKg": 80,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "bottle_gourd",
+   "name": "Bottle gourd (lauki / sorakkai)",
+   "nameTa": "சுரைக்காய்",
+   "nameHi": "लौकी",
+   "category": "veg",
+   "n": [
+    15,
+    0.6,
+    3.4,
+    0,
+    0.5,
+    2,
+    150,
+    26,
+    0.2,
+    11,
+    0.7,
+    10,
+    1,
+    6,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 800,
+    "label": "Bottle gourd"
+   },
+   "section": "vegetables",
+   "shelfDays": 7,
+   "pricePerKg": 40,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "ridge_gourd",
+   "name": "Ridge gourd (turai / peerkangai)",
+   "nameTa": "பீர்க்கங்காய்",
+   "nameHi": "तुरई",
+   "category": "veg",
+   "n": [
+    20,
+    1.2,
+    4.4,
+    0.2,
+    1.1,
+    3,
+    139,
+    18,
+    0.4,
+    15,
+    0.1,
+    5,
+    15,
+    7,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 60,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "zucchini",
+   "name": "Zucchini",
+   "nameTa": "சுக்கினி",
+   "nameHi": "ज़ुकीनी",
+   "category": "veg",
+   "n": [
+    17,
+    1.2,
+    3.1,
+    0.3,
+    1,
+    8,
+    261,
+    16,
+    0.4,
+    18,
+    0.3,
+    17.9,
+    10,
+    24,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 65
+   },
+   "swap": {
+    "to": "bottle_gourd",
+    "ratio": 1
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 6,
+   "pricePerKg": 120,
+   "source": "USDA"
+  },
+  {
+   "id": "capsicum",
+   "name": "Capsicum (green / red)",
+   "nameTa": "குடைமிளகாய்",
+   "nameHi": "शिमला मिर्च",
+   "category": "veg",
+   "n": [
+    20,
+    0.9,
+    4.6,
+    0.2,
+    1.7,
+    3,
+    175,
+    10,
+    0.3,
+    10,
+    0.1,
+    80,
+    18,
+    10,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "fructose"
+    ],
+    "safeG": 75
+   },
+   "units": {
+    "piece": 150,
+    "pieceName": "capsicum"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 7,
+   "pricePerKg": 80,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "carrot",
+   "name": "Carrot",
+   "nameTa": "கேரட்",
+   "nameHi": "गाजर",
+   "category": "veg",
+   "n": [
+    41,
+    0.9,
+    9.6,
+    0.2,
+    2.8,
+    69,
+    320,
+    33,
+    0.3,
+    12,
+    0.2,
+    5.9,
+    835,
+    19,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 70,
+    "pieceName": "carrot"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 14,
+   "pricePerKg": 60,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "cucumber",
+   "name": "Cucumber",
+   "nameTa": "வெள்ளரிக்காய்",
+   "nameHi": "खीरा",
+   "category": "veg",
+   "n": [
+    15,
+    0.7,
+    3.6,
+    0.1,
+    0.5,
+    2,
+    147,
+    16,
+    0.3,
+    13,
+    0.2,
+    2.8,
+    5,
+    7,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 200,
+    "pieceName": "cucumber"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 6,
+   "pricePerKg": 40,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "cabbage",
+   "name": "Cabbage",
+   "nameTa": "முட்டைக்கோஸ்",
+   "nameHi": "पत्ता गोभी",
+   "category": "veg",
+   "n": [
+    25,
+    1.3,
+    5.8,
+    0.1,
+    2.5,
+    18,
+    170,
+    40,
+    0.5,
+    12,
+    0.2,
+    36.6,
+    5,
+    43,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 75
+   },
+   "units": {
+    "cup": 70
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 700,
+    "label": "Cabbage"
+   },
+   "section": "vegetables",
+   "shelfDays": 10,
+   "pricePerKg": 35,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "green_beans",
+   "name": "Green beans",
+   "nameTa": "பீன்ஸ்",
+   "nameHi": "फलियाँ",
+   "category": "veg",
+   "n": [
+    31,
+    1.8,
+    7,
+    0.2,
+    2.7,
+    6,
+    211,
+    37,
+    1,
+    25,
+    0.2,
+    12.2,
+    35,
+    33,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 75
+   },
+   "units": {
+    "cup": 100
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 6,
+   "pricePerKg": 80,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "brinjal",
+   "name": "Brinjal (eggplant)",
+   "nameTa": "கத்தரிக்காய்",
+   "nameHi": "बैंगन",
+   "category": "veg",
+   "n": [
+    25,
+    1,
+    5.9,
+    0.2,
+    3,
+    2,
+    229,
+    9,
+    0.2,
+    14,
+    0.2,
+    2.2,
+    1,
+    22,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 75
+   },
+   "units": {
+    "piece": 80,
+    "pieceName": "small brinjal"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 6,
+   "pricePerKg": 50,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "okra",
+   "name": "Okra (bhindi / vendakkai)",
+   "nameTa": "வெண்டைக்காய்",
+   "nameHi": "भिंडी",
+   "category": "veg",
+   "n": [
+    33,
+    1.9,
+    7.5,
+    0.2,
+    3.2,
+    7,
+    299,
+    82,
+    0.6,
+    57,
+    0.6,
+    23,
+    36,
+    60,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 75
+   },
+   "units": {
+    "cup": 100
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 4,
+   "pricePerKg": 60,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "pumpkin",
+   "name": "Pumpkin (red / kaddu)",
+   "nameTa": "பரங்கிக்காய்",
+   "nameHi": "कद्दू",
+   "category": "veg",
+   "n": [
+    26,
+    1,
+    6.5,
+    0.1,
+    0.5,
+    1,
+    340,
+    21,
+    0.8,
+    12,
+    0.3,
+    9,
+    426,
+    16,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 75
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 14,
+   "pricePerKg": 40,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "broccoli",
+   "name": "Broccoli (heads)",
+   "nameTa": "ப்ரோக்கோலி",
+   "nameHi": "ब्रोकली",
+   "category": "veg",
+   "n": [
+    34,
+    2.8,
+    6.6,
+    0.4,
+    2.6,
+    33,
+    316,
+    47,
+    0.7,
+    21,
+    0.4,
+    89,
+    31,
+    63,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "fructose"
+    ],
+    "safeG": 75,
+    "note": "Heads are lower than stalks."
+   },
+   "units": {
+    "cup": 90
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 300,
+    "label": "Broccoli"
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 180,
+   "source": "USDA"
+  },
+  {
+   "id": "cauliflower",
+   "name": "Cauliflower",
+   "nameTa": "காலிஃபிளவர்",
+   "nameHi": "फूलगोभी",
+   "category": "veg",
+   "n": [
+    25,
+    1.9,
+    5,
+    0.3,
+    2,
+    30,
+    299,
+    22,
+    0.4,
+    15,
+    0.3,
+    48,
+    0,
+    57,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 0
+   },
+   "swap": {
+    "to": "broccoli",
+    "ratio": 1,
+    "note": "Broccoli florets (heads)"
+   },
+   "units": {
+    "cup": 100
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 600,
+    "label": "Cauliflower"
+   },
+   "section": "vegetables",
+   "shelfDays": 6,
+   "pricePerKg": 50,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "mushroom",
+   "name": "Button mushroom",
+   "nameTa": "காளான்",
+   "nameHi": "मशरूम",
+   "category": "veg",
+   "n": [
+    22,
+    3.1,
+    3.3,
+    0.3,
+    1,
+    5,
+    318,
+    3,
+    0.5,
+    9,
+    0.5,
+    2.1,
+    0,
+    17,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 0
+   },
+   "swap": {
+    "to": "zucchini",
+    "ratio": 1,
+    "note": "Zucchini (or canned champignons, rinsed)"
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "vegetables",
+   "shelfDays": 4,
+   "pricePerKg": 250,
+   "source": "USDA"
+  },
+  {
+   "id": "sweet_potato",
+   "name": "Sweet potato",
+   "nameTa": "சக்கரைவள்ளிக்கிழங்கு",
+   "nameHi": "शकरकंद",
+   "category": "veg",
+   "n": [
+    86,
+    1.6,
+    20.1,
+    0.1,
+    3,
+    55,
+    337,
+    30,
+    0.6,
+    25,
+    0.3,
+    2.4,
+    709,
+    11,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 75
+   },
+   "swap": {
+    "to": "potato",
+    "ratio": 1
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 14,
+   "pricePerKg": 60,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "potato",
+   "name": "Potato",
+   "nameTa": "உருளைக்கிழங்கு",
+   "nameHi": "आलू",
+   "category": "veg",
+   "n": [
+    77,
+    2,
+    17,
+    0.1,
+    2.2,
+    6,
+    421,
+    12,
+    0.8,
+    23,
+    0.3,
+    19.7,
+    0,
+    15,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 150,
+    "pieceName": "potato"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 500
+   },
+   "section": "vegetables",
+   "shelfDays": 21,
+   "pricePerKg": 35,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "beetroot",
+   "name": "Beetroot",
+   "nameTa": "பீட்ரூட்",
+   "nameHi": "चुकंदर",
+   "category": "veg",
+   "n": [
+    43,
+    1.6,
+    9.6,
+    0.2,
+    2.8,
+    78,
+    325,
+    16,
+    0.8,
+    23,
+    0.4,
+    4.9,
+    2,
+    109,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "fructans",
+     "GOS"
+    ],
+    "safeG": 20
+   },
+   "swap": {
+    "to": "carrot",
+    "ratio": 1
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 14,
+   "pricePerKg": 50,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "green_peas",
+   "name": "Green peas",
+   "nameTa": "பச்சைப் பட்டாணி",
+   "nameHi": "हरी मटर",
+   "category": "veg",
+   "n": [
+    81,
+    5.4,
+    14.5,
+    0.4,
+    5.1,
+    5,
+    244,
+    25,
+    1.5,
+    33,
+    1.2,
+    40,
+    38,
+    65,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "GOS",
+     "fructans"
+    ],
+    "safeG": 30
+   },
+   "swap": {
+    "to": "green_beans",
+    "ratio": 1
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 4,
+   "pricePerKg": 100,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "sweet_corn",
+   "name": "Sweet corn kernels",
+   "nameTa": "இனிப்பு சோளம்",
+   "nameHi": "स्वीट कॉर्न",
+   "category": "veg",
+   "n": [
+    86,
+    3.3,
+    19,
+    1.4,
+    2.7,
+    15,
+    270,
+    2,
+    0.5,
+    37,
+    0.5,
+    6.8,
+    9,
+    42,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "polyols"
+    ],
+    "safeG": 38
+   },
+   "swap": {
+    "to": "capsicum",
+    "ratio": 1
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 150,
+   "source": "USDA"
+  },
+  {
+   "id": "bean_sprouts",
+   "name": "Moong bean sprouts",
+   "nameTa": "முளைகட்டிய பயறு",
+   "nameHi": "अंकुरित मूंग",
+   "category": "veg",
+   "n": [
+    30,
+    3,
+    5.9,
+    0.2,
+    1.8,
+    6,
+    149,
+    13,
+    0.9,
+    21,
+    0.4,
+    13.2,
+    1,
+    61,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 75
+   },
+   "units": {
+    "cup": 105
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200
+   },
+   "section": "vegetables",
+   "shelfDays": 3,
+   "pricePerKg": 120,
+   "source": "USDA"
+  },
+  {
+   "id": "lettuce",
+   "name": "Lettuce",
+   "nameTa": "லெட்யூஸ்",
+   "nameHi": "सलाद पत्ता",
+   "category": "veg",
+   "n": [
+    15,
+    1.4,
+    2.9,
+    0.2,
+    1.3,
+    28,
+    194,
+    36,
+    0.9,
+    13,
+    0.2,
+    9.2,
+    370,
+    38,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 200,
+    "label": "Lettuce"
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 200,
+   "source": "USDA"
+  },
+  {
+   "id": "curry_leaves",
+   "name": "Curry leaves",
+   "nameTa": "கறிவேப்பிலை",
+   "nameHi": "कड़ी पत्ता",
+   "category": "herb",
+   "n": [
+    108,
+    6.1,
+    18.7,
+    1,
+    6.4,
+    0,
+    0,
+    830,
+    0.9,
+    44,
+    0.2,
+    4,
+    2500,
+    93,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 0.5,
+    "pieceName": "sprig (≈10 leaves)"
+   },
+   "purchase": {
+    "unit": "bunch",
+    "packG": 30
+   },
+   "section": "vegetables",
+   "shelfDays": 7,
+   "pricePerKg": 300,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "coriander_leaves",
+   "name": "Coriander leaves",
+   "nameTa": "கொத்தமல்லி",
+   "nameHi": "हरा धनिया",
+   "category": "herb",
+   "n": [
+    23,
+    2.1,
+    3.7,
+    0.5,
+    2.8,
+    46,
+    521,
+    67,
+    1.8,
+    26,
+    0.5,
+    27,
+    337,
+    62,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tbsp": 2
+   },
+   "purchase": {
+    "unit": "bunch",
+    "packG": 100
+   },
+   "section": "vegetables",
+   "shelfDays": 4,
+   "pricePerKg": 100,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "mint_leaves",
+   "name": "Mint leaves",
+   "nameTa": "புதினா",
+   "nameHi": "पुदीना",
+   "category": "herb",
+   "n": [
+    70,
+    3.8,
+    15,
+    0.9,
+    8,
+    31,
+    569,
+    243,
+    5.1,
+    80,
+    1.1,
+    31.8,
+    212,
+    114,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tbsp": 2
+   },
+   "purchase": {
+    "unit": "bunch",
+    "packG": 50
+   },
+   "section": "vegetables",
+   "shelfDays": 4,
+   "pricePerKg": 200,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "green_chilli",
+   "name": "Green chilli",
+   "nameTa": "பச்சை மிளகாய்",
+   "nameHi": "हरी मिर्च",
+   "category": "veg",
+   "n": [
+    40,
+    2,
+    9.5,
+    0.2,
+    1.5,
+    7,
+    340,
+    18,
+    1,
+    23,
+    0.3,
+    144,
+    59,
+    23,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "note": "Low-FODMAP but capsaicin can aggravate IBS-D — adjust to taste."
+   },
+   "units": {
+    "piece": 5,
+    "pieceName": "chilli"
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "vegetables",
+   "shelfDays": 7,
+   "pricePerKg": 80,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "lemon_juice",
+   "name": "Lemon juice",
+   "nameTa": "எலுமிச்சை சாறு",
+   "nameHi": "नींबू का रस",
+   "category": "fruit",
+   "n": [
+    22,
+    0.4,
+    5.2,
+    0.2,
+    0.3,
+    1,
+    103,
+    6,
+    0.1,
+    6,
+    0.1,
+    38.7,
+    1,
+    20,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tsp": 5,
+    "tbsp": 15,
+    "piece": 30,
+    "pieceName": "lemon"
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 30,
+    "label": "Lemons"
+   },
+   "section": "vegetables",
+   "shelfDays": 14,
+   "pricePerKg": 200,
+   "source": "USDA"
+  },
+  {
+   "id": "banana_firm",
+   "name": "Banana, firm (just ripe)",
+   "nameTa": "வாழைப்பழம்",
+   "nameHi": "केला",
+   "category": "fruit",
+   "n": [
+    89,
+    1.1,
+    22.8,
+    0.3,
+    2.6,
+    1,
+    358,
+    5,
+    0.3,
+    27,
+    0.2,
+    8.7,
+    3,
+    20,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 100,
+    "note": "Firm bananas are low; very ripe ones are high in fructans."
+   },
+   "units": {
+    "piece": 100,
+    "pieceName": "banana"
+   },
+   "purchase": {
+    "unit": "dozen",
+    "packG": 100,
+    "label": "Bananas"
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 60,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "papaya",
+   "name": "Papaya",
+   "nameTa": "பப்பாளி",
+   "nameHi": "पपीता",
+   "category": "fruit",
+   "n": [
+    43,
+    0.5,
+    10.8,
+    0.3,
+    1.7,
+    8,
+    182,
+    20,
+    0.3,
+    21,
+    0.1,
+    60.9,
+    47,
+    37,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 140
+   },
+   "units": {
+    "cup": 140
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 1000,
+    "label": "Papaya"
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 50,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "orange",
+   "name": "Orange",
+   "nameTa": "ஆரஞ்சு",
+   "nameHi": "संतरा",
+   "category": "fruit",
+   "n": [
+    47,
+    0.9,
+    11.8,
+    0.1,
+    2.4,
+    0,
+    181,
+    40,
+    0.1,
+    10,
+    0.1,
+    53.2,
+    11,
+    30,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 130
+   },
+   "units": {
+    "piece": 130,
+    "pieceName": "orange"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 500
+   },
+   "section": "vegetables",
+   "shelfDays": 10,
+   "pricePerKg": 100,
+   "source": "USDA"
+  },
+  {
+   "id": "guava",
+   "name": "Guava (ripe)",
+   "nameTa": "கொய்யா",
+   "nameHi": "अमरूद",
+   "category": "fruit",
+   "n": [
+    68,
+    2.6,
+    14.3,
+    1,
+    5.4,
+    2,
+    417,
+    18,
+    0.3,
+    22,
+    0.2,
+    228,
+    31,
+    49,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 100,
+    "note": "Ripe guava is low-FODMAP; unripe is high."
+   },
+   "units": {
+    "piece": 100,
+    "pieceName": "guava"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 250
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 80,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "pineapple",
+   "name": "Pineapple",
+   "nameTa": "அன்னாசி",
+   "nameHi": "अनानास",
+   "category": "fruit",
+   "n": [
+    50,
+    0.5,
+    13.1,
+    0.1,
+    1.4,
+    1,
+    109,
+    13,
+    0.3,
+    12,
+    0.1,
+    47.8,
+    3,
+    18,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 140
+   },
+   "units": {
+    "cup": 165
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 900,
+    "label": "Pineapple"
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 70,
+   "source": "USDA"
+  },
+  {
+   "id": "kiwi",
+   "name": "Kiwi",
+   "nameTa": "கிவி",
+   "nameHi": "कीवी",
+   "category": "fruit",
+   "n": [
+    61,
+    1.1,
+    14.7,
+    0.5,
+    3,
+    3,
+    312,
+    34,
+    0.3,
+    17,
+    0.1,
+    92.7,
+    4,
+    25,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 150,
+    "note": "2 green kiwis a day can help IBS-C."
+   },
+   "units": {
+    "piece": 75,
+    "pieceName": "kiwi"
+   },
+   "purchase": {
+    "unit": "piece",
+    "packG": 75,
+    "label": "Kiwis"
+   },
+   "section": "vegetables",
+   "shelfDays": 10,
+   "pricePerKg": 400,
+   "source": "USDA"
+  },
+  {
+   "id": "apple",
+   "name": "Apple",
+   "nameTa": "ஆப்பிள்",
+   "nameHi": "सेब",
+   "category": "fruit",
+   "n": [
+    52,
+    0.3,
+    13.8,
+    0.2,
+    2.4,
+    1,
+    107,
+    6,
+    0.1,
+    5,
+    0,
+    4.6,
+    3,
+    3,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "fructose",
+     "polyols"
+    ],
+    "safeG": 0
+   },
+   "swap": {
+    "to": "orange",
+    "ratio": 1,
+    "note": "Orange or kiwi"
+   },
+   "units": {
+    "piece": 180,
+    "pieceName": "apple"
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 500
+   },
+   "section": "vegetables",
+   "shelfDays": 21,
+   "pricePerKg": 180,
+   "source": "USDA"
+  },
+  {
+   "id": "mango",
+   "name": "Mango",
+   "nameTa": "மாம்பழம்",
+   "nameHi": "आम",
+   "category": "fruit",
+   "n": [
+    60,
+    0.8,
+    15,
+    0.4,
+    1.6,
+    1,
+    168,
+    11,
+    0.2,
+    10,
+    0.1,
+    36.4,
+    54,
+    43,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "fructose"
+    ],
+    "safeG": 40
+   },
+   "swap": {
+    "to": "papaya",
+    "ratio": 1
+   },
+   "units": {
+    "cup": 165
+   },
+   "purchase": {
+    "unit": "kg",
+    "roundG": 500
+   },
+   "section": "vegetables",
+   "shelfDays": 5,
+   "pricePerKg": 120,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "honey",
+   "name": "Honey",
+   "nameTa": "தேன்",
+   "nameHi": "शहद",
+   "category": "condiment",
+   "n": [
+    304,
+    0.3,
+    82.4,
+    0,
+    0.2,
+    4,
+    52,
+    6,
+    0.4,
+    2,
+    0.2,
+    0.5,
+    0,
+    2,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "fructose"
+    ],
+    "safeG": 7,
+    "note": "1 tsp is usually fine; more is high in excess fructose."
+   },
+   "units": {
+    "tsp": 7,
+    "tbsp": 21
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 250
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 500,
+   "source": "USDA"
+  },
+  {
+   "id": "jaggery",
+   "name": "Jaggery",
+   "nameTa": "வெல்லம்",
+   "nameHi": "गुड़",
+   "category": "condiment",
+   "n": [
+    383,
+    0.4,
+    98,
+    0.1,
+    0,
+    30,
+    1050,
+    80,
+    2.6,
+    70,
+    0.2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 10
+   },
+   "units": {
+    "tsp": 5,
+    "tbsp": 15
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 80,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "turmeric",
+   "name": "Turmeric powder",
+   "nameTa": "மஞ்சள் தூள்",
+   "nameHi": "हल्दी",
+   "category": "spice",
+   "n": [
+    354,
+    7.8,
+    64.9,
+    9.9,
+    21,
+    38,
+    2525,
+    183,
+    41,
+    193,
+    4.4,
+    0.7,
+    0,
+    39,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 300,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "chilli_powder",
+   "name": "Red chilli powder (Kashmiri / regular)",
+   "nameTa": "மிளகாய் தூள்",
+   "nameHi": "लाल मिर्च पाउडर",
+   "category": "spice",
+   "n": [
+    282,
+    13.5,
+    49.7,
+    14.3,
+    34.8,
+    1640,
+    1950,
+    330,
+    17.3,
+    149,
+    4.3,
+    0.7,
+    1483,
+    28,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 400,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "coriander_powder",
+   "name": "Coriander powder",
+   "nameTa": "மல்லித் தூள்",
+   "nameHi": "धनिया पाउडर",
+   "category": "spice",
+   "n": [
+    298,
+    12.4,
+    55,
+    17.8,
+    41.9,
+    35,
+    1267,
+    709,
+    16.3,
+    330,
+    4.7,
+    21,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 250,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "cumin",
+   "name": "Cumin seeds / powder",
+   "nameTa": "சீரகம்",
+   "nameHi": "जीरा",
+   "category": "spice",
+   "n": [
+    375,
+    17.8,
+    44.2,
+    22.3,
+    10.5,
+    168,
+    1788,
+    931,
+    66.4,
+    366,
+    4.8,
+    7.7,
+    64,
+    10,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 500,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "mustard_seeds",
+   "name": "Mustard seeds",
+   "nameTa": "கடுகு",
+   "nameHi": "राई",
+   "category": "spice",
+   "n": [
+    508,
+    26,
+    28,
+    36,
+    12,
+    13,
+    738,
+    266,
+    9.2,
+    370,
+    6.1,
+    7.1,
+    2,
+    162,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 150,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "garam_masala",
+   "name": "Garam masala (no onion/garlic)",
+   "nameTa": "கரம் மசாலா",
+   "nameHi": "गरम मसाला",
+   "category": "spice",
+   "n": [
+    380,
+    14,
+    50,
+    15,
+    28,
+    90,
+    1300,
+    600,
+    25,
+    250,
+    3.5,
+    10,
+    30,
+    60,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "note": "Check the label — some blends contain garlic or onion powder."
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 900,
+   "source": "USDA"
+  },
+  {
+   "id": "black_pepper",
+   "name": "Black pepper",
+   "nameTa": "மிளகு",
+   "nameHi": "काली मिर्च",
+   "category": "spice",
+   "n": [
+    251,
+    10.4,
+    64,
+    3.3,
+    25.3,
+    20,
+    1329,
+    443,
+    9.7,
+    171,
+    1.2,
+    0,
+    27,
+    17,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 50
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 1200,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "fennel_seeds",
+   "name": "Fennel seeds (saunf)",
+   "nameTa": "சோம்பு",
+   "nameHi": "सौंफ",
+   "category": "spice",
+   "n": [
+    345,
+    15.8,
+    52,
+    14.9,
+    39.8,
+    88,
+    1694,
+    1196,
+    18.5,
+    385,
+    4,
+    21,
+    7,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 5
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 400,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "fenugreek_seeds",
+   "name": "Fenugreek seeds (methi)",
+   "nameTa": "வெந்தயம்",
+   "nameHi": "मेथी दाना",
+   "category": "spice",
+   "n": [
+    323,
+    23,
+    58,
+    6.4,
+    24.6,
+    67,
+    770,
+    176,
+    33.5,
+    191,
+    2.5,
+    3,
+    3,
+    57,
+    0
+   ],
+   "fodmap": {
+    "level": "moderate",
+    "groups": [
+     "GOS"
+    ],
+    "safeG": 3
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 200,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "kasuri_methi",
+   "name": "Kasuri methi (dried fenugreek leaves)",
+   "nameTa": "காய்ந்த வெந்தயக்கீரை",
+   "nameHi": "कसूरी मेथी",
+   "category": "herb",
+   "n": [
+    280,
+    20,
+    50,
+    5,
+    25,
+    150,
+    2000,
+    1000,
+    20,
+    300,
+    3,
+    5,
+    400,
+    100,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tsp": 1,
+    "tbsp": 3
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 50
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 600,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "whole_spices",
+   "name": "Whole spices (bay leaf, cinnamon, cardamom, cloves)",
+   "nameTa": "முழு மசாலா",
+   "nameHi": "खड़े मसाले",
+   "category": "spice",
+   "n": [
+    300,
+    6,
+    70,
+    8,
+    40,
+    30,
+    800,
+    700,
+    10,
+    150,
+    2,
+    5,
+    10,
+    10,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tsp": 2
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 50
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 1500,
+   "source": "USDA"
+  },
+  {
+   "id": "dry_red_chilli",
+   "name": "Dry red chillies",
+   "nameTa": "காய்ந்த மிளகாய்",
+   "nameHi": "सूखी लाल मिर्च",
+   "category": "spice",
+   "n": [
+    324,
+    12,
+    57,
+    6,
+    28,
+    30,
+    1870,
+    160,
+    9,
+    130,
+    2.5,
+    30,
+    1000,
+    50,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 1,
+    "pieceName": "chilli"
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 350,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "hing_gf",
+   "name": "Asafoetida (hing), gluten-free",
+   "nameTa": "பெருங்காயம் (கோதுமை இல்லா)",
+   "nameHi": "हींग (ग्लूटेन-फ्री)",
+   "category": "spice",
+   "n": [
+    297,
+    4,
+    68,
+    1,
+    4,
+    30,
+    50,
+    100,
+    30,
+    50,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "note": "Only gluten-free (rice-flour based) hing is low-FODMAP."
+   },
+   "units": {
+    "tsp": 2
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 50
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 2000,
+   "source": "Label"
+  },
+  {
+   "id": "hing",
+   "name": "Asafoetida (regular compounded hing)",
+   "nameTa": "பெருங்காயம்",
+   "nameHi": "हींग",
+   "category": "spice",
+   "n": [
+    297,
+    4,
+    68,
+    1,
+    4,
+    30,
+    50,
+    100,
+    30,
+    50,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "high",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 0,
+    "note": "Most Indian hing is blended with wheat flour — use a gluten-free brand."
+   },
+   "swap": {
+    "to": "hing_gf",
+    "ratio": 1,
+    "note": "Gluten-free hing (check label for rice flour base)"
+   },
+   "units": {
+    "tsp": 2
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 50
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 1200,
+   "source": "Label"
+  },
+  {
+   "id": "salt",
+   "name": "Salt (iodised)",
+   "nameTa": "உப்பு",
+   "nameHi": "नमक",
+   "category": "condiment",
+   "n": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    38758,
+    8,
+    24,
+    0.3,
+    1,
+    0.1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tsp": 6
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 1000
+   },
+   "section": "grocery",
+   "shelfDays": 3650,
+   "pricePerKg": 28,
+   "source": "USDA"
+  },
+  {
+   "id": "tamarind",
+   "name": "Tamarind pulp",
+   "nameTa": "புளி",
+   "nameHi": "इमली",
+   "category": "condiment",
+   "n": [
+    239,
+    2.8,
+    62.5,
+    0.6,
+    5.1,
+    28,
+    628,
+    74,
+    2.8,
+    92,
+    0.1,
+    3.5,
+    2,
+    14,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 20
+   },
+   "units": {
+    "tsp": 6,
+    "tbsp": 18
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 250
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 200,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "kokum",
+   "name": "Kokum / kudampuli",
+   "nameTa": "குடம்புளி",
+   "nameHi": "कोकम",
+   "category": "condiment",
+   "n": [
+    60,
+    1,
+    14,
+    1,
+    6,
+    10,
+    200,
+    20,
+    1,
+    20,
+    0.2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "piece": 3,
+    "pieceName": "piece"
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 100
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 400,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "soy_sauce",
+   "name": "Soy sauce",
+   "nameTa": "சோயா சாஸ்",
+   "nameHi": "सोया सॉस",
+   "category": "condiment",
+   "n": [
+    53,
+    8.1,
+    4.9,
+    0.6,
+    0.8,
+    5493,
+    435,
+    33,
+    2.4,
+    74,
+    0.4,
+    0,
+    0,
+    18,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 42
+   },
+   "units": {
+    "tsp": 6,
+    "tbsp": 16
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200,
+    "label": "Soy sauce (bottle)"
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 300,
+   "source": "USDA"
+  },
+  {
+   "id": "vinegar",
+   "name": "Vinegar",
+   "nameTa": "வினிகர்",
+   "nameHi": "सिरका",
+   "category": "condiment",
+   "n": [
+    18,
+    0,
+    0.04,
+    0,
+    0,
+    2,
+    2,
+    6,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tsp": 5,
+    "tbsp": 15
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 500,
+    "label": "Vinegar (bottle)"
+   },
+   "section": "grocery",
+   "shelfDays": 3650,
+   "pricePerKg": 100,
+   "source": "USDA"
+  },
+  {
+   "id": "chilli_sauce",
+   "name": "Red chilli sauce (no garlic)",
+   "nameTa": "சில்லி சாஸ்",
+   "nameHi": "चिली सॉस",
+   "category": "condiment",
+   "n": [
+    93,
+    1.9,
+    19,
+    0.3,
+    2,
+    2124,
+    144,
+    18,
+    0.7,
+    15,
+    0.2,
+    9,
+    30,
+    8,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "safeG": 15,
+    "note": "Check label for garlic/onion."
+   },
+   "units": {
+    "tsp": 6,
+    "tbsp": 17
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 200,
+    "label": "Chilli sauce (bottle)"
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 250,
+   "source": "USDA"
+  },
+  {
+   "id": "groundnut_oil",
+   "name": "Groundnut / sunflower oil",
+   "nameTa": "கடலை எண்ணெய்",
+   "nameHi": "मूंगफली तेल",
+   "category": "oil",
+   "n": [
+    884,
+    0,
+    0,
+    100,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "litre",
+    "roundG": 1000
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 190,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "mustard_oil",
+   "name": "Mustard oil",
+   "nameTa": "கடுகு எண்ணெய்",
+   "nameHi": "सरसों का तेल",
+   "category": "oil",
+   "n": [
+    884,
+    0,
+    0,
+    100,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "litre",
+    "roundG": 1000
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 180,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "coconut_oil",
+   "name": "Coconut oil",
+   "nameTa": "தேங்காய் எண்ணெய்",
+   "nameHi": "नारियल तेल",
+   "category": "oil",
+   "n": [
+    892,
+    0,
+    0,
+    99.1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "litre",
+    "roundG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 280,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "sesame_oil",
+   "name": "Gingelly (sesame) oil",
+   "nameTa": "நல்லெண்ணெய்",
+   "nameHi": "तिल का तेल",
+   "category": "oil",
+   "n": [
+    884,
+    0,
+    0,
+    100,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "litre",
+    "roundG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 350,
+   "source": "IFCT2017"
+  },
+  {
+   "id": "olive_oil",
+   "name": "Olive oil",
+   "nameTa": "ஆலிவ் எண்ணெய்",
+   "nameHi": "जैतून का तेल",
+   "category": "oil",
+   "n": [
+    884,
+    0,
+    0,
+    100,
+    0,
+    2,
+    1,
+    1,
+    0.6,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "purchase": {
+    "unit": "litre",
+    "roundG": 500
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 900,
+   "source": "USDA"
+  },
+  {
+   "id": "garlic_oil",
+   "name": "Garlic-infused oil",
+   "nameTa": "பூண்டு மணம் எண்ணெய்",
+   "nameHi": "लहसुन-सुगंधित तेल",
+   "category": "oil",
+   "n": [
+    884,
+    0,
+    0,
+    100,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "note": "Store-bought, or warm sliced garlic in oil, strain out all solids, refrigerate and use within 3 days."
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 250,
+    "label": "Garlic-infused oil (bottle)"
+   },
+   "section": "grocery",
+   "shelfDays": 90,
+   "pricePerKg": 1000,
+   "source": "USDA"
+  },
+  {
+   "id": "stevia",
+   "name": "Stevia (pure drops / powder)",
+   "nameTa": "ஸ்டீவியா",
+   "nameHi": "स्टीविया",
+   "category": "condiment",
+   "n": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "note": "Pure stevia is low-FODMAP; avoid blends with erythritol, sorbitol or maltitol (polyols)."
+   },
+   "units": {
+    "tsp": 1,
+    "tbsp": 3
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 50,
+    "label": "Stevia (pure)"
+   },
+   "section": "grocery",
+   "shelfDays": 730,
+   "pricePerKg": 2000,
+   "source": "Label"
+  },
+  {
+   "id": "coffee",
+   "name": "Coffee decoction (brewed)",
+   "nameTa": "காபி டிகாக்ஷன்",
+   "nameHi": "कॉफ़ी डिकॉक्शन",
+   "category": "condiment",
+   "n": [
+    2,
+    0.3,
+    0,
+    0,
+    0,
+    2,
+    49,
+    2,
+    0,
+    3,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [],
+    "note": "Low-FODMAP, but caffeine speeds the gut — limit with IBS-D."
+   },
+   "units": {
+    "tbsp": 15,
+    "cup": 240
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 2000,
+    "label": "Filter coffee powder (200 g ≈ 2 L decoction)"
+   },
+   "section": "grocery",
+   "shelfDays": 180,
+   "pricePerKg": 60,
+   "source": "USDA"
+  },
+  {
+   "id": "green_tea",
+   "name": "Green tea (brewed)",
+   "nameTa": "கிரீன் டீ",
+   "nameHi": "ग्रीन टी",
+   "category": "condiment",
+   "n": [
+    1,
+    0.2,
+    0,
+    0,
+    0,
+    1,
+    8,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "cup": 240
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 5000,
+    "label": "Green tea (25 bags)"
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 30,
+   "source": "USDA"
+  },
+  {
+   "id": "cocoa_powder",
+   "name": "Unsweetened cocoa powder",
+   "nameTa": "கோகோ தூள்",
+   "nameHi": "कोको पाउडर",
+   "category": "condiment",
+   "n": [
+    340,
+    19.6,
+    57.9,
+    13.7,
+    37,
+    21,
+    1524,
+    128,
+    13.9,
+    499,
+    6.8,
+    0,
+    0,
+    32,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": [
+     "fructans"
+    ],
+    "safeG": 8,
+    "note": "Up to 2 heaped teaspoons is low-FODMAP."
+   },
+   "units": {
+    "tsp": 2.5,
+    "tbsp": 7
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 150
+   },
+   "section": "grocery",
+   "shelfDays": 365,
+   "pricePerKg": 800,
+   "source": "Label"
+  },
+  {
+   "id": "agar_agar",
+   "name": "Agar-agar (china grass)",
+   "nameTa": "கடல் பாசி (அகர் அகர்)",
+   "nameHi": "अगर-अगर",
+   "category": "condiment",
+   "n": [
+    190,
+    6.2,
+    80.9,
+    0.3,
+    77,
+    102,
+    1125,
+    625,
+    21.4,
+    770,
+    5.8,
+    0,
+    0,
+    580,
+    0
+   ],
+   "fodmap": {
+    "level": "low",
+    "groups": []
+   },
+   "units": {
+    "tsp": 2,
+    "tbsp": 6
+   },
+   "purchase": {
+    "unit": "packet",
+    "packG": 25
+   },
+   "section": "grocery",
+   "shelfDays": 730,
+   "pricePerKg": 2400,
+   "source": "Label"
+  }
+ ]
 }

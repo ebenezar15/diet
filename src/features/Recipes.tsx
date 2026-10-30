@@ -28,6 +28,8 @@ export default function Recipes() {
   const [safeOnly, setSafeOnly] = useState(ibs);
   const [budget, setBudget] = useState(false);
   const [favOnly, setFavOnly] = useState(false);
+  const [course, setCourse] = useState<'drink' | 'dessert' | null>(null);
+  const [light, setLight] = useState(false);
   const [sort, setSort] = useState<'protein' | 'kcal' | 'cost' | 'time'>('protein');
   const cuisines = useMemo(() => [...new Set(catalog?.list.map((r) => r.cuisine))].sort(), [catalog]);
 
@@ -44,7 +46,9 @@ export default function Recipes() {
         (!airFryer || r.equipment.includes('air-fryer')) &&
         (!safeOnly || r.ibsVariant.fodmapStatus === 'low') &&
         (!budget || r.costPerServing <= 60) &&
-        (!favOnly || favs.has(r.id))
+        (!favOnly || favs.has(r.id)) &&
+        (!course || r.course === course) &&
+        (!light || n.kcal <= 100)
       );
     });
     const key = (r: Recipe) => {
@@ -52,7 +56,7 @@ export default function Recipes() {
       return sort === 'protein' ? -(n.protein / Math.max(1, n.kcal)) : sort === 'kcal' ? n.kcal : sort === 'cost' ? r.costPerServing : r.prepMin + r.cookMin;
     };
     return out.sort((a, b) => key(a) - key(b));
-  }, [catalog, q, meal, protein, tag, cuisine, airFryer, safeOnly, budget, favOnly, favs, sort, ibs]);
+  }, [catalog, q, meal, protein, tag, cuisine, airFryer, safeOnly, budget, favOnly, favs, sort, ibs, course, light]);
 
   return (
     <Page title="Recipes" subtitle={`${catalog?.list.length ?? 0} Indian recipes · ${catalog?.list.filter((r) => r.equipment.includes('air-fryer')).length ?? 0} air-fryer`}>
@@ -63,6 +67,15 @@ export default function Recipes() {
       <div className="scrollbar-none -mx-4 mb-2 flex gap-2 overflow-x-auto px-4 pb-1">
         <Chip on={airFryer} onClick={() => setAirFryer(!airFryer)}>
           🌀 Air fryer
+        </Chip>
+        <Chip on={light} onClick={() => setLight(!light)}>
+          🪶 ≤ 100 kcal
+        </Chip>
+        <Chip on={course === 'drink'} onClick={() => setCourse(course === 'drink' ? null : 'drink')}>
+          🥤 Drinks
+        </Chip>
+        <Chip on={course === 'dessert'} onClick={() => setCourse(course === 'dessert' ? null : 'dessert')}>
+          🍮 Desserts
         </Chip>
         <Chip on={safeOnly} onClick={() => setSafeOnly(!safeOnly)}>
           🌿 IBS-safe

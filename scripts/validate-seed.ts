@@ -50,7 +50,7 @@ for (const file of readdirSync(recipeDir).filter((f: string) => f.endsWith('.jso
       continue;
     }
     const n = recipeNutrition(r.ingredients, r.servings, (id) => byId.get(id));
-    if (n.kcal < 40 || n.kcal > 1100) errors.push(`${file} ${r.id}: implausible kcal/serving ${n.kcal}`);
+    if ((n.kcal < 40 && !r.course && !r.mealTypes.includes('snack')) || n.kcal > 1100) errors.push(`${file} ${r.id}: implausible kcal/serving ${n.kcal}`);
     if (r.mealTypes.some((m) => m !== 'side' && m !== 'snack') && n.protein < 8 && r.protein !== 'veg')
       warn.push(`${r.id}: low protein main (${n.protein} g)`);
   }

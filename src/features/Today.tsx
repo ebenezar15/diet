@@ -217,6 +217,7 @@ export default function Today() {
         )}
       </Section>
 
+      <Cravings />
       <LoggedList logs={logs} />
       {swap && plan && <SwapSheet plan={plan} day={di} meal={swap} onClose={() => setSwap(null)} />}
     </Page>
@@ -351,6 +352,38 @@ function LoggedList({ logs }: { logs: ReturnType<typeof useMealLogs> }) {
           ))}
         </AnimatePresence>
       </ul>
+    </Section>
+  );
+}
+
+/** Low / zero-calorie picks for cravings — drinks, desserts and light snacks. */
+function Cravings() {
+  const { catalog, setRoute } = useApp();
+  const ibs = useIbs();
+  const picks = useMemo(() => {
+    const list = (catalog?.list ?? []).filter((r) => (r.course || r.mealTypes.includes('snack')) && (ibs ? r.ibsVariant.perServing : r.perServing).kcal <= 120 && (!ibs || r.ibsVariant.fodmapStatus === 'low'));
+    const day = new Date().getDate();
+    return [...list].sort((a, b) => ((a.id.length * 7 + day) % 13) - ((b.id.length * 7 + day) % 13)).slice(0, 8);
+  }, [catalog, ibs]);
+  if (!picks.length) return null;
+  return (
+    <Section className="mt-4" title="Craving something? 🪶" action={<button className="text-sm font-semibold text-sky" onClick={() => setRoute('/recipes')}>More</button>}>
+      <div className="scrollbar-none -mx-4 flex gap-3 overflow-x-auto px-4 pb-1">
+        {picks.map((r) => {
+          const n = ibs ? r.ibsVariant.perServing : r.perServing;
+          return (
+            <motion.button key={r.id} whileTap={{ scale: 0.96 }} className="w-32 shrink-0 overflow-hidden rounded-2xl border border-line bg-surface text-left" onClick={() => setRoute(`/recipes/${r.id}`)}>
+              <RecipeArt recipe={r} className="h-20 w-full" />
+              <div className="p-2">
+                <div className="line-clamp-2 text-xs font-bold leading-tight">{r.name}</div>
+                <div className="text-[11px] text-muted">
+                  {r.course === 'drink' ? '🥤' : r.course === 'dessert' ? '🍮' : '🥒'} {Math.round(n.kcal)} kcal
+                </div>
+              </div>
+            </motion.button>
+          );
+        })}
+      </div>
     </Section>
   );
 }

@@ -1,0 +1,1635 @@
+{
+ "recipes": [
+  {
+   "id": "lc-jeera-water",
+   "name": "Jeera water",
+   "localName": "Jeeraga Thanni",
+   "cuisine": "Tamil Nadu",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 2,
+   "cookMin": 8,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "cumin",
+     "g": 4
+    },
+    {
+     "i": "lemon_juice",
+     "g": 10
+    }
+   ],
+   "steps": [
+    {
+     "text": "Boil 500 ml water with cumin seeds for 5–8 minutes until golden.",
+     "timerMin": 8
+    },
+    {
+     "text": "Strain, cool to warm and add lemon juice. Sip through the morning or after meals."
+    }
+   ],
+   "course": "drink",
+   "tips": [
+    "Traditionally used for bloating; ~5 kcal a glass."
+   ]
+  },
+  {
+   "id": "lc-saunf-water",
+   "name": "Saunf–ajwain digestive water",
+   "localName": "Sombu Thanni",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 2,
+   "cookMin": 5,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "fennel_seeds",
+     "g": 5
+    },
+    {
+     "i": "ginger",
+     "g": 3
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer fennel seeds and crushed ginger in 500 ml water for 5 minutes.",
+     "timerMin": 5
+    },
+    {
+     "text": "Strain and drink warm after heavy meals."
+    }
+   ],
+   "course": "drink",
+   "tips": [
+    "Fennel may ease gas and cramping."
+   ]
+  },
+  {
+   "id": "lc-ginger-lemon-tea",
+   "name": "Ginger lemon tea (sugar-free)",
+   "localName": "Inji Elumichai Tea",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 2,
+   "cookMin": 5,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "ginger",
+     "g": 8,
+     "note": "thinly sliced"
+    },
+    {
+     "i": "lemon_juice",
+     "g": 10
+    },
+    {
+     "i": "stevia",
+     "g": 0.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Boil 250 ml water with sliced ginger for 4–5 minutes.",
+     "timerMin": 5
+    },
+    {
+     "text": "Strain, add lemon juice and a drop of stevia."
+    }
+   ],
+   "course": "drink"
+  },
+  {
+   "id": "lc-masala-chaas",
+   "name": "Masala chaas (lactose-free)",
+   "localName": "Neer Mor",
+   "cuisine": "Kerala",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 5,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "blender"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "lf_curd",
+     "g": 150
+    },
+    {
+     "i": "cumin",
+     "g": 1.5
+    },
+    {
+     "i": "ginger",
+     "g": 3
+    },
+    {
+     "i": "green_chilli",
+     "g": 2
+    },
+    {
+     "i": "curry_leaves",
+     "g": 1
+    },
+    {
+     "i": "coriander_leaves",
+     "g": 5
+    },
+    {
+     "i": "salt",
+     "g": 1.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Blend lactose-free curd with 350 ml cold water, ginger, green chilli, coriander and salt."
+    },
+    {
+     "text": "Stir in roasted cumin powder and torn curry leaves; serve chilled."
+    }
+   ],
+   "course": "drink",
+   "tips": [
+    "Probiotic, hydrating and only ~50 kcal a glass."
+   ]
+  },
+  {
+   "id": "lc-nimbu-pani",
+   "name": "Sugar-free nimbu pani",
+   "localName": "Shikanji",
+   "cuisine": "Punjabi",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 4,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "blender"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "lemon_juice",
+     "g": 40
+    },
+    {
+     "i": "stevia",
+     "g": 1
+    },
+    {
+     "i": "cumin",
+     "g": 1
+    },
+    {
+     "i": "black_pepper",
+     "g": 0.3
+    },
+    {
+     "i": "mint_leaves",
+     "g": 4
+    },
+    {
+     "i": "salt",
+     "g": 1.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Stir lemon juice, stevia, salt, roasted cumin and pepper into 500 ml chilled water."
+    },
+    {
+     "text": "Bruise mint leaves, add and serve over ice."
+    }
+   ],
+   "course": "drink",
+   "tips": [
+    "Pinch of salt helps rehydrate after workouts."
+   ]
+  },
+  {
+   "id": "lc-mint-green-tea",
+   "name": "Mint green tea",
+   "localName": "Pudina Green Tea",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 1,
+   "cookMin": 3,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "green_tea",
+     "g": 240
+    },
+    {
+     "i": "mint_leaves",
+     "g": 3
+    }
+   ],
+   "steps": [
+    {
+     "text": "Steep green tea with fresh mint in 80°C water for 2–3 minutes.",
+     "timerMin": 3
+    },
+    {
+     "text": "Remove the bag and leaves; drink plain."
+    }
+   ],
+   "course": "drink",
+   "tips": [
+    "Peppermint/mint can relax gut muscles; skip if you have reflux."
+   ]
+  },
+  {
+   "id": "lc-filter-coffee",
+   "name": "Filter coffee with lactose-free milk",
+   "localName": "Kaapi",
+   "cuisine": "Tamil Nadu",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 2,
+   "cookMin": 3,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "coffee",
+     "g": 60
+    },
+    {
+     "i": "lf_milk",
+     "g": 90
+    },
+    {
+     "i": "stevia",
+     "g": 0.3
+    }
+   ],
+   "steps": [
+    {
+     "text": "Heat lactose-free milk until it just froths.",
+     "timerMin": 3
+    },
+    {
+     "text": "Add decoction and stevia; pour between tumbler and dabara for foam."
+    }
+   ],
+   "course": "drink",
+   "tips": [
+    "Caffeine speeds the gut — limit to 1–2 cups with IBS-D."
+   ]
+  },
+  {
+   "id": "lc-golden-milk",
+   "name": "Light golden milk",
+   "localName": "Haldi Doodh",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 2,
+   "cookMin": 5,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "lf_milk",
+     "g": 180
+    },
+    {
+     "i": "turmeric",
+     "g": 1
+    },
+    {
+     "i": "black_pepper",
+     "g": 0.2
+    },
+    {
+     "i": "ginger",
+     "g": 3
+    },
+    {
+     "i": "stevia",
+     "g": 0.3
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer lactose-free milk with turmeric, grated ginger and a pinch of pepper for 4 minutes.",
+     "timerMin": 4
+    },
+    {
+     "text": "Strain, sweeten with stevia and sip before bed."
+    }
+   ],
+   "course": "drink"
+  },
+  {
+   "id": "lc-cucumber-cooler",
+   "name": "Cucumber mint cooler",
+   "localName": "Kheera Pudina Sharbat",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 5,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "blender"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "cucumber",
+     "g": 200
+    },
+    {
+     "i": "mint_leaves",
+     "g": 6
+    },
+    {
+     "i": "lemon_juice",
+     "g": 15
+    },
+    {
+     "i": "salt",
+     "g": 1
+    },
+    {
+     "i": "stevia",
+     "g": 0.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Blend cucumber and mint with 300 ml cold water."
+    },
+    {
+     "text": "Strain if you like, add lemon, salt and stevia; serve with ice."
+    }
+   ],
+   "course": "drink"
+  },
+  {
+   "id": "lc-kokum-sherbet",
+   "name": "Sugar-free kokum sherbet",
+   "localName": "Solkadi-style Kokum Sharbat",
+   "cuisine": "Goan",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 15,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "blender"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "kokum",
+     "g": 12
+    },
+    {
+     "i": "cumin",
+     "g": 1
+    },
+    {
+     "i": "stevia",
+     "g": 1
+    },
+    {
+     "i": "salt",
+     "g": 1
+    }
+   ],
+   "steps": [
+    {
+     "text": "Soak kokum in 200 ml warm water for 15 minutes, squeeze and strain.",
+     "timerMin": 15
+    },
+    {
+     "text": "Mix the extract with 300 ml chilled water, roasted cumin, salt and stevia."
+    }
+   ],
+   "course": "drink",
+   "tips": [
+    "Cooling and tangy; a summer favourite on the Konkan coast."
+   ]
+  },
+  {
+   "id": "lc-iced-protein-coffee",
+   "name": "Iced protein coffee",
+   "localName": "Cold Kaapi",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 3,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "blender"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "coffee",
+     "g": 60
+    },
+    {
+     "i": "lf_milk",
+     "g": 150
+    },
+    {
+     "i": "whey_isolate",
+     "g": 20
+    },
+    {
+     "i": "stevia",
+     "g": 0.3
+    }
+   ],
+   "steps": [
+    {
+     "text": "Blend chilled decoction, lactose-free milk, whey and stevia until frothy."
+    },
+    {
+     "text": "Pour over ice."
+    }
+   ],
+   "course": "drink",
+   "tips": [
+    "~170 kcal with 22 g protein — a dessert-style drink that fills you up."
+   ]
+  },
+  {
+   "id": "lc-hot-cocoa",
+   "name": "Sugar-free hot cocoa",
+   "localName": "Cocoa Paal",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 2,
+   "cookMin": 4,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "lf_milk",
+     "g": 200
+    },
+    {
+     "i": "cocoa_powder",
+     "g": 7
+    },
+    {
+     "i": "stevia",
+     "g": 0.5
+    },
+    {
+     "i": "whole_spices",
+     "g": 0.3,
+     "note": "pinch of cinnamon"
+    }
+   ],
+   "steps": [
+    {
+     "text": "Whisk cocoa and a splash of milk into a paste."
+    },
+    {
+     "text": "Add the rest of the milk and cinnamon; heat for 3–4 minutes, whisking. Sweeten with stevia.",
+     "timerMin": 4
+    }
+   ],
+   "course": "drink"
+  },
+  {
+   "id": "lc-tomato-rasam",
+   "name": "Clear tomato pepper rasam (soup)",
+   "localName": "Thakkali Milagu Rasam",
+   "cuisine": "Tamil Nadu",
+   "mealTypes": [
+    "snack",
+    "side"
+   ],
+   "protein": "veg",
+   "servings": 3,
+   "prepMin": 5,
+   "cookMin": 12,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 2,
+   "ingredients": [
+    {
+     "i": "tomato",
+     "g": 200
+    },
+    {
+     "i": "tamarind",
+     "g": 10
+    },
+    {
+     "i": "black_pepper",
+     "g": 3
+    },
+    {
+     "i": "cumin",
+     "g": 3
+    },
+    {
+     "i": "curry_leaves",
+     "g": 2
+    },
+    {
+     "i": "coriander_leaves",
+     "g": 8
+    },
+    {
+     "i": "garlic_oil",
+     "g": 5
+    },
+    {
+     "i": "mustard_seeds",
+     "g": 1
+    },
+    {
+     "i": "hing_gf",
+     "g": 0.3
+    },
+    {
+     "i": "turmeric",
+     "g": 0.5
+    },
+    {
+     "i": "salt",
+     "g": 3
+    }
+   ],
+   "steps": [
+    {
+     "text": "Crush tomatoes with tamarind, turmeric, salt and 600 ml water; simmer 8 minutes.",
+     "timerMin": 8
+    },
+    {
+     "text": "Add coarsely ground pepper and cumin; bring to a froth and switch off.",
+     "timerMin": 2
+    },
+    {
+     "text": "Temper mustard seeds, curry leaves and gluten-free hing in garlic-infused oil and pour over. Finish with coriander."
+    }
+   ],
+   "course": "drink",
+   "tips": [
+    "Sip a cup before meals to take the edge off hunger."
+   ]
+  },
+  {
+   "id": "lc-lemon-mint-jelly",
+   "name": "Lemon-mint agar jelly",
+   "localName": "Nimbu Pudina Jelly",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 4,
+   "prepMin": 5,
+   "cookMin": 5,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "agar_agar",
+     "g": 4
+    },
+    {
+     "i": "lemon_juice",
+     "g": 40
+    },
+    {
+     "i": "mint_leaves",
+     "g": 4
+    },
+    {
+     "i": "stevia",
+     "g": 1.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Soak agar in 500 ml water for 5 minutes, then boil and stir until fully dissolved.",
+     "timerMin": 5
+    },
+    {
+     "text": "Off the heat stir in lemon juice, stevia and chopped mint."
+    },
+    {
+     "text": "Pour into moulds and chill until set.",
+     "timerMin": 30
+    }
+   ],
+   "course": "dessert",
+   "tips": [
+    "~10 kcal a cup — agar adds soluble fibre."
+   ],
+   "makeAhead": "Keeps 4 days refrigerated."
+  },
+  {
+   "id": "lc-papaya-orange-jelly",
+   "name": "Papaya-orange agar jelly cups",
+   "localName": "Phal Jelly",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 4,
+   "prepMin": 10,
+   "cookMin": 5,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "agar_agar",
+     "g": 4
+    },
+    {
+     "i": "orange",
+     "g": 260,
+     "note": "juiced"
+    },
+    {
+     "i": "papaya",
+     "g": 200,
+     "note": "diced"
+    },
+    {
+     "i": "stevia",
+     "g": 1
+    }
+   ],
+   "steps": [
+    {
+     "text": "Dissolve agar in 250 ml boiling water, stirring for 4–5 minutes.",
+     "timerMin": 5
+    },
+    {
+     "text": "Stir in fresh orange juice and stevia; divide diced papaya between cups."
+    },
+    {
+     "text": "Pour the jelly over and chill to set.",
+     "timerMin": 30
+    }
+   ],
+   "course": "dessert",
+   "makeAhead": "Keeps 3 days refrigerated."
+  },
+  {
+   "id": "lc-cocoa-chia-pudding",
+   "name": "Cocoa chia pudding",
+   "localName": "Chocolate Sabja Kheer",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack",
+    "breakfast"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 5,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "chia_seeds",
+     "g": 15
+    },
+    {
+     "i": "lf_milk",
+     "g": 180
+    },
+    {
+     "i": "cocoa_powder",
+     "g": 6
+    },
+    {
+     "i": "stevia",
+     "g": 0.5
+    },
+    {
+     "i": "kiwi",
+     "g": 40
+    }
+   ],
+   "steps": [
+    {
+     "text": "Whisk chia, cocoa and stevia into lactose-free milk."
+    },
+    {
+     "text": "Rest 10 minutes, whisk again, then chill overnight.",
+     "timerMin": 10
+    },
+    {
+     "text": "Top with diced kiwi."
+    }
+   ],
+   "course": "dessert",
+   "tips": [
+    "15 g chia = 5 g fibre; gentle for IBS-C."
+   ],
+   "makeAhead": "Make 3 jars at once; keeps 3 days."
+  },
+  {
+   "id": "lc-shrikhand-light",
+   "name": "Light kesar-elaichi shrikhand",
+   "localName": "Shrikhand",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 10,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "lf_curd",
+     "g": 400,
+     "note": "hung for 4 hours"
+    },
+    {
+     "i": "stevia",
+     "g": 1.5
+    },
+    {
+     "i": "whole_spices",
+     "g": 0.6,
+     "note": "cardamom, crushed"
+    },
+    {
+     "i": "walnuts",
+     "g": 10
+    }
+   ],
+   "steps": [
+    {
+     "text": "Hang lactose-free curd in muslin in the fridge for 4 hours until thick.",
+     "timerMin": 240
+    },
+    {
+     "text": "Whisk with stevia and crushed cardamom until silky."
+    },
+    {
+     "text": "Top with chopped walnuts."
+    }
+   ],
+   "course": "dessert",
+   "tips": [
+    "About 150 kcal and 8 g protein per bowl."
+   ]
+  },
+  {
+   "id": "lc-airfryer-pineapple",
+   "name": "Air-fryer cinnamon pineapple",
+   "localName": "Ananas Bhuna",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 5,
+   "cookMin": 10,
+   "difficulty": "easy",
+   "equipment": [
+    "air-fryer"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "pineapple",
+     "g": 280,
+     "note": "1 cm rings"
+    },
+    {
+     "i": "whole_spices",
+     "g": 1,
+     "note": "ground cinnamon"
+    },
+    {
+     "i": "stevia",
+     "g": 0.5
+    },
+    {
+     "i": "lf_curd",
+     "g": 60
+    }
+   ],
+   "steps": [
+    {
+     "text": "Dust pineapple rings with cinnamon and stevia."
+    },
+    {
+     "text": "Air-fry at 200°C for 10 minutes, flipping halfway, until caramelised at the edges.",
+     "timerMin": 10
+    },
+    {
+     "text": "Serve warm with a spoon of lactose-free curd."
+    }
+   ],
+   "course": "dessert"
+  },
+  {
+   "id": "lc-protein-phirni",
+   "name": "Protein phirni",
+   "localName": "Phirni",
+   "cuisine": "Mughlai",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 5,
+   "cookMin": 12,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "lf_milk",
+     "g": 400
+    },
+    {
+     "i": "rice_flour",
+     "g": 20
+    },
+    {
+     "i": "whey_isolate",
+     "g": 25
+    },
+    {
+     "i": "stevia",
+     "g": 1
+    },
+    {
+     "i": "whole_spices",
+     "g": 0.5,
+     "note": "cardamom"
+    },
+    {
+     "i": "pumpkin_seeds",
+     "g": 6
+    }
+   ],
+   "steps": [
+    {
+     "text": "Whisk rice flour into cold lactose-free milk; cook on low, stirring, until thick.",
+     "timerMin": 10
+    },
+    {
+     "text": "Cool for 5 minutes, whisk in whey, stevia and cardamom.",
+     "timerMin": 5
+    },
+    {
+     "text": "Chill in bowls and garnish with pumpkin seeds."
+    }
+   ],
+   "course": "dessert",
+   "tips": [
+    "Add whey only after cooling slightly so it doesn't clump."
+   ]
+  },
+  {
+   "id": "lc-cocoa-mug-cake",
+   "name": "Air-fryer cocoa protein mug cake",
+   "localName": "Chocolate Cup Cake",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "egg",
+   "servings": 1,
+   "prepMin": 3,
+   "cookMin": 8,
+   "difficulty": "easy",
+   "equipment": [
+    "air-fryer"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "egg",
+     "g": 50
+    },
+    {
+     "i": "cocoa_powder",
+     "g": 7
+    },
+    {
+     "i": "whey_isolate",
+     "g": 15
+    },
+    {
+     "i": "lf_milk",
+     "g": 30
+    },
+    {
+     "i": "stevia",
+     "g": 0.5
+    },
+    {
+     "i": "ghee",
+     "g": 2
+    }
+   ],
+   "steps": [
+    {
+     "text": "Whisk egg, milk, cocoa, whey and stevia in a greased ramekin."
+    },
+    {
+     "text": "Air-fry at 160°C for 7–8 minutes until just set in the middle.",
+     "timerMin": 8
+    }
+   ],
+   "course": "dessert",
+   "tips": [
+    "~185 kcal with 21 g protein."
+   ]
+  },
+  {
+   "id": "lc-kiwi-curd-bark",
+   "name": "Frozen kiwi curd bark",
+   "localName": "Dahi Bark",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 3,
+   "prepMin": 10,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "lf_curd",
+     "g": 300
+    },
+    {
+     "i": "kiwi",
+     "g": 150
+    },
+    {
+     "i": "stevia",
+     "g": 1
+    },
+    {
+     "i": "pumpkin_seeds",
+     "g": 10
+    }
+   ],
+   "steps": [
+    {
+     "text": "Mix curd with stevia and spread 1 cm thick on a lined tray."
+    },
+    {
+     "text": "Scatter sliced kiwi and pumpkin seeds; freeze until firm.",
+     "timerMin": 120
+    },
+    {
+     "text": "Break into shards and keep frozen."
+    }
+   ],
+   "course": "dessert",
+   "makeAhead": "Keeps 2 weeks in the freezer."
+  },
+  {
+   "id": "lc-ragi-cocoa-malt",
+   "name": "Ragi cocoa malt",
+   "localName": "Ragi Koozh Cocoa",
+   "cuisine": "Karnataka",
+   "mealTypes": [
+    "snack",
+    "breakfast"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 2,
+   "cookMin": 6,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "ragi_flour",
+     "g": 15
+    },
+    {
+     "i": "lf_milk",
+     "g": 180
+    },
+    {
+     "i": "cocoa_powder",
+     "g": 4
+    },
+    {
+     "i": "stevia",
+     "g": 0.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Whisk ragi flour into 100 ml water until lump-free."
+    },
+    {
+     "text": "Add milk and cocoa; cook on low, stirring, for 5–6 minutes. Sweeten with stevia.",
+     "timerMin": 6
+    }
+   ],
+   "course": "dessert"
+  },
+  {
+   "id": "lc-masala-cucumber",
+   "name": "Masala cucumber sticks",
+   "localName": "Kheera Chaat",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 4,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 2,
+   "ingredients": [
+    {
+     "i": "cucumber",
+     "g": 200
+    },
+    {
+     "i": "chilli_powder",
+     "g": 0.5
+    },
+    {
+     "i": "cumin",
+     "g": 0.5
+    },
+    {
+     "i": "lemon_juice",
+     "g": 8
+    },
+    {
+     "i": "salt",
+     "g": 0.6
+    }
+   ],
+   "steps": [
+    {
+     "text": "Cut cucumber into sticks."
+    },
+    {
+     "text": "Sprinkle chilli, roasted cumin, salt and lemon juice; serve cold."
+    }
+   ],
+   "tips": [
+    "~35 kcal — a crunchy, hydrating 4 pm snack."
+   ]
+  },
+  {
+   "id": "lc-carrot-kosambari",
+   "name": "Carrot-cucumber kosambari",
+   "localName": "Kosambari",
+   "cuisine": "Karnataka",
+   "mealTypes": [
+    "snack",
+    "side"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 8,
+   "cookMin": 2,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "carrot",
+     "g": 140,
+     "note": "grated"
+    },
+    {
+     "i": "cucumber",
+     "g": 150,
+     "note": "diced"
+    },
+    {
+     "i": "coconut",
+     "g": 15
+    },
+    {
+     "i": "lemon_juice",
+     "g": 10
+    },
+    {
+     "i": "green_chilli",
+     "g": 3
+    },
+    {
+     "i": "coriander_leaves",
+     "g": 6
+    },
+    {
+     "i": "mustard_seeds",
+     "g": 1
+    },
+    {
+     "i": "curry_leaves",
+     "g": 1
+    },
+    {
+     "i": "groundnut_oil",
+     "g": 3
+    },
+    {
+     "i": "salt",
+     "g": 1.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Toss grated carrot, cucumber, coconut, chilli, coriander, lemon and salt."
+    },
+    {
+     "text": "Temper mustard seeds and curry leaves in oil and pour over.",
+     "timerMin": 2
+    }
+   ],
+   "tips": [
+    "Lentil-free version for elimination; add a spoon of soaked moong later if tolerated."
+   ]
+  },
+  {
+   "id": "lc-airfryer-okra-crisps",
+   "name": "Air-fryer okra crisps",
+   "localName": "Vendakkai Chips",
+   "cuisine": "Tamil Nadu",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 8,
+   "cookMin": 12,
+   "difficulty": "easy",
+   "equipment": [
+    "air-fryer"
+   ],
+   "spice": 2,
+   "ingredients": [
+    {
+     "i": "okra",
+     "g": 150,
+     "note": "sliced lengthwise"
+    },
+    {
+     "i": "rice_flour",
+     "g": 8
+    },
+    {
+     "i": "chilli_powder",
+     "g": 1
+    },
+    {
+     "i": "turmeric",
+     "g": 0.3
+    },
+    {
+     "i": "groundnut_oil",
+     "g": 4
+    },
+    {
+     "i": "salt",
+     "g": 1
+    }
+   ],
+   "steps": [
+    {
+     "text": "Toss okra with oil, spices, salt and rice flour."
+    },
+    {
+     "text": "Air-fry at 190°C for 12 minutes, shaking twice, until crisp.",
+     "timerMin": 12
+    }
+   ]
+  },
+  {
+   "id": "lc-airfryer-zucchini-chips",
+   "name": "Air-fryer zucchini chips",
+   "localName": "Zucchini Varuval",
+   "cuisine": "Pan-Indian",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 6,
+   "cookMin": 14,
+   "difficulty": "easy",
+   "equipment": [
+    "air-fryer"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "zucchini",
+     "g": 120,
+     "note": "3 mm rounds"
+    },
+    {
+     "i": "olive_oil",
+     "g": 3
+    },
+    {
+     "i": "black_pepper",
+     "g": 0.5
+    },
+    {
+     "i": "chilli_powder",
+     "g": 0.5
+    },
+    {
+     "i": "salt",
+     "g": 0.8
+    }
+   ],
+   "steps": [
+    {
+     "text": "Pat zucchini dry, toss with oil, pepper, chilli and salt."
+    },
+    {
+     "text": "Air-fry in one layer at 170°C for 12–14 minutes, flipping halfway.",
+     "timerMin": 14
+    }
+   ],
+   "tips": [
+    "Keep to ~60 g zucchini per person in elimination."
+   ]
+  },
+  {
+   "id": "lc-papaya-chaat",
+   "name": "Papaya chaat",
+   "localName": "Papita Chaat",
+   "cuisine": "Punjabi",
+   "mealTypes": [
+    "snack"
+   ],
+   "protein": "veg",
+   "servings": 1,
+   "prepMin": 4,
+   "cookMin": 0,
+   "difficulty": "easy",
+   "equipment": [
+    "pan"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "papaya",
+     "g": 140
+    },
+    {
+     "i": "lemon_juice",
+     "g": 5
+    },
+    {
+     "i": "cumin",
+     "g": 0.5
+    },
+    {
+     "i": "black_pepper",
+     "g": 0.2
+    },
+    {
+     "i": "mint_leaves",
+     "g": 2
+    },
+    {
+     "i": "salt",
+     "g": 0.3
+    }
+   ],
+   "steps": [
+    {
+     "text": "Cube papaya."
+    },
+    {
+     "text": "Toss with lemon, roasted cumin, pepper, mint and salt."
+    }
+   ]
+  },
+  {
+   "id": "lc-chicken-pepper-soup",
+   "name": "Clear chicken pepper soup",
+   "localName": "Kozhi Milagu Soup",
+   "cuisine": "Chettinad",
+   "mealTypes": [
+    "snack",
+    "side"
+   ],
+   "protein": "chicken",
+   "servings": 3,
+   "prepMin": 8,
+   "cookMin": 20,
+   "difficulty": "easy",
+   "equipment": [
+    "pressure-cooker"
+   ],
+   "spice": 2,
+   "ingredients": [
+    {
+     "i": "chicken_breast",
+     "g": 180,
+     "note": "boneless, small cubes"
+    },
+    {
+     "i": "tomato",
+     "g": 60
+    },
+    {
+     "i": "ginger",
+     "g": 6
+    },
+    {
+     "i": "black_pepper",
+     "g": 3
+    },
+    {
+     "i": "cumin",
+     "g": 2
+    },
+    {
+     "i": "fennel_seeds",
+     "g": 1
+    },
+    {
+     "i": "turmeric",
+     "g": 0.5
+    },
+    {
+     "i": "curry_leaves",
+     "g": 2
+    },
+    {
+     "i": "coriander_leaves",
+     "g": 6
+    },
+    {
+     "i": "garlic_oil",
+     "g": 4
+    },
+    {
+     "i": "salt",
+     "g": 3
+    }
+   ],
+   "steps": [
+    {
+     "text": "Pressure cook chicken with tomato, ginger, turmeric, salt and 700 ml water for 2 whistles.",
+     "timerMin": 12
+    },
+    {
+     "text": "Add crushed pepper, cumin and fennel; simmer 5 minutes.",
+     "timerMin": 5
+    },
+    {
+     "text": "Temper curry leaves in garlic-infused oil, pour over, finish with coriander."
+    }
+   ],
+   "tips": [
+    "~95 kcal with 14 g protein per bowl — very filling."
+   ],
+   "makeAhead": "Keeps 3 days refrigerated."
+  },
+  {
+   "id": "lc-spinach-ginger-soup",
+   "name": "Spinach ginger soup",
+   "localName": "Palak Shorba",
+   "cuisine": "Punjabi",
+   "mealTypes": [
+    "snack",
+    "side"
+   ],
+   "protein": "veg",
+   "servings": 2,
+   "prepMin": 5,
+   "cookMin": 10,
+   "difficulty": "easy",
+   "equipment": [
+    "pot",
+    "blender"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "spinach",
+     "g": 200
+    },
+    {
+     "i": "lf_milk",
+     "g": 100
+    },
+    {
+     "i": "ginger",
+     "g": 6
+    },
+    {
+     "i": "cumin",
+     "g": 1
+    },
+    {
+     "i": "black_pepper",
+     "g": 0.5
+    },
+    {
+     "i": "garlic_oil",
+     "g": 4
+    },
+    {
+     "i": "salt",
+     "g": 1.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Warm garlic oil, add cumin and ginger, then spinach with 300 ml water; simmer 5 minutes.",
+     "timerMin": 5
+    },
+    {
+     "text": "Blend smooth, stir in lactose-free milk, pepper and salt; heat through.",
+     "timerMin": 3
+    }
+   ]
+  },
+  {
+   "id": "lc-egg-white-drop-soup",
+   "name": "Egg-white ginger drop soup",
+   "localName": "Egg Drop Soup",
+   "cuisine": "Indo-Chinese",
+   "mealTypes": [
+    "snack",
+    "side"
+   ],
+   "protein": "egg",
+   "servings": 2,
+   "prepMin": 5,
+   "cookMin": 8,
+   "difficulty": "easy",
+   "equipment": [
+    "pot"
+   ],
+   "spice": 1,
+   "ingredients": [
+    {
+     "i": "egg_white",
+     "g": 132
+    },
+    {
+     "i": "ginger",
+     "g": 5
+    },
+    {
+     "i": "spring_onion_greens",
+     "g": 10
+    },
+    {
+     "i": "soy_sauce",
+     "g": 8
+    },
+    {
+     "i": "black_pepper",
+     "g": 0.5
+    },
+    {
+     "i": "cornflour",
+     "g": 4
+    },
+    {
+     "i": "salt",
+     "g": 0.5
+    }
+   ],
+   "steps": [
+    {
+     "text": "Simmer 500 ml water with ginger and soy sauce for 3 minutes.",
+     "timerMin": 3
+    },
+    {
+     "text": "Thicken lightly with cornflour slurry.",
+     "timerMin": 2
+    },
+    {
+     "text": "Stir in a circle and drizzle in egg whites; finish with spring onion greens and pepper."
+    }
+   ],
+   "tips": [
+    "~55 kcal with 9 g protein."
+   ]
+  }
+ ]
+}
